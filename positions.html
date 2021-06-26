@@ -16,7 +16,7 @@ active_menu_id: 'positions'
         {% for menu_item in pages %}
           <div class="Positions-card border bg-si-lightpink py-3 px-3 my-3">
             <a class="Positions-card-link" href="{{base}}{{ menu_item.url }}">
-              {{menu_item.title }}
+              <i class="fa fa-caret-right mx-1" aria-hidden="true"></i> {{menu_item.title }}
             </a>
           </div>
         {% endfor %}

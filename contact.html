@@ -13,15 +13,17 @@ active_menu_id: 'contact'
   
   <div class="px-5 py-2">
     {% if info.email != nil %}
-      <p><strong>Email: </strong>{{info.email}}</p>
+      <p><strong><i class="fa fa-envelope mx-1" aria-hidden="true"></i>
+        Email: </strong>{{info.email}}</p>
     {% endif %}
 
     {% if info.phone != nil %}
-      <p><strong>Phone: </strong>{{info.phone}}</p>
+      <p><strong><i class="fa fa-phone-square mx-1" aria-hidden="true"></i> Phone: </strong>{{info.phone}}</p>
     {% endif %}
 
     {% if info.address != nil %}
-      <p><strong>Address: </strong>{{info.address}}</p>
+      <p><strong><i class="fa fa-globe mx-1" aria-hidden="true"></i>
+        Address: </strong>{{info.address}}</p>
     {% endif %}
 
     <iframe src="{{info.google_maps_embed_url}}" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
