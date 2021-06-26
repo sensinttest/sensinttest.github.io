@@ -9,13 +9,24 @@ active_menu_title: "Talks"
 
   {% include _header.html title=title description=description %}
 
-  <div class="px-5 py-2">
-    {% for talk in talks %}
-      <div class="Talks-card my-3 border px-3 py-2">
-        <h2 class="Talks-title py-2">{{talk.title}}</h2>
-        <iframe width="600" height="380" src="{{talk.youtube_url}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
-        <p class="Talks-description">{{talk.description}}</p>
+  <div class="row">
+    
+      <!-- <div class="px-5 py-2"> -->
+        {% for talk in talks %}
+        <div class="col-xs-12 col-md-12 col-lg-6">
+          <div class="Talks-card border my-3">
+            <div class=" px-3 py-2 bg-si-gray">
+              <h4 class="Talks-title text-white py-2 my-0">{{talk.title}}</h4>
+            </div>
+            <div class="Talks-video-container">
+              <iframe class="Talks-video" src="{{talk.youtube_url}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            {% if talk.description != nil and talk.description != "" %}
+              <p class="Talks-description py-3 px-3 my-0">{{talk.description}}</p>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
       </div>
-    {% endfor %}
   </div>
