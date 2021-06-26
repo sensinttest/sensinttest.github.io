@@ -10,6 +10,7 @@
 base_title: Sensorimotor Interaction Group
 current_year: 2021
 
+# Meta tags for search engines
 meta:
   description: "The Sensorimotor Interaction Group (senSInt) is a newly formed research group at the Max Planck Institute for Informatics (MPI-I). senSInt is led by Paul Strohmeier, we conduct research into human perception and computer sensing to improve Human Computer Interaction (HCI). Our research topics include Tactile Rendering, Sensorimotor Augmentation, and On-Body Systems."
   keywords: "Paul Strohmeier, Research, HCI, senSInt"
