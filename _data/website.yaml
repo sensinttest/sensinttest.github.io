@@ -16,8 +16,8 @@ meta:
   author: Paul Strohmeier
   
 
-# When editing the title of the menu link, you need to also change "active_menu_title" attribute to the same value in the corresponding html file
-# e.g. if the menu item title is "People" and it points to people.html, there should be active_menu_title: "People" specified inside that file
+# When editing the id of the menu link, or adding a new menu category, you need to also change "active_menu_id" attribute to the same value in the corresponding html file
+# e.g. if the menu item with id "people" points to people.html, there should be active_menu_id: 'people' specified inside that file to ensure proper menu highlighting
 menu:
   - id: 'home'
     title: Home

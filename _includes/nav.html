@@ -17,7 +17,7 @@
         <!-- <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Menu</h6> -->
         {% for menu_item in site.data.website.menu %}
         <li class="nav-item mx-2">
-          {% if page.active_menu_title == menu_item.title %}
+          {% if page.active_menu_id == menu_item.id %}
           <a class="nav-link nav-active px-3 py-2" href="{{base}}{{ menu_item.url }}">{{
             menu_item.title }}</span></a>
           {% else %}
@@ -25,7 +25,7 @@
           {% endif %}
         </li>
         {% endfor %}
-        <div class="dropdown-divider d-lg-none my-4"></div>
+        <!-- <div class="dropdown-divider d-lg-none my-4"></div> -->
         <!-- <h6 class="dropdown-header font-weight-600 d-lg-none px-0"></h6> -->
         {% if site.data.website.contact.github %}
         <li class="nav-item">

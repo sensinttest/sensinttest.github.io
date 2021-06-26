@@ -1,6 +1,6 @@
 ---
 layout: default
-active_menu_title: "People"
+active_menu_id: 'people'
 ---
 
 {% assign data = site.data.people %}
@@ -30,15 +30,17 @@ active_menu_title: "People"
 
     
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center px-3 py-3">
-        <img alt="Person photo" src="{{base}}{{ image_path }}" class="img-fluid img-left mb-2"
+        <div class="px-1 py-2">
+          <img alt="Person photo" src="{{base}}{{ image_path }}" class="img-fluid img-left mb-2"
           style="max-height: 150px;">
-          <br/>
-          {% if person.url != "" %}
-            <span class="py-1"><strong><a href="{{person.url}}">{{person.name}}</a></strong></span><br/>
-          {% else %}
-            <span class="py-1"><strong>{{person.name}}</strong></span><br/>
-          {% endif %}
-        <span class="py-1">{{person.role}}</span><br/>
+            <br/>
+            {% if person.url != "" %}
+              <span class="py-1"><strong><a href="{{person.url}}">{{person.name}}</a></strong></span><br/>
+            {% else %}
+              <span class="py-1"><strong>{{person.name}}</strong></span><br/>
+            {% endif %}
+          <span class="py-1">{{person.role}}</span><br/>
+        </div>
       </div>
 
     {% endif %}

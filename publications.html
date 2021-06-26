@@ -1,6 +1,6 @@
 ---
 layout: default
-active_menu_title: "Papers"
+active_menu_id: 'papers'
 ---
 {% assign data = site.data.papers %}
   {% assign title = data.title %}
@@ -19,7 +19,7 @@ active_menu_title: "Papers"
     {% for item in papers_group.items %}
       {% assign itemId = item.title | remove: " " | remove: ":" | remove: '/' | remove: '\' | remove: '"' | remove: '`' | remove: "'" %}
       <div id="{{itemId}}"></div>
-      <div class="offset-xl-1 col-xl-10 row cols-md-space cols-sm-space cols-xs-space mb-0 bg-white">
+      <div class="col-xl-11 row cols-md-space cols-sm-space cols-xs-space mb-0 bg-white">
         {% assign i = i | plus:1 %}
 
         
@@ -51,7 +51,13 @@ active_menu_title: "Papers"
               {% for tag in item.tags %}
                 {% assign style = tag.style %}
                 {% assign tag_style = site.data.website.tag_styles | where: "name",style | limit:1 %}
-                <span class="badge badge-lg badge-pill {{ tag_style[0].css }} text-uppercase mb-1" style="{% if tag.style %}{{ tag.style }}{% endif %}">{{tag.text}}</span>
+                <span class="badge badge-lg badge-pill {{ tag_style[0].css }} text-uppercase mb-1" 
+                {% if tag.style != nil and tag.style != nil %}
+                style="{{ tag.style }}"
+                {% endif %}
+                >
+                  {{tag.text}}
+                </span>
               {% endfor %}
               <p class="mt-3"><i>{{item.authors}}</i> <br> in <i>{{item.venue}}</i></p>
               <p class="mt-3">{{item.description}}</p>
@@ -71,10 +77,10 @@ active_menu_title: "Papers"
   <script>
     jQuery(document).ready(function () {
       let hash = $(location).attr('hash');
-      if (hash) {
-        jQuery('html, body').animate({
-        scrollTop: $(`${hash}`).offset().top - 50
-      }, 500);
+        if (hash) {
+          jQuery('html, body').animate({
+          scrollTop: $(`${hash}`).offset().top - 50
+        }, 500);
       }
     });
   </script>
