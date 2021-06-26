@@ -1,0 +1,21 @@
+---
+layout: default
+active_menu_title: "Positions"
+---
+
+{% assign data = site.data.openings %}
+  {% assign title = data.title %}
+  {% assign description = data.description %}
+  {% assign pages = data.pages %}
+
+  {% include _header.html title=title description=description %}
+
+  <div class="px-5">
+    {% for menu_item in pages %}
+      <div class="Positions-card border bg-si-lightpink py-3 px-3 my-3">
+        <a class="Positions-card-link" href="{{base}}{{ menu_item.url }}">
+          {{menu_item.title }}
+        </a>
+      </div>
+    {% endfor %}
+  </div>

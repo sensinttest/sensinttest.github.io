@@ -1,0 +1,53 @@
+title: People
+description: "These are the amazing researchers that work with us."
+
+people:
+  - name: "Paul Strohmeier"
+    role: "Head"
+    url:  "https://fkeel.github.io"
+    image: 
+
+  - name: "Person One"
+    role: "PhD Researcher"
+    url:  
+    image: 
+
+  - name: "Person Two"
+    role: "PhD Researcher"
+    url:  
+    image:
+
+  - name: "Person Three"
+    role: "PhD Researcher"
+    url:  
+    image:
+
+  - name: "Person Four"
+    role: "Assistant"
+    url:  
+    image:
+
+  - name: "Person Five"
+    role: "Assistant"
+    url:  
+    image:
+
+  - name: "Person Six"
+    role: "Assistant"
+    url:  
+    image:
+
+  - name: "Person Seven"
+    role: "Post-doctoral Researcher"
+    url:  
+    image:
+
+  - name: "Person Eight"
+    role: "Post-doctoral Researcher"
+    url:  
+    image:
+    
+  - name: "Person Nine"
+    role: "Post-doctoral Researcher"
+    url:  
+    image:

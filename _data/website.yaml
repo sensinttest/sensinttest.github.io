@@ -1,0 +1,62 @@
+#   This file contains settings and minor data entries for the website
+#
+#   base_title – default web page title (shown in web search and tab name)
+#     Title format: [base_title] | [page.title (if present)]
+#   current_year – used for footer copyright
+#   meta – SEO tags
+#   menu – site navigation shown in header
+#   contact – contact information
+
+base_title: Sensorimotor Interaction Group
+current_year: 2021
+
+meta:
+  description: "The Sensorimotor Interaction Group (senSInt) is a newly formed research group at the Max Planck Institute for Informatics (MPI-I). senSInt is led by Paul Strohmeier, we conduct research into human perception and computer sensing to improve Human Computer Interaction (HCI). Our research topics include Tactile Rendering, Sensorimotor Augmentation, and On-Body Systems."
+  keywords: "Paul Strohmeier, Research, HCI, senSInt"
+  author: Paul Strohmeier
+  
+
+# When editing the title of the menu link, you need to also change "active_menu_title" attribute to the same value in the corresponding html file
+# e.g. if the menu item title is "People" and it points to people.html, there should be active_menu_title: "People" specified inside that file
+menu:
+  - id: 'home'
+    title: Home
+    url: /index.html
+  - id: 'research'
+    title: Research
+    url: /research.html
+  - id: 'papers'
+    title: Papers
+    url: /publications.html
+  - id: 'people'
+    title: People
+    url: /people.html
+  - id: 'talks'
+    title: Talks
+    url: /talks.html
+  - id: 'positions'
+    title: Positions
+    url: /positions.html
+  - id: 'contact'
+    title: Contact
+    url: /contact.html
+
+image_placeholder_settings:
+  paper_image_placeholder: /assets/images/placeholders/stripes-transparent2.png
+  person_image_placeholder: /assets/images/placeholders/icons/man.png
+
+tag_styles:
+  - name: green
+    css: "badge-green"
+  - name: red
+    css: "badge-red"
+  - name: orange
+    css: "badge-orange"
+  - name: yellow
+    css: "badge-yellow"
+  - name: cyan
+    css: "badge-cyan"
+  - name: magenta
+    css: "badge-magenta"
+  - name: violet
+    css: "badge-violet"

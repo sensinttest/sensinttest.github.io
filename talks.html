@@ -1,0 +1,21 @@
+---
+layout: default
+active_menu_title: "Talks"
+---
+{% assign data = site.data.talks %}
+  {% assign title = data.title %}
+  {% assign description = data.description %}
+  {% assign talks = data.talks %}
+
+  {% include _header.html title=title description=description %}
+
+  <div class="px-5 py-2">
+    {% for talk in talks %}
+      <div class="Talks-card my-3 border px-3 py-2">
+        <h2 class="Talks-title py-2">{{talk.title}}</h2>
+        <iframe width="600" height="380" src="{{talk.youtube_url}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <p class="Talks-description">{{talk.description}}</p>
+      </div>
+    {% endfor %}
+  </div>

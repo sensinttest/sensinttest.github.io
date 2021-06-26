@@ -1,0 +1,28 @@
+---
+layout: default
+active_menu_title: "Contact"
+---
+
+{% assign data = site.data.contact %}
+  {% assign title = data.title %}
+  {% assign description = data.description %}
+
+  {% assign info = data.contact %}
+
+  {% include _header.html title=title description=description %}
+  
+  <div class="px-5 py-2">
+    {% if info.email != nil %}
+      <p><strong>Email: </strong>{{info.email}}</p>
+    {% endif %}
+
+    {% if info.phone != nil %}
+      <p><strong>Phone: </strong>{{info.phone}}</p>
+    {% endif %}
+
+    {% if info.address != nil %}
+      <p><strong>Address: </strong>{{info.address}}</p>
+    {% endif %}
+
+    <iframe src="{{info.google_maps_embed_url}}" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>

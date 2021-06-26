@@ -1,0 +1,85 @@
+---
+layout: page
+title: Research
+active_menu_title: "Research"
+---
+
+<div class="row">
+  <div class="offset-xl-1 col-xl-10 offset-md-0 col-md-12">
+    <div class="card card-pricing border-0 bg-cyan-ll py-0">
+      <h4 class="mb-0 pl-4 mt-0 k-subheader bg-cyan text-white py-2 mx-0">{{ page.title }}</h4>
+      <div class="card-body py-4">
+          <p class="card-text text">{{ site.data.research.intro }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% assign unsorted_research_data = site.data.papers.timeline | group_by: 'year' %}
+{% assign research_data = unsorted_research_data | sort: 'name' | reverse %}
+
+{% for research_entry_group in research_data %}
+  {% assign group_size = research_entry_group.size %}
+
+  <section class="slice slice-lg pb-0">
+    <div class="row bg-wh" >
+      <div class="offset-xl-1 col-xl-8 offset-md-0 col-md-12">
+        <div class="mt-4 text-left">
+
+          {% assign name = research_entry_group.name %}
+          {% if name == "" %}{% break %}{% endif %}
+          <h4 class="heading font-weight-700"><span class="k-border-cyan">{{name}}</span></h4>
+        </div>
+      </div>
+    </div>
+
+
+
+    {% assign i = 0 %}
+    {% for research_entry in research_entry_group.items %}
+      {% assign i = i | plus:1 %}
+	   <hr class="d-block d-xl-none d-lg-none hr-override hr-override-{{i}}">
+      <div class="offset-xl-1 col-xl-10 row cols-md-space cols-sm-space cols-xs-space mb-0 bg-white">
+        <div class="col-lg-4 pl-sm-0 order-xl-1 order-lg-1 order-md-2 order-sm-2 order-2 px-md-3 px-sm-3 pt-4 mb-5 mb-lg-0">
+
+        {% if research_entry.image != false %}
+          {% if research_entry.image != nil %}
+              <img alt="Research teaser" src="{{base}}{{research_entry.image | prepend: site.url }}" class="img-fluid img-left mb-5 mb-lg-0" style="{% if entry.image_outline != nil %}border: 1px solid #ecedef;{% endif %} max-height: 350px;">
+            {% else %}
+              {% if site.data.website.image_placeholder_settings.use_random_online == true %}
+              <img alt="Research teaser" src="{{base}}https://picsum.photos/350/350/?grayscale" class="img-fluid img-left mb-5 mb-lg-0">
+              {% else %}
+              <img alt="Research teaser" src="{{base}}{{ site.data.website.image_placeholder_settings.local_placeholder | prepend: site.url }}" class="img-fluid img-left mb-5 mb-lg-0">
+              {% endif %}
+          {% endif %}
+        {% endif %}
+        </div>
+
+
+
+
+        <div class="col-lg-8 pl-lg-1 pl-sm-0 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-1 px-md-3 px-sm-3 pt-4 pb-3">
+          <div class="card border-0">
+            <div class="">
+              <h4 class="k-subheader">{{research_entry.title}}</h4>
+              {% for tag in research_entry.tags %}
+                {% assign style = tag.style %}
+                {% assign tag_style = site.data.website.tag_styles | where: "name",style | limit:1 %}
+                <span class="badge badge-lg badge-pill {{ tag_style[0].css }} text-uppercase mb-1" style="{% if tag.style %}{{ tag.style }}{% endif %}">{{tag.text}}</span>
+              {% endfor %}
+                 <p class="mt-3"><i>{{research_entry.authors}}</i> <br> in  <i>{{research_entry.venue}}</i></p>
+              <p class="mt-3">{{research_entry.description}}</p>
+			   {% if research_entry.links.size > 0 %}Links:{% endif %}
+              {% for link in research_entry.links %}
+                <a href="{{link.url }}">
+                  <span class="badge badge-lg badge-pill btn-blue border-0 text-uppercase mb-1">{{link.name}}</span>
+                </a>
+              {% endfor%}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% comment %} {% if i != research_entry_group.items.size %}<hr>{% endif %} {% endcomment %}
+    {% endfor %}
+  </section>
+{% endfor %}

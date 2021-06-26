@@ -1,0 +1,530 @@
+title: Papers
+description:
+
+timeline:
+  - title: "Skill Sleeves: Designing Electrode Garments for Wearability"
+    year: 2021
+    authors: Jarrod Knibbe, Rachel Freire, Marion Koelle, and <b>Paul Strohmeier</b>
+    venue: Tangible, Embedded, and Embodied Interaction (TEI)
+    description: Jarrod and I built a multi-electron sleeve for his research into EMS stimulation. We then invited Rachel Freire to join us in designing an updated version of that sleeve. This paper discusses this process and uses this to discuss the general concept of wearability. It was ages in the making. as Jarrod said "... and all it took was three weeks of writing -- and three years of talking about what to write".
+    image: https://fkeel.github.io/uploads/image/2017_IMWUT_EMS.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2021_TEI_SkillSleeves.pdf
+      - name: talk
+        url: https://www.youtube.com/watch?v=XgfLRmisPzM
+      - name: Project Page
+        url: https://skillsleeves.github.io
+        
+  - title: "Eyecam: Revealing Relations between Humans and Sensing Devices through an Anthropomorphic Webcam"
+    year: 2021
+    authors: Marc Teyssier, Marion Koelle,  <b>Paul Strohmeier</b>, Bruno Fruchard, and Jürgen Steimle
+    venue: Human Factors in Computing Systems (CHI '21)
+    description: Marc Teyssier built another one of his creepy anthropomorphic objects. This time as a camera. He wanted to use it as commentary on how we design sensing technology. I was involved with the framing and writing of the paper.
+    image: https://fkeel.github.io/uploads/image/2021_CHI_eyeCam.jpg
+    tags:
+      - text: paper
+        style: magenta
+        
+  - title: "Squish This: Force Input on Soft Surfaces for Visual Targeting Tasks"
+    year: 2021
+    authors: Bruno Fruchard, <b>Paul Strohmeier</b>, Roland Bennewitz, and Jürgen Steimle
+    venue: Human Factors in Computing Systems (CHI '21)
+    description: This project developed from our interest in designing pressure input on the skin. We performed multiple experiments to better understand the overal space of providing pressure input on soft surfaces. One thing we noted is that our study setup generally produced much better results than the literature previously suggested. I advised on study design, and contributed to data analysis, framing and writing of the paper.
+    image: https://fkeel.github.io/uploads/image/2021_CHI_squish.jpg
+    tags:
+      - text: paper
+        style: magenta
+    
+  - title: "BodyStylus: Freehand On-Skin Design and Fabrication of On-Body Interfaces"
+    year: 2021
+    authors: Narjes Pourjafarian, Marion Koelle, Bruno Fruchard, Sahar Mavali, Konstantin Klamka, Daniel Groeger, Paul Strohmeier, and Jürgen Steimle
+    venue: Human Factors in Computing Systems (CHI '21)
+    description: Here we present a concept and prototype implementation of concurrent, computer-supported sketching and implementing of epidermal devices. In many ways this was one of the most complex systems I've ever worked on, as the interplay between all the elements from new materials (the gold ink we used and the various substrate options we worked with) to hacked sensing devices (the on-skin Anoto tracking) to mechanical engineering (the modified dual-purpose pen) turned out much more complex than anyone anticipated. My involvement included the evaluation (together with a large chunk of work which we ended up removing from the paper, hopefully to be published inthe future), conceptualization, framing and writing and simply making sure we don't get lost in the details. 
+    image: https://fkeel.github.io/uploads/image/2021_CHI_bodyStylus.jpg
+    tags:
+      - text: paper
+        style: magenta
+
+  - title: "bARefoot: Generating Virtual Materials Using Motion Coupled Vibration in Shoes"
+    year: 2020
+    authors: Paul Strohmeier, Seref Gu¨ngo¨r, Luis Herres, Dennis Gudea, Bruno Fruchard, and Jürgen Steimle.
+    venue: User Interface Software and Technology (UIST '20)
+    description: This paper essentially implements the hypothetical system described in the 'practical implications' section of my thesis. I had lots of help on the hardware and example applications by some very talented students. Bruno designed the experiments together with me and implemented them. This paper is essentially a logical consequence of my 'Generating Haptic Textures' and 'Mid-Air Haptic Textures' papers.
+    image: https://fkeel.github.io/uploads/image/2020_UIST_Barefoot.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2020_UIST_bARefoot.pdf
+      - name: talk
+        url: https://www.youtube.com/watch?v=22R1RkG6wNU
+      - name: News Report (German)
+        url: https://www.youtube.com/watch?v=R0XrKNHfcAU
+        
+        
+  - title: "PolySense: Augmenting Textiles with Electrical Functionality Using In-Situ Polymerization"
+    year: 2020
+    authors: Cedric Honnet, Hannah Perner-Wilson, Marc Teyssier, Bruno Fruchard, Jürgen Steimle, Ana C. Baptista, and Paul Strohmeier.
+    venue: User Interface Software and Technology (UIST '20)
+    description: 
+    image: https://fkeel.github.io/uploads/image/2020_CHI_Polysense.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2020_CHI_PolySense.pdf
+      - name: Project Page
+        url: https://counterchemists.github.io
+
+        
+  - title: "Next Steps for Human-Computer Integration"
+    year: 2020
+    authors: Florian Floyd Mueller, Pedro Lopes, Paul Strohmeier, Wendy Ju, Caitlyn Seim, Martin Weigel, Suranga Nanayakkara, Marianna Obrist, Zhuying Li, Joseph Delfa, Jun Nishida, Elizabeth M. Gerber, Dag Svanaes, Jonathan Grudin, Stefan Greuter, Kai Kunze, Thomas Erickson, Steven Greenspan, Masahiko Inami, Joe Marshall, Harald Reiterer, Katrin Wolf, Jochen Meyer, Thecla Schiphorst, Dakuo Wang, and Pattie Maes.
+    venue: User Interface Software and Technology (UIST '20)
+    description: 
+    image: https://fkeel.github.io/uploads/image/2020_CHI_Integration.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2020_CHI_Hint.pdf
+        
+  - title: "Novel Input and Output Opportunities Using an Implanted Magnet"
+    year: 2020
+    authors: Paul Strohmeier and Jess McIntosh
+    venue: Augmented Humans (AHs '20)
+    description: 
+    image: https://fkeel.github.io/uploads/image/AHs_2020_implant.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2020_AHs_Implant.pdf
+        
+  - title: "Sketching On-Body Interactions Using Piezo-Resistive Kinesiology Tape"
+    year: 2020
+    authors: Paul Strohmeier, Narjes Pourjafarian, Marion Koelle, Cedric Honnet, Bruno Fruchard, and J¨urgen Steimle
+    venue: Augmented Humans (AHs '20)
+    description: 
+    image: https://fkeel.github.io/uploads/image/2020_AHs_PolymerizedTape.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2020_AHs_SketchingOnBody.pdf        
+    
+  - title: "Magnetips: Combining Fingertip Tracking and Haptic Feedback for Around-Device Interaction"
+    year: 2019
+    authors: Jess McIntosh, Paul Strohmeier, Jarrod Knibbe, Sebastian Boring, and Kasper Hornbæk
+    venue: Human Factors in Computing Systems (CHI'18)
+    description:  
+    image: https://fkeel.github.io/uploads/image/2019_CHI_Magnetips.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2020_CHI_Magnetips.pdf   
+        
+  - title: "Grappler: Array of bistable elements for pinching net-like infrastructure to low gravity bodies"
+    year: 2019
+    authors: Juliana Cherston, Paul Strohmeier, Joe Paradiso.
+    venue: AIAA Scitech 2019 Forum
+    description:  
+    image: https://fkeel.github.io/uploads/image/2019_Grappler.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2019_AIAA_Grappler.pdf  
+        
+        
+  - title: "Optimizing Pressure Matrices: Interdigitation and Interpolation Methods for Continuous Position Input"
+    year: 2019
+    authors: Paul Strohmeier, Victor H°akansson, Cedric Honnet, Daniel Ashbrook, and Kasper Hornbæk.
+    venue: Tangible, Embedded, and Embodied Interaction (TEI '19)
+    description:  
+    image: https://fkeel.github.io/uploads/image/interdigitation.jpg
+    tags:
+      - text: paper
+        style: magenta
+        
+        
+
+        
+  - title: "From Pulse Trains to “Coloring with Vibrations”: Motion Mappings for Mid-Air Haptic Textures"
+    year: 2018
+    authors: Paul Strohmeier , Sebastian Boring and Kasper Hornbæk
+    venue: Human Factors in Computing Systems (CHI'18)
+    description: In this paper we explore rendering textures in 3D space. As our feedback system does not provide the counter-force one experiences when interacting with a surface texture, it is not clear how such mid-air textures might be perceived. We present a qualitative analysis of the experience of interacting with mid-air textures, and how input parameters influence this experience.
+    image: https://fkeel.github.io/uploads/image/2018_MotionMapping.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2018_CHI_midAirTextures.pdf
+      - name: video
+        url: https://www.youtube.com/watch?v=pJ8MiFiMWHI
+
+  - title: "zPatch: Hybrid Resistive/Capacitive eTextile Inputs"
+    year: 2018
+    authors: Paul Strohmeier, Jarrod Knibbe, Sebastian Boring and Kasper Hornbæk
+    venue: Tangible, Embedded, and Embodied Interaction (TEI)
+    description: Touch input on clothing is difficult as there are ample opportunities for unintentional activation. In this paper we present a simple fabric design that acts as both a resistive and a capacitive sensor. We present instructions on how to build it and we demonstrate that the resulting hybrid sensor is more robust than either resistive- or capacitive-only equivalents and that the additional information improves the detection of custom gestures.
+    image: https://fkeel.github.io/uploads/image/2018_zPatch.jpg
+    image_outline: true
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2018_TEI_zPatch.pdf
+      - name: video
+        url: https://www.youtube.com/watch?v=pJ8MiFiMWHI
+      - name: "video: raw data"
+        url: https://youtu.be/QtwzcwgglOA
+      - name: github
+        url: https://zpatch.github.io/
+      - name: evaluation data
+        url: https://github.com/fkeel/zPatch
+      - name: instructables
+        url: https://www.instructables.com/id/ZPatch-Hybrid-ResistiveCapacitive-ETextile-Input/
+
+  - title: "Designing a Multi-Touch eTextile for Music Performances"
+    year: 2017
+    authors: Maurin Donneaud, Cedric Honnet, Paul Strohmeier
+    venue: New Instruments for Musical Expression (NIME) 2017
+    description: This paper presents a fabric multi-touch sensor that is used as an audio-controller. The sensor was designed by Maurin Donneaud with assistance by Cedric Honnet on the embedded software development. I conducted the evaluation with Cedric and did the analysis as well as the paper write-up.
+    image: https://fkeel.github.io/uploads/image/2017_NIME_small.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2017_NIME_eTextile.pdf
+      - name: video
+        url: https://youtu.be/z92_jkQb5EM
+      - name: web
+        url: https://etextile.github.io/resistiveMatrix/
+
+  - title: "Generating Haptic Textures with a Vibrotactile Actuator"
+    year: 2017
+    image_outline: true
+    authors: Paul Strohmeier, Kasper Hornbæk
+    venue: Human Factors in Computing Systems (CHI) 2017
+    description: When we move our finger over a material, the structure of the fingertip and the structure of the material interact – they generate vibration. These vibrations are experienced as textures. In this paper we explore how properties of such vibrations map to experiences of texture.
+    image: https://fkeel.github.io/uploads/image/2016_HaptixTexturesSmaller-300x300.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2017_CHI_HapticTextures.pdf
+      - name: video
+        url: https://youtu.be/NOsIRblaYoQ
+      - name: raw data
+        url: https://dl.acm.org/ft_gateway.cfm?id=3025812&type=zip&path=%2F3030000%2F3025812%2Fsupp%2Fpn2791%2Dfile4%2Ezip&supp=1&dwn=1
+      - name: Best Paper – Honourable Mention
+        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2016_CHI_HapticTextures_Award-e1514918061751.jpg
+
+  - title: "An Evaluation of Shape Changes for Conveying Emotions"
+    image_outline: true
+    year: 2016
+    authors: Paul Strohmeier, Juan Pablo Carrascal, Bernard Cheng, Margaret Meban, Roel Vertegaal
+    venue: Human Factors in Computing Systems (CHI)
+    description: In a world in which we use shape changing and malleable interfaces, can we use these to subtly express and transmit emotions using shape and shape transitions?
+    image: https://fkeel.github.io/uploads/image/2016_shapeEmotion_smaller.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2016_CHI_EmotionShape.pdf
+      - name: video
+        url: https://youtu.be/HwPS9_AzaLM
+      - name: "video: talk + live demo"
+        url: https://youtu.be/0h75_dw87ek
+
+  - title: "DisplaySkin: Exploring pose-aware displays on a flexible electrophoretic wristband"
+    image_outline: true
+    year: 2015
+    authors: Jesse Burstyn, Paul Strohmeier, Roel Vertegaal
+    venue: Tangible, Embedded, and Embodied Interaction (TEI)
+    description: Watches became popular because of the fast and intuitive way in which they can be used. Smartwatches typically are more complex, requiring menu navigation or activation gestures. This paper explores a method of adapting a watch face to the users body pose to make interactions with a smartwatch easier.
+    image: https://fkeel.github.io/uploads/image/2016_shapeEmotion_smaller.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2015_TEI_DisplaySkin.pdf
+      - name: video
+        url: https://www.youtube.com/watch?v=eetY1YTOpmo
+      - name: talk
+        url: https://www.youtube.com/watch?v=xQ7J45pesaE
+
+  - title: "DisplayPointers: Seamless Cross-Device Interactions"
+    year: 2015
+    authors: Paul Strohmeier
+    venue: Advances in Computer Entertainment Technology (ACE)
+    description: I demonstrate a simple method of creating multi-device interactions using the already existing capacitive touch-sensors of mobile devices.
+    image: https://fkeel.github.io/uploads/image/2015_displaypointers-1-300x300.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2015_ACE_DisplayPointers.pdf
+      - name: video
+        url: https://youtu.be/yisoDGJHDMs
+
+  - title: "Printput: Resistive and capacitive input widgets for interactive 3D prints"
+    year: 2015
+    authors: Jesse Burstyn, Nicholas Fellion, Paul Strohmeier, Roel Vertegaal
+    venue: IFIP TC.13 Conference on Human-Computer Interaction (INTERACT)
+    description: 3d printing is becoming increasingly more useful as a prototyping method. The methods in this paper provide a way to add sensors directly to a 3d print. I contributed sensor designs.
+    image: https://fkeel.github.io/uploads/image/2016_printput_small.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2015_INTERACT_Printput.pdf
+      - name: video
+        url: https://youtu.be/ffPdHSNMjqI
+      - name: "video: talk + live demo"
+        url: https://youtu.be/0h75_dw87ek
+
+  - title: "With a flick of the wrist: stretch sensors as lightweight input for mobile devices"
+    image_outline: true
+    year: 2012
+    authors: Paul Strohmeier, Jesse Burstyn, JP Carrascal, Vincent Levesque Roel Vertegaal
+    venue: International Conference on Tangible, Embedded, and Embodied Interaction (TEI) 2016
+    description: I designed a basic motion-capture method that can be embedded into clothing using stretch sensors.
+    image: https://fkeel.github.io/uploads/image/2012_wristflicker_small-1-300x300.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2018/01/2012_TEI_Wristflicker.pdf
+
+  - title: "Irrigating Kagan’s Desert"
+    image_outline: true
+    year: 2011
+    authors: Frederike Kaltheuner, Paul Strohmeier
+    venue: Maastricht Journal of Liberal Arts
+    description: Frederike and I wrote this essay to point out that the model of distributive justice used by Shelley Kagan is based on a set of normative assumptions. It is therefore only ‘intuitive’ to people who share his assumptions. We demonstrate how his model would change if the initial assumptions change.
+    image: https://fkeel.github.io/uploads/image/2012_MJLA_small-1.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2011_MJLA_Desert.pdf
+
+  - title: "Mediated Touch: Exploring embodied design for remote presence"
+    year: 2014
+    authors: Paul Strohmeier, Ike Kamphof
+    venue: International Society for Presence Research (ISPR)
+    description: We present an exploration of how people experience communication through a humanoid telerobot
+    image: https://fkeel.github.io/uploads/image/2014_mediatedTouch-1.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2016_TEI_MediatedBodies.pdf
+      - name: "Top Presentation Award"
+        url: https://fkeel.github.io/uploads/image/2018/01/2014_ISPR_Award.jpg
+
+  - title: "ReFlex: A Flexible Smartphone with Active Haptic Feedback for Bend Input"
+    year: 2016
+    authors: Paul Strohmeier, Jesse Burstyn, JP Carrascal, Vincent Levesque Roel Vertegaal
+    venue: International Conference on Tangible, Embedded, and Embodied Interaction (TEI) 2016
+    description: We presented the first fully functional, wireless flexible phone. In cooperation with Immersion we augmented the phone with a haptic actuator. This allows us to change how the material properties of the phone are experienced. We conducted studies investigating bend-input mappings to haptic feedback styles.
+    image: https://fkeel.github.io/uploads/image/2016_Reflex-350x350-m.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2015_TEI_DisplaySkin.pdf
+
+  - title: "What can Doodles on the Arm teach us about On-Body Interaction?"
+    year: 2016
+    authors: Paul Strohmeier, Juan Pablo Carrascal, Kasper Hornbæk
+    venue: Extended Abstracts on Human Factors in Computing Systems (CHI EA)
+    description: While on-body interaction is treated as a novel concept in HCI, we point out that it is not necessarily the case. One way in which on-body interaction is quite common is the habit of doodling or writing notes on one’s arm. We presented a survey that explores this practice, in hope that it may serve as inspiration for future HCI explorations.
+    image: https://fkeel.github.io/uploads/image/2015_doodles-1-350-m.jpg
+    tags:
+      - text: poster/demo
+        style: yellow
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2016_CHI_Doodles.pdf
+      - name: video
+        url: https://fkeel.github.io/uploads/pdf/handout.pdf
+
+  - title: "Developing an Ecosystem for Interactive Electronic Implants"
+    image_outline: true
+    year: 2016
+    authors: Paul Strohmeier, Cedric Honnet, Samppa Von Cyborg
+    venue: Living Machines – Biomimetic and Biohybrid systems – Springer LNAI Series (LM)
+    description: This is a write-up of a little hackathon of Cedric Honnet and myself. We designed and implemented the implant presented in this paper from scratch within 7 days. Samppa von Cyborg supported with process by helping us understand the physical constraints presented by current body-mod methods
+    image:  
+    tags:
+      - text: poster/demo
+        style: yellow
+
+  - title: Automatic Calibration of High Density Electric Muscle Stimulation
+    year: 2017
+    authors: Jarrod Knibbe, Paul Strohmeier, Sebastian Boring and Kasper Hornbæk
+    venue: Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)
+    description: Using methods presented in this paper we could in the future record the skilled movement of an expert musician and play them back using the hands and fingers of a novice. I assisted in designing the electronics and implemented the circuitry.
+    image: https://fkeel.github.io/uploads/image/2017_IMWUT_EMSCalibration-700x732.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2017_IMWUT_EMSCalibration-287x300.jpg
+
+  - title: "DIY IR sensors for augmenting objects and human skin"
+    image_outline: true
+    year: 2015
+    authors: Paul Strohmeier
+    venue: Augmented Human (AH)
+    description: I presented various IR based sensors that I had designed over the previous years.
+    image: https://fkeel.github.io/uploads/image/2015_IR_Sensor_small-1-350-m.jpg
+    tags:
+      - text: poster/demo
+        style: yellow
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/015_AH_IRSensors.pdf
+      - name: poster
+        url: https://fkeel.github.io/uploads/image/2015_AH_IRSensors_Poster.jpg
+      - name: "Best Poster Award"
+        url: https://fkeel.github.io/uploads/image/2015_AH_Award.
+
+  - title: "Effects of display sizes on a scrolling task using a cylindrical smartwatch"
+    year: 2015
+    authors: Paul Strohmeier, Jesse Burstyn, Roel Vertegaal
+    venue: Human-Computer Interaction with Mobile Devices and Services (MobileHCI)
+    description: Using the prototype I built for my master’s thesis, we investigated how different display sizes effected interactions, while keeping the input surface constant.
+    image: https://fkeel.github.io/uploads/image/DisplaySize-300x300.jpg
+    tags:
+      - text: poster/demo
+        style: yellow
+    links:
+      - name: pdf
+        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2015_MobileHCI_DisplaySize.pdf
+
+  - title: "PaperTab: an electronic paper computer with multiple large flexible electrophoretic displays"
+    year: 2013
+    authors: Aneesh Tarun, Peng Wang, Audrey Girouard, Paul Strohmeier, Derek Reilly, Roel Vertegaal
+    venue: Extended Abstracts on Human Factors in Computing Systems (CHI EA)
+    description: PaperTab is a multi-device ecology that harnesses strengths of pen-and paper interaction as well as digital systems. I contributed interaction concepts as well as initial sensor designs.
+    image: https://fkeel.github.io/uploads/image/DisplaySize-300x300.jpg
+    tags:
+      - text: poster/demo
+        style: yellow
+    links:
+      - name: video
+        url: https://youtu.be/81iiGWdsJgg
+
+  - title: "Special Topic: Taking Action in a Changing World."
+    year: 2017
+    image: false
+    authors: Ann Light, Chris Frauenberger, Jennifer Preece, Paul Strohmeier, and Maria Angela Ferrario (2017)
+    venue: ACM Interactions Magazine
+    tags:
+      - text: commentary
+        style: green
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2017_Interactions_SpecialTopic.pdf
+
+  - title: "Casey Fiesler, Lisa Anthony, Paul Strohmeier, Susan Fussell, Gloria Mark"
+    year: 2017
+    image: false
+    authors: "Taking Action in a Changing World: Research and Community"
+    venue: Extended Abstracts on Human Factors in Computing Systems (CHI EA)
+    tags:
+      - text: commentary
+        style: green
+
+  - title: "Second Skin: An Exploration of eTextile Stretch Circuits on the Body"
+    year: 2017
+    image: false
+    authors: Rachel Freire, Cedric Honnet, Paul Strohmeier
+    venue: Tangible, Embedded and Embodied Interaction (TEI)
+    tags:
+      - text: interactive art
+        style: violet
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2017_TEI_SecondSKin.pdf
+
+  - title: "Exploring Bodies, Mediation and Points of View using a Robotic Avatar"
+    year: 2016
+    image: false
+    authors: Paul Strohmeier
+    venue: Tangible, Embedded and Embodied Interaction (TEI)
+    tags:
+      - text: interactive art
+        style: violet
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2016_TEI_MediatedBodies.pdf
+
+  - title: "A Flock of Birds: bringing paper to life"
+    year: 2012
+    image: false
+    authors: Paul Strohmeier, Kaja Vembe Swensen, Cameron Lapp, Audrey Girouard, Roel Vertegaal
+    venue: Tangible, Embedded and Embodied Interaction (TEI)
+    tags:
+      - text: interactive art
+        style: violet
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2012_TEI_FlockOfBirds.pdf
+
+  - title: "Mood fern: exploring shape transformations in reactive environments"
+    year: 2014
+    # hidden: true
+    image: false
+    authors: Bernard Cheng, Antonio Gomes, Paul Strohmeier, Roel Vertegaal
+    venue: Advances in Computer Entertainment Technology (ACE)
+    tags:
+      - text: interactive art
+        style: violet
+
+  - title: "Demo Hour"
+    authors: Jinsil Hwaryoung Seo, Annie Sungkajun, Meghan Cook, Young Suk Lee, Susanna Hertrich, Akitoshi Honda, Rachel Freire, Paul Strohmeier, Cedric Honnet
+    venue: ACM Interactions Magazine
+    tags:
+      - text: showcase
+        style: orange
+    links:
+      - name: pdf
+        url: https://fkeel.github.io/uploads/pdf/2017_Interactions_SpecialTopic.pdf
+
+  - title: "PaperTab: tablets as thin and flexible as paper"
+    authors: Aneesh Tarun, Peng Wang, Paul Strohmeier, Audrey Girouard, Derek Reilly, Roel Vertegaal
+    venue: Extended Abstracts on Human Factors in Computing Systems (CHI EA)
+    tags:
+      - text: showcase
+        style: orange

@@ -1,0 +1,46 @@
+---
+layout: default
+active_menu_title: "People"
+---
+
+{% assign data = site.data.people %}
+{% assign title = data.title %}
+{% assign description = data.description %}
+{% assign people_data = data.people %}
+
+{% include _header.html title=title description=description %}
+
+<div class="row">
+  {% for person in people_data %}
+    {% if person.image != false %}
+      {% assign image_path = item.image %}
+      {% if item.image != nil %}
+        {% assign stringToCheck = image_path %}{% assign startsWith = 'http' %}
+        {% assign checkArray = stringToCheck | split:startsWith %}
+        {% if checkArray[0] == blank %}
+        <!-- The string {{ stringToCheck }} does start with {{ startsWith }}. -->
+        {% assign image_path = image_path | prepend: site.url %}
+      {% else %}
+        <!-- The string {{ stringToCheck }} does NOT start with {{ startsWith }}. -->
+        <!-- do nothing -->
+      {% endif %}
+    {% else %}
+      {% assign image_path = site.data.website.image_placeholder_settings.person_image_placeholder %}
+    {% endif %}
+
+    
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 text-center px-3 py-3">
+        <img alt="Person photo" src="{{base}}{{ image_path }}" class="img-fluid img-left mb-2"
+          style="max-height: 150px;">
+          <br/>
+          {% if person.url != "" %}
+            <span class="py-1"><strong><a href="{{person.url}}">{{person.name}}</a></strong></span><br/>
+          {% else %}
+            <span class="py-1"><strong>{{person.name}}</strong></span><br/>
+          {% endif %}
+        <span class="py-1">{{person.role}}</span><br/>
+      </div>
+
+    {% endif %}
+  {% endfor %}
+</div>

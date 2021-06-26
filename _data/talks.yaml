@@ -1,0 +1,23 @@
+title: Talks
+description: Here are some recent conference presentations which provide a nice intro to the Sensorimotor Interaction
+
+# YouTube links should use the following format: 
+# https://www.youtube.com/embed/VIDEO_ID
+talks:
+  - title: General Ideas
+    description: 
+    youtube_url: https://www.youtube.com/embed/v3Sw-jkv6dQ
+    featured: true
+
+  - title: Sensorimotor Augmentation
+    description: 
+    youtube_url: https://www.youtube.com/embed/TtawD33T2XU
+
+  - title: Body Integrated Systems
+    description: Presented with Jarrod Knibbe
+    youtube_url: https://www.youtube.com/embed/QwIeMsRUrCI
+
+  - title: New Materials, Sensor & Actuators
+    description: Presented with Cedric Honnet
+    youtube_url: https://www.youtube.com/embed/v7dZy2RM7LQ
+

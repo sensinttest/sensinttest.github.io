@@ -1,0 +1,103 @@
+/*
+Add your custom styles below
+*/
+@import "_custom-variables.scss";
+
+// Container width override for XL screen
+@media only screen and (min-width : 1200px) {
+    .container { max-width: 1200px; }
+}
+
+.font-base {
+  font-family: $font-family-base;
+}
+
+.font-alt {
+  font-family: $font-family-alt;
+}
+
+.navbar-brand {
+  font-size: 1.75em;
+}
+
+body {
+  padding-top: 94px;
+  background-color: white;
+}
+
+.navbar-nav .nav-link {
+  border-radius: 0rem !important;
+  font-size: 17px;
+  &.nav-active, &.nav-active:hover {
+    background-color: theme-color("si-pink");
+    color: white;
+  }
+}
+
+a.nav-link.bg-white:hover {
+  background-color: white !important;
+}
+
+.navbar {
+  background-color: rgb(108, 127, 156);
+}
+.navbar.navbar-translucent {
+  background-color: rgba(105,124,157,0.9) !important;
+}
+
+.bg-base-opacity-override {
+  opacity: 0.97;
+}
+
+.Home-header {
+  // margin-top: -50px; 
+}
+
+.Home-logo-container {
+  position: relative;
+  height: 160px;
+
+  img {
+    // position: absolute;
+    // top: 0;
+    // bottom: 0;
+    max-height: 100%;
+    margin: auto;
+  }
+}
+
+// section.slice {
+//   padding-top: 1rem;
+//   padding-bottom: 2rem;
+// }
+
+// $k-colors: "red", "orange", "green", "cyan", "blue", "magenta", "violet", "gray";
+// @each $color in $k-colors {
+//  .k-border-#{$color} {
+//     background: -webkit-linear-gradient(rgba(255,255,255,0) 60%, rgba(theme-color(#{$color}), 0.7) 60%);
+//     background: -o-linear-gradient(rgba(255,255,255,0) 60%, rgba(theme-color(#{$color}), 0.7) 60%);
+//     background: -ms-linear-gradient(rgba(255,255,255,0) 60%, rgba(theme-color(#{$color}), 0.7) 60%);
+//     background: linear-gradient(rgba(255,255,255,0) 60%, rgba(theme-color(#{$color}), 0.7) 60%);
+//   }
+// }
+
+// .k-border-gray {
+//   background: linear-gradient(180deg,rgba(255,255,255,0) 60%, rgba(108, 117, 125, 70%) 60%);
+// }
+
+// .k-border-cyan {
+//   background: linear-gradient(180deg, rgba(255,255,255,0) 60%, rgba(42,161,152,0.7) 60%)
+// }
+
+// .bg-lightest {
+//   background: linear-gradient(#f5f5f5, white);
+//   background: -ms-linear-gradient(#f5f5f5, white)
+// }
+
+// $ll-colors: "cyan", "magenta", "gray", "blue";
+// @each $color in $ll-colors {
+//   .bg-#{$color}-ll {
+//     background: linear-gradient(theme-color(#{$color}-l), theme-color(#{$color}-ll) 80%);
+//     background: -ms-linear-gradient(theme-color(#{$color}-l), theme-color(#{$color}-ll) 80%);
+//   }
+// }

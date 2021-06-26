@@ -1,0 +1,50 @@
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{site.data.website.meta.description | truncate: 160 }}">
+    <meta name="keywords" content="{{site.data.website.meta.keywords}}">
+    <meta name="author" content="{{site.data.website.meta.author}}">
+    {% if page.title %}
+        <title>{{ site.data.website.base_title }} | {{ page.title }}</title>
+    {% else  %}
+        <title>{{ site.data.website.base_title }}</title>
+    {% endif %}
+
+    <!-- <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script> -->
+    
+      <!-- Core -->
+    <script src="{{base}}/assets/vendor/jquery/jquery.min.js"></script> 
+    <script src="{{base}}/assets/vendor/popper/popper.min.js"></script>
+    <script src="{{base}}/assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome 5 -->
+    <script src="{{base}}/assets/vendor/fontawesome/js/fontawesome-all.min.js" defer></script>
+    <!-- Page plugins -->
+    <!-- <script src="/assets/vendor/bootstrap-select/js/bootstrap-select.min.js' | prepend: site.url }}"></script>
+    <script src="/assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js' | prepend: site.url }}"></script> -->
+    <!-- <script src="/assets/vendor/input-mask/input-mask.min.js' | prepend: site.url }}"></script>
+    <script src="/assets/vendor/nouislider/js/nouislider.min.js' | prepend: site.url }}"></script>
+    <script src="/assets/vendor/textarea-autosize/textarea-autosize.min.js' | prepend: site.url }}"></script> -->
+    <!-- Theme JS -->
+    <script src="{{base}}/assets/js/theme.js"></script>
+    <!-- Custom JS -->
+    <script src="{{base}}/assets/js/custom.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link type="text/css" href="{{base}}{{ '/assets/css/main.css' }}" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!-- icon for touch devices -->
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{base}}/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{base}}/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{base}}/assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="{{base}}/site.webmanifest">
+  </head>

@@ -1,0 +1,81 @@
+---
+layout: default
+active_menu_title: "Papers"
+---
+{% assign data = site.data.papers %}
+  {% assign title = data.title %}
+  {% assign description = data.description %}
+
+{% assign unsorted_papers_data = data.timeline | group_by: 'year' %}
+{% assign papers_data = unsorted_papers_data | sort: 'name' | reverse %}
+
+  {% include _header.html title=title description=description %}
+  
+  {% for papers_group in papers_data %}
+    {% assign group_size = papers_group.size %}
+    {% assign group_year = papers_group.name %}
+
+    {% assign i = 0 %}
+    {% for item in papers_group.items %}
+      {% assign itemId = item.title | remove: " " | remove: ":" | remove: '/' | remove: '\' | remove: '"' | remove: '`' | remove: "'" %}
+      <div id="{{itemId}}"></div>
+      <div class="offset-xl-1 col-xl-10 row cols-md-space cols-sm-space cols-xs-space mb-0 bg-white">
+        {% assign i = i | plus:1 %}
+
+        
+      {% assign paper_image_path = item.image %}
+
+      {% if item.image != nil and item.image != false %}
+        {% assign stringToCheck = paper_image_path %}
+        {% assign startsWith = 'http' %}
+        {% assign checkArray = stringToCheck | split:startsWith %}
+        {% if checkArray[0] == blank %}
+          {% assign paper_image_path = paper_image_path | prepend: site.url %}
+        {% else %}
+        {% endif %}
+      {% else %}
+        {% assign paper_image_path = site.data.website.image_placeholder_settings.paper_image_placeholder %}
+      {% endif %}
+      
+        <div class="col-lg-4 pl-sm-0 order-xl-1 order-lg-1 order-md-2 order-sm-2 order-2 px-md-3 px-sm-3 pt-4 mb-5 mb-lg-0">
+        <img alt="Research teaser" 
+          src="{{base}}{{ paper_image_path }}"
+          class="img-fluid img-left mb-5 mb-lg-0" style="max-height: 350px;" >
+        </div>
+        
+        
+        <div class="col-lg-8 pl-lg-1 pl-sm-0 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-1 px-md-3 px-sm-3 pt-4 pb-3">
+          <div class="card border-0">
+            <div class="">
+              <h4 class="">{{item.title}}</h4>
+              {% for tag in item.tags %}
+                {% assign style = tag.style %}
+                {% assign tag_style = site.data.website.tag_styles | where: "name",style | limit:1 %}
+                <span class="badge badge-lg badge-pill {{ tag_style[0].css }} text-uppercase mb-1" style="{% if tag.style %}{{ tag.style }}{% endif %}">{{tag.text}}</span>
+              {% endfor %}
+              <p class="mt-3"><i>{{item.authors}}</i> <br> in <i>{{item.venue}}</i></p>
+              <p class="mt-3">{{item.description}}</p>
+              {% if item.links.size > 0 %}Links:{% endif %}
+              {% for link in item.links %}
+                <a href="{{link.url }}">
+                  <span class="badge badge-lg badge-pill btn-blue border-0 text-uppercase mb-1">{{link.name}}</span>
+                </a>
+              {% endfor%}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  {% endfor %}
+
+  <script>
+    jQuery(document).ready(function () {
+      let hash = $(location).attr('hash');
+      if (hash) {
+        jQuery('html, body').animate({
+        scrollTop: $(`${hash}`).offset().top - 50
+      }, 500);
+      }
+    });
+  </script>
+  

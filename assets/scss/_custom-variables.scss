@@ -1,0 +1,228 @@
+// ====================================
+// Website colors
+
+// $primary:       #00458B;
+// $tertiary:      #3FD2C7;
+// $secondary:     #99DDFF;
+
+// Solarized colors
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
+$sensint-grayA: #687C9C;
+$sensint-grayB: #697C9D;
+$sensint-gray: $sensint-grayA;
+$sensint-pink: #C03E84;
+$sensint-lightpink: #F5DAE6;
+$sensint-purple: #986691;
+$sensint-lightpurple: #857A9D;
+$mpi-gray-one: #E6E6E6;
+
+$magenta-l:  #ecc2d6; // calculated from rgba($magenta, 25%)
+$magenta-ll: #f2d3e1; // calculated from rgba($magenta, 12.5%)
+$cyan-l:     #c5dfdd; // calculated from rgba($cyan, 25%)
+$cyan-ll:    #d6e8e7; // calculated from rgba($cyan, 12.5%)
+$gray-ll:    #d2d4d7; // calculated from rgba($gray, 12.5%)
+$magenta-tl: #c44680; // calculated from rgba($magenta, 75%)
+$cyan-tl:    #4e9f98; // calculated from rgba($cyan, 75%)
+$blue-l:     rgba($blue, 0.25);
+$blue-ll:    rgba($blue, 0.125);
+$blue-tl:    rgba($blue, 0.75);
+$base:       rgba(#042b36, 0.8);
+$base-l:     rgba(#042b36, 0.25);
+$base-ll:    rgba(#042b36, 0.125);
+$base-tl:    rgba(#042b36, 0.75);
+
+// Standard color map
+$colors: ();
+$colors: map-merge((
+  "base":       $base,
+  "base1":      $base1,
+  "base2":      $base2,
+  "base3":      $base3,
+  "base0":      $base0,
+  "base00":      $base00,
+  "base01":      $base01,
+  "base02":      $base02,
+  "base03":      $base03,
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "magenta":    $magenta,
+  "violet":     $violet,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "light":      $gray-400,
+  "lighter":    $gray-200,
+  "lightest":    $gray-100,
+  "gray-dark":  $gray-800,
+), $colors);
+
+// Full color map
+// Theme colors are mixed into bg-* and btn-* classes
+// For compatibility purposes, any rgba() colors used need to be converted to HEX
+
+$theme-colors: ();
+$theme-colors: map-merge((
+  "si-gray": $sensint-gray,
+  "si-pink": $sensint-pink,
+  "si-lightpink": $sensint-lightpink,
+  "si-purple": $sensint-purple,
+  "si-lightpurple": $sensint-lightpurple,
+  "mpi-gray-one": $mpi-gray-one,
+  "primary":      $cyan,
+  "secondary":    $blue,
+  "tertiary":     $magenta,
+  "success":      $success,
+  "info":         $info,
+  "warning":      $warning,
+  "danger":       $danger,
+  "light":        $light,
+  "dark":         $dark,
+  "base":       $base,
+  "base1":      $base1,
+  "base2":      $base2,
+  "base3":      $base3,
+  "base0":      $base0,
+  "base00":      $base00,
+  "base01":      $base01,
+  "base02":      $base02,
+  "base03":      $base03,
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "magenta":    $magenta,
+  "violet":     $violet,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "magenta-l":   $magenta-l,
+  "magenta-ll":  $magenta-ll,
+  "cyan-l":      $cyan-l,
+  "cyan-ll":     $cyan-ll,
+  "gray-ll":     $gray-ll,
+  "magenta-tl":  $magenta-tl,
+  "cyan-tl":     $cyan-tl,
+  "base-l":      $base-l,
+  "base-ll":     $base-ll,
+  "blue-l":      $blue-l,
+  "blue-ll":     $blue-ll,
+  "blue-tl":     $blue-tl,
+  "base-tl":     $base-tl
+), $theme-colors);
+
+$link-color:                $sensint-pink;
+$link-decoration:           none;
+$link-hover-color:          darken($link-color, 20%);
+$link-hover-decoration:     unone;
+
+// ====================================
+// Radius removal
+$custom-border-radius: 0.05rem;
+$badge-pill-border-radius: $custom-border-radius;
+$border-radius: $custom-border-radius;
+$input-border-radius: $custom-border-radius;
+
+
+$btn-border-radius:           $input-border-radius;
+$btn-border-radius-xl:        $input-border-radius;
+$btn-border-radius-lg:        $input-border-radius;
+$btn-border-radius-sm:        $input-border-radius;
+
+$nav-pills-border-radius:     $border-radius;
+$card-border-radius:          $border-radius;
+
+$input-border-radius:                   $border-radius;
+$input-border-radius-xl:                $border-radius;
+$input-border-radius-lg:                $border-radius;
+$input-border-radius-sm:                $border-radius;
+
+// ====================================
+// Font settings
+$font-family-base: 'Titillium Web', 'Helvetica', 'Arial', sans-serif;
+$font-family-alt: 'Merriweather', serif;
+
+$font-size-base:              1.05rem; // Assumes the browser default, typically `16px`
+$font-size-xl:                ($font-size-base * 1.5);
+$font-size-lg:                ($font-size-base * 1.25);
+$font-size-sm:                ($font-size-base * .875);
+$font-size-xs:                ($font-size-base * .75);
+
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-bold:            600;
+
+$font-weight-base:            $font-weight-normal;
+$line-height-base:            1.6;
+
+$h1-font-size:                $font-size-base * 2.5;
+$h2-font-size:                $font-size-base * 2;
+$h3-font-size:                $font-size-base * 1.75;
+$h4-font-size:                $font-size-base * 1.5;
+$h5-font-size:                $font-size-base * 1.25;
+$h6-font-size:                $font-size-base;
+
+$headings-margin-bottom:      ($spacer / 2);
+$headings-font-family:        inherit;
+$headings-font-weight:        500;
+$headings-line-height:        1.2;
+$headings-color:              inherit;
+$headings-margin-bottom:      ($spacer / 2);
+$headings-font-family:        inherit;
+$headings-font-weight:        600;
+$headings-line-height:        1.3;
+$headings-color:              $gray-800;
+
+$display1-size:               6rem;
+$display2-size:               5.5rem;
+$display3-size:               4.5rem;
+$display4-size:               3.5rem;
+$display1-weight:             300;
+$display2-weight:             300;
+$display3-weight:             300;
+$display4-weight:             300;
+$display-line-height:         $headings-line-height;
+
+$lead-font-size:              ($font-size-base * 1.25);
+$lead-font-weight:            300;
+$small-font-size:             80%;
+$text-muted:                  $gray-500;
+$blockquote-small-color:      $gray-600;
+$blockquote-font-size:        ($font-size-base * 1.25);
+$hr-border-color:             rgba($black, .1);
+$hr-border-width:             $border-width;
+$mark-padding:                .2em;
+$dt-font-weight:              $font-weight-bold;
+$list-inline-padding:         .5rem;
+$mark-bg:                     #fcf8e3;
+$hr-margin-y:                 $spacer;
+
+$nav-link-padding-y:          .15rem;
+$nav-link-padding-x:          .75rem;

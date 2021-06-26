@@ -1,0 +1,147 @@
+---
+layout: default
+active_menu_title: "Home"
+---
+{% assign data = site.data.home %}
+{% assign title = data.title %}
+{% assign description = data.description %}
+{% assign topics = data.topics %}
+
+<div class="Home-header">
+  <div class="row my-0 py-0">
+    <div class="col-md-12 col-lg-6">
+      <div class="Home-logo-container my-0 text-center">
+        <img width="430px" src="{{base}}/assets/images/logo/mpi_logo_sharp.svg">
+      </div>
+    </div>
+    <div class="col-md-12 col-lg-6">
+      <div class="Home-logo-container text-center">
+        <img height="120px" src="{{base}}/assets/images/logo/sensint_logo.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row py-4">
+  <div class="col-lg-12 px-3 py-0">
+    <div class="border">
+      <div class="border-bottom bg-si-gray">
+        <h4 class="px-3 py-2 my-0 text-white">{{title}}</h4>
+      </div>
+      <div class="px-3 py-3">
+        <p class="font-alt">{{description | newline_to_br}}</p>
+      </div>
+    </div>
+    </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-lg-6 px-3 py-0">
+    <div class="border">
+      <div class="px-3 py-2 my-0 bg-si-gray">
+        <h4 class="text-white my-0">Research</h4>
+      </div>
+      <div class="px-3 py-3 font-alt px-2 py-2">
+        {% assign data = site.data.research %}
+        <p>{{data.description | newline_to_br}}</p>
+        {% assign reseach_url = site.data.website.menu | where: "id", 'research' %}
+        <a class="btn mt-2 my-1 btn-si-gray" href="{{base}}{{ reseach_url[0].url }}">View Research</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-6 px-3 py-0">
+    <div class="border">
+      <div class=" px-3 py-2 bg-si-gray">
+        <h4 class="text-white my-0">Recent Publications</h4>
+      </div>
+      <div class="px-3 py-3 font-alt px-2 py-2">
+        {% assign data = site.data.papers %}
+        {% assign recent_papers = data.timeline | sort: 'year' | reverse %}
+        {% assign publications_url = site.data.website.menu | where: "id", 'papers' %}
+        {% for paper in recent_papers limit: 5 %}
+          {% assign itemId = paper.title | remove: " " | remove: ":" | remove: '/' | remove: '\' | remove: '"' | remove: '`' | remove: "'" %}
+          <p>{{ paper.year }}: <a href="{{base}}{{ publications_url[0].url }}#{{itemId}}">{{ paper.title }}</a></p>
+        {% endfor %}
+        <a class="btn mt-2 my-1 btn-si-gray" href="{{base}}{{ publications_url[0].url }}">View Papers</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- <div class="row ">
+    <div class="px-0 py-0 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+      <img src="{{ site.data.homepage.about.image }}" class="px-0 py-0 w-100 img-fluid img-left"/ style="display: inline-flex;">
+
+      <div class="card card-pricing mt-4 mb-2 border-0 bg-lightest">
+        <div class="card-body">
+            <h5 class="heading heading-5 strong-600 mb-3">{{ site.data.homepage.about.title }}</h5>
+            <p class="card-text">{{ site.data.homepage.about.description }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xl-5 col-lg-6 col-md-6">
+      {% assign home_updates = site.data.updates %}
+      {% assign limit_count = site.data.homepage.updates.count %}
+      {% assign limit_words = site.data.homepage.updates.cutoff %}
+
+      {% for data in home_updates limit:limit_count %}
+      <div class="card card-pricing mb-4 border-0 bg-lightest">
+          <div class="card-body">
+              <h5 class="heading heading-5 strong-600 mb-4">{{ data.date }}</h5>
+              <p class="card-text">{{ data.content | truncatewords:limit_words }}</p>
+          </div>
+        </div>
+      {% endfor %}
+
+      {% assign card = site.data.homepage.updates.read_more %}
+      <div class="card card-pricing mb-4 border-0 bg-lightest">
+          <div class="card-body">
+              <h5 class="heading heading-5 strong-600 mb-4">{{ card.title }}</h5>
+              <p class="card-text">{{ card.description }}</p>
+              <a href="{{ card.url }}" class="btn btn-base01 mt-2 py-1" style="">{{ card.url_text }}</a>
+          </div>
+        </div>
+    </div> -->
+
+<!-- <div class="col-xl-3 col-lg-12 col-md-12">
+      {% assign card = site.data.homepage.cards.one %}
+      {% if card.visible == true %}
+      <div class="card card-pricing border-0 bg-cyan-ll py-0  mb-4">
+        <h5 class="mb-0 pl-4 mt-0 k-subheader bg-cyan text-white py-2 mx-0">{{ card.title }}</h5>
+        <div class="card-body pt-3">
+            <h5 class="heading heading-5 strong-600"></h5>
+            <p class="card-text text">{{ card.description }}</p>
+            <a href="{{ card.url }}" class="btn btn-cyan-tl mt-2 py-1">{{ card.url_text }}</a>
+        </div>
+      </div>
+      {% endif %} -->
+
+
+<!-- {% assign card = site.data.homepage.cards.two %}
+      {% if card.visible == true %}
+      <div class="card card-pricing border-0 bg-base-ll mb-4">
+        <h5 class="mb-0 pl-4 k-subheader bg-base bg-base-opacity-override text-white py-2">{{ card.title }}</h5>
+        <div class="card-body pt-3">
+            <h5 class="heading heading-5 strong-600"></h5>
+            <p class="card-text text">{{ card.description }}</p>
+            <a href="{{ card.url }}" class="btn btn-base-tl mt-2 py-1" style="">{{ card.url_text }}</a>
+        </div>
+      </div>
+      {% endif %} -->
+
+<!-- {% assign card = site.data.homepage.cards.three %}
+      {% if card.visible == true %}
+      <div class="card card-pricing px-0 py-0 border-0 bg-magenta-ll mb-4">
+        <h5 class="mb-0 pl-4 k-subheader bg-magenta py-2 text-white">{{ card.title }}</h5>
+        <div class="card-body pt-3">
+            <h5 class="heading heading-5 strong-600"></h5>
+            <p class="card-text text">{{ card.description }}</p>
+            <a href="{{ card.url }}" class="btn btn-magenta-tl mt-2 py-1" style="">{{ card.url_text }}</a>
+        </div>
+      </div>
+      {% endif %} -->
+<!-- </div>
+  </div> -->

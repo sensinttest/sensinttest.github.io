@@ -1,0 +1,23 @@
+---
+layout: default
+active_menu_title: "Research"
+---
+
+{% assign data = site.data.research %}
+  {% assign title = data.title %}
+  {% assign description = data.description %}
+  {% assign topics = data.topics %}
+
+  {% include _header.html title=title description=description %}
+  
+  {% for topic in topics %}
+    <div class="border my-5">
+      <div class="px-3 py-2 my-0 bg-si-gray">
+        <h5 class="text-white my-0">{{topic.title}}</h5>
+      </div>
+      <div class="px-3 py-3 font-alt px-2 py-2 bg-white">
+        <p>{{topic.description | newline_to_br }}</p>
+      </div>
+    </div>
+  {% endfor %}
+  

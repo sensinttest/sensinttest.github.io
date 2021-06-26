@@ -1,0 +1,12 @@
+# Site settings
+url: https://jazzjackrabbit.github.io/sensint
+permalink: /:title.html
+
+# Build settings
+markdown: kramdown
+plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap, jekyll-seo-tag]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+sass:
+  sass_dir: assets/scss
+  style: compressed
