@@ -42,8 +42,8 @@ menu:
     url: /contact.html
 
 image_placeholder_settings:
-  paper_image_placeholder: /assets/images/placeholders/stripes-transparent2.png
-  person_image_placeholder: /assets/images/placeholders/icons/man.png
+  paper_image_placeholder: assets/images/placeholders/stripes-transparent2.png
+  person_image_placeholder: assets/images/placeholders/icons/man.png
 
 tag_styles:
   - name: green
