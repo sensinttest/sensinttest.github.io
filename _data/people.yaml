@@ -5,22 +5,22 @@ people:
   - name: "Paul Strohmeier"
     role: "Head"
     url:  "https://fkeel.github.io"
-    image: 
+    image: https://picsum.photos/300/300?random=1
 
   - name: "Person One"
     role: "PhD Researcher"
     url:  
-    image: 
+    image: https://picsum.photos/300/300?random=2
 
   - name: "Person Two"
     role: "PhD Researcher"
     url:  
-    image:
+    image: https://picsum.photos/300/300?random=3
 
   - name: "Person Three"
     role: "PhD Researcher"
     url:  
-    image:
+    image: https://picsum.photos/300/300?random=4
 
   - name: "Person Four"
     role: "Assistant"
@@ -40,12 +40,12 @@ people:
   - name: "Person Seven"
     role: "Post-doctoral Researcher"
     url:  
-    image:
+    image: https://picsum.photos/300/300?random=5
 
   - name: "Person Eight"
     role: "Post-doctoral Researcher"
     url:  
-    image:
+    image: https://picsum.photos/300/300?random=6
     
   - name: "Person Nine"
     role: "Post-doctoral Researcher"

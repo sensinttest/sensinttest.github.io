@@ -61,7 +61,7 @@ active_menu_id: 'home'
         {% assign publications_url = site.data.website.menu | where: "id", 'papers' %}
         {% for paper in recent_papers limit: 5 %}
           {% assign itemId = paper.title | remove: " " | remove: ":" | remove: '/' | remove: '\' | remove: '"' | remove: '`' | remove: "'" %}
-          <p>{{ paper.year }}: <a href="{{base}}{{ publications_url[0].url }}#{{itemId}}">{{ paper.title }}</a></p>
+          <p><i class="fa fa-file-text-o mx-1" aria-hidden="true"></i> {{ paper.year }}: <a href="{{base}}{{ publications_url[0].url }}#{{itemId}}">{{ paper.title }}</a></p>
         {% endfor %}
         <a class="btn mt-2 my-1 btn-si-gray" href="{{base}}{{ publications_url[0].url }}">View Publications</a>
       </div>
