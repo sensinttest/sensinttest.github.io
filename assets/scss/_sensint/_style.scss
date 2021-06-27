@@ -51,6 +51,10 @@ a.nav-link.bg-white:hover {
   // opacity: 0.97;
 }
 
+.navbar-collapse.collapse.show, .navbar-collapse.collapsing {
+  padding-top: 20px;
+}
+
 .Home-logo-container {
   position: relative;
   height: 160px;
