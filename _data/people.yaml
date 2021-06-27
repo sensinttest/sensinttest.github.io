@@ -6,13 +6,13 @@ people:
     name: "Paul Strohmeier"
     role: "Head"
     url:   https://fkeel.github.io
-    image: https://picsum.photos/300/300?random=1
+    image: uploads/people/paul_glove_square.jpg
 
   - id: person_one
     name: "Person One"
     role: "PhD Researcher"
     image: https://picsum.photos/300/300?random=2
-    url:   /people/person_one.html
+    url:   people/person_one.html
     pageContent: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dui sapien, consequat vel augue nec, porta cursus mi. In hac habitasse platea dictumst. Cras accumsan erat nec urna semper tristique. Sed eu nulla eu nibh porta mattis ac ac urna. Donec vulputate faucibus nisl, in molestie ligula interdum non. In hac habitasse platea dictumst. Phasellus dolor libero, luctus eu lacinia nec, aliquam at odio. Duis vel nisl at enim ullamcorper dapibus et at sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam cursus urna in magna porta, eget interdum diam faucibus. Sed facilisis lorem a lectus dapibus vulputate. Quisque condimentum ante at nibh scelerisque blandit. Praesent a ullamcorper eros.
 

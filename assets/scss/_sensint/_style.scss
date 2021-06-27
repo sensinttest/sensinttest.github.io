@@ -96,12 +96,20 @@ a.nav-link.bg-white:hover {
   height: 100%;
 }
 
-.People-photo {
-  max-height: 225px;
+.Person-photo-container {
+  overflow: hidden;
+}
+
+.Person-photo {
+  max-height: 225px; 
 }
 
 .Page-backbutton {
   display: block;
+}
+
+span.big, p.big {
+  font-size: 1.3rem;
 }
 
 .Teaser-container {

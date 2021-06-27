@@ -2,7 +2,6 @@
 layout: default
 active_menu_id: 'people'
 ---
-
 {% assign data = site.data.people %}
 {% assign title = data.title %}
 {% assign description = data.description %}
@@ -12,13 +11,16 @@ active_menu_id: 'people'
 
 <div class="row">
   {% for person in people_data %}
+
     {% assign image_path = person.image %}
     {% if person.image != false and person.image != nil and person.image != ""%}
       {% assign stringToCheck = image_path %}{% assign startsWith = 'http' %}
       {% assign checkArray = stringToCheck | split:startsWith %}
       {% if checkArray[0] == blank %}
         <!-- The string {{ stringToCheck }} does start with {{ startsWith }}. -->
-        {% assign image_path = image_path | prepend: site.url %}
+        {% assign image_path = image_path %}
+      {% else %}
+        {% assign image_path = base | append: image_path %}
       {% endif %}
     {% else %}
       {% assign image_path = site.data.website.image_placeholder_settings.person_image_placeholder %}
@@ -27,12 +29,24 @@ active_menu_id: 'people'
     
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center px-3 py-3">
       <div class="px-1 py-2">
-        <img alt="Person photo" src="{{base}}{{ image_path }}" class="People-photo img-fluid img-left mb-2 rounded border bg-si-lightpink">
+        <div class="Person-photo-container">
+          <img alt="Person photo" src="{{base}}{{ image_path }}" class="Person-photo img-fluid img-center border bg-si-lightpink">
+        </div>
           <br/>
+          {% assign person_url = person.url %}
           {% if person.url != "" and person.url != nil %}
-            <span class="py-1"><strong><a href="{{person.url}}">{{person.name}}</a></strong></span><br/>
+            {% assign stringToCheckx = person_url %}
+            {% assign startsWithx = 'http' %}
+            {% assign checkArrayx = stringToCheckx | split:startsWithx %}
+            {% if checkArrayx[0] == blank %}
+              <!-- The string {{ stringToCheck }} does start with {{ startsWith }}. -->
+              {% assign person_url = person_url %}
+            {% else %}
+              {% assign person_url = base | append: person_url %}
+            {% endif %}
+            <span class="pb-1 big"><strong><a href="{{base}}{{person_url}}">{{person.name}}</a></strong></span><br/>
           {% else %}
-            <span class="py-1"><strong>{{person.name}}</strong></span><br/>
+            <span class="pb-1 big"><strong>{{person.name}}</strong></span><br/>
           {% endif %}
         <span class="py-1">{{person.role}}</span><br/>
       </div>
