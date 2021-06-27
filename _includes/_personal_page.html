@@ -1,0 +1,30 @@
+<!-- Serup -->
+{% assign person = site.data.people.people | where: 'id', person_id %}
+{% assign person = person[0] %}
+
+{% assign image_path = person.image %}
+{% if person.image != false and person.image != nil and person.image != ""%}
+  {% assign stringToCheck = image_path %}{% assign startsWith = 'http' %}
+  {% assign checkArray = stringToCheck | split:startsWith %}
+  {% if checkArray[0] == blank %}
+    <!-- The string {{ stringToCheck }} does start with {{ startsWith }}. -->
+    {% assign image_path = image_path | prepend: site.url %}
+  {% endif %}
+{% else %}
+  {% assign image_path = base | append: site.data.website.image_placeholder_settings.person_image_placeholder %}
+{% endif %}
+
+
+
+
+
+<!-- Content -->
+<div class="row">
+  <div class="col-lg-10">
+    <div class="">
+      <img src={{image_path}} class="Person-image"/>
+      <h1 class="py-3">{{person.name}}</h1>
+      {{person.pageContent | | newline_to_br}}
+    </div>
+  </div>
+</div>

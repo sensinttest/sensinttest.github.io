@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_no_container
 active_menu_id: 'home'
 ---
 {% assign data = site.data.home %}
@@ -7,68 +7,117 @@ active_menu_id: 'home'
 {% assign description = data.description %}
 {% assign topics = data.topics %}
 
-<div class="Home-header">
-  <div class="row my-0 py-0">
-    <div class="col-md-12 col-lg-6">
-      <div class="Home-logo-container my-0 text-center">
-        <img width="430px" src="{{base}}assets/images/logo/mpi_logo_sharp.svg">
-      </div>
+<!-- <div class="row py-4"> -->
+<!-- </div> -->
+
+
+  <div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {% for image in data.gallery %}
+        <div class="swiper-slide">
+          <div class="Teaser-container my-5">
+            <img class="Teaser-image" src="{{base}}{{image.url}}" />
+          </div>
+        </div>
+      {% endfor %}
     </div>
-    <div class="col-md-12 col-lg-6">
-      <div class="Home-logo-container text-center">
-        <img height="120px" src="{{base}}assets/images/logo/sensint_logo.png">
+    <!-- If we need pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+  </div>
+
+<main class="container main">
+
+  {% include _header.html title=title description=description style="ml-xl-4 pl-xl-4"%}
+
+  <!-- <div class="my-0">
+    <div class="row py-4">
+      <div class="col-lg-12 px-3 py-0">
+        <div class="border">
+          <div class="border-bottom bg-si-gray">
+            <h4 class="px-3 py-2 my-0 text-white">{{title}}</h4>
+          </div>
+          <div class="px-3 py-3">
+            <p class="font-alt">{{description | newline_to_br}}</p>
+          </div>
+        </div>
+        </div>
+    </div> -->
+    
+    <div class="row mt-3">
+      <div class="col-lg-7 px-3 py-0 my-sm-3">
+        <div class="border">
+          <div class="px-3 py-2 my-0 bg-si-purple">
+            <h4 class="text-white my-0 font-alt">Research</h4>
+          </div>
+          <div class="px-3 py-3 font-base px-2 py-2 bg-mpi-gray-two">
+            {% assign data = site.data.research %}
+            <p>{{data.description | newline_to_br}}</p>
+            {% assign reseach_url = site.data.website.menu | where: "id", 'research' %}
+            <a class="btn mt-2 my-1 btn-si-purple" href="{{base}}{{ reseach_url[0].url }}">View Research</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="Card col-lg-5 px-3 py-4 my-sm-3">
+        <div class="border">
+          <div class="Card-title px-3 py-2 bg-si-gray">
+            <h4 class="text-white my-0 font-alt">Recent Publications</h4>
+          </div>
+          <div class="Card-content px-3 py-3 font px-2 py-2 bg-mpi-gray-two">
+            {% assign data = site.data.papers %}
+            {% assign recent_papers = data.timeline | sort: 'year' | reverse %}
+            {% assign publications_url = site.data.website.menu | where: "id", 'papers' %}
+            {% for paper in recent_papers limit: 5 %}
+              {% assign itemId = paper.title | remove: " " | remove: ":" | remove: '/' | remove: '\' | remove: '"' | remove: '`' | remove: "'" %}
+              <p><i class="fa fa-file-text-o mx-1" aria-hidden="true"></i> {{ paper.year }}: <a href="{{base}}{{ publications_url[0].url }}#{{itemId}}">{{ paper.title }}</a></p>
+            {% endfor %}
+            <a class="btn mt-2 my-1 btn-si-gray" href="{{base}}{{ publications_url[0].url }}">View Publications</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="row py-4">
-  <div class="col-lg-12 px-3 py-0">
-    <div class="border">
-      <div class="border-bottom bg-si-gray">
-        <h4 class="px-3 py-2 my-0 text-white">{{title}}</h4>
+  <div class="Home-header">
+    <div class="row my-5 pt-5 px-4">
+      <div class="col-md-12 col-lg-5">
+        <div class="Home-logo-container Home-logo-container-si text-center">
+          <img src="{{base}}assets/images/logo/sensint_logo.png">
+        </div>
       </div>
-      <div class="px-3 py-3">
-        <p class="font-alt">{{description | newline_to_br}}</p>
-      </div>
-    </div>
-    </div>
-</div>
-
-<div class="row mt-3">
-  <div class="col-lg-6 px-3 py-0">
-    <div class="border">
-      <div class="px-3 py-2 my-0 bg-si-gray">
-        <h4 class="text-white my-0">Research</h4>
-      </div>
-      <div class="px-3 py-3 font-alt px-2 py-2">
-        {% assign data = site.data.research %}
-        <p>{{data.description | newline_to_br}}</p>
-        {% assign reseach_url = site.data.website.menu | where: "id", 'research' %}
-        <a class="btn mt-2 my-1 btn-si-gray" href="{{base}}{{ reseach_url[0].url }}">View Research</a>
+      <div class="col-md-12 col-lg-7">
+        <div class="Home-logo-container Home-logo-container-mpi my-0 text-center">
+          <img src="{{base}}assets/images/logo/mpi_logo_sharp.svg">
+        </div>
       </div>
     </div>
   </div>
+</main>
 
-  <div class="Card col-lg-6 px-3 py-0">
-    <div class="border">
-      <div class="Card-title px-3 py-2 bg-si-gray">
-        <h4 class="text-white my-0">Recent Publications</h4>
-      </div>
-      <div class="Card-content px-3 py-3 font-alt px-2 py-2">
-        {% assign data = site.data.papers %}
-        {% assign recent_papers = data.timeline | sort: 'year' | reverse %}
-        {% assign publications_url = site.data.website.menu | where: "id", 'papers' %}
-        {% for paper in recent_papers limit: 5 %}
-          {% assign itemId = paper.title | remove: " " | remove: ":" | remove: '/' | remove: '\' | remove: '"' | remove: '`' | remove: "'" %}
-          <p><i class="fa fa-file-text-o mx-1" aria-hidden="true"></i> {{ paper.year }}: <a href="{{base}}{{ publications_url[0].url }}#{{itemId}}">{{ paper.title }}</a></p>
-        {% endfor %}
-        <a class="btn mt-2 my-1 btn-si-gray" href="{{base}}{{ publications_url[0].url }}">View Publications</a>
-      </div>
-    </div>
-  </div>
 
-</div>
+<script type="text/javascript">
+  jQuery(document).ready(()=>{
+      const swiper = new Swiper('.swiper-container', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+      autoplay: {
+        delay: 7000,
+        disableOnInteraction: false,
+      },
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      }
+    });
+  });
+</script>
+
+
+
 
 <!-- <div class="row ">
     <div class="px-0 py-0 col-xl-4 col-lg-6 col-md-6 col-sm-12">

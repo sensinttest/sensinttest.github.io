@@ -29,7 +29,7 @@ active_menu_id: 'people'
       <div class="px-1 py-2">
         <img alt="Person photo" src="{{base}}{{ image_path }}" class="People-photo img-fluid img-left mb-2 rounded border bg-si-lightpink">
           <br/>
-          {% if person.url != "" %}
+          {% if person.url != "" and person.url != nil %}
             <span class="py-1"><strong><a href="{{person.url}}">{{person.name}}</a></strong></span><br/>
           {% else %}
             <span class="py-1"><strong>{{person.name}}</strong></span><br/>

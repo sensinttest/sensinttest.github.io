@@ -2,27 +2,32 @@ title: People
 description: "These are the amazing researchers that work with us."
 
 people:
-  - name: "Paul Strohmeier"
+  - id: paul_strohmeier
+    name: "Paul Strohmeier"
     role: "Head"
-    url:  "https://fkeel.github.io"
+    url:   https://fkeel.github.io
     image: https://picsum.photos/300/300?random=1
 
-  - name: "Person One"
+  - id: person_one
+    name: "Person One"
     role: "PhD Researcher"
-    url:  
     image: https://picsum.photos/300/300?random=2
+    url:   /people/person_one.html
+    pageContent: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dui sapien, consequat vel augue nec, porta cursus mi. In hac habitasse platea dictumst. Cras accumsan erat nec urna semper tristique. Sed eu nulla eu nibh porta mattis ac ac urna. Donec vulputate faucibus nisl, in molestie ligula interdum non. In hac habitasse platea dictumst. Phasellus dolor libero, luctus eu lacinia nec, aliquam at odio. Duis vel nisl at enim ullamcorper dapibus et at sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam cursus urna in magna porta, eget interdum diam faucibus. Sed facilisis lorem a lectus dapibus vulputate. Quisque condimentum ante at nibh scelerisque blandit. Praesent a ullamcorper eros.
 
-  - name: "Person Two"
-    role: "PhD Researcher"
-    url:  
+      Vivamus vel urna ut nisi rhoncus consequat. Donec porta, neque nec tristique efficitur, massa nisi pulvinar quam, at pharetra justo lacus consectetur est. Integer odio justo, hendrerit sed nunc quis, aliquam euismod lorem. Mauris nec nisi bibendum, mattis nisi vitae, dignissim arcu. Sed dictum mauris vitae tempus facilisis. Suspendisse tempus nunc dictum nisi aliquet aliquet. Donec faucibus dolor at orci aliquet, a tempor magna interdum. Ut augue felis, ornare eget euismod a, rhoncus sed sapien. Nulla aliquet vitae justo sed tincidunt. Integer vulputate, turpis sed vehicula faucibus, nunc massa vulputate libero, quis vulputate nibh ante ac mauris. Curabitur in molestie lorem. Aliquam sit amet urna volutpat, sagittis dolor vestibulum, accumsan magna. Phasellus quis convallis diam, at porta ipsum. Sed eu felis egestas, viverra diam sed, porta risus. Vivamus eu sapien ut ligula auctor tincidunt ut non ligula.
+
+  - id: person_two
+    name: "Person Two"
+    role: "PhD Researcher" 
     image: https://picsum.photos/300/300?random=3
 
-  - name: "Person Three"
+  - id: person_three
+    name: "Person Three"
     role: "PhD Researcher"
-    url:  
     image: https://picsum.photos/300/300?random=4
 
-  - name: "Person Four"
+  - id: person_four
+    name: "Person Four"
     role: "Assistant"
-    url:  
-    image:

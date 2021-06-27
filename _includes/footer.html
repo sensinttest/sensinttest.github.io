@@ -8,7 +8,17 @@
           <!-- <a href="{{ site.url }}" class="footer-link" target="_blank"> -->
             
           <!-- </a> -->
-          {{ site.data.website.base_title }}. All rights reserved{% include watermark.html %}
+          {% assign impressum_url = site.data.website.impressum.url %}
+          {% assign startsWith = 'http' %}
+          {% assign checkArray = site.data.website.impressum.url | split:startsWith %}
+          
+          {% if checkArray[0] == blank %}
+            {% assign impressum_url = impressum.url | prepend: site.url %}
+          {% else %}
+            {% assign impressum_url = base | append: impressum_url %}
+          {% endif %}
+          
+          {{ site.data.website.base_title }}. All rights reserved{% include watermark.html %} • <a style="color: #6c757d;" href="{{impressum_url}}">{{site.data.website.impressum.title}}</a>
         </span>
       </div>
     </div>

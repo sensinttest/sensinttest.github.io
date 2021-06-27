@@ -6,6 +6,8 @@ description: |
 
 topics:
   - title: Sensorimotor Augmentation
+    style: bg-si-purple
+    image: uploads/images/background_01.jpg
     description: |
       Interaction with physical material is experienced relative to body movement. When our finger moves over a wooden surface, the interaction between the surfaces and our finger causes vibration. This vibration shapes the experience of the material, we feel wood.
     
@@ -14,6 +16,8 @@ topics:
       Example of recent work: <a href="https://hci.cs.uni-saarland.de/research/barefoot/">bARefoot</a>. I also present some of these ideas in my <a href="https://youtu.be/QeZu4PI8nsI">5 minute talk</a> I did for the <a href="https://sigchi.org/awards/sigchi-award-recipients/2020-sigchi-awards/">SIGCHI Outstanding Dissertation Award</a> and it is the topic at the core of my <a href="http://embodimentlabs.org/thesis.pdf">thesis</a>.
 
   - title: Body Integrated Systems
+    style: bg-si-pink
+    image: uploads/images/background_03.jpg
     description: |
       Wearable devices still largely mirror the design of screen-based mobile devices. However, digital systems on and around our body can utilize their unique placement. Using tactile and electrical communication channels, on-body systems can integrate with users in ever more closely coupled ways. We investigate the design of devices which integrate with the body and act as a natural extension of the user.
 
@@ -22,6 +26,8 @@ topics:
       Example of recent work: <a href="https://skillsleeves.github.io/">SkillSleeves</a>
 
   - title: New Materials, Sensor & Actuators
+    style: bg-si-gray
+    image: uploads/images/background_02.jpg
     description: |
       Tactile Rendering & Sensorimotor Augmentation require sensing and actuation systems which operate at faster frequencies than most commercial systems. Body Integrated Systems require malleable, elastic, and robust electronics. We investigate the design of such high-frequency sensing systems and explore how to functionalize materials – particularly fabric – so they might be used for our other research purposes.
 

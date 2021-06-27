@@ -7,17 +7,20 @@ talks:
   - title: General Ideas
     description: 
     youtube_url: https://www.youtube.com/embed/v3Sw-jkv6dQ
-    featured: true
+    style: bg-si-pink
 
   - title: Sensorimotor Augmentation
     description: 
     youtube_url: https://www.youtube.com/embed/TtawD33T2XU
+    style: bg-si-gray
 
   - title: Body Integrated Systems
     description: Presented with Jarrod Knibbe
     youtube_url: https://www.youtube.com/embed/QwIeMsRUrCI
+    style: bg-si-purple
 
   - title: New Materials, Sensor & Actuators
     description: Presented with Cedric Honnet
     youtube_url: https://www.youtube.com/embed/v7dZy2RM7LQ
+    style: bg-si-lightpurple
 

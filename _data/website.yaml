@@ -42,6 +42,10 @@ menu:
     title: Contact
     url: /contact.html
 
+impressum:
+  url: /impressum.html
+  title: Imprint/Impressum
+
 image_placeholder_settings:
   paper_image_placeholder: assets/images/placeholders/stripes-transparent2.png
   person_image_placeholder: assets/images/placeholders/icons/man.png

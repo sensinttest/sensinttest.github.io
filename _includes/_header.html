@@ -1,4 +1,6 @@
-<div class="px-4 py-4 border-bottom mb-4">
-  <h1 class="mb-3">{{title}}</h1>
-  <p class="font-alt">{{description}}</p>
+<div class="Header-container px-4 py-5 border-bottom mb-4 
+  {{ style }}
+  ">
+  <h1 class="Header-title font-alt mb-3">{{title}}</h1>
+  <p class="Header-description font-base">{{description || newline_to_br}}</p>
 </div>
