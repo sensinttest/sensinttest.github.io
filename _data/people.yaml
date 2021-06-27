@@ -26,28 +26,3 @@ people:
     role: "Assistant"
     url:  
     image:
-
-  - name: "Person Five"
-    role: "Assistant"
-    url:  
-    image:
-
-  - name: "Person Six"
-    role: "Assistant"
-    url:  
-    image:
-
-  - name: "Person Seven"
-    role: "Post-doctoral Researcher"
-    url:  
-    image: https://picsum.photos/300/300?random=5
-
-  - name: "Person Eight"
-    role: "Post-doctoral Researcher"
-    url:  
-    image: https://picsum.photos/300/300?random=6
-    
-  - name: "Person Nine"
-    role: "Post-doctoral Researcher"
-    url:  
-    image:

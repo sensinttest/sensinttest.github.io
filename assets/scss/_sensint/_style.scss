@@ -1,7 +1,7 @@
 /*
 Add your custom styles below
 */
-@import "_custom-variables.scss";
+@import "_variables.scss";
 
 // Container width override for XL screen
 @media only screen and (min-width : 1200px) {
@@ -82,12 +82,32 @@ a.nav-link.bg-white:hover {
 }
 
 .People-photo {
-  max-height: 175px;
+  max-height: 225px;
 }
 
 .Page-backbutton {
   display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // section.slice {
 //   padding-top: 1rem;

@@ -5,6 +5,16 @@
 // $tertiary:      #3FD2C7;
 // $secondary:     #99DDFF;
 
+// Sensint Colors
+$sensint-grayA: #687C9C;
+$sensint-grayB: #697C9D;
+$sensint-gray: $sensint-grayA;
+$sensint-pink: #C03E84;
+$sensint-lightpink: #F5DAE6;
+$sensint-purple: #986691;
+$sensint-lightpurple: #857A9D;
+$mpi-gray-one: #E6E6E6;
+
 // Solarized colors
 $base03:    #002b36;
 $base02:    #073642;
@@ -23,14 +33,6 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
 
-$sensint-grayA: #687C9C;
-$sensint-grayB: #697C9D;
-$sensint-gray: $sensint-grayA;
-$sensint-pink: #C03E84;
-$sensint-lightpink: #F5DAE6;
-$sensint-purple: #986691;
-$sensint-lightpurple: #857A9D;
-$mpi-gray-one: #E6E6E6;
 
 $magenta-l:  #ecc2d6; // calculated from rgba($magenta, 25%)
 $magenta-ll: #f2d3e1; // calculated from rgba($magenta, 12.5%)
@@ -50,6 +52,14 @@ $base-tl:    rgba(#042b36, 0.75);
 // Standard color map
 $colors: ();
 $colors: map-merge((
+  // Senstint COlors
+  "si-gray": $sensint-gray,
+  "si-pink": $sensint-pink,
+  "si-lightpink": $sensint-lightpink,
+  "si-purple": $sensint-purple,
+  "si-lightpurple": $sensint-lightpurple,
+  "mpi-gray-one": $mpi-gray-one, 
+  // Standard + Legacy colors
   "base":       $base,
   "base1":      $base1,
   "base2":      $base2,
@@ -77,20 +87,6 @@ $colors: map-merge((
   "lighter":    $gray-200,
   "lightest":    $gray-100,
   "gray-dark":  $gray-800,
-), $colors);
-
-// Full color map
-// Theme colors are mixed into bg-* and btn-* classes
-// For compatibility purposes, any rgba() colors used need to be converted to HEX
-
-$theme-colors: ();
-$theme-colors: map-merge((
-  "si-gray": $sensint-gray,
-  "si-pink": $sensint-pink,
-  "si-lightpink": $sensint-lightpink,
-  "si-purple": $sensint-purple,
-  "si-lightpurple": $sensint-lightpurple,
-  "mpi-gray-one": $mpi-gray-one,
   "primary":      $cyan,
   "secondary":    $blue,
   "tertiary":     $magenta,
@@ -98,31 +94,7 @@ $theme-colors: map-merge((
   "info":         $info,
   "warning":      $warning,
   "danger":       $danger,
-  "light":        $light,
   "dark":         $dark,
-  "base":       $base,
-  "base1":      $base1,
-  "base2":      $base2,
-  "base3":      $base3,
-  "base0":      $base0,
-  "base00":      $base00,
-  "base01":      $base01,
-  "base02":      $base02,
-  "base03":      $base03,
-  "blue":       $blue,
-  "indigo":     $indigo,
-  "purple":     $purple,
-  "magenta":    $magenta,
-  "violet":     $violet,
-  "pink":       $pink,
-  "red":        $red,
-  "orange":     $orange,
-  "yellow":     $yellow,
-  "green":      $green,
-  "teal":       $teal,
-  "cyan":       $cyan,
-  "white":      $white,
-  "gray":       $gray-600,
   "magenta-l":   $magenta-l,
   "magenta-ll":  $magenta-ll,
   "cyan-l":      $cyan-l,
@@ -136,7 +108,12 @@ $theme-colors: map-merge((
   "blue-ll":     $blue-ll,
   "blue-tl":     $blue-tl,
   "base-tl":     $base-tl
-), $theme-colors);
+), $colors);
+
+// Full color map
+// Theme colors are mixed into bg-* and btn-* classes
+// For compatibility purposes, any rgba() colors used need to be converted to HEX
+$theme-colors: $colors;
 
 $link-color:                $sensint-pink;
 $link-decoration:           none;
