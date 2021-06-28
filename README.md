@@ -2,22 +2,27 @@
 
 ## Content
 
-Most of the content can be modified by changing the values in **.yaml* data files in *_data* folder. Unless you wish to also update other aspects of the website, editing those files should fit your basic needs.
+Data for this website is stored using [YAML](https://www.tutorialspoint.com/yaml/yaml_quick_guide.htm).
+
+Most of the content can be modified by changing the values in corresponding files in *_data* folder. 
+Unless you wish to also update other aspects of the website, editing those files should fit your basic needs.
 
 ## CSS
 
 The theme is built on top of [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/). 
 
-Custom styles are defined in *assets/scss/_sensint* directory. 
+Other custom styles are defined in *assets/scss/_sensint* directory. 
 
 Edit *_variables.scss* if you wish to modify colors or fonts.
-Edit existing style rules in *_style.scss*.
+Modify existing style rules in *_style.scss*.
 Add your own custom styles in *_custom.scss*.
 
 ## HTML Templates
 
-Each HTML page extends one of the layouts stored in *_layouts* directory. Additionally, reusable html components are stored in *_includes* directory. 
-[Liquid syntax](https://shopify.github.io/liquid/basics/introduction/) is used to fetch and arrange the content on the page, check the documentation if you're not sure about how to use it.
+[Liquid](https://shopify.github.io/liquid/basics/introduction/) syntax is used to fetch and arrange the content inside the pages, check the documentation if you're not sure about how to use it.
+
+Each HTML page extends one of the layouts stored in *_layouts* directory. Additionally, reusable html components can be found in *_includes* directory. 
+
 
 ## Development
 
@@ -32,9 +37,3 @@ cd sensinttest.github.io
 bundle install
 bundle exec jekyll serve
 ```
-
-### Can I just quickly get the static HTML?
-
-If you happen to run Windows 10, there's a script just for you. Check *SensintWebsiteTools.zip*.
-
-
