@@ -19,9 +19,12 @@ active_menu_id: 'papers'
     {% for item in papers_group.items %}
       {% assign itemId = item.title | remove: " " | remove: ":" | remove: '/' | remove: '\' | remove: '"' | remove: '`' | remove: "'" %}
       <div id="{{itemId}}"></div>
-      <div class="col-xl-10 offset-xl-1 row cols-md-space cols-sm-space cols-xs-space mb-0 bg-white">
-        {% assign i = i | plus:1 %}
 
+      {% assign offsetValue = i | modulo: 2 %}
+      {% assign offsetValue = offsetValue | plus: 1 %} 
+
+      {% assign offsetClass = "offset-xl-0" %}
+      <div class="col-xl-12 {{offsetClass}} row cols-md-space cols-sm-space cols-xs-space my-5 py-2 bg-white">
         
       {% assign paper_image_path = item.image %}
 
@@ -37,14 +40,14 @@ active_menu_id: 'papers'
         {% assign paper_image_path = site.data.website.image_placeholder_settings.paper_image_placeholder %}
       {% endif %}
       
-        <div class="col-lg-4 pl-sm-0 order-xl-1 order-lg-1 order-md-2 order-sm-2 order-2 px-md-3 px-sm-3 pt-4 mb-5 mb-lg-0">
+        <div class="col-lg-4 pl-sm-0 order-xl-{{offsetValue}} order-lg-{{offsetValue}} order-md-2 order-sm-2 order-2 px-md-4 px-sm-3 pt-4 px-xl-0 mb-5 mb-lg-0">
         <img alt="Research teaser" 
           src="{{base}}{{ paper_image_path }}"
-          class="img-fluid img-left mb-5 mb-lg-0" style="max-height: 350px;" >
+          class="Publication-image img-fluid img-left mb-5 mb-lg-0 px-0 px-xl-4" >
         </div>
         
         
-        <div class="col-lg-8 pl-lg-1 pl-sm-0 order-xl-2 order-lg-2 order-md-1 order-sm-1 order-1 px-md-3 px-sm-3 pt-4 pb-3">
+        <div class="col-lg-8 pl-lg-1 pl-sm-0 order-xl-1 order-lg-1 order-md-1 order-sm-1 order-1 px-md-3 px-sm-3 pt-4 pb-3">
           <div class="card border-0">
             <div class="">
               <h4 class="font-alt">{{item.title}}</h4>
@@ -71,6 +74,7 @@ active_menu_id: 'papers'
           </div>
         </div>
       </div>
+      {% assign i = i | plus:1 %}
     {% endfor %}
   {% endfor %}
 

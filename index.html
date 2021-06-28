@@ -17,7 +17,7 @@ active_menu_id: 'home'
       <!-- Slides -->
       {% for image in data.gallery %}
         <div class="swiper-slide">
-          <div class="Teaser-container my-5">
+          <div class="Teaser-container my-5 mt-lg-5 mb-lg-3">
             <img class="Teaser-image" src="{{base}}{{image.url}}" />
           </div>
         </div>
@@ -60,7 +60,7 @@ active_menu_id: 'home'
         </div>
       </div>
     
-      <div class="Card col-lg-5 px-3 py-4 my-sm-3">
+      <div class="Card col-lg-5 px-3 py-0 my-sm-3">
         <div class="border">
           <div class="Card-title px-3 py-2 bg-si-gray">
             <h4 class="text-white my-0 font-alt">Recent Publications</h4>
@@ -97,14 +97,30 @@ active_menu_id: 'home'
 </main>
 
 
+
+
+
 <script type="text/javascript">
+  function randomRange(myMin, myMax) {
+    return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
+  }
+
   jQuery(document).ready(()=>{
+      const slidesCount = jQuery('.swiper-slide').length;
+      let firstSlide;
+      if ({{ site.data.home.galleryConfig.startOnRandom }}){
+        firstSlide = randomRange(1,slidesCount);
+      } else {
+        firstSlide = 1;
+      }
+      let slideDelay = {{ site.data.home.galleryConfig.delay }};
       const swiper = new Swiper('.swiper-container', {
       // Optional parameters
       direction: 'horizontal',
       loop: true,
+      initialSlide: firstSlide,
       autoplay: {
-        delay: 7000,
+        delay: slideDelay,
         disableOnInteraction: false,
       },
       // If we need pagination

@@ -10,29 +10,32 @@ active_menu_id: 'research'
 
   {% include _header.html title=title description=description %}
   
-  <div class="row pt-3">
+  
     {% assign i = 0 %}
     {% for topic in topics %}
+      <div class="row pt-3 my-5">
       {% assign i = i | plus:1 %}
       {% assign check = i | modulo: 2 %}
+      
+      {% assign offsetValue = check | plus: 1 %} 
 
-      {% if check == 0 %}
-        <div class="col-lg-2"></div>
+      {% assign topic_image_url = topic.image %}
+      {% assign startsWith = 'http' %}
+      {% assign checkArray = topic_image_url | split:startsWith %}
+      
+      {% if checkArray[0] == blank %}
+        {% assign topic_image_url = topic_image_url | prepend: site.url %}
+      {% else %}
+        {% assign topic_image_url = base | append: topic_image_url %}
       {% endif %}
-      <div class="col-lg-10 px-2 py-3">
 
-        {% assign topic_image_url = topic.image %}
-        {% assign startsWith = 'http' %}
-        {% assign checkArray = topic_image_url | split:startsWith %}
-        
-        {% if checkArray[0] == blank %}
-          {% assign topic_image_url = topic_image_url | prepend: site.url %}
-        {% else %}
-          {% assign topic_image_url = base | append: topic_image_url %}
-        {% endif %}
-
-        <img class="Research-image" src="{{topic_image_url}}"/>
-        <div class="border my-5">
+      <div class="my-4 my-lg-0 col-md-12 col-lg-5 col-xl-4 order-xs-1 order-sm-1 order-lg-{{offsetValue}} order-xl-{{offsetValue}}">
+        <div class="Research-image-container">
+          <img class="Research-image img img-fluid" src="{{topic_image_url}}"/>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-7 col-xl-8 order-xs-2 order-sm-2 order-lg-1 px-2">
+        <div class="border">
           <div class="px-3 py-2 my-0
           {% if topic.style %}
           {{topic.style}}
@@ -47,8 +50,6 @@ active_menu_id: 'research'
           </div>
         </div>
       </div>
-      {% if check != 0 %}
-        <div class="col-lg-2"></div>
-      {% endif %}
+    </div>
     {% endfor %}
   </div>

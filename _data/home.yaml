@@ -5,12 +5,16 @@ description: |
 
   We are currently searching for talented PostDocs and PhD Students, as well as HiWis and Thesis Students (please check the respective pages for the full calls). Check out Talks and Research for more details about the research directions of senSInt.
 
-
 gallery:
   - url: uploads/images/background_00.jpg
   - url: uploads/images/background_01.jpg
   - url: uploads/images/background_03.jpg
   - url: uploads/images/background_04.jpg
   - url: uploads/images/background_06.jpg
+    
+galleryConfig: 
+  delay: 60000 # slide change delay in milliseconds
+  startOnRandom: true # starts carousel on random image if true 
+
 
   

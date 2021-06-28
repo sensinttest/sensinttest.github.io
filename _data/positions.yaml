@@ -1,7 +1,6 @@
 title: Positions
 description: Here are the current openings in our lab.
 
-# /positions is both the url prefix and a name of the folder with the corresponding html files
 pages:
   - title: PostDoc Openings
     url: /positions/postdoc.html
