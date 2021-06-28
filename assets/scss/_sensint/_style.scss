@@ -26,9 +26,12 @@ body {
   background-color: white;
 }
 
+.Nav-logo {
+  margin-top: -1px !important;
+}
 @media only screen and (min-width : 980px) {
   .navbar-nav {
-    margin-bottom: -13px;
+    margin-bottom: -12px;
   }
 }
 
@@ -162,6 +165,9 @@ span.big, p.big {
   .Header-title {
     border-left: 15px solid $sensint-lightpurple;
     padding-left: 15px;
+    @media (max-width: 768px) {
+      border-left: 20px solid $sensint-lightpurple;
+    }
   }
   .Header-description {
 
