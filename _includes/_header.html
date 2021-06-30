@@ -1,6 +1,5 @@
-<div class="Header-container px-md-4 py-md-5 border-bottom mb-4 
-  {{ style }}
-  ">
+{% assign headerClasses = "Header-container px-md-3 py-md-5 border-bottom mb-4 " | append: headerClass %}
+<div class="{{headerClasses}}">
   <h1 class="Header-title font-alt mb-3">{{title}}</h1>
   <p class="Header-description font-base">{{description || newline_to_br}}</p>
 </div>

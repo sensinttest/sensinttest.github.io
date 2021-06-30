@@ -8,9 +8,10 @@
 // "newcolor": $newcolor));
 
 // After doing so, the following css classes will be accessible for use in html templates:
-// text-newcolor - set text color to $newcolor
-// bg-newcolor - set backgroud color to $newcolor
-// btn-newcolor - button colored with $newcolor
+// text-newcolor -> set text color to $newcolor
+// bg-newcolor -> set backgroud color to $newcolor
+// btn-newcolor -> button colored with $newcolor
+// border-newcolor, border-(top/bottom/left/right)-newcolor –> border colored with $newcolor
 
 // Sensint Colors
 $sensint-grayA: #687C9C;
@@ -41,6 +42,7 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
 
+
 // Legacy colors
 $magenta-l:  #ecc2d6; // calculated from rgba($magenta, 25%)
 $magenta-ll: #f2d3e1; // calculated from rgba($magenta, 12.5%)
@@ -56,6 +58,13 @@ $base:       rgba(#042b36, 0.8);
 $base-l:     rgba(#042b36, 0.25);
 $base-ll:    rgba(#042b36, 0.125);
 $base-tl:    rgba(#042b36, 0.75);
+
+// Overwritten colors
+$yellow: #FFE884;
+$blue: saturate(#3CA0C8, 10%);
+$magenta: saturate($sensint-pink, 10%);
+$green: #328E77;
+$violet: $sensint-purple;
 
 // Standard color map
 $colors: ();

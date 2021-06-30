@@ -9,22 +9,33 @@ active_menu_id: 'papers'
 {% assign unsorted_papers_data = data.timeline | group_by: 'year' %}
 {% assign papers_data = unsorted_papers_data | sort: 'name' | reverse %}
 
-  {% include _header.html title=title description=description %}
+  {% assign headerClass = "Papers-page-header" %}
+  {% include _header.html %}
   
   {% for papers_group in papers_data %}
     {% assign group_size = papers_group.size %}
     {% assign group_year = papers_group.name %}
 
     {% assign i = 0 %}
+    <h2 class="font-alt mt-4 mb-0 pt-3 text-center text-si-pink border-top border-si-lightpink">
+      <span class="border px-4 py-3 my-0 border-si-lightpink bg-si-lightpink">
+        {% assign groupName = papers_group.name %}
+        {% if groupName == "" or groupName == nil %}
+          {% assign groupName = "•••" %}
+        {% endif %}
+        {{groupName}}
+      </span>
+    </h2>
     {% for item in papers_group.items %}
       {% assign itemId = item.title | remove: " " | remove: ":" | remove: '/' | remove: '\' | remove: '"' | remove: '`' | remove: "'" %}
       <div id="{{itemId}}"></div>
 
-      {% assign offsetValue = i | modulo: 2 %}
-      {% assign offsetValue = offsetValue | plus: 1 %} 
+      <!-- {% assign offsetValue = i | modulo: 2 %} -->
+      <!-- {% assign offsetValue = offsetValue | plus: 1 %}  -->
+      {% assign offsetValue = 1 %} 
 
       {% assign offsetClass = "offset-xl-0" %}
-      <div class="col-xl-12 {{offsetClass}} row cols-md-space cols-sm-space cols-xs-space my-5 py-2 bg-white">
+      <div class="col-xl-12 {{offsetClass}} row px-0 mx-0 my-1 my-md-5 py-0 py-md-2 bg-white">
         
       {% assign paper_image_path = item.image %}
 
@@ -40,14 +51,14 @@ active_menu_id: 'papers'
         {% assign paper_image_path = site.data.website.image_placeholder_settings.paper_image_placeholder %}
       {% endif %}
       
-        <div class="col-lg-4 pl-sm-0 order-xl-{{offsetValue}} order-lg-{{offsetValue}} order-md-2 order-sm-2 order-2 px-md-4 px-sm-3 pt-4 px-xl-0 mb-5 mb-lg-0">
+        <div class="col-lg-4 pl-sm-0 order-xl-{{offsetValue}} order-lg-{{offsetValue}} order-md-2 order-sm-2 order-2 px-0 px-md-4 px-sm-3 pt-4 px-xl-0 mb-5 mb-lg-0">
         <img alt="Research teaser" 
           src="{{base}}{{ paper_image_path }}"
-          class="Publication-image img-fluid img-left mb-5 mb-lg-0 px-0 px-xl-4" >
+          class="Publication-image img-fluid img-left mb-5 mb-lg-0 px-0 " >
         </div>
         
         
-        <div class="col-lg-8 pl-lg-1 pl-sm-0 order-xl-1 order-lg-1 order-md-1 order-sm-1 order-1 px-md-3 px-sm-3 pt-4 pb-3">
+        <div class="col-lg-8 pl-lg-1 pl-sm-0 order-xl-1 order-lg-1 order-md-1 order-sm-1 order-1 px-0 px-md-3 px-sm-3 pt-4 pb-3 pl-xl-4 ">
           <div class="card border-0">
             <div class="">
               <h4 class="font-alt">{{item.title}}</h4>
@@ -64,10 +75,15 @@ active_menu_id: 'papers'
               {% endfor %}
               <p class="mt-3"><i>{{item.authors}}</i> <br> in <i>{{item.venue}}</i></p>
               <p class="mt-3">{{item.description}}</p>
-              {% if item.links.size > 0 %}Links:{% endif %}
+              <!-- {% if item.links.size > 0 %}Links:{% endif %} -->
               {% for link in item.links %}
                 <a href="{{link.url }}">
-                  <span class="badge badge-lg badge-pill btn-blue border-0 text-uppercase mb-1">{{link.name}}</span>
+                  <!-- <span class="badge badge-lg badge-pill btn-blue border-0 text-uppercase mb-1">
+                  {{link.name}}
+                  </span> -->
+                  <span class="Papers-link-pill border border-blue small badge-pill text-blue text-uppercase my-1 px-3 mx-1 py-1 ">
+                    {{link.name}}
+                  </span>
                 </a>
               {% endfor%}
             </div>

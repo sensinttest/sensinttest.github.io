@@ -143,6 +143,9 @@ span.big, p.big {
 
 .Publication-image {
   max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .Research-image-container {
@@ -163,15 +166,32 @@ span.big, p.big {
 
 .Header-container {
   .Header-title {
-    border-left: 15px solid $sensint-lightpurple;
+    margin-left: 1px;
+    border-left: 17px solid $sensint-lightpurple;
     padding-left: 15px;
     @media (max-width: 768px) {
       margin-left: 1px;
       border-left: 19px solid $sensint-lightpurple;
     }
   }
-  .Header-description {
+  // .Header-description {
+  //   padding-left: 40px;
+  //   @media (max-width: 1000px) {
+  //     padding-left: 0px;
+  //   }
+  // }
+}
 
+.Papers-page-header {
+  border: 0;
+  margin-bottom: -25px !important;
+}
+
+.Papers-link-pill {
+  line-height: 2.75em;
+  &:hover {
+    background-color: $blue;
+    color: white !important;
   }
 }
 
