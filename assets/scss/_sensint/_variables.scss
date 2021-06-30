@@ -65,6 +65,8 @@ $blue: saturate(#3CA0C8, 10%);
 $magenta: saturate($sensint-pink, 10%);
 $green: #328E77;
 $violet: $sensint-purple;
+$sensint-lighterpurple: lighten($sensint-lightpurple, 30%);
+$sensint-lightpurple-contrast: darken($sensint-lightpurple, 5%);
 
 // Standard color map
 $colors: ();
@@ -75,6 +77,8 @@ $colors: map-merge((
   "si-lightpink": $sensint-lightpink,
   "si-purple": $sensint-purple,
   "si-lightpurple": $sensint-lightpurple,
+  "si-lighterpurple": $sensint-lighterpurple,
+  "si-lightpurple-contrast": $sensint-lightpurple-contrast,
   "mpi-gray-one": $mpi-gray-one, 
   "mpi-gray-two": $mpi-gray-two, 
   // Standard + Legacy colors
