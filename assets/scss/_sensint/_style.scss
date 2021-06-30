@@ -195,6 +195,16 @@ span.big, p.big {
   }
 }
 
+.Publications-year {
+  @media (max-width: 768px) {
+    font-size: 1.5em;
+    span {
+      margin-top: -10px;
+      
+    }
+  }
+}
+
 @import "_custom.scss";
 
 
