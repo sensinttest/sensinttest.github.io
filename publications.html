@@ -12,13 +12,25 @@ active_menu_id: 'papers'
   {% assign headerClass = "Papers-page-header" %}
   {% include _header.html %}
   
+  {% assign j = 0 %}
   {% for papers_group in papers_data %}
     {% assign group_size = papers_group.size %}
     {% assign group_year = papers_group.name %}
 
-    {% assign i = 0 %}
-    <h2 class="font-alt mt-4 mb-0 pt-3 text-center text-si-pink border-top border-si-lightpink">
-      <span class="border px-4 py-3 my-0 border-si-lightpink bg-si-lightpink">
+    <!-- {% assign i = 0 %} -->
+    {% assign oddEven = j | modulo: 2 %}
+
+    {% if oddEven == 0 %}
+      {% assign hClass = "text-si-pink border-si-lightpink" %}
+      {% assign spanClass = "border-si-lightpink bg-si-lightpink" %}
+    {% else %}
+      {% assign hClass = "text-si-lightpurple-contrast border-si-lighterpurple" %}
+      {% assign spanClass = "border-si-lighterpurple bg-si-lighterpurple" %}
+    {% endif %}
+
+    <h2 class="font-alt mt-4 mb-0 pt-3 text-center  border-top {{hClass}}">
+      <span class="border px-4 py-3 my-0 {{spanClass}}">
+
         {% assign groupName = papers_group.name %}
         {% if groupName == "" or groupName == nil %}
           {% assign groupName = "•••" %}
@@ -90,8 +102,9 @@ active_menu_id: 'papers'
           </div>
         </div>
       </div>
-      {% assign i = i | plus:1 %}
+      <!-- {% assign i = i | plus:1 %} -->
     {% endfor %}
+    {% assign j = j | plus:1 %}
   {% endfor %}
 
   <script>
