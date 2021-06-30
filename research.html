@@ -30,14 +30,14 @@ active_menu_id: 'research'
       {% endif %}
       
       {% if offsetValue == 2 %}
-        {% assign offsetClass = "offset-lg-1" %}
+        {% assign offsetClass = "offset-xl-2" %}
         {% assign textAlignClass = "text-md-right" %}
       {% else %}
-        {% assign offsetClass = "offset-lg-0" %}
+        {% assign offsetClass = "offset-xl-0" %}
         {% assign textAlignClass = "text-md-left" %}
       {% endif %}
       
-      <div class="col-12 col-lg-11 {{offsetClass}} {{textAlignClass}}">
+      <div class="col-12 col-xl-10 {{offsetClass}} {{textAlignClass}}">
         <div class="px-3 py-2 my-0
           {% if topic.style %}
           {{topic.style}}

@@ -219,10 +219,10 @@ span.big, p.big {
 $g-colors: "si-purple", "si-pink", "si-gray";
 @each $col in $g-colors {
  .bg-#{$col}-g-lr {
-    background: -webkit-linear-gradient(90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
-    background: -o-linear-gradient(90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
-    background: -ms-linear-gradient(90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
-    background: linear-gradient(90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
+    background: -webkit-linear-gradient(90deg, rgba(theme-color(#{$col}), 1) 25%, rgba(theme-color(#{$col}), 0) 100%);
+    background: -o-linear-gradient(90deg, rgba(theme-color(#{$col}), 1) 25%, rgba(theme-color(#{$col}), 0));
+    background: -ms-linear-gradient(90deg, rgba(theme-color(#{$col}), 1) 25%, rgba(theme-color(#{$col}), 0));
+    background: linear-gradient(90deg, rgba(theme-color(#{$col}), 1) 25%, rgba(theme-color(#{$col}), 0));
 
     @media (max-width: 1000px){
       background: rgba(theme-color(#{$col}), 1);
@@ -230,10 +230,10 @@ $g-colors: "si-purple", "si-pink", "si-gray";
   }
 
   .bg-#{$col}-g-rl {
-    background: -webkit-linear-gradient(-90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
-    background: -o-linear-gradient(-90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
-    background: -ms-linear-gradient(-90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
-    background: linear-gradient(-90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
+    background: -webkit-linear-gradient(-90deg, rgba(theme-color(#{$col}), 1) 25%, rgba(theme-color(#{$col}), 0));
+    background: -o-linear-gradient(-90deg, rgba(theme-color(#{$col}), 1) 25%, rgba(theme-color(#{$col}), 0));
+    background: -ms-linear-gradient(-90deg, rgba(theme-color(#{$col}), 1) 25%, rgba(theme-color(#{$col}), 0));
+    background: linear-gradient(-90deg, rgba(theme-color(#{$col}), 1) 25%, rgba(theme-color(#{$col}), 0));
 
     @media (max-width: 1000px){
       background: rgba(theme-color(#{$col}), 1);
