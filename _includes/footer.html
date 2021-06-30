@@ -3,7 +3,7 @@
 
       <hr>
       <div class="d-flex align-items-center">
-        <span class="">
+        <span class="" style="width: 100%;">
           &copy; {{ site.data.website.current_year }}
           <!-- <a href="{{ site.url }}" class="footer-link" target="_blank"> -->
             
@@ -18,7 +18,10 @@
             {% assign impressum_url = base | append: impressum_url %}
           {% endif %}
           
-          {{ site.data.website.base_title }}. All rights reserved{% include watermark.html %} • <a style="color: #6c757d;" href="{{impressum_url}}">{{site.data.website.impressum.title}}</a>
+          {{ site.data.website.base_title }}. All rights reserved
+           • <a style="color: #6c757d;" href="{{impressum_url}}">{{site.data.website.impressum.title}}</a>
+
+           {% include watermark.html %}
         </span>
       </div>
     </div>

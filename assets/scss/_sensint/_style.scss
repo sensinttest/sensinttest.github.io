@@ -49,6 +49,17 @@ a.nav-link.bg-white:hover {
   background-color: white !important;
 }
 
+.designed-by {
+  opacity: 0;
+  margin-left: auto;
+  width: 20px;
+  transition: ease-in-out 1s;
+  &:hover {
+    opacity: 1;
+    transition: ease-in-out 1s;
+  };
+}
+
 .navbar {
   background-color: rgb(108, 127, 156);
 }
@@ -205,7 +216,35 @@ span.big, p.big {
   }
 }
 
+$g-colors: "si-purple", "si-pink", "si-gray";
+@each $col in $g-colors {
+ .bg-#{$col}-g-lr {
+    background: -webkit-linear-gradient(90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
+    background: -o-linear-gradient(90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
+    background: -ms-linear-gradient(90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
+    background: linear-gradient(90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
+
+    @media (max-width: 1000px){
+      background: rgba(theme-color(#{$col}), 1);
+    }
+  }
+
+  .bg-#{$col}-g-rl {
+    background: -webkit-linear-gradient(-90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
+    background: -o-linear-gradient(-90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
+    background: -ms-linear-gradient(-90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
+    background: linear-gradient(-90deg, rgba(theme-color(#{$col}), 1), rgba(theme-color(#{$col}), 0));
+
+    @media (max-width: 1000px){
+      background: rgba(theme-color(#{$col}), 1);
+    }
+  }
+}
+
 @import "_custom.scss";
+
+
+
 
 
 
