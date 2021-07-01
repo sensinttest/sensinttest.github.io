@@ -27,8 +27,8 @@ active_menu_id: 'papers'
 {% assign spanClass = "border-si-lighterpurple bg-si-lighterpurple" %}
 {% endif %}
 
-<h2 class="Publications-year font-alt my-4 pt-1 pt-md-3 text-right text-md-center  border-top {{hClass}}">
-  <span class="border px-4 py-1 py-md-3 my-0 {{spanClass}}">
+<h3 class="Publications-year font-alt my-4 pt-1 pt-md-2 text-right text-md-center  border-top {{hClass}}">
+  <span class="border px-4 py-1 py-md-2 my-0 {{spanClass}}">
 
     {% assign groupName = papers_group.name %}
     {% if groupName == "" or groupName == nil %}
@@ -36,7 +36,7 @@ active_menu_id: 'papers'
     {% endif %}
     {{groupName}}
   </span>
-</h2>
+</h3>
 
 {% for item in papers_group.items %}
 {% assign itemId = item.title | remove: " " | remove: ":" | remove: '/' | remove: '\' | remove: '"' | remove: '`' |
