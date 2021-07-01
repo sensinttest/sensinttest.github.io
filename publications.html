@@ -3,118 +3,114 @@ layout: default
 active_menu_id: 'papers'
 ---
 {% assign data = site.data.papers %}
-  {% assign title = data.title %}
-  {% assign description = data.description %}
+{% assign title = data.title %}
+{% assign description = data.description %}
 
 {% assign unsorted_papers_data = data.timeline | group_by: 'year' %}
 {% assign papers_data = unsorted_papers_data | sort: 'name' | reverse %}
 
-  {% assign headerClass = "Papers-page-header" %}
-  {% include _header.html %}
-  
-  {% assign j = 0 %}
-  {% for papers_group in papers_data %}
-    {% assign group_size = papers_group.size %}
-    {% assign group_year = papers_group.name %}
+{% assign headerClass = "Papers-page-header" %}
+{% include _header.html %}
 
-    <!-- {% assign i = 0 %} -->
-    {% assign oddEven = j | modulo: 2 %}
+{% assign j = 0 %}
+{% for papers_group in papers_data %}
+{% assign group_size = papers_group.size %}
+{% assign group_year = papers_group.name %}
 
-    {% if oddEven == 0 %}
-      {% assign hClass = "text-si-pink border-si-lightpink" %}
-      {% assign spanClass = "border-si-lightpink bg-si-lightpink" %}
-    {% else %}
-      {% assign hClass = "text-si-lightpurple-contrast border-si-lighterpurple" %}
-      {% assign spanClass = "border-si-lighterpurple bg-si-lighterpurple" %}
+{% assign oddEven = j | modulo: 2 %}
+
+{% if oddEven == 0 %}
+{% assign hClass = "text-si-pink border-si-lightpink" %}
+{% assign spanClass = "border-si-lightpink bg-si-lightpink" %}
+{% else %}
+{% assign hClass = "text-si-lightpurple-contrast border-si-lighterpurple" %}
+{% assign spanClass = "border-si-lighterpurple bg-si-lighterpurple" %}
+{% endif %}
+
+<h2 class="Publications-year font-alt my-4 pt-1 pt-md-3 text-right text-md-center  border-top {{hClass}}">
+  <span class="border px-4 py-1 py-md-3 my-0 {{spanClass}}">
+
+    {% assign groupName = papers_group.name %}
+    {% if groupName == "" or groupName == nil %}
+    {% assign groupName = "•••" %}
     {% endif %}
+    {{groupName}}
+  </span>
+</h2>
 
-    <h2 class="Publications-year font-alt my-4 pt-1 pt-md-3 text-right text-md-center  border-top {{hClass}}">
-      <span class="border px-4 py-1 py-md-3 my-0 {{spanClass}}">
+{% for item in papers_group.items %}
+{% assign itemId = item.title | remove: " " | remove: ":" | remove: '/' | remove: '\' | remove: '"' | remove: '`' |
+remove: "'" %}
+<div id="{{itemId}}"></div>
 
-        {% assign groupName = papers_group.name %}
-        {% if groupName == "" or groupName == nil %}
-          {% assign groupName = "•••" %}
-        {% endif %}
-        {{groupName}}
-      </span>
-    </h2>
-    {% for item in papers_group.items %}
-      {% assign itemId = item.title | remove: " " | remove: ":" | remove: '/' | remove: '\' | remove: '"' | remove: '`' | remove: "'" %}
-      <div id="{{itemId}}"></div>
+{% assign offsetValue = 1 %}
 
-      <!-- {% assign offsetValue = i | modulo: 2 %} -->
-      <!-- {% assign offsetValue = offsetValue | plus: 1 %}  -->
-      {% assign offsetValue = 1 %} 
+{% assign offsetClass = "offset-xl-0" %}
+<div class="col-xl-12 {{offsetClass}} row px-0 mx-0 my-1 my-md-5 py-0 py-md-2 bg-white">
 
-      {% assign offsetClass = "offset-xl-0" %}
-      <div class="col-xl-12 {{offsetClass}} row px-0 mx-0 my-1 my-md-5 py-0 py-md-2 bg-white">
-        
-      {% assign paper_image_path = item.image %}
+  {% assign paper_image_path = item.image %}
 
-      {% if item.image != nil and item.image != false %}
-        {% assign stringToCheck = paper_image_path %}
-        {% assign startsWith = 'http' %}
-        {% assign checkArray = stringToCheck | split:startsWith %}
-        {% if checkArray[0] == blank %}
-          {% assign paper_image_path = paper_image_path | prepend: site.url %}
-        {% else %}
-        {% endif %}
-      {% else %}
-        {% assign paper_image_path = site.data.website.image_placeholder_settings.paper_image_placeholder %}
-      {% endif %}
-      
-        <div class="col-lg-4 pl-sm-0 order-xl-{{offsetValue}} order-lg-{{offsetValue}} order-md-2 order-sm-2 order-2 px-0 px-md-4 px-sm-3 pt-4 px-xl-0 mb-5 mb-lg-0">
-        <img alt="Research teaser" 
-          src="{{base}}{{ paper_image_path }}"
-          class="Publication-image img-fluid img-left mb-5 mb-lg-0 px-0 " >
-        </div>
-        
-        
-        <div class="col-lg-8 pl-lg-1 pl-sm-0 order-xl-1 order-lg-1 order-md-1 order-sm-1 order-1 px-0 px-md-3 px-sm-3 pt-4 pb-3 pl-xl-4 ">
-          <div class="card border-0">
-            <div class="">
-              <h4 class="font-alt">{{item.title}}</h4>
-              {% for tag in item.tags %}
-                {% assign style = tag.style %}
-                {% assign tag_style = site.data.website.tag_styles | where: "name",style | limit:1 %}
-                <span class="badge badge-lg badge-pill {{ tag_style[0].css }} text-uppercase mb-1" 
-                {% if tag.style != nil and tag.style != nil %}
-                style="{{ tag.style }}"
-                {% endif %}
-                >
-                  {{tag.text}}
-                </span>
-              {% endfor %}
-              <p class="mt-3"><i>{{item.authors}}</i> <br> in <i>{{item.venue}}</i></p>
-              <p class="mt-3">{{item.description}}</p>
-              <!-- {% if item.links.size > 0 %}Links:{% endif %} -->
-              {% for link in item.links %}
-                <a href="{{link.url }}">
-                  <!-- <span class="badge badge-lg badge-pill btn-blue border-0 text-uppercase mb-1">
+  {% if item.image != nil and item.image != false %}
+  {% assign stringToCheck = paper_image_path %}
+  {% assign startsWith = 'http' %}
+  {% assign checkArray = stringToCheck | split:startsWith %}
+  {% if checkArray[0] == blank %}
+  {% assign paper_image_path = paper_image_path | prepend: site.url %}
+  {% else %}
+  {% endif %}
+  {% else %}
+  {% assign paper_image_path = site.data.website.image_placeholder_settings.paper_image_placeholder %}
+  {% endif %}
+
+  <div
+    class="col-lg-4 pl-sm-0 order-xl-{{offsetValue}} order-lg-{{offsetValue}} order-md-2 order-sm-2 order-2 px-0 px-md-4 px-sm-3 pt-4 px-xl-0 mb-5 mb-lg-0">
+    <img alt="Research teaser" src="{{base}}{{ paper_image_path }}"
+      class="Publication-image img-fluid img-left mb-5 mb-lg-0 px-0 ">
+  </div>
+
+
+  <div
+    class="col-lg-8 pl-lg-1 pl-sm-0 order-xl-1 order-lg-1 order-md-1 order-sm-1 order-1 px-0 px-md-3 px-sm-3 pt-4 pb-3 pl-xl-4 ">
+    <div class="card border-0">
+      <div class="">
+        <h4 class="font-alt">{{item.title}}</h4>
+        {% for tag in item.tags %}
+        {% assign style = tag.style %}
+        {% assign tag_style = site.data.website.tag_styles | where: "name",style | limit:1 %}
+        <span class="badge badge-lg badge-pill {{ tag_style[0].css }} text-uppercase mb-1" {% if tag.style !=nil and
+          tag.style !=nil %} style="{{ tag.style }}" {% endif %}>
+          {{tag.text}}
+        </span>
+        {% endfor %}
+        <p class="mt-3"><i>{{item.authors}}</i> <br> in <i>{{item.venue}}</i></p>
+        <p class="mt-3">{{item.description}}</p>
+        <!-- {% if item.links.size > 0 %}Links:{% endif %} -->
+        {% for link in item.links %}
+        <a href="{{link.url }}">
+          <!-- <span class="badge badge-lg badge-pill btn-blue border-0 text-uppercase mb-1">
                   {{link.name}}
                   </span> -->
-                  <span class="Papers-link-pill border border-blue small badge-pill text-blue text-uppercase my-1 px-3 mx-1 py-1 ">
-                    {{link.name}}
-                  </span>
-                </a>
-              {% endfor%}
-            </div>
-          </div>
-        </div>
+          <span
+            class="Papers-link-pill border border-blue small badge-pill text-blue text-uppercase my-1 px-3 mx-1 py-1 ">
+            {{link.name}}
+          </span>
+        </a>
+        {% endfor%}
       </div>
-      <!-- {% assign i = i | plus:1 %} -->
-    {% endfor %}
-    {% assign j = j | plus:1 %}
-  {% endfor %}
+    </div>
+  </div>
+</div>
+{% endfor %}
+{% assign j = j | plus:1 %}
+{% endfor %}
 
-  <script>
-    jQuery(document).ready(function () {
-      let hash = $(location).attr('hash');
-        if (hash) {
-          jQuery('html, body').animate({
-          scrollTop: $(`${hash}`).offset().top - 50
-        }, 500);
-      }
-    });
-  </script>
-  
+<script>
+  jQuery(document).ready(function () {
+    let hash = $(location).attr('hash');
+    if (hash) {
+      jQuery('html, body').animate({
+        scrollTop: $(`${hash}`).offset().top - 50
+      }, 500);
+    }
+  });
+</script>

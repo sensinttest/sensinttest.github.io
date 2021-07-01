@@ -4,64 +4,64 @@ active_menu_id: 'research'
 ---
 
 {% assign data = site.data.research %}
-  {% assign title = data.title %}
-  {% assign description = data.description %}
-  {% assign topics = data.topics %}
+{% assign title = data.title %}
+{% assign description = data.description %}
+{% assign topics = data.topics %}
 
-  {% include _header.html title=title description=description %}
-  
-  
-    {% assign i = 0 %}
-    {% for topic in topics %}
-      <div class="row px-2 pt-3 my-5">
-      {% assign i = i | plus:1 %}
-      {% assign check = i | modulo: 2 %}
-      
-      {% assign offsetValue = check | plus: 1 | minus: 3 | abs %} 
+{% include _header.html title=title description=description %}
 
-      {% assign topic_image_url = topic.image %}
-      {% assign startsWith = 'http' %}
-      {% assign checkArray = topic_image_url | split:startsWith %}
-        
-      {% if checkArray[0] == blank %}
-        {% assign topic_image_url = topic_image_url | prepend: site.url %}
-      {% else %}
-        {% assign topic_image_url = base | append: topic_image_url %}
-      {% endif %}
-      
-      {% if offsetValue == 2 %}
-        {% assign offsetClass = "offset-xl-2" %}
-        {% assign textAlignClass = "text-md-right" %}
-      {% else %}
-        {% assign offsetClass = "offset-xl-0" %}
-        {% assign textAlignClass = "text-md-left" %}
-      {% endif %}
-      
-      <div class="col-12 col-xl-10 {{offsetClass}} {{textAlignClass}}">
-        <div class="px-3 py-2 my-0
+
+{% assign i = 0 %}
+{% for topic in topics %}
+<div class="row px-2 pt-3 my-5">
+  {% assign i = i | plus:1 %}
+  {% assign check = i | modulo: 2 %}
+
+  {% assign offsetValue = check | plus: 1 | minus: 3 | abs %}
+
+  {% assign topic_image_url = topic.image %}
+  {% assign startsWith = 'http' %}
+  {% assign checkArray = topic_image_url | split:startsWith %}
+
+  {% if checkArray[0] == blank %}
+  {% assign topic_image_url = topic_image_url | prepend: site.url %}
+  {% else %}
+  {% assign topic_image_url = base | append: topic_image_url %}
+  {% endif %}
+
+  {% if offsetValue == 2 %}
+  {% assign offsetClass = "offset-xl-2" %}
+  {% assign textAlignClass = "text-md-right" %}
+  {% else %}
+  {% assign offsetClass = "offset-xl-0" %}
+  {% assign textAlignClass = "text-md-left" %}
+  {% endif %}
+
+  <div class="col-12 col-xl-10 {{offsetClass}} {{textAlignClass}}">
+    <div class="px-3 py-2 my-0
           {% if topic.style %}
           {{topic.style}}
           {% else %}
           bg-si-gray
           {% endif %}
           " style="opacity: 1;">
-            <h4 class="text-white font-alt my-0">{{topic.title}}</h4>
-          </div>
-      </div>
-      
-      <div class="my-0 col-md-12 col-lg-12 col-xl-6 order-xs-1 order-sm-1 order-xl-{{offsetValue}} order-xl-{{offsetValue}}">
-        <div class="Research-image-container">
-          <img class="Research-image img img-fluid" src="{{topic_image_url}}"/>
-        </div>
-      </div>
-      <div class="col-md-12 col-lg-12 col-xl-6 order-xs-2 order-sm-2 order-lg-1 px-2">
-        <div class="{{textAlignClass}}">
-          
-          <div class="px-3 py-4 font-base px-2 py-2 ">
-            <p>{{topic.description | newline_to_br }}</p>
-          </div>
-        </div>
+      <h4 class="text-white font-alt my-0">{{topic.title}}</h4>
+    </div>
+  </div>
+
+  <div
+    class="my-0 col-md-12 col-lg-12 col-xl-6 order-xs-1 order-sm-1 order-xl-{{offsetValue}} order-xl-{{offsetValue}}">
+    <div class="Research-image-container">
+      <img class="Research-image img img-fluid" src="{{topic_image_url}}" />
+    </div>
+  </div>
+  <div class="col-md-12 col-lg-12 col-xl-6 order-xs-2 order-sm-2 order-lg-1 px-2">
+    <div class="{{textAlignClass}}">
+
+      <div class="px-3 py-4 font-base px-2 py-2 ">
+        <p>{{topic.description | newline_to_br }}</p>
       </div>
     </div>
-    {% endfor %}
   </div>
+</div>
+{% endfor %}

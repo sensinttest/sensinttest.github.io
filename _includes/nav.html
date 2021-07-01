@@ -1,10 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark navbar-translucent fixed-top py-0">
   <div class="container">
     <a class="Nav-logo-link navbar-brand font-weight-500" href="{{base}}/index.html">
-      <!-- <strong>
-        <span style="margin: 0; padding: 0; color: #161A3C;">( </span><span style="margin: 0; padding: 0; color: #C4C4B8">senS</span><span style="margin: 0; padding: 0;">Int</span><span style="margin: 0; padding: 0; color: #F4DAE4;">.</span><span style="margin: 0; padding: 0; color: #BF3E84;"> )</span>
-      </strong> -->
-      <img class="Nav-logo my-0 py-0" src="{{base}}/assets/images/logo/sensint_scaled_down.jpg" height="55px"/>
+      <img class="Nav-logo my-0 py-0" src="{{base}}/assets/images/logo/sensint_scaled_down.jpg" height="55px" />
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain"
@@ -14,7 +11,6 @@
 
     <div class="collapse navbar-collapse pb-3 pb-lg-0" id="navbarMain">
       <ul class="navbar-nav ml-auto align-items-lg-left">
-        <!-- <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Menu</h6> -->
         {% for menu_item in site.data.website.menu %}
         <li class="nav-item mx-2">
           {% if page.active_menu_id == menu_item.id %}
@@ -25,8 +21,6 @@
           {% endif %}
         </li>
         {% endfor %}
-        <!-- <div class="dropdown-divider d-lg-none my-4"></div> -->
-        <!-- <h6 class="dropdown-header font-weight-600 d-lg-none px-0"></h6> -->
         {% if site.data.website.contact.github %}
         <li class="nav-item">
           <a class="nav-link nav-link-icon mt-2 my-lg-0" href="{{ site.data.website.contact.github }}"

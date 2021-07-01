@@ -1,28 +1,24 @@
-<footer class="mt-5 pb-3 footer footer-light" style="background-color: rgba(0,0,0,0);">
-    <div class="container">
+<footer class="mt-5 pb-3 footer footer-light">
+  <div class="container">
+    <hr>
+    <div class="d-flex align-items-center">
+      <span class="" style="width: 100%;">
+        &copy; {{ site.data.website.current_year }}
+        {% assign impressum_url = site.data.website.impressum.url %}
+        {% assign startsWith = 'http' %}
+        {% assign checkArray = site.data.website.impressum.url | split:startsWith %}
 
-      <hr>
-      <div class="d-flex align-items-center">
-        <span class="" style="width: 100%;">
-          &copy; {{ site.data.website.current_year }}
-          <!-- <a href="{{ site.url }}" class="footer-link" target="_blank"> -->
-            
-          <!-- </a> -->
-          {% assign impressum_url = site.data.website.impressum.url %}
-          {% assign startsWith = 'http' %}
-          {% assign checkArray = site.data.website.impressum.url | split:startsWith %}
-          
-          {% if checkArray[0] == blank %}
-            {% assign impressum_url = impressum.url | prepend: site.url %}
-          {% else %}
-            {% assign impressum_url = base | append: impressum_url %}
-          {% endif %}
-          
-          {{ site.data.website.base_title }}. All rights reserved
-           • <a style="color: #6c757d;" href="{{impressum_url}}">{{site.data.website.impressum.title}}</a>
+        {% if checkArray[0] == blank %}
+        {% assign impressum_url = impressum.url | prepend: site.url %}
+        {% else %}
+        {% assign impressum_url = base | append: impressum_url %}
+        {% endif %}
 
-           {% include watermark.html %}
-        </span>
-      </div>
+        {{ site.data.website.base_title }}. All rights reserved
+        • <a style="color: #6c757d;" href="{{impressum_url}}">{{site.data.website.impressum.title}}</a>
+
+        {% include watermark.html %}
+      </span>
     </div>
-  </footer>
+  </div>
+</footer>

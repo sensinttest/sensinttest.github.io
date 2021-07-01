@@ -4,24 +4,24 @@ active_menu_id: 'positions'
 ---
 
 {% assign data = site.data.positions %}
-  {% assign title = data.title %}
-  {% assign description = data.description %}
-  {% assign pages = data.pages %}
+{% assign title = data.title %}
+{% assign description = data.description %}
+{% assign pages = data.pages %}
 
-  {% include _header.html title=title description=description %}
+{% include _header.html title=title description=description %}
 
-  <div class="row">
-    <div class="col-lg-10">
-      <div class="px-md-5">
-        {% for menu_item in pages %}
-          <div class="Positions-card border py-3 px-3 my-3
+<div class="row">
+  <div class="col-lg-10">
+    <div class="px-md-5">
+      {% for menu_item in pages %}
+      <div class="Positions-card border py-3 px-3 my-3
           ">
-            {% include base.html %}
-            <a class="Positions-card-link" href="{{base}}{{ menu_item.url }}">
-              <i class="fa fa-caret-right mx-1" aria-hidden="true"></i> {{menu_item.title }}
-            </a>
-          </div>
-        {% endfor %}
+        {% include base.html %}
+        <a class="Positions-card-link" href="{{base}}{{ menu_item.url }}">
+          <i class="fa fa-caret-right mx-1" aria-hidden="true"></i> {{menu_item.title }}
+        </a>
       </div>
+      {% endfor %}
     </div>
   </div>
+</div>

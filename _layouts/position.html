@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
-  {% include base.html %}
-  {% include head.html %}
-  <body>
-    {% include nav.html %}
-    <main class="container main">
-      <div class="my-5">
-        <div class="row">
-          {% assign backUrl = site.data.website.menu | where: "id", 'positions' %}
-          <div class="col-md-12 col-xl-2">
-            <a class="Page-backbutton btn btn-sm border px-2" href="{{base}}{{ backUrl[0].url }}">
-              <i class="fa fa-caret-left mx-1" aria-hidden="true"></i> See other positions
-            </a>
-          </div>
-          <div class="col-md-12 col-xl-10 px-md-5 py-4 py-md-5">
-            {{ content }}
-          </div>
+{% include base.html %}
+{% include head.html %}
+
+<body>
+  {% include nav.html %}
+  <main class="container main">
+    <div class="my-5">
+      <div class="row">
+        {% assign backUrl = site.data.website.menu | where: "id", 'positions' %}
+        <div class="col-md-12 col-xl-2">
+          <a class="Page-backbutton btn btn-sm border px-2" href="{{base}}{{ backUrl[0].url }}">
+            <i class="fa fa-caret-left mx-1" aria-hidden="true"></i> See other positions
+          </a>
+        </div>
+        <div class="col-md-12 col-xl-10 px-md-5 py-4 py-md-5">
+          {{ content }}
         </div>
       </div>
-    </main>
-    {% include footer.html %}
-  </body>
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+
 </html>
