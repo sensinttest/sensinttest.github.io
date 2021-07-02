@@ -14,19 +14,19 @@
         {% assign impressum_url = base | append: impressum_url %}
         {% endif %}
 		
-		{% assign data_url = site.data.website.data.url %}
+		{% assign dataprotection_url = site.data.website.dataprotection.url %}
         {% assign startsWith = 'http' %}
-        {% assign checkArray = site.data.website.data.url | split:startsWith %}
+        {% assign checkArray = site.data.website.dataprotection.url | split:startsWith %}
 
         {% if checkArray[0] == blank %}
-        {% assign data_url = data.url | prepend: site.url %}
+        {% assign dataprotection_url = dataprotection.url | prepend: site.url %}
         {% else %}
-        {% assign data_url = base | append: data_url %}
-        {% endif %}
+        {% assign dataprotection_url = base | append: dataprotection_url %}
+        {% endif %}}
 
         {{ site.data.website.base_title }}. 
         • <a style="color: #6c757d;" href="{{impressum_url}}">{{site.data.website.impressum.title}}</a>
-		• <a style="color: #6c757d;" href="{{data_url}}">{{site.data.website.data.title}}</a>
+		• <a style="color: #6c757d;" href="{{dataprotection_url}}">{{site.data.website.dataprotection.title}}</a>
 
         {% include watermark.html %}
       </span>
