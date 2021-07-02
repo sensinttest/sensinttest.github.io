@@ -43,12 +43,12 @@ menu:
     url: /contact.html
 
 impressum:
-  url: /impressum.html
-  title: Imprint/Impressum
+  url: https://imprint.mpi-klsb.mpg.de/inf/sensint.mpi-inf.mpg.de?lang=en
+  title: Imprint
 
 dataprotection:
-  url: /data.html
-  title: Data
+  url: https://data-protection.mpi-klsb.mpg.de/inf/sensint.mpi-inf.mpg.de?lang=en
+  title: Data Protection
 
 image_placeholder_settings:
   paper_image_placeholder: assets/images/placeholders/stripes-transparent2.png
