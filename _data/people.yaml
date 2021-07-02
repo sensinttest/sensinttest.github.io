@@ -2,17 +2,19 @@ title: People
 description: "People working at or affiliated with the Sensorimotor Interaction group"
 
 people:
+  - id: open
+    name: "You"
+    role: "Get Involved!"
+    url:   /positions.html
+    image: https://picsum.photos/300/300?random=2
+
   - id: paul_strohmeier
     name: "Paul Strohmeier"
     role: "Group Leader"
     url:   https://fkeel.github.io
     image: uploads/people/paul_glove_square.jpg
 
-  - id: open
-    name: "You"
-    role: "Get Involved!"
-    url:   /positions.html
-    image: https://picsum.photos/300/300?random=2
+
 
 #  - id: person_one
 #    name: "Person One"
