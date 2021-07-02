@@ -1,9 +1,8 @@
 title: Research
 description: |
-  We experience the world through and because of our bodies. Our perception has adapted to respond to relevant information which we use to actively create our experience of the world. Perception is a process which combines motor (efferent) output with sensory (afferent) input. The motor and sensory elements are inseparable, hence, sensorimotor.
+  We experience the world through and because of our bodies. Our perception has adapted to respond to relevant information, which we use to actively create our experience of the world. Perception is a process which combines motor (efferent) output with sensory (afferent) input. The motor and sensory elements are inseparable, hence, sensorimotor.
 
-  We conduct research on such sensorimotor loops and explore their roll in Human Computer Interaction. Our research focuses on understanding these sensorimotor loops themselves, designing how they might be deployed in on-body systems, and creating the technology, materials, and infrastructure for implementing these.
-
+  We conduct research on such sensorimotor loops and explore their role in Human Computer Interaction. Our research focuses on understanding these sensorimotor loops themselves, designing how they might be deployed in on-body systems, and creating the technology, materials, and infrastructure for implementing these.
 topics:
   - title: Sensorimotor Augmentation
     style: bg-si-purple-g-lr
@@ -31,6 +30,6 @@ topics:
     description: |
       Tactile Rendering & Sensorimotor Augmentation require sensing and actuation systems which operate at faster frequencies than most commercial systems. Body Integrated Systems require malleable, elastic, and robust electronics. We investigate the design of such high-frequency sensing systems and explore how to functionalize materials – particularly fabric – so they might be used for our other research purposes.
 
-      Here an important focus is placed on craft. There are three primary reasons why craft is important in this context. For one, we can draw on rich traditions of material manipulation which helps establish repeatable manufacturing processes. On the other hand, this also helps in disseminating the processes we develop as the craft-framing make them accessible for a broader number of people. Finally, rethinking high-tech as craft will support an artisanal approach to creating devices, allowing the creation of high-quality unique devices which accrue personal value, as opposed to the current throw-away ecosystem of our current devices.
+      Here an important focus is placed on craft. There are three primary reasons why craft is important in this context. For one, we can draw on rich traditions of material manipulation, which helps establish repeatable manufacturing processes. On the other hand, this also helps in disseminating the processes we develop as the craft-framing make them accessible for a broader number of people. Finally, rethinking high-tech as craft will support an artisanal approach to creating devices, allowing the creation of high-quality unique devices which accrue personal value, as opposed to the current throw-away ecosystem of our current devices.
 
       Example of recent work: <a href="https://counterchemists.github.io/">PolySense </a>
