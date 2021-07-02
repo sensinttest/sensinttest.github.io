@@ -13,9 +13,20 @@
         {% else %}
         {% assign impressum_url = base | append: impressum_url %}
         {% endif %}
+		
+		{% assign data_url = site.data.website.data.url %}
+        {% assign startsWith = 'http' %}
+        {% assign checkArray = site.data.website.data.url | split:startsWith %}
 
-        {{ site.data.website.base_title }}. All rights reserved
+        {% if checkArray[0] == blank %}
+        {% assign data_url = data.url | prepend: site.url %}
+        {% else %}
+        {% assign data_url = base | append: data_url %}
+        {% endif %}
+
+        {{ site.data.website.base_title }}. 
         • <a style="color: #6c757d;" href="{{impressum_url}}">{{site.data.website.impressum.title}}</a>
+		• <a style="color: #6c757d;" href="{{data_url}}">{{site.data.website.data.title}}</a>
 
         {% include watermark.html %}
       </span>
