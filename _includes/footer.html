@@ -22,7 +22,7 @@
         {% assign dataprotection_url = dataprotection.url | prepend: site.url %}
         {% else %}
         {% assign dataprotection_url = base | append: dataprotection_url %}
-        {% endif %}}
+        {% endif %}
 
         {{ site.data.website.base_title }}. 
         • <a style="color: #6c757d;" href="{{impressum_url}}">{{site.data.website.impressum.title}}</a>
