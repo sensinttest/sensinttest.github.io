@@ -45,6 +45,8 @@ menu:
 impressum:
   url: /impressum.html
   title: Imprint/Impressum
+
+dataprotection:
   url: /data.html
   title: Data
 
