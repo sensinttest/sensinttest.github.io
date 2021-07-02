@@ -5,7 +5,6 @@
       <span class="" style="width: 100%;">
         &copy; {{ site.data.website.current_year }}
         {% assign impressum_url = site.data.website.impressum.url %}
-        {% assign startsWith = 'http' %}
         {% assign checkArray = site.data.website.impressum.url | split:startsWith %}
 
         {% if checkArray[0] == blank %}
