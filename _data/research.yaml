@@ -26,7 +26,7 @@ topics:
 
   - title: New Materials, Sensor & Actuators
     style: bg-si-gray-g-lr
-    image: uploads/images/background_06.jpg
+    image: uploads/images/background_05.jpg
     description: |
       Tactile Rendering & Sensorimotor Augmentation require sensing and actuation systems which operate at faster frequencies than most commercial systems. Body Integrated Systems require malleable, elastic, and robust electronics. We investigate the design of such high-frequency sensing systems and explore how to functionalize materials – particularly fabric – so they might be used for our other research purposes.
 
