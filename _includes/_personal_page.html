@@ -4,20 +4,23 @@
 {% assign person = person[0] %}
 
 {% assign image_path = person.image %}
-{% if person.image != false and person.image != nil and person.image != ""%}
-{% assign stringToCheck = image_path %}{% assign startsWith = 'http' %}
-{% assign checkArray = stringToCheck | split:startsWith %}
-{% if checkArray[0] == blank %}
-{% assign image_path = image_path | prepend: site.url %}
-{% endif %}
+
+{% if person.image != false and person.image != nil and person.image != "" %}
+  {% assign stringToCheck = image_path %}{% assign startsWith = 'http' %}
+  {% assign checkArray = stringToCheck | split:startsWith %}
+  {% if checkArray[0] == blank %}
+    {% assign image_path = base | append: '/' | append: image_path %}
+  {% else %}
+    {% assign image_path = image_path %}
+  {% endif %}
 {% else %}
-{% assign image_path = site.data.website.image_placeholder_settings.person_image_placeholder %}
+  {% assign image_path = base | append: '/'  | append: site.data.website.image_placeholder_settings.person_image_placeholder %}
 {% endif %}
 
 <div class="row">
   <div class="px-0 col-lg-10">
     <div class="">
-      <img src="{{base}}/{{image_path}}" class="Person-image" />
+      <img src="{{image_path}}" class="Person-photo" />
       <h1 class="py-3">{{person.name}}</h1>
       {{person.pageContent | | newline_to_br}}
     </div>

@@ -26,9 +26,9 @@ permalink: /research.html
   {% assign checkArray = topic_image_url | split:startsWith %}
 
   {% if checkArray[0] == blank %}
-  {% assign topic_image_url = topic_image_url | prepend: site.url %}
+    {% assign topic_image_url = base | append: '/' | append: topic_image_url %}
   {% else %}
-  {% assign topic_image_url = base | append: topic_image_url %}
+    {% assign topic_image_url = topic_image_url %}
   {% endif %}
 
   {% assign xlLabelSize = 6 %}

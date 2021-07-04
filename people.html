@@ -18,14 +18,13 @@ permalink: /people.html
   {% assign stringToCheck = image_path %}{% assign startsWith = 'http' %}
   {% assign checkArray = stringToCheck | split:startsWith %}
   {% if checkArray[0] == blank %}
-  {% assign image_path = image_path %}
+    {% assign image_path = base | append: '/' | append: image_path %}
   {% else %}
-  {% assign image_path = base | append: image_path %}
+    {% assign image_path = image_path %}
   {% endif %}
   {% else %}
-  {% assign image_path = site.data.website.image_placeholder_settings.person_image_placeholder %}
+    {% assign image_path = site.data.website.image_placeholder_settings.person_image_placeholder %}
   {% endif %}
-
 
   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center px-3 py-3">
     <div class="px-1 py-2">

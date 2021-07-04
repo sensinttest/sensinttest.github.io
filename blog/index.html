@@ -9,12 +9,12 @@ permalink: /blog/index.html
 
 <div class="row">
   <div class="col-md-12 col-xl-10 offset-xl-1 px-0">
-    <div class="row">
+    <div class="row py-4">
       {% for post in paginator.posts %}
       {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
       {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
-      <div class="col-md-12 py-3 px-1">
+      <div class="col-md-12 py-4 px-1">
         <ul style="list-style: none;">
           {% if post.layout == "redirected" %}
           {% continue %}

@@ -18,14 +18,17 @@ permalink: /publications.html
 {% assign group_size = papers_group.size %}
 {% assign group_year = papers_group.name %}
 
-{% assign oddEven = j | modulo: 2 %}
+{% assign oddEven = j | modulo: 3 %}
 
 {% if oddEven == 0 %}
 {% assign hClass = "text-white" %}
 {% assign spanClass = "border-si-purple bg-si-purple" %}
-{% else %}
+{% elsif oddEven == 1 %}
 {% assign hClass = "text-white" %}
 {% assign spanClass = "border-si-pink bg-si-pink" %}
+{% elsif oddEven == 2 %}
+{% assign hClass = "text-white" %}
+{% assign spanClass = "border-si-gray bg-si-gray" %}
 {% endif %}
 
 {% comment %}
