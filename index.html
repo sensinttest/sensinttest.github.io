@@ -52,8 +52,9 @@ permalink: /index.html
             <i class="fa fa-newspaper-o mx-1" aria-hidden="true"></i><strong>{{ post.date | date: "%Y" | prepend: " "}}.{{ post.date | date: "%m" }}.{{ post.date | date: "%d" }}</strong>:
 			<!-- the line below would like to the blogpost -->
                 <!--<a href="{{base}}/{{ post.url}}" class="link-alt">{{ post.title }}</a>--> 
-					<!-- the line below would should link to the content -->
-				<p >{{ post.content | newline_to_br }}</p>
+				<p>{{ post.title }}</p>
+					<!-- the line below would should link to the content, but does not work 
+				<!-- <p >{{ post.content | newline_to_br }}</p>-->
               </p>
             {% endfor %}
             <a class="btn mt-2 my-1 btn-si-pink" href="{{base}}/{{ news_url[0].url }}">View News</a>
