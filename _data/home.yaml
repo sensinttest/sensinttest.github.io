@@ -17,7 +17,7 @@ gallery:
     
 galleryConfig: 
   delay: 10000 # slide change delay in milliseconds
-  startOnRandom: true # starts carousel on random image if true 
+  startOnRandom: true # starts carousel on random image if true  
 
 
   
