@@ -203,6 +203,13 @@ span.big, p.big {
   margin-bottom: -25px !important;
 }
 
+.News-button {
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+}
+
 a {
   transition: 0.15s ease-in-out;
   &:hover {
