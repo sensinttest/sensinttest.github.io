@@ -5,7 +5,9 @@
 #   current_year – used for footer copyright
 #   meta – SEO tags
 #   menu – site navigation shown in header
-#   contact – contact information
+#   image_placeholder_settings - images to be used when the record doesn't have any
+#   tag_styles – css classes applied to paper tags
+#   footer – urls seen in footer
 
 base_title: Sensorimotor Interaction Group
 current_year: 2021
@@ -22,33 +24,36 @@ meta:
 menu:
   - id: 'home'
     title: Home
-    url: /index.html
+    url: index.html
   - id: 'research'
     title: Research
-    url: /research.html
+    url: research.html
   - id: 'papers'
     title: Papers
-    url: /publications.html
+    url: publications.html
   - id: 'people'
     title: People
-    url: /people.html
+    url: people.html
   - id: 'talks'
     title: Talks
-    url: /talks.html
+    url: talks.html
   - id: 'positions'
     title: Positions
-    url: /positions.html
+    url: positions.html
   - id: 'contact'
     title: Contact
-    url: /contact.html
+    url: contact.html
+  - id: 'news'
+    url: blog/index.html
+    show: false
 
-impressum:
-  url: https://imprint.mpi-klsb.mpg.de/inf/sensint.mpi-inf.mpg.de?lang=en
-  title: Imprint
-
-dataprotection:
-  url: https://data-protection.mpi-klsb.mpg.de/inf/sensint.mpi-inf.mpg.de?lang=en
-  title: Data Protection
+footer:
+  impressum:
+    url: https://imprint.mpi-klsb.mpg.de/inf/sensint.mpi-inf.mpg.de?lang=en
+    title: Imprint
+  dataprotection:
+    url: https://data-protection.mpi-klsb.mpg.de/inf/sensint.mpi-inf.mpg.de?lang=en
+    title: Data Protection
 
 image_placeholder_settings:
   paper_image_placeholder: assets/images/placeholders/stripes-transparent2.png

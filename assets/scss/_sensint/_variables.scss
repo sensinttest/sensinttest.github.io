@@ -140,8 +140,11 @@ $theme-colors: $colors;
 
 $link-color:                $sensint-pink;
 $link-decoration:           none;
-$link-hover-color:          darken($link-color, 20%);
+$link-hover-color:          darken($link-color, 15%);
 $link-hover-decoration:     unone;
+
+$link-color-alt:            $sensint-purple;
+$link-hover-color-alt:      darken($link-color-alt, 15%);
 
 // ====================================
 // Radius removal

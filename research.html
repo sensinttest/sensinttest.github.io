@@ -1,6 +1,7 @@
 ---
 layout: default
 active_menu_id: 'research'
+permalink: /research.html
 ---
 
 {% assign data = site.data.research %}
@@ -13,11 +14,12 @@ active_menu_id: 'research'
 
 {% assign i = 0 %}
 {% for topic in topics %}
-<div class="row px-2 pt-3 my-5">
+<div class="row px-0 px-md-2 pt-3 my-5">
   {% assign i = i | plus:1 %}
   {% assign check = i | modulo: 2 %}
 
   {% assign offsetValue = check | plus: 1 | minus: 3 | abs %}
+  {% assign offsetValue = 1 %}
 
   {% assign topic_image_url = topic.image %}
   {% assign startsWith = 'http' %}
@@ -29,15 +31,18 @@ active_menu_id: 'research'
   {% assign topic_image_url = base | append: topic_image_url %}
   {% endif %}
 
+  {% assign xlLabelSize = 6 %}
+  {% assign xlLabelOffset = 12 | minus: xlLabelSize %}
   {% if offsetValue == 2 %}
-  {% assign offsetClass = "offset-xl-2" %}
-  {% assign textAlignClass = "text-md-right" %}
+  {% assign offsetClass = "offset-xl-{{xlLabelOffset}}" %}
+  {% assign textAlignClass = "text-left text-xl-right" %}
   {% else %}
   {% assign offsetClass = "offset-xl-0" %}
-  {% assign textAlignClass = "text-md-left" %}
+  {% assign textAlignClass = "text-left text-xl-left" %}
   {% endif %}
 
-  <div class="col-12 col-xl-10 {{offsetClass}} {{textAlignClass}}">
+  {% comment %}
+  <div class="col-12 col-xl-{{xlLabelSize}} {{offsetClass}} {{textAlignClass}}">
     <div class="px-3 py-2 my-0
           {% if topic.style %}
           {{topic.style}}
@@ -48,17 +53,30 @@ active_menu_id: 'research'
       <h4 class="text-white font-alt my-0">{{topic.title}}</h4>
     </div>
   </div>
+  {% endcomment %}
 
   <div
     class="my-0 col-md-12 col-lg-12 col-xl-6 order-xs-1 order-sm-1 order-xl-{{offsetValue}} order-xl-{{offsetValue}}">
-    <div class="Research-image-container">
-      <img class="Research-image img img-fluid" src="{{topic_image_url}}" />
+    <div class="border">
+      <div class="px-3 py-2 my-0
+            {% if topic.style %}
+            {{topic.style}}
+            {% else %}
+            bg-si-gray
+            {% endif %}
+            " style="opacity: 1;">
+        <h4 class="text-white font-alt my-0">{{topic.title}}</h4>
+      </div>
+      <div class="Research-image-container">
+        <img class="Research-image img img-fluid" src="{{topic_image_url}}" />
+      </div>
     </div>
   </div>
-  <div class="col-md-12 col-lg-12 col-xl-6 order-xs-2 order-sm-2 order-lg-1 px-2">
+  
+  <div class="col-md-12 col-lg-12 col-xl-6 order-xs-2 py-4 py-xl-0 order-sm-2 order-lg-1 px-3">
     <div class="{{textAlignClass}}">
 
-      <div class="px-3 py-4 font-base px-2 py-2 ">
+      <div class="px-0 px-lg-0 font-base">
         <p>{{topic.description | newline_to_br }}</p>
       </div>
     </div>

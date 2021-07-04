@@ -1,5 +1,4 @@
-<div>
-  {% assign base = ''
+{% assign base = ''
 %}{% assign depth = page.url | split: '/' | size | minus: 1
 %}{% if depth <= 1
 %}{% assign base = '.'
@@ -9,6 +8,37 @@
 %}{% assign base = '../..'
 %}{% elsif depth == 4
 %}{% assign base = '../../..'
+%}{% elsif depth == 5
+%}{% assign base = '../../../..'
+%}{% elsif depth == 6
+%}{% assign base = '../../../../..'
+%}{% elsif depth == 7
+%}{% assign base = '../../../../../..'
+%}{% elsif depth == 8
+%}{% assign base = '../../../../../../..'
+%}{% elsif depth == 9
+%}{% assign base = '../../../../../../../..'
+%}{% elsif depth == 10
+%}{% assign base = '../../../../../../../../..'
+%}{% elsif depth == 11
+%}{% assign base = '../../../../../../../../../..'
+%}{% elsif depth == 12
+%}{% assign base = '../../../../../../../../../../..'
+%}{% elsif depth == 13
+%}{% assign base = '../../../../../../../../../../../..'
+%}{% elsif depth == 14
+%}{% assign base = '../../../../../../../../../../../../..'
+%}{% elsif depth == 15
+%}{% assign base = '../../../../../../../../../../../../../..'
+%}{% elsif depth == 16
+%}{% assign base = '../../../../../../../../../../../../../../..'
+%}{% elsif depth == 17
+%}{% assign base = '../../../../../../../../../../../../../../../..'
+%}{% elsif depth == 18
+%}{% assign base = '../../../../../../../../../../../../../../../../..'
+%}{% elsif depth == 19
+%}{% assign base = '../../../../../../../../../../../../../../../../../..'
+%}{% elsif depth == 20
+%}{% assign base = '../../../../../../../../../../../../../../../../../../..'
 %}{% endif
 %}
-</div>

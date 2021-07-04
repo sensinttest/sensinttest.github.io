@@ -1,17 +1,18 @@
 ---
 layout: default
 active_menu_id: 'talks'
+permalink: /talks.html
 ---
 {% assign data = site.data.talks %}
 {% assign title = data.title %}
 {% assign description = data.description %}
 {% assign talks = data.talks %}
 
-{% include _header.html title=title description=description %}
+{% include _header.html %}
 
 <div class="row">
   {% for talk in talks %}
-  <div class="col-xs-12 col-md-12 col-xl-9 pb-5 pt-1">
+  <div class="col-xs-12 col-md-12 col-xl-10 offset-xl-1 pb-5 pt-1">
     <div class="Talks-card border my-3 bg-mpi-gray-two">
       <div class=" px-3 py-2
             {% if talk.style %}

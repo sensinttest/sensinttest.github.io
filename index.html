@@ -1,18 +1,20 @@
 ---
 layout: default_no_container
 active_menu_id: 'home'
+permalink: /index.html
 ---
 {% assign data = site.data.home %}
 {% assign title = data.title %}
 {% assign description = data.description %}
 {% assign topics = data.topics %}
+{% include base.html %}
 
   <div class="swiper-container">
     <div class="swiper-wrapper">
       {% for image in data.gallery %}
         <div class="swiper-slide">
           <div class="Teaser-container my-5 mt-lg-5 mb-lg-3">
-            <img class="Teaser-image" src="{{base}}{{image.url}}" />
+            <img class="Teaser-image" src="{{base}}/{{image.url}}" />
           </div>
         </div>
       {% endfor %}
@@ -20,26 +22,45 @@ active_menu_id: 'home'
   </div>
 
 <main class="container main">
-
   {% assign headerClass="" %}
   {% include _header.html %}
     
     <div class="row mt-3">
-      <div class="col-lg-7 px-3 py-0 my-sm-3">
-        <div class="border">
+      <div class="col-lg-7 px-3 py-0 my-sm-3 align-self-end">
+        <div class="border bg-mpi-gray-two">
           <div class="px-3 py-2 my-0 bg-si-purple">
             <h4 class="text-white my-0 font-alt">Research</h4>
           </div>
-          <div class="px-3 py-3 font-base px-2 py-2 bg-mpi-gray-two">
+          <div class="px-3 py-3 font-base px-2 py-2">
             {% assign data = site.data.research %}
             <p>{{data.description | newline_to_br}}</p>
             {% assign reseach_url = site.data.website.menu | where: "id", 'research' %}
-            <a class="btn mt-2 my-1 btn-si-purple" href="{{base}}{{ reseach_url[0].url }}">View Research</a>
+            <a class="btn mt-2 my-1 btn-si-purple" href="{{base}}/{{ reseach_url[0].url }}">View Research</a>
           </div>
         </div>
       </div>
-    
+
+      
       <div class="Card col-lg-5 mt-3 mt-md-3 px-3 py-0 my-sm-3">
+        <div class="border bg-mpi-gray-two">
+          <div class="Card-title px-3 py-2 bg-si-pink">
+            <h4 class="text-white my-0 font-alt">News</h4>
+          </div>
+          {% assign news_url = site.data.website.menu | where: "id", 'news' %}
+          <div class="Card-content px-3 py-3 font px-2 py-2">
+            {% for post in site.posts limit: 5 %}
+            <i class="fa fa-newspaper-o mx-1" aria-hidden="true"></i><strong>{{ post.date | date: "%Y" | prepend: " "}}.{{ post.date | date: "%m" }}.{{ post.date | date: "%d" }}</strong>:
+                <a href="{{base}}/{{ post.url}}" class="link-alt">{{ post.title }}</a>
+              </p>
+            {% endfor %}
+            <a class="btn mt-2 my-1 btn-si-pink" href="{{base}}/{{ news_url[0].url }}">View News</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="row">
+      <div class="Card col-lg-12 mt-3 mt-md-3 px-3 py-0 my-sm-3">
         <div class="border">
           <div class="Card-title px-3 py-2 bg-si-gray">
             <h4 class="text-white my-0 font-alt">Recent Publications</h4>
@@ -50,9 +71,9 @@ active_menu_id: 'home'
             {% assign publications_url = site.data.website.menu | where: "id", 'papers' %}
             {% for paper in recent_papers limit: 5 %}
               {% assign itemId = paper.title | remove: " " | remove: ":" | remove: '/' | remove: '\' | remove: '"' | remove: '`' | remove: "'" %}
-              <p><i class="fa fa-file-text-o mx-1" aria-hidden="true"></i> {{ paper.year }}: <a href="{{base}}{{ publications_url[0].url }}#{{itemId}}">{{ paper.title }}</a></p>
+              <p><i class="fa fa-file-text-o mx-1" aria-hidden="true"></i><strong>{{ paper.year | prepend: " "}}</strong>: <a href="{{base}}/{{ publications_url[0].url }}#{{itemId}}">{{ paper.title }}</a> – {{paper.authors | strip_html }}</p>
             {% endfor %}
-            <a class="btn mt-2 my-1 btn-si-gray" href="{{base}}{{ publications_url[0].url }}">View Publications</a>
+            <a class="btn mt-2 my-1 btn-si-gray" href="{{base}}/{{ publications_url[0].url }}">View Publications</a>
           </div>
         </div>
       </div>
@@ -63,12 +84,12 @@ active_menu_id: 'home'
     <div class="row my-5 pt-5 px-4">
       <div class="col-md-12 col-lg-5">
         <div class="Home-logo-container Home-logo-container-si text-center">
-          <img src="{{base}}assets/images/logo/sensint_logo.png">
+          <img src="{{base}}/assets/images/logo/sensint_logo.png">
         </div>
       </div>
       <div class="col-md-12 col-lg-7">
         <div class="Home-logo-container Home-logo-container-mpi my-0 text-center">
-          <img src="{{base}}assets/images/logo/mpi_logo_sharp.svg">
+          <img src="{{base}}/assets/images/logo/mpi_logo_sharp.svg">
         </div>
       </div>
     </div>

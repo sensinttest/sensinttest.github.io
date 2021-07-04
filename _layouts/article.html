@@ -6,12 +6,12 @@
 <body>
   {% include nav.html %}
   <main class="container main">
-    <div class="my-5">
-      <div class="row">
-        {% assign backUrl = site.data.website.menu | where: "id", 'positions' %}
+    <div class="my-0">
+      <div class="row py-5">
+        {% assign backUrl = site.data.website.menu | where: "id", 'news' %}
         <div class="col-md-12 col-xl-2">
           <a class="Page-backbutton btn btn-sm border px-2" href="{{base}}/{{ backUrl[0].url }}">
-            <i class="fa fa-caret-left mx-1" aria-hidden="true"></i> See other positions
+            <i class="fa fa-caret-left mx-1" aria-hidden="true"></i> See other news
           </a>
         </div>
         <div class="col-md-12 col-xl-10 px-md-5 py-4 py-md-5">

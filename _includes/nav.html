@@ -12,12 +12,13 @@
     <div class="collapse navbar-collapse pb-3 pb-lg-0" id="navbarMain">
       <ul class="navbar-nav ml-auto align-items-lg-left">
         {% for menu_item in site.data.website.menu %}
+        {% if menu_item.show == false %}{% continue %}{% endif %}
         <li class="nav-item mx-2">
           {% if page.active_menu_id == menu_item.id %}
-          <a class="nav-link nav-active px-3 py-2" href="{{base}}{{ menu_item.url }}">{{
+          <a class="nav-link nav-active px-3 py-2" href="{{base}}/{{ menu_item.url }}">{{
             menu_item.title }}</span></a>
           {% else %}
-          <a class="nav-link px-3 py-2" href="{{base}}{{ menu_item.url }}">{{ menu_item.title }}</span></a>
+          <a class="nav-link px-3 py-2" href="{{base}}/{{ menu_item.url }}">{{ menu_item.title }}</span></a>
           {% endif %}
         </li>
         {% endfor %}

@@ -1,7 +1,3 @@
----
-permalink: /:title.html
----
-
 <!DOCTYPE html>
 <html>
 {% include base.html %}
@@ -9,7 +5,13 @@ permalink: /:title.html
 
 <body>
   {% include nav.html %}
-  {{ content }}
+  <main class="container main">
+    <div class="my-0">
+      <div class="pt-5">
+        {{ content }}
+      </div>
+    </div>
+  </main>
   {% include footer.html %}
 </body>
 

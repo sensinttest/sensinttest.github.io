@@ -5,7 +5,7 @@ people:
   - id: open
     name: "You"
     role: "Get Involved!"
-    url:   /positions.html
+    url:   positions.html
     image: https://picsum.photos/300/300?random=2
 
   - id: paul_strohmeier

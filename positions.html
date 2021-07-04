@@ -1,6 +1,7 @@
 ---
 layout: default
 active_menu_id: 'positions'
+permalink: /positions.html
 ---
 
 {% assign data = site.data.positions %}
@@ -8,7 +9,7 @@ active_menu_id: 'positions'
 {% assign description = data.description %}
 {% assign pages = data.pages %}
 
-{% include _header.html title=title description=description %}
+{% include _header.html %}
 
 <div class="row">
   <div class="col-lg-10">

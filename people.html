@@ -1,13 +1,14 @@
 ---
 layout: default
 active_menu_id: 'people'
+permalink: /people.html
 ---
 {% assign data = site.data.people %}
 {% assign title = data.title %}
 {% assign description = data.description %}
 {% assign people_data = data.people %}
 
-{% include _header.html title=title description=description %}
+{% include _header.html %}
 
 <div class="row">
   {% for person in people_data %}
@@ -43,7 +44,7 @@ active_menu_id: 'people'
       {% else %}
       {% assign person_url = base | append: person_url %}
       {% endif %}
-      <span class="pb-1 big"><strong><a href="{{base}}{{person_url}}">{{person.name}}</a></strong></span><br />
+      <span class="pb-1 big"><strong><a href="{{person_url}}">{{person.name}}</a></strong></span><br />
       {% else %}
       <span class="pb-1 big"><strong>{{person.name}}</strong></span><br />
       {% endif %}

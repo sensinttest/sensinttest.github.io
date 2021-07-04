@@ -2,25 +2,35 @@
   <div class="container">
     <hr>
     <div class="d-flex align-items-center">
-      <span class="" style="width: 100%;">
+      <span class="w-100">
         &copy; {{ site.data.website.current_year }}
-        {% assign impressum_url = site.data.website.impressum.url %}
+        {% assign footer_data = site.data.website.footer %}
+        
+        {% assign impressum_url = footer_data.impressum.url %}
         {% assign startsWith = 'http' %}
-        {% assign checkArray = site.data.website.impressum.url | split:startsWith %}
+        {% assign checkArray = footer_data.impressum.url | split:startsWith %}
+        {% if checkArray[0] == blank %}
+          {% assign impressum_url = base | append: impressum_url %}
+        {% endif %}
 
-       
-		
-		{% assign dataprotection_url = site.data.website.dataprotection.url %}
-        {% assign startsWith = 'http' %}
-        {% assign checkArray = site.data.website.dataprotection.url | split:startsWith %}
+        {% assign dataprotection_url = footer_data.dataprotection.url %}
+        {% assign checkArray = footer_data.dataprotection.url | split:startsWith %}
+        {% if checkArray[0] == blank %}
+          {% assign dataprotection_url = base | append: dataprotection_url %}
+        {% endif %}
 
-   
+        {{ site.data.website.base_title }}
+        {% if jekyll.environment == "MPI" %}
+          • <a class="Footer-link" href="{{impressum_url}}">
+              {{footer_data.impressum.title}}
+            </a>
+          • <a class="Footer-link" href="{{dataprotection_url}}">
+              {{footer_data.dataprotection.title}}
+            </a>
 
-        {{ site.data.website.base_title }}. 
-        • <a style="color: #6c757d;" href="{{impressum_url}}">{{site.data.website.impressum.title}}</a>
-		• <a style="color: #6c757d;" href="{{dataprotection_url}}">{{site.data.website.dataprotection.title}}</a>
+        {% endif %}
 
-        {% include watermark.html %}
+        {% include _mark.html %}
       </span>
     </div>
   </div>

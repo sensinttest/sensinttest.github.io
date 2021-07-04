@@ -1,6 +1,7 @@
 ---
 layout: default
 active_menu_id: 'papers'
+permalink: /publications.html
 ---
 {% assign data = site.data.papers %}
 {% assign title = data.title %}
@@ -20,15 +21,21 @@ active_menu_id: 'papers'
 {% assign oddEven = j | modulo: 2 %}
 
 {% if oddEven == 0 %}
-{% assign hClass = "text-si-pink border-si-lightpink" %}
-{% assign spanClass = "border-si-lightpink bg-si-lightpink" %}
+{% assign hClass = "text-white" %}
+{% assign spanClass = "border-si-purple bg-si-purple" %}
 {% else %}
-{% assign hClass = "text-si-lightpurple-contrast border-si-lighterpurple" %}
-{% assign spanClass = "border-si-lighterpurple bg-si-lighterpurple" %}
+{% assign hClass = "text-white" %}
+{% assign spanClass = "border-si-pink bg-si-pink" %}
 {% endif %}
 
-<h3 class="Publications-year font-alt my-4 pt-1 pt-md-2 text-right text-md-center  border-top {{hClass}}">
-  <span class="border px-4 py-1 py-md-2 my-0 {{spanClass}}">
+{% comment %}
+<!-- You can change the alignment of year label below -->
+<!-- text-* is default alignment for mobile screens and onwards -->
+<!-- text-md-* is for larger screens -->
+<!-- You can choose left / right / center as an option -->
+{% endcomment %}
+<h3 class="Publications-year font-alt my-4 text-left text-md-left border-top {{hClass}}">
+  <span class="text-left border px-4 py-1 py-md-2 my-0 d-inline-block {{spanClass}} ">
 
     {% assign groupName = papers_group.name %}
     {% if groupName == "" or groupName == nil %}
@@ -46,7 +53,7 @@ remove: "'" %}
 {% assign offsetValue = 1 %}
 
 {% assign offsetClass = "offset-xl-0" %}
-<div class="col-xl-12 {{offsetClass}} row px-0 mx-0 my-1 my-md-5 py-0 py-md-2 bg-white">
+<div class="row {{offsetClass}} px-0 px-md-3 mx-0 my-1 my-md-5 py-0 py-md-2 bg-white">
 
   {% assign paper_image_path = item.image %}
 
@@ -63,14 +70,25 @@ remove: "'" %}
   {% endif %}
 
   <div
-    class="col-lg-4 pl-sm-0 order-xl-{{offsetValue}} order-lg-{{offsetValue}} order-md-2 order-sm-2 order-2 px-0 px-md-4 px-sm-3 pt-4 px-xl-0 mb-5 mb-lg-0">
+    class="col-lg-4 order-2 order-lg-{{offsetValue}} order-xl-{{offsetValue}} px-0 pt-4 mb-5 mb-lg-0">
     <img alt="Research teaser" src="{{base}}{{ paper_image_path }}"
       class="Publication-image img-fluid img-left mb-5 mb-lg-0 px-0 ">
+
+    <div class="d-block d-lg-none d-xl-none">
+      {% for link in item.links %}
+      <a href="{{link.url }}">
+        <span
+          class="Papers-link-pill d-inline border border-blue small badge-pill text-blue text-uppercase my-1 px-3 mx-1 py-1 ">
+          {{link.name}}
+        </span>
+      </a>
+      {% endfor%}
+    </div>
   </div>
 
 
   <div
-    class="col-lg-8 pl-lg-1 pl-sm-0 order-xl-1 order-lg-1 order-md-1 order-sm-1 order-1 px-0 px-md-3 px-sm-3 pt-4 pb-3 pl-xl-4 ">
+    class="col-lg-8 order-1 px-0 pl-lg-1 pt-4 pb-3 pl-lg-4">
     <div class="card border-0">
       <div class="">
         <h4 class="font-alt">{{item.title}}</h4>
@@ -84,18 +102,16 @@ remove: "'" %}
         {% endfor %}
         <p class="mt-3"><i>{{item.authors}}</i> <br> in <i>{{item.venue}}</i></p>
         <p class="mt-3">{{item.description}}</p>
-        <!-- {% if item.links.size > 0 %}Links:{% endif %} -->
-        {% for link in item.links %}
-        <a href="{{link.url }}">
-          <!-- <span class="badge badge-lg badge-pill btn-blue border-0 text-uppercase mb-1">
-                  {{link.name}}
-                  </span> -->
-          <span
-            class="Papers-link-pill border border-blue small badge-pill text-blue text-uppercase my-1 px-3 mx-1 py-1 ">
-            {{link.name}}
-          </span>
-        </a>
-        {% endfor%}
+        <div class="d-none d-lg-block d-xl-block">
+          {% for link in item.links %}
+          <a href="{{link.url }}">
+            <span
+              class="Papers-link-pill d-inline border border-blue small badge-pill text-blue text-uppercase my-1 px-3 mx-1 py-1 ">
+              {{link.name}}
+            </span>
+          </a>
+          {% endfor%}
+        </div>
       </div>
     </div>
   </div>
