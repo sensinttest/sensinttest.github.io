@@ -14,6 +14,12 @@ people:
     url:   https://fkeel.github.io
     image: uploads/people/paul_glove_square.jpg
 
+  - id: dennis_wittchen
+    name: "Dennis Wittchen"
+    role: "Research Guest"
+  # url:   https://fkeel.github.io
+    image: uploads/people/dennis_portrait_bw_square_2_2.jpg
+
   # - id: person_one
   #   name: "Person One"
   #   role: "PhD Researcher"
