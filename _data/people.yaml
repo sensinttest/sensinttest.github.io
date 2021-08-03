@@ -8,12 +8,24 @@ people:
     url:   positions.html
     image: https://picsum.photos/300/300?random=2
 
+  - id: c_reed
+    name: "Courtney Reed"
+    role: "PostDoc"
+  # url:   https://fkeel.github.io
+    image: uploads/people/courtney.jpg
+    
   - id: paul_strohmeier
     name: "Paul Strohmeier"
     role: "Group Leader"
     url:   https://fkeel.github.io
     image: uploads/people/paul_glove_square.jpg
 
+  - id: p_sabnis
+    name: "Nihar Sabnis"
+    role: "PhD Student"
+  # url:   https://fkeel.github.io
+    image: uploads/people/nihar.jpg
+    
   - id: dennis_wittchen
     name: "Dennis Wittchen"
     role: "Research Guest"
