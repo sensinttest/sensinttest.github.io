@@ -15,6 +15,7 @@ Thumbs.db
 *.sqlite
 
 # Development
+_site/
 legacy/
 *.map
 .jekyll-cache

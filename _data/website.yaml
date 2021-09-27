@@ -44,7 +44,7 @@ menu:
     title: Contact
     url: contact.html
   - id: 'news'
-    url: blog/index.html
+    url: news.html
     show: false
 
 footer:
