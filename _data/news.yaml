@@ -1,2 +1,13 @@
 title: News
 description: 
+
+news:
+  - id: 2
+    date: 2021-08-01
+    content: |
+      Over the course of the next months, <b>Courtney Reed</b> <i>(PostDoc)</i>, <b>Nihar Sabnis</b> <i>(PhD Student)</i>, and <b>Dennis Wittchen</b> <i>(Visiting Researcher)</i> will be joining senSInt.
+
+  - id: 1
+    date: 2021-07-01
+    content: |
+      The Sensiromotor Interaction group joins the Max Planck Insitute for Informatics.

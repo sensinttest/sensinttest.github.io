@@ -1,0 +1,6 @@
+{%- comment -%} 
+  To add a new personal page for a person:
+    – add a new person record in people.yaml, give it a unique ID and a name for corresponding html page
+    – duplicate _template.html in this folder, change filename to the same that you specified earlier in people.yaml
+    – change person_id value marked as 'CHANGE_THIS' inside the to match the ID or a newly added person
+{%- endcomment -%}

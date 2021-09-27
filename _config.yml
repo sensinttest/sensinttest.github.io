@@ -3,7 +3,7 @@ url: https://jazzjackrabbit.github.io/sensint
 
 # Build settings
 markdown: kramdown
-paginate: 10
+paginate: 20
 paginate_path: "/blog/page:num.html"
 permalink: "/blog/:year/:month/:day/:title:output_ext"
 plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap, jekyll-seo-tag]

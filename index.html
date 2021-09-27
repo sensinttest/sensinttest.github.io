@@ -48,14 +48,14 @@ permalink: /index.html
           </div>
           {% assign news_url = site.data.website.menu | where: "id", 'news' %}
           <div class="Card-content px-3 py-3 font px-2 py-2">
-            {% for post in site.posts limit: 5 %}
-            <i class="fa fa-newspaper-o mx-1" aria-hidden="true"></i><strong>{{ post.date | date: "%Y" | prepend: " "}}.{{ post.date | date: "%m" }}.{{ post.date | date: "%d" }}</strong>:
-			<!-- the line below would like to the blogpost -->
-                <!--<a href="{{base}}/{{ post.url}}" class="link-alt">{{ post.title }}</a>--> 
-				{{ post.title }}
-					<!-- the line below would should link to the content, but does not work 
-				<!-- <p >{{ post.content | newline_to_br }}</p>-->
-              </p>
+            {% for post in site.data.news.news limit: 2 %}
+            <p><i class="fa fa-newspaper-o mx-1" aria-hidden="true"></i><strong>
+            {% assign d = post.date | date: "%-d" %}
+            {{ post.date | date: "%B" }} 
+            {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, 
+            {{ post.date | date: "%Y" }}
+            </strong><br/>
+				      {{ post.content | strip_html | truncate: '160', '...' }}</p>
             {% endfor %}
             <a class="btn mt-2 my-1 btn-si-pink" href="{{base}}/{{ news_url[0].url }}">View News</a>
           </div>

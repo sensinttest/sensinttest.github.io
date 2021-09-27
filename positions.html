@@ -7,38 +7,50 @@ permalink: /positions.html
 {% assign data = site.data.positions %}
 {% assign title = data.title %}
 {% assign description = data.description %}
-
+{% assign positions = data.positions %}
 
 {% include _header.html %}
 
 <div class="row">
   <div class="col-lg-10">
     <div class="px-md-5">
-     
-<h2><br />
-Student Assistants</h2>
+      {% assign j = 0 %}
+      {% for position in positions %}
 
-<p>We are currently looking to fill two student assistant (HiWi) positions.
+      
 
-The first requires a background in electrical engineering or embedded systems. You will work on the hardware design of novel haptic feedback devices.
+      {% assign group_size = data.news %}
 
-The second requires experience with 3D printing and other rapid-prototyping technologies. You will be maintaining 3D printers and other lab-equipment, and will supervise others in their printing needs.
+      {% assign oddEven = j | modulo: 3 %}
 
-If you are interested in either position, please send an e-mail including your motevation and an attached CV, as well as latest grade transcripts to <strong>paul DOT strohmeier AT mpi-inf.mpg DOT de</strong>. The heading should be formatted like this: <strong>[HiWi Application] &lt;<em>your name</em>&gt;</strong>.&nbsp;</p>
+      {% if oddEven == 0 %}
+      {% assign hClass = "text-white" %}
+      {% assign spanClass = "bg-si-purple" %}
+      {% elsif oddEven == 1 %}
+      {% assign hClass = "text-white" %}
+      {% assign spanClass = "bg-si-pink" %}
+      {% elsif oddEven == 2 %}
+      {% assign hClass = "text-white" %}
+      {% assign spanClass = "bg-si-gray" %}
+      {% endif %}
 
-<h2>Thesis Students</h2>
-
-<p>The next opportunity for writing a thesis with us will start February 14th, 2022.&nbsp; If you are interested, please send an e-mail explaining why you wish to write your thesis specifically with us. Please also your latest grade transcript and attach three recently published research papers which you find fascinating. In your e-mail, please also explain what you like about the papers you chose. Please send your e-mail to <strong>paul DOT strohmeier AT mpi-inf.mpg DOT de</strong>. The heading should be formatted like this: <strong>[Thesis Application, &lt;<em>bachelor/master</em>&gt;] &lt;<em>your name</em>&gt;</strong>.&nbsp;</p>
-
-<h2>Prospective PhDs &amp; Postdocs</h2>
-
-<p>We are currently not actively searching for PhD students or Postdocs, but will always consider outstanding candidates. Feel free to get in touch with Paul Strohmeier in an informal e-mail to assess what options exist.</p>
-
-<h2>Visiting Researchers</h2>
-
-<p>We love collaborating. If you wish to visit, we are happy to host you. Please contact Paul Strohmeier by e-mail with a general idea of the project and a rough timeline to figure out details.</p>
-
-
+      <div class="Positions-card py-3 my-3
+          ">
+        {% include base.html %}
+        <h4 class="font-alt {{ hClass }}" style="line-height: 45px;">
+          <span class="px-3 py-2 {{spanClass}}" style="display: inline-block;">
+            {{ position.title }}
+          </span>
+        </h4>
+        <p class="pt-3">
+          {{ position.content | newline_to_br }}
+        </p>
+        <!-- <a class="Positions-card-link" href="{{base}}{{ item.url }}">
+          <i class="fa fa-caret-right mx-1" aria-hidden="true"></i> {{menu_item.title }}
+        </a> -->
+      </div>
+      {% assign j = j | plus:1 %}
+      {% endfor %}
     </div>
   </div>
 </div>

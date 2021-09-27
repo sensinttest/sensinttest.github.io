@@ -6,11 +6,46 @@ permalink: /people.html
 {% assign data = site.data.people %}
 {% assign title = data.title %}
 {% assign description = data.description %}
-{% assign people_data = data.people %}
+{% assign category_data = data.categories | where: 'published', true %}
+
 
 {% include _header.html %}
 
+
 <div class="row">
+  <div class="col">
+
+    {% assign j = 0 %}
+{% for category in category_data %}
+{% assign people_data = data.people | where: 'category_id', category.id %}
+
+{% assign group_size = data.news %}
+
+{% assign oddEven = j | modulo: 3 %}
+
+{% if oddEven == 0 %}
+{% assign hClass = "text-white" %}
+{% assign spanClass = "bg-si-purple" %}
+{% elsif oddEven == 1 %}
+{% assign hClass = "text-white" %}
+{% assign spanClass = "bg-si-pink" %}
+{% elsif oddEven == 2 %}
+{% assign hClass = "text-white" %}
+{% assign spanClass = "bg-si-gray" %}
+{% endif %}
+
+<div class="row">
+  <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 text-left px-3 py-3">
+    <h4 class="font-alt {{ hClass }}">
+      <span class="px-3 py-2 {{spanClass}}" style="line-height: 45px; margin-left: 5px; display: inline-block;">
+        {{ category.title }}
+      </span>
+    </h4>
+  </div>
+</div>
+
+<div class="row mb-4">
+
   {% for person in people_data %}
 
   {% assign image_path = person.image %}
@@ -26,7 +61,7 @@ permalink: /people.html
     {% assign image_path = site.data.website.image_placeholder_settings.person_image_placeholder %}
   {% endif %}
 
-  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center px-3 py-3">
+  <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 text-center px-3 py-3">
     <div class="px-1 py-2">
       <div class="Person-photo-container">
         <img alt="Person photo" src="{{base}}{{ image_path }}"
@@ -53,3 +88,10 @@ permalink: /people.html
 
   {% endfor %}
 </div>
+
+{% assign j =  j | plus:1 %}
+{% endfor %}
+
+  </div>
+</div>
+

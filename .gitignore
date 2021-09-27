@@ -17,7 +17,6 @@ Thumbs.db
 # Development
 legacy/
 *.map
-
+.jekyll-cache
 _archive/
-
 .vscode/

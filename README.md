@@ -37,3 +37,7 @@ cd sensinttest.github.io
 bundle install
 bundle exec jekyll serve
 ```
+
+Note:
+
+Files and folders starting with __ (double underscore) are considered to be no longer relevant and can be deleted if necessary.

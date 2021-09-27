@@ -123,6 +123,10 @@ a.nav-link.bg-white:hover {
 
 .Person-photo {
   max-height: 225px; 
+  @media (max-width: 576px) {
+    width: 100%;
+    max-height: none;
+  }
 }
 
 .Page-backbutton {
