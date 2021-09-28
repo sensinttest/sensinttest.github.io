@@ -4,15 +4,15 @@ description: "People working at or affiliated with the Sensorimotor Interaction 
 categories:
   - id: leadership
     title: Leadership
-    published: true
+    published: false
 
   - id: students
     title: Students
-    published: true
+    published: false
 
   - id: guests
     title: Guests
-    published: true
+    published: false
 
   - id: alumni
     title: Alumni
@@ -22,35 +22,35 @@ people:
   - id: open
     name: "You"
     role: "Get Involved!"
-    category_id: students
+  #  category_id: students
     url:   positions.html
     image: https://picsum.photos/300/300?random=2
 
   - id: c_reed
     name: "Courtney Reed"
     role: "PostDoc"
-    category_id: students
+  #  category_id: students
   # url:   https://fkeel.github.io
     image: uploads/people/courtney.jpg
     
   - id: paul_strohmeier
     name: "Paul Strohmeier"
     role: "Group Leader"
-    category_id: leadership
+  #  category_id: leadership
     url:   https://fkeel.github.io
     image: uploads/people/paul_glove_square.jpg
 
   - id: p_sabnis
     name: "Nihar Sabnis"
     role: "PhD Student"
-    category_id: students
+  # category_id: students
   # url:   https://fkeel.github.io
     image: uploads/people/nihar.jpg
     
   - id: dennis_wittchen
     name: "Dennis Wittchen"
     role: "Research Guest"
-    category_id: guests
+  # category_id: guests
   # url:   https://fkeel.github.io
     image: uploads/people/dennis_portrait_bw_square_2_2.jpg
 

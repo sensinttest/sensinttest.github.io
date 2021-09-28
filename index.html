@@ -48,7 +48,7 @@ permalink: /index.html
           </div>
           {% assign news_url = site.data.website.menu | where: "id", 'news' %}
           <div class="Card-content px-3 py-3 font px-2 py-2">
-            {% for post in site.data.news.news limit: 2 %}
+            {% for post in site.data.news.news limit: 3 %}
             <p><i class="fa fa-newspaper-o mx-1" aria-hidden="true"></i><strong>
             {% assign d = post.date | date: "%-d" %}
             {{ post.date | date: "%B" }} 
