@@ -4,7 +4,7 @@ description: "People working at or affiliated with the Sensorimotor Interaction 
 categories:
   - id: all
     title: Leadership
-    published: false
+    published: true
     
   - id: leadership
     title: Leadership
