@@ -3,7 +3,7 @@ description: "People working at or affiliated with the Sensorimotor Interaction 
 
 categories:
   - id: all
-    title: Leadership
+    title: senSInt
     published: true
     
   - id: leadership
