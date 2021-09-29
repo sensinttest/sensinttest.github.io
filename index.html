@@ -26,7 +26,7 @@ permalink: /index.html
   {% include _header.html %}
     
     <div class="row mt-3">
-      <div class="col-lg-7 px-3 py-0 my-sm-3 align-self-end">
+      <div class="col-lg-7 px-3 py-0 my-sm-3 align-self-start">
         <div class="border bg-mpi-gray-two">
           <div class="px-3 py-2 my-0 bg-si-purple">
             <h4 class="text-white my-0 font-alt">Research</h4>
@@ -48,6 +48,10 @@ permalink: /index.html
           </div>
           {% assign news_url = site.data.website.menu | where: "id", 'news' %}
           <div class="Card-content px-3 py-3 font px-2 py-2">
+
+            {% comment %}
+              to change the amount of news items shown - edit the number after "limit:"
+            {% endcomment %}
             {% for post in site.data.news.news limit: 2 %}
             <p><i class="fa fa-newspaper-o mx-1" aria-hidden="true"></i><strong>
             {% assign d = post.date | date: "%-d" %}
@@ -55,7 +59,11 @@ permalink: /index.html
             {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, 
             {{ post.date | date: "%Y" }}
             </strong><br/>
-				      {{ post.content | strip_html | truncate: '160', '...' }}</p>
+              {% comment %}
+                to change the amount of symbols shown before cutoff - edit the number after "truncate:"
+                to remove html - change the code to look like this - post.content | strip_html | truncate: '200', '...' 
+              {% endcomment %}
+				      {{ post.content | truncate: '200', '...' }}</p>
             {% endfor %}
             <a class="btn mt-2 my-1 btn-si-pink" href="{{base}}/{{ news_url[0].url }}">View News</a>
           </div>
