@@ -2,10 +2,14 @@ title: News
 description: 
 
 news:
+  - id: 4
+    date: 2021-11-19
+    content: |
+      Paul presented the research work of senSInt at the MIT media lab, invited by Hiroshi Ishii. A video of his talk is on <a href="https://youtu.be/rVTM6XPphEM"> YouTube 
   - id: 3
     date: 2021-09-21
     content: |
-      Paul has been invited to present at the <a href="https://symposium.ahlab.org/">Assistive Augmentation Symposium</a>. You can watch his talk on <a href=" https://youtu.be/Sq2hrzHWcko">Youtube </a>
+      Paul has been invited to present at the <a href="https://symposium.ahlab.org/">Assistive Augmentation Symposium</a>. You can watch his talk on <a href=" https://youtu.be/Sq2hrzHWcko">YouTube </a>
       
   - id: 2
     date: 2021-08-01
