@@ -32,9 +32,9 @@ people:
 
   - id: c_reed
     name: "Courtney Reed"
-    role: "PostDoc"
+    role: "PostDoc Researcher"
     category_id: all
-  # url:   https://fkeel.github.io
+    url:   https://courtneynreed.com/
     image: uploads/people/courtney.jpg
     
   - id: paul_strohmeier
