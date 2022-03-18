@@ -2,6 +2,21 @@ title: Papers
 description: Previous publications.
 
 timeline:
+  - title: "Print-A-Sketch: A Handheld Printer for Physical Sketching of Circuits and Sensors on Everyday Surfaces"
+    year: 2022
+    authors: Narge Pourjafarian, Marion Koelle, Fjolla Mjako <b>Paul Strohmeier</b>, Jürgen Steimle
+    venue: Human Factors in Computing Systems (CHI '22)
+    description: Together with Saarland University’s HCI Lab, Paul designed a hand-held printer, for printing electrical circuits. This printer combines affordances of free-hand sketching with those of digital printing. We present a fully functional prototype, strategies for designing hand-held inking devices, and methods of interacting with them.
+    image: https://sensinttest.github.io/uploads/images/papers/22_CHI_PrintASketch
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2022_CHI_PrintASketch.pdf
+      - name: Project Page
+        url: https://hci.cs.uni-saarland.de/projects/print-a-sketch/
+        
   - title: "Singing Knit: Soft Knit Biosensing for Augmenting Vocal Performances"
     year: 2022
     authors: <b>Courtney N. Reed</b>, Sophie Skach, <b>Paul Strohmeier</b>, and Andrew P. McPherson
@@ -22,7 +37,7 @@ timeline:
   - title: "TactJam: An End-to-End Prototyping Suite for Collaborative Design of On-Body Vibrotactile Feedback"
     year: 2022
     authors: <b>Dennis Wittchen</b>, Katta Spiel, Bruno Fruchard, Donald Degraen, Oliver Schneider, Georg Freitag, <b>Paul Strohmeier</b> 
-    venue: Augmented Humans (AHs)
+    venue: Tangible, Embedded, and Embodied Interaction (TEI '22)
     description: The TactJam workshop we held at last year’s TEI was a full success. As the workshop was super interesting, the organizers and some participants came together to write up our observations as well as present the system. The contribution is not only a proven system for tactile design, but also reflections on how the tools we use shape the design outcomes.
     image: https://sensinttest.github.io/uploads/images/papers/22_TEI_TactJam.jpg
     tags:
@@ -39,7 +54,7 @@ timeline:
   - title: "Examining Embodied Sensation and Perception in Singing"
     year: 2022
     authors: <b>Courtney N. Reed</b>
-    venue: Tangible, Embedded, and Embodied Interaction (TEI)
+    venue: Tangible, Embedded, and Embodied Interaction (TEI '22)
     description: Courtney presented a synopsis of her PhD work at the TEI graduate consortium. The paper outlined studies in musical imagery and perception of the voice and body during singing practice, how EMG can be used to augment the vocalist-voice relationship, and studies exploring sensory experience with sonified EMG signals.
     image: https://sensinttest.github.io/uploads/images/papers/22_TEI_GSC.png
     tags:
@@ -56,7 +71,7 @@ timeline:
   - title: "Skill Sleeves: Designing Electrode Garments for Wearability"
     year: 2021
     authors: Jarrod Knibbe, Rachel Freire, Marion Koelle, and <b>Paul Strohmeier</b>
-    venue: Tangible, Embedded, and Embodied Interaction (TEI)
+    venue: Tangible, Embedded, and Embodied Interaction (TEI '21)
     description: Jarrod and I built a multi-electron sleeve for his research into EMS stimulation. We then invited Rachel Freire to join us in designing an updated version of that sleeve. This paper discusses this process and uses this to discuss the general concept of wearability. It was ages in the making. as Jarrod said "... and all it took was three weeks of writing -- and three years of talking about what to write".
     image: https://fkeel.github.io/uploads/image/2017_IMWUT_EMS.jpg
     tags:
