@@ -22,7 +22,6 @@ categories:
     title: Alumni
     published: false
 
- # catagories are disabled in the html
 people:
   - id: open
     name: "You"
@@ -78,7 +77,7 @@ people:
     role: "Intern"
     category_id: all
     url:   https://valentinmartinezmissir.com/
-    image: uploads/people/gaby.jpg
+    image: uploads/people/valentin.png
 
   # - id: person_one
   #   name: "Person One"
