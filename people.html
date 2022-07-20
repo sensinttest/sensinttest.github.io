@@ -14,7 +14,7 @@ permalink: /people.html
 
 <div class="row">
   <div class="col">
-
+  <! --
     {% assign j = 0 %}
 {% for category in category_data %}
 {% assign people_data = data.people | where: 'category_id', category.id %}
@@ -34,7 +34,7 @@ permalink: /people.html
 {% assign spanClass = "bg-si-gray" %}
 {% endif %}
 
-  <! --
+
 <div class="row">
  
   <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 text-left px-3 py-3">
