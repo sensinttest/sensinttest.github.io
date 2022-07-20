@@ -57,6 +57,27 @@ people:
     category_id: all
   # url:   https://fkeel.github.io
     image: uploads/people/dennis_portrait_bw_square_2_2.jpg
+    
+ - id: s_mavali
+    name: "Sina Mavali"
+    role: "Intern"
+    category_id: all
+  # url:   https://fkeel.github.io
+    image: uploads/people/sina.png
+
+ - id: g_vega
+    name: "Gabriela Vega"
+    role: "Intern"
+    category_id: all
+    url:   http://vegabs.ml/
+    image: uploads/people/gaby.jpg
+    
+ - id: v_missir
+    name: "Valentin Martinez-Missir"
+    role: ""Intern"
+    category_id: all
+  # url:   https://fkeel.github.io
+  #  image: uploads/people/valentin.jpg
 
   # - id: person_one
   #   name: "Person One"
