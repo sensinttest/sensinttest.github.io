@@ -12,7 +12,7 @@ categories:
 
   - id: students
     title: Students
-    published: false
+    published: true
 
   - id: guests
     title: Guests
@@ -82,7 +82,7 @@ people:
   - id: sana
     name: "Sana Nasir"
     role: "Msc Thesis"
-    category_id: all
+    category_id: students
   # url:   https://valentinmartinezmissir.com/
   # image: uploads/people/valentin.jpg
 
