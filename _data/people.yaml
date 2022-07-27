@@ -11,8 +11,8 @@ categories:
     published: false
 
   - id: students
-    published: true
     title: Students
+    published: false
 
   - id: guests
     title: Guests
