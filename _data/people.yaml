@@ -79,6 +79,15 @@ people:
     url:   https://valentinmartinezmissir.com/
     image: uploads/people/valentin.jpg
 
+  - id: sana
+    name: "Sana Nasir"
+    role: "Msc Thesis"
+    category_id: all
+  # url:   https://valentinmartinezmissir.com/
+  # image: uploads/people/valentin.jpg
+
+
+
   # - id: person_one
   #   name: "Person One"
   #   role: "PhD Researcher"
