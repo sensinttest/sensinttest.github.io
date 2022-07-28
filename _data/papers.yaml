@@ -2,6 +2,19 @@ title: Papers
 description: Previous publications.
 
 timeline:
+  - title: "Sustainable Haptic Design: Improving Collaboration, Sharing, and Reuse in Haptic Design Research"
+    year: 2022
+    authors: Oliver Schneider, Bruno Fruchard, Dennis Wittchen, Bibhushan Raj Joshi, Georg Freitag, Donald Degraen, Paul Strohmeier
+    venue: Human Factors in Computing Systems Extended Abstracts (CHI EA '22)
+    description: We co hosted a workshop to discuss topics such as reproduceability, sharing of data and methods, and communication and collaboration in haptic design research
+    image: https://sensinttest.github.io/uploads/images/papers/hapticDesignWorkshop.PNG
+    tags:
+      - text: workshop
+        style: yellow
+    links:
+      - name: Workshop Website
+        url: https://tactilevision.github.io/chi2022-sustainablehapticdesign/
+
   - title: "Print-A-Sketch: A Handheld Printer for Physical Sketching of Circuits and Sensors on Everyday Surfaces"
     year: 2022
     authors: Narges Pourjafarian, Marion Koelle, Fjolla Mjako <b>Paul Strohmeier</b>, Jürgen Steimle
