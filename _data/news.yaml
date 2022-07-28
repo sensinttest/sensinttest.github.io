@@ -2,6 +2,12 @@ title: News
 description: 
 
 news:
+
+  - id: 6
+    date: 2022-05-01
+    content: |
+      The senSInt team co-hosted the <a href="https://tactilevision.github.io/chi2022-sustainablehapticdesign/"> Sustainable Haptic Design </a> Workshop at CHI this year. Exciting keynote talks by Eric Vezzoli, Vincent Levesque, & Hasti Seifi. 
+
   - id: 5
     date: 2022-03-18
     content: |
