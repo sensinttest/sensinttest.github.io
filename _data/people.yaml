@@ -86,7 +86,16 @@ people:
   # url:   https://valentinmartinezmissir.com/
   # image: uploads/people/valentin.jpg
 
+  - id: suraksha
+    name: "Suraksha Balachandra"
+    role: "Msc Thesis"
+    category_id: students
 
+
+  - id: lakshmi
+    name: "Lakshmi Vineetha Rallabandi"
+    role: "Msc Thesis"
+    category_id: students
 
   # - id: person_one
   #   name: "Person One"
