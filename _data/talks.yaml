@@ -4,6 +4,16 @@ description: Here are some recent conference presentations which provide an intr
 # YouTube links should use the following format: 
 # https://www.youtube.com/embed/VIDEO_ID
 talks:
+  - title: Sensorimotor Augmentation
+    description: Invited talk at the 10 Year Augmented Human Lab Symposium https://symposium.ahlab.org/keynotes
+    youtube_url: https://www.youtube.com/embed/Sq2hrzHWcko
+    style: bg-si-purple
+
+  - title: Body Displays
+    description: Invited talk at the MIT Media Lab
+    youtube_url: https://www.youtube.com/embed/rVTM6XPphEM
+    style: bg-si-pink
+
   - title: General Ideas
     description: 
     youtube_url: https://www.youtube.com/embed/v3Sw-jkv6dQ
