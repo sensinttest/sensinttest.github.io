@@ -30,7 +30,7 @@ positions:
 
       Please send your applications to paul[dot]strohmeier[at]mpi-inf[dot]mpg[dot]de 
 
-   - title: Research Context
+  - title: Research Context
     content: |
      The Sensorimotor Interaction group is led by Paul Strohmeier. The group is co-located with Saarland University’s HCI Lab, run by Jürgen Steimle [2]. Both groups collaborate tightly and share lab-spaces. The group is also part of the Computer Graphics department of the Max Planck Institute for Informatics, led by Hans-Peter Seidel [3]. Within the Max Planck Institute, the group also collaborates with Vahid Babei’s AIDAM group [4] and the Sampling and Rendering group lead by Gurprit Sing [5].
       [1] https://sensint.mpi-inf.mpg.de/
@@ -39,7 +39,7 @@ positions:
       [4] https://aidam.mpi-inf.mpg.de/?view=home
       [5] https://sampling.mpi-inf.mpg.de/  
 
-   - title: Saarbrücken
+  - title: Saarbrücken
     content: |
      Saarbruecken can count itself amongst the leading locations for computer science research in Europe. Five co-located CS research institutes with a global reputation form Saarland Informatics Campus (SIC): Saarland University with three associated departments, the Max Planck Institute for Informatics, the Max Planck Institute for Software Systems, the German Research Center for Artificial Intelligence (DFKI), the Center for Bioinformatics and the Cluster of Excellence on Multimodal Computing and Interaction, overall with around 800 researchers in Computer Science. You can find more information on http://saarland-informatics-campus.de/.
 
