@@ -1,61 +1,9 @@
-title: Positions
 description: Find ways to get involved.
 
 positions:
-  - title: OPEN POSTDOC POSITION
-    content: |
-      We are searching for someone with
-      - Strong writing and argumentation skills
-      - Strong methodological skills (these might be qualitative or quantitative methods)
-      - Experience in publishing at international scientific venues
-      Your specific research background is less important, as long as the work we are doing excites you. 
-      As our research group primarily targets Human Computer Interaction (HCI) venues, an HCI background would be a natural fit. 
-      However, a researcher with a background in Computer Graphics (in particular Sampling and Motion Reconstruction are themes we are interested in) would help further deepen internal collaborations with other MPI-INF members. 
-      Mechanical Engineers or Perceptual Psychologists or Psychophysics researchers would broaden our expertise in areas relevant to our core research interests. 
-      Designers and Textile Engineers would support us in deploying our work and designing wearable devices. 
-      As a successful PostDoc in the Sensorimotor Interaction Group you would further develop your own research and portfolio. You would support the other group-members and thesis students in their projects. You would co-shape the overall strategy and direction of the group.
-
-  - title: OPEN PHD POSITIONS
-    content: |
-      We are searching for someone with:
-
-      - A completed Msc in Computer Science
-      - An open and curious mind
-      - Problem solving skills
-
-      In your application, please make sure to explain why you chose the sensorimotor interaction group, and why the sensorimotor interaction group should choose you. If you do not have a Msc in Computer Science, feel free to briefly reachout describing your background, we may be able to waive that requirement in some cases.
-
-      Applications for PostDoc will be reviewed on a rolling basis until a suitable candidate is found. Feel free to send a quick informal e-mail as early as possible, so we know who is interested. We would then let you know if we think you’d generally be a good fit and whether we are still searching, before you put the work in to put together a full application.
-
-      For all applications, please include what you believe is most relevant for us to make an informed decision. PhD applications must include a transcript of their Msc Diploma and Grades. PostDoc applications must include a list of publications or link to google scholar. A research statement and a description of supervision experiences are encouraged. Letters of recommendation or endorsement from researchers we personally know or with good scientific standing are valuable. PhD Students and PostDocs will be hired according to the German state employees salary scheme TV-L E 13 or E 14, and include health insurance and social insurance. 
-
-      Please send your applications to paul[dot]strohmeier[at]mpi-inf[dot]mpg[dot]de 
-
-
-  - title: MORE ABOUT THE SENSORIMOTOR INTERACTION GROUP
-    content: |
-      The Sensorimotor Interaction group is led by Paul Strohmeier. The group is co-located with Saarland University’s HCI Lab, run by Jürgen Steimle [2]. Both groups collaborate tightly and share lab-spaces. The group is also part of the Computer Graphics department of the Max Planck Institute for Informatics, led by Hans-Peter Seidel [3]. Within the Max Planck Institute, the group also collaborates with Vahid Babei’s AIDAM group [4] and the Sampling and Rendering group lead by Gurprit Sing [5].
-
-
-- title: MORE ABOUT SAARBRÜCKEN
-    content: |
-      Saarbruecken can count itself amongst the leading locations for computer science research in Europe. Five co-located CS research institutes with a global reputation form Saarland Informatics Campus (SIC): Saarland University with three associated departments, the Max Planck Institute for Informatics, the Max Planck Institute for Software Systems, the German Research Center for Artificial Intelligence (DFKI), the Center for Bioinformatics and the Cluster of Excellence on Multimodal Computing and Interaction, overall with around 800 researchers in Computer Science. You can find more information on http://saarland-informatics-campus.de/.
-
-      Saarbrücken is a mid-sized thriving student city in the Saarland Region of Germany. It is home to a charming 18th century downtown area, with a plethora of outdoor places for having a drink and enjoying both traditional Saarlandian cuisine, and food from all over the world. Its location right at the border to France and close to Luxembourg guarantees a vibrant, interesting mix of cultures. The campus is located within woodland parks and can be easily reached by bicycle from all residential areas (in fact, all commutes in the city can be done by bicycle).  It is well connected to both Paris and Frankfurt via high-speed trains. Feel free to get in touch regarding questions about life in Saarbrücken. 
-
-      [1] https://sensint.mpi-inf.mpg.de/
-      [2] https://hci.cs.uni-saarland.de/
-      [3] https://www.mpi-inf.mpg.de/departments/computer-graphics
-      [4] https://aidam.mpi-inf.mpg.de/?view=home
-      [5] https://sampling.mpi-inf.mpg.de/ 
-
   - title: Prospective PhDs &amp; Postdocs
     content: |
       We are currently not actively searching for PhD students or Postdocs, but will always consider outstanding candidates. Feel free to get in touch with Paul Strohmeier in an informal e-mail to assess what options exist.
-
   - title: Visiting Researchers
     content: |
       We are currently not actively searching for PhD students or Postdocs, but will always consider outstanding candidates. Feel free to get in touch with Paul Strohmeier in an informal e-mail to assess what options exist.
-      The Sensorimotor Interaction Group at the Max Planck Institute for Informatics conducts research into Tactile Perception, Sensory Augmentation, and Body Integrated Systems. We apply methods from Computer Graphics and Psychology of Perception to advance the state of the art of Human Computer Interaction. 
-
-      We are currently searching for a PostDoc to start as soon as possible, and have opportunities for PhD students starting throughout the course of the year.
