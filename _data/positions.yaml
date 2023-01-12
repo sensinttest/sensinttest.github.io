@@ -6,7 +6,7 @@ description:
 
 positions:
 
-  - title: OPEN POSTDOC POSITION:
+  - title: OPEN POSTDOC POSITION
     content: |
     We are searching for someone with:
 
@@ -18,7 +18,7 @@ positions:
 
     As a successful PostDoc in the Sensorimotor Interaction Group you would further develop your own research and portfolio. You would support the other group-members and thesis students in their projects. You would co-shape the overall strategy and direction of the group.
 
-  - title: OPEN PHD POSITIONS:
+  - title: OPEN PHD POSITIONS
     content: |
     We are searching for someone with:
 
@@ -35,12 +35,12 @@ positions:
     Please send your applications to paul[dot]strohmeier[at]mpi-inf[dot]mpg[dot]de 
 
 
-  - title: MORE ABOUT THE SENSORIMOTOR INTERACTION GROUP:
+  - title: MORE ABOUT THE SENSORIMOTOR INTERACTION GROUP
     content: |
     The Sensorimotor Interaction group is led by Paul Strohmeier. The group is co-located with Saarland University’s HCI Lab, run by Jürgen Steimle [2]. Both groups collaborate tightly and share lab-spaces. The group is also part of the Computer Graphics department of the Max Planck Institute for Informatics, led by Hans-Peter Seidel [3]. Within the Max Planck Institute, the group also collaborates with Vahid Babei’s AIDAM group [4] and the Sampling and Rendering group lead by Gurprit Sing [5].
 
 
-- title: MORE ABOUT SAARBRÜCKEN:
+- title: MORE ABOUT SAARBRÜCKEN
     content: |
     Saarbruecken can count itself amongst the leading locations for computer science research in Europe. Five co-located CS research institutes with a global reputation form Saarland Informatics Campus (SIC): Saarland University with three associated departments, the Max Planck Institute for Informatics, the Max Planck Institute for Software Systems, the German Research Center for Artificial Intelligence (DFKI), the Center for Bioinformatics and the Cluster of Excellence on Multimodal Computing and Interaction, overall with around 800 researchers in Computer Science. You can find more information on http://saarland-informatics-campus.de/.
 
