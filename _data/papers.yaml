@@ -2,6 +2,32 @@ title: Papers
 description: Previous publications.
 
 timeline:
+  - title: "Haptic Servos: Self-Contained Vibrotactile Rendering System for Creating or Augmenting Material Experiences"
+    year: 2023
+    authors: Nihar Sabnis, Dennis Wittchen, Courtney N. Reed,  Narjes Pourjafarian, Jürgen Steimle, Paul Strohmeier
+    venue: New Interfaces for Musical Expression (NIME '22)
+    description: This work introduces Haptic Servos.
+    image: https://sensinttest.github.io/uploads/images/papers/22_CHI_HapticServos.PNG
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2023_CHI_HapticServos.pdf
+        
+  - title: "Tactile Symbols with Continuous and Motion-Coupled Vibration: An Exploration of using Embodied Experiences for Hermeneutic"
+    year: 2023
+    authors: Nihar Sabnis, Dennis Wittchen, Gabriela Vega, Courtney N. Reed,  Paul Strohmeier
+    venue: New Interfaces for Musical Expression (NIME '22)
+    description: We explore ways of mixing embodied and hermeneutic design.
+    image: https://sensinttest.github.io/uploads/images/papers/22_CHI_SymbolDesign.PNG
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2023_CHI_SymbolDesign.pdf
+
   - title: "Exploring Experiences with New Musical Instruments through Micro-phenomenology"
     year: 2022
     authors: Courtney N. Reed, Charlotte Nordmoen, Andrea Martelloni, Giacomo Lepri, Nicole Robson, Eevee Zayas-Garin, Kelsey Cotton, Lia Mice, Andrew McPherson
