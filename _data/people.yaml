@@ -20,7 +20,7 @@ categories:
 
   - id: alumni
     title: Alumni
-    published: false
+    published: true
 
 people:
   - id: open
@@ -30,13 +30,6 @@ people:
     url:   positions.html
     image: https://picsum.photos/300/300?random=2
 
-  - id: c_reed
-    name: "Courtney Reed"
-    role: "PostDoc Researcher"
-    category_id: all
-    url:   https://courtneynreed.com/
-    image: uploads/people/courtney.jpg
-    
   - id: paul_strohmeier
     name: "Paul Strohmeier"
     role: "Group Leader"
@@ -50,10 +43,38 @@ people:
     category_id: all
   # url:   https://fkeel.github.io
     image: uploads/people/nihar.jpg
+
+  - id: y_ding
+    name: "Yuran Ding"
+    role: "PhD Student"
+    category_id: all
+  # url:   https://fkeel.github.io
+    image: uploads/people/nihar.jpg
+
+  - id: c_reed
+    name: "Courtney Reed"
+    role: "PostDoc Researcher"
+    category_id: all
+    url:   https://courtneynreed.com/
+    image: uploads/people/courtney.jpg
     
   - id: dennis_wittchen
     name: "Dennis Wittchen"
     role: "Research Guest"
+    category_id: all
+  # url:   https://fkeel.github.io
+    image: uploads/people/dennis_portrait_bw_square_2_2.jpg
+
+  - id: r_freire
+    name: "Rachel Freire"
+    role: "Research Guest"
+    category_id: all
+  # url:   https://fkeel.github.io
+    image: uploads/people/dennis_portrait_bw_square_2_2.jpg
+
+  - id: j_didion
+    name: "Johanna Didion"
+    role: "Visiting PhD Student"
     category_id: all
   # url:   https://fkeel.github.io
     image: uploads/people/dennis_portrait_bw_square_2_2.jpg
@@ -82,14 +103,14 @@ people:
   - id: sana
     name: "Sana Nasir"
     role: "Msc Thesis"
-    category_id: students
+    category_id: alumni
   # url:   https://valentinmartinezmissir.com/
   # image: uploads/people/valentin.jpg
 
   - id: suraksha
     name: "Suraksha Balachandra"
     role: "Msc Thesis"
-    category_id: students
+    category_id: alumni
 
 
   - id: lakshmi
