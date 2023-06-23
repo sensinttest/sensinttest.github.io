@@ -2,25 +2,29 @@ title: Positions
 description: We are currently searching for a PostDoc to start as soon as possible, and have opportunities for PhD students starting throughout the course of the year.
 
 positions:
-  - title: PostDocs
+  - title: No Open Positions
     content: |
-      We are searching for someone with:
+      We are currently not actively searching for additional group members. But, if you think you are a good fit, please get in touch anyway. If there is promise of having fun conducting exciting work together, we will find ways to make that happen.
 
-      - Strong writing and argumentation skills
-      - Strong methodological skills (these might be qualitative or quantitative methods)
-      - Experience in publishing at international scientific venues
+  # - title: PostDocs
+  #   content: |
+  #     We are searching for someone with:
 
-      Your specific research background is less important, as long as the work we are doing excites you. As our research group primarily targets Human Computer Interaction (HCI) venues, an HCI background would be a natural fit. However, a researcher with a background in Computer Graphics (in particular Sampling and Motion Reconstruction are themes we are interested in) would help further deepen internal collaborations with other MPI-INF members. Mechanical Engineers or Perceptual Psychologists or Psychophysics researchers would broaden our expertise in areas relevant to our core research interests. Designers and Textile Engineers would support us in deploying our work and designing wearable devices. As a successful PostDoc in the Sensorimotor Interaction Group you would further develop your own research and portfolio. You would support the other group-members and thesis students in their projects. You would co-shape the overall strategy and direction of the group.
+  #     - Strong writing and argumentation skills
+  #     - Strong methodological skills (these might be qualitative or quantitative methods)
+  #     - Experience in publishing at international scientific venues
 
-  - title: PhD Positions
-    content: |
-      We are searching for someone with:
+  #     Your specific research background is less important, as long as the work we are doing excites you. As our research group primarily targets Human Computer Interaction (HCI) venues, an HCI background would be a natural fit. However, a researcher with a background in Computer Graphics (in particular Sampling and Motion Reconstruction are themes we are interested in) would help further deepen internal collaborations with other MPI-INF members. Mechanical Engineers or Perceptual Psychologists or Psychophysics researchers would broaden our expertise in areas relevant to our core research interests. Designers and Textile Engineers would support us in deploying our work and designing wearable devices. As a successful PostDoc in the Sensorimotor Interaction Group you would further develop your own research and portfolio. You would support the other group-members and thesis students in their projects. You would co-shape the overall strategy and direction of the group.
 
-      - A completed Msc in Computer Science
-      - An open and curious mind
-      - Problem solving skills
+  # - title: PhD Positions
+  #   content: |
+  #     We are searching for someone with:
 
-      In your application, please make sure to explain why you chose the sensorimotor interaction group, and why the sensorimotor interaction group should choose you. If you do not have a Msc in Computer Science, feel free to briefly reachout describing your background, we may be able to waive that requirement in some cases.
+  #     - A completed Msc in Computer Science
+  #     - An open and curious mind
+  #     - Problem solving skills
+
+  #     In your application, please make sure to explain why you chose the sensorimotor interaction group, and why the sensorimotor interaction group should choose you. If you do not have a Msc in Computer Science, feel free to briefly reachout describing your background, we may be able to waive that requirement in some cases.
   
   - title: Application Process
     content: |
