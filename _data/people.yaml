@@ -76,7 +76,7 @@ people:
     name: "Johanna Didion"
     role: "Visiting PhD Student"
     category_id: all
-  # url:   https://fkeel.github.io
+    url:   https://www.linkedin.com/in/johanna-didion/
     image: uploads/people/johanna.jpg
     
   - id: s_mavali
