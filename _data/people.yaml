@@ -48,7 +48,7 @@ people:
     name: "Yuran Ding"
     role: "PhD Student"
     category_id: all
-  # url:   https://fkeel.github.io
+    url:   https://yuran-ding.com/
     image: uploads/people/nihar.jpg
 
   - id: c_reed
@@ -69,15 +69,15 @@ people:
     name: "Rachel Freire"
     role: "Research Guest"
     category_id: all
-  # url:   https://fkeel.github.io
-    image: uploads/people/dennis_portrait_bw_square_2_2.jpg
+    url:   http://www.rachelfreire.com/
+    image: uploads/people/rachel.jpg
 
   - id: j_didion
     name: "Johanna Didion"
     role: "Visiting PhD Student"
     category_id: all
   # url:   https://fkeel.github.io
-    image: uploads/people/dennis_portrait_bw_square_2_2.jpg
+    image: uploads/people/johanna.jpg
     
   - id: s_mavali
     name: "Sina Mavali"
