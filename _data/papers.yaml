@@ -21,6 +21,7 @@ timeline:
     authors: <b>Courtney N. Reed</b>,  <b>Paul Strohmeier</b>, Andrew MacPherson
     venue: Human Factors in Computing Systems (CHI '23)
     description: 
+    image: https://sensinttest.github.io/uploads/images/papers/23_CHI_Metaphors.jpg
     tags:
       - text: paper
         style: magenta
