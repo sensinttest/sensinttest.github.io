@@ -1,7 +1,16 @@
 title: News
 description: 
 
-news:
+news: 
+
+  - id: 7
+    date: 2022-06-01
+    content: |
+We are having an exciting research summer. In addition to the existing members, Yuran Ding is joining as a PhD student, Rachel Freire is joining to work on new wearable interactive garment interfaces, and Konrad Fabian will be applying his experience in generative modeling to our projects.
+  - id: 7
+    date: 2022-05-01
+    content: |
+      We published 3 papers at CHI '23. Our Haptic Servo paper was awarded an Honourable Mention.
 
   - id: 6
     date: 2022-05-01
