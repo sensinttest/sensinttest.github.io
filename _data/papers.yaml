@@ -75,7 +75,7 @@ timeline:
     description: This work showed that pseudo forces generated using asymmetric vibration can modulate direction and movement velocity.
     image: https://sensinttest.github.io/uploads/images/papers/2022_EH_Pseudo_Forces.png
     tags:
-      - text: paper
+      - text: Work in Progress
         style: magenta
     links:
       - name: pdf
