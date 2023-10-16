@@ -76,7 +76,7 @@ timeline:
     image: https://sensinttest.github.io/uploads/images/papers/2022_EH_Pseudo_Forces.png
     tags:
       - text: Work in Progress
-        style: magenta
+        style: orange
     links:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2022_EH_Pseudo_Forces.pdf
