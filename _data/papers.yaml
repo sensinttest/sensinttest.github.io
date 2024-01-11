@@ -55,6 +55,18 @@ timeline:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2023_AHs_Designing_Interactive_Shoes_for_Tactile_Augmented_Reality.pdf
 
+  - title: "Body-based user interfaces"
+    year: 2022
+    authors: <b>Paul Strohmeier</b>, Aske Mottelson, Henning Pohl, Jess McIntosh, Jarrod Knibbe, Joanna Bergström, Yvonne Jansen and Kasper Hornbæk
+    venue: Routledge Handbook of Bodily Awareness;)
+    description: An overview of Body-Based User Interfaces, highlighting four different perspectives taken by researchers.
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2022_BodyBasedUI_AuthorVersion.pdf
+        
   - title: "Exploring Experiences with New Musical Instruments through Micro-phenomenology"
     year: 2022
     authors: <b>Courtney N. Reed</b>, Charlotte Nordmoen, Andrea Martelloni, Giacomo Lepri, Nicole Robson, Eevee Zayas-Garin, Kelsey Cotton, Lia Mice, Andrew McPherson
