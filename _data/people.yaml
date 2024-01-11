@@ -53,7 +53,7 @@ people:
 
   - id: c_reed
     name: "Courtney Reed"
-    role: "PostDoc Researcher"
+    role: "External Collaborator"
     category_id: all
     url:   https://courtneynreed.com/
     image: uploads/people/courtney.jpg
@@ -75,7 +75,7 @@ people:
   - id: j_didion
     name: "Johanna Didion"
     role: "Visiting PhD Student"
-    category_id: all
+    category_id: alumni
     url:   https://www.linkedin.com/in/johanna-didion/
     image: uploads/people/johanna.jpg
     
