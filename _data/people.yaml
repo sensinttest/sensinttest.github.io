@@ -37,6 +37,14 @@ people:
     url:   https://fkeel.github.io
     image: uploads/people/paul_glove_square.jpg
 
+  - id: e_aliabbasi
+    name: "Easa AliAbbasi"
+    role: "Post Doc"
+    category_id: all
+  # url:   https://fkeel.github.io
+    image: uploads/people/easa_cube.jpg
+
+
   - id: p_sabnis
     name: "Nihar Sabnis"
     role: "PhD Student"
@@ -82,9 +90,9 @@ people:
   - id: s_mavali
     name: "Sina Mavali"
     role: "Intern"
-    category_id: all
+    category_id: alumni
   # url:   https://fkeel.github.io
-    image: uploads/people/sina.png
+  # image: uploads/people/sina.png
 
   - id: g_vega
     name: "Gabriela Vega"
@@ -115,8 +123,8 @@ people:
 
   - id: lakshmi
     name: "Lakshmi Vineetha Rallabandi"
-    role: "Msc Thesis"
-    category_id: students
+    role: "Intern + Msc Student"
+    category_id: all
 
   # - id: person_one
   #   name: "Person One"
