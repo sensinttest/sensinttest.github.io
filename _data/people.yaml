@@ -12,7 +12,7 @@ categories:
 
   - id: students
     title: Students
-    published: true
+    published: false
 
   - id: guests
     title: Guests
