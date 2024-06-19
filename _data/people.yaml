@@ -120,8 +120,8 @@ people:
     role: "Msc Thesis"
     category_id: alumni
     
-  - id: conrad
-    name: "Conrad Fabian"
+  - id: konrad
+    name: "Konrad Fabian"
     role: "Intern"
     category_id: alumni
 
