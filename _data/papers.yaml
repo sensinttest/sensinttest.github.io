@@ -7,6 +7,7 @@ timeline:
     authors: Yuran Ding, Nihar Sabnis, Paul Strohmeier
     venue: Human Factors in Computing Systems (CHI '224)
     description: 
+    tags:
       - text: paper
         style: magenta
     links:
