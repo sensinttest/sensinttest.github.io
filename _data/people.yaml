@@ -119,6 +119,11 @@ people:
     name: "Suraksha Balachandra"
     role: "Msc Thesis"
     category_id: alumni
+    
+  - id: conrad
+    name: "Conrad Fabian"
+    role: "Intern"
+    category_id: alumni
 
 
   - id: lakshmi
