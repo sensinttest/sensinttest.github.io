@@ -15,7 +15,6 @@ timeline:
         url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_motionlessMovement.pdf
       - name: Best Paper – Honourable Mention
 
-timeline:
   - title: "Haptic Servos: Self-Contained Vibrotactile Rendering System for Creating or Augmenting Material Experiences"
     year: 2023
     authors: <b>Nihar Sabnis</b>, <b>Dennis Wittchen</b>, <b>Courtney N. Reed</b>,  Narjes Pourjafarian, Jürgen Steimle, <b>Paul Strohmeier</b>
@@ -28,8 +27,7 @@ timeline:
     links:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2023_CHI_HapticServo.pdf
-        
-        
+         
   - title: "Negotiating Experience and Communicating Information Through Abstract Metaphor"
     year: 2023
     authors: <b>Courtney N. Reed</b>,  <b>Paul Strohmeier</b>, Andrew MacPherson
