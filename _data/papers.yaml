@@ -6,8 +6,8 @@ timeline:
     year: 2024
     authors: Yuran Ding, Nihar Sabnis, Paul Strohmeier
     venue: Human Factors in Computing Systems (CHI '224)
-    description:  This paper presents a proof-of-concept kinesthetic display. We explore how one might, using only vibration, present a sense of movement to a user. A user study showed that the tactile sense of movement we provide using vibration is stronger than that provided by a visual control task.
-   tags:
+    description: This paper presents a proof-of-concept kinesthetic display. We explore how one might, using only vibration, present a sense of movement to a user. A user study showed that the tactile sense of movement we provide using vibration is stronger than that provided by a visual control task.
+    tags:
       - text: paper
         style: magenta
     links:
@@ -32,7 +32,7 @@ timeline:
     year: 2024
     authors: Gabriela Vega, Valentin Martinez-Missir, Dennis Wittchen, Nihar Sabnis, Karen Cochraine, Audrey Girouard, Paul Strohmeier
     venue: Human Factors in Computing Systems (CHI '24)
-    description:  Just like visual augmented reality can add visual information to our experience of the world, we want <b>tactile augmented reality</b> to overlay additional tactile information. Here we present a system that can change the material properties of the physical world without interfering with regular tactile perception.
+    description: Just like visual augmented reality can add visual information to our experience of the world, we want <b>tactile augmented reality</b> to overlay additional tactile information. Here we present a system that can change the material properties of the physical world without interfering with regular tactile perception.
     tags:
       - text: paper
         style: magenta
