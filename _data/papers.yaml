@@ -14,7 +14,7 @@ timeline:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_motionlessMovement.pdf
       - name: Best Paper – Honourable Mention
-        url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_motionlessMovement.pdf
+        url: https://sensinttest.github.io/uploads/images/2024_CHI_award_motionless.jpeg
 
   - title: "Shaping Compliance: Inducing Haptic Illusion of Compliance in Diferent Shapes with Electrotactile Grains"
     year: 2024
@@ -40,6 +40,55 @@ timeline:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_vARitouch.pdf
 
+  - title: "base and stitch"
+    year: 2024
+    authors: Gabriela Vega, Valentin Martinez-Missir, Dennis Wittchen, Nihar Sabnis, Karen Cochraine, Audrey Girouard, Paul Strohmeier
+    venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
+    description: 
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_vARitouch.pdf
+
+  - title: "3d cells"
+    year: 2024
+    authors: Gabriela Vega, Valentin Martinez-Missir, Dennis Wittchen, Nihar Sabnis, Karen Cochraine, Audrey Girouard, Paul Strohmeier
+    venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
+    description: 
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_vARitouch.pdf
+
+    - title: "ravenet demo"
+    year: 2024
+    authors: Gabriela Vega, Valentin Martinez-Missir, Dennis Wittchen, Nihar Sabnis, Karen Cochraine, Audrey Girouard, Paul Strohmeier
+    venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
+    description: 
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_vARitouch.pdf
+
+  - title: "ravenet performance"
+    year: 2024
+    authors: Gabriela Vega, Valentin Martinez-Missir, Dennis Wittchen, Nihar Sabnis, Karen Cochraine, Audrey Girouard, Paul Strohmeier
+    venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
+    description: 
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_vARitouch.pdf
+
+
   - title: "Haptic Servos: Self-Contained Vibrotactile Rendering System for Creating or Augmenting Material Experiences"
     year: 2023
     authors: <b>Nihar Sabnis</b>, <b>Dennis Wittchen</b>, <b>Courtney N. Reed</b>,  Narjes Pourjafarian, Jürgen Steimle, <b>Paul Strohmeier</b>
@@ -52,6 +101,8 @@ timeline:
     links:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2023_CHI_HapticServo.pdf
+      - name: Best Paper – Honourable Mention
+        url: https://sensinttest.github.io/uploads/images/2024_CHI_award_motionless.jpeg
          
   - title: "Negotiating Experience and Communicating Information Through Abstract Metaphor"
     year: 2023
