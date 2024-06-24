@@ -50,7 +50,7 @@ timeline:
         style: orange
     links:
       - name: pdf
-      url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_Embodied_Learners.pdf
+      url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_EmbodiedLearners.pdf
 
   - title: "base and stitch"
     year: 2024
