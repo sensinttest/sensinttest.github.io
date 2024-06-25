@@ -52,9 +52,9 @@ timeline:
       - name: pdf
       url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_EmbodiedLearners.pdf
 
-  - title: "base and stitch"
+  - title: "Base and Stitch: Evaluating eTextile Interfaces from a Material-Centric View"
     year: 2024
-    authors: Gabriela Vega, Valentin Martinez-Missir, Dennis Wittchen, Nihar Sabnis, Karen Cochraine, Audrey Girouard, Paul Strohmeier
+    authors: Vineetha Rallabandi, Alice C. Haynes, Courtney N. Reed, Paul Strohmeier in Tangible, Embedded, and Embodied Interaction (TEI '24
     venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
     description: 
     tags:
@@ -62,7 +62,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_vARitouch.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2024_TEI_baseAndStitch.pdf
 
   - title: "3d cells"
     year: 2024
@@ -74,7 +74,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_vARitouch.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2024_TEI_3dCells.pdf
 
   - title: "ravenet demo"
     year: 2024
