@@ -21,6 +21,7 @@ timeline:
     authors: Arata Jingu <b>Nihar Sabnis</b>,  <b>Paul Strohmeier</b>, Jürgen Steimle
     venue: Human Factors in Computing Systems (CHI '24)
     description: Together with Saarland University's HCI Lab, we explored an implementation of the compliance illusion using an electrotactile display. We investigate some of the opportunities provided by this extraordinary actuator. 
+    image: https://sensinttest.github.io/uploads/images/papers/24_CHI_ShapingCompliance.png
     tags:
       - text: paper
         style: magenta
