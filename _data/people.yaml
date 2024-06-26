@@ -100,6 +100,13 @@ people:
     category_id: all
     url:   http://vegabs.ml/
     image: uploads/people/gaby.jpg
+
+  - id: erik
+    name: "Erik Peralta Løvaas"
+    role: "Msc Student"
+    category_id: all
+    url:   https://erikpl.com/
+    image: uploads/people/erik.jpg
     
   - id: v_missir
     name: "Valentin Martinez-Missir"
