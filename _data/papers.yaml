@@ -45,7 +45,7 @@ timeline:
     year: 2024
     authors: <b>Nihar Sabnis</b>, Tomohiro Nagashima
     venue: Human Factors in Computing Systems (CHI '24)
-    description: We show how chatbots can be used as virtual students which are taught by the users to themselves learn a topic.
+    description: We show how chatbots can be used as virtual students, to support "learning by teaching".
     image: https://sensinttest.github.io/uploads/images/papers/24_CHI_EmpoweringLearners.jpg
     tags:
       - text: Extended Abstract
@@ -58,7 +58,8 @@ timeline:
     year: 2024
     authors: Vineetha Rallabandi, Alice C. Haynes, Courtney N. Reed, Paul Strohmeier in Tangible, Embedded, and Embodied Interaction (TEI '24
     venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
-    description: 
+    description: We highlight the importance of materiality in textile sensor designs.
+    image: https://sensinttest.github.io/uploads/images/papers/24_TEI_baseStitch.jpg
     tags:
       - text: paper
         style: magenta
@@ -70,7 +71,7 @@ timeline:
     year: 2024
     authors: Gabriela Vega, Valentin Martinez-Missir, Dennis Wittchen, Nihar Sabnis, Karen Cochraine, Audrey Girouard, Paul Strohmeier
     venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
-    description: 
+    description: In this work, we present a method for 3D printing objects with variable softness, inspired by mechanical metamaterials. By modifying parameters of individual cell geometries within a cellular structure, our approach and tool enables designers to rapidly prototype objects with adjustable softness for diverse applications. These structures can even be fabricated on commodity 3D printers. 
     tags:
       - text: paper
         style: magenta
