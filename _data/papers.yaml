@@ -80,11 +80,12 @@ timeline:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2024_TEI_3dCells.pdf
 
-  - title: "ravenet demo"
+  - title: "RaveNET: Connecting People and Exploring Liminal Space through Wearable Networks in Music Performance"
     year: 2024
-    authors: Gabriela Vega, Valentin Martinez-Missir, Dennis Wittchen, Nihar Sabnis, Karen Cochraine, Audrey Girouard, Paul Strohmeier
+    authors: Rachel Freire, Valentin Martinez-Missir, Courtney Reed, Paul Strohmeier
     venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
     description: 
+    image: https://sensinttest.github.io/uploads/images/papers/ravenet_perf.png
     tags:
       - text: paper
         style: magenta
@@ -92,11 +93,12 @@ timeline:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_vARitouch.pdf
 
-  - title: "ravenet performance"
+  - title: "Liminal Space: A Performance with RaveNET"
     year: 2024
-    authors: Gabriela Vega, Valentin Martinez-Missir, Dennis Wittchen, Nihar Sabnis, Karen Cochraine, Audrey Girouard, Paul Strohmeier
+    authors: Rachel Freire, Valentin Martinez-Missir, Courtney Reed, Paul Strohmeier
     venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
     description: 
+    image: https://sensinttest.github.io/uploads/images/papers/ravenet_demo.png
     tags:
       - text: paper
         style: magenta
