@@ -26,6 +26,7 @@ news:
     date: 2021-11-19
     content: |
       Paul presented the research work of senSInt at MIT, invited by Hiroshi Ishii. A video of his talk is on <a href="https://youtu.be/rVTM6XPphEM"> YouTube </a>
+  
   - id: 3
     date: 2021-09-21
     content: |
@@ -40,3 +41,63 @@ news:
     date: 2021-07-01
     content: |
       The Sensiromotor Interaction group joins the Max Planck Insitute for Informatics.
+
+  - id: 9
+    date: 2024-06-01
+    content: |
+      Gaby won a Travel Award to attend UBICOMP/ISWC 2024 in Cancun, Mexico!
+  
+  - id: 10
+    date: 2024-05-01
+    content: |
+      Gaby got accepted as a Fellow to attend the 10th Heidelberg Laureate Forum.
+  
+  - id: 11
+    date: 2024-01-31
+    content: |
+      Nihar conducted three workshops at IIT Jodhpur in December 2023 and January 2024.
+
+  - id: 12
+    date: 2024-05-01
+    content: |
+      Paul and Nihar gave talks at Goldsmiths (Yoram Chisik) and Kings College (Andrew MacPherson) in the UK.
+
+  - id: 13
+    date: 2024-04-01
+    content: |
+      Nihar gave a talk at AIT hosted by George Regal.
+
+  - id: 14
+    date: 2024-04-15
+    content: |
+      We hosted German Pre-CHI in April 2024 in collaboration with the HCI Lab.
+
+  - id: 15
+    date: 2024-03-01
+    content: |
+      The group attended TEI 2024 and presented 1 paper, 2 WIP, 1 performance, and 1 workshop!
+
+  - id: 16
+    date: 2024-05-01
+    content: |
+      Yuran gave a talk to undergraduates at UNIST hosted by Jaeyeon Lee in May 2024.
+
+  - id: 17
+    date: 2024-07-01
+    content: |
+      The group presented three demos at EUROHAPTICS 2024 in Lille!
+
+  - id: 18
+    date: 2025-02-01
+    content: |
+      3 papers submitted to TEI 2025!
+
+  - id: 19
+    date: 2025-02-01
+    content: |
+      4 papers submitted to CHI 2025!
+
+  - id: 20
+    date: 2024-10-01
+    content: |
+      Our group leader, Paul Strohmeier, won the ERC Award!
