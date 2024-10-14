@@ -40,15 +40,41 @@ positions:
   
   - title: Application Process
     content: |
-      Applications for PostDoc will be reviewed on a rolling basis until a suitable candidate is found. Feel free to send a quick informal e-mail as early as possible, so we know who is interested. We would then let you know if we think you’d generally be a good fit and whether we are still searching, before you put the work in to put together a full application.
+        Send your application via email to Paul Strohmeier (paul dot strohmeier at mpi-inf dot com).
+        
+        Please provide the following:
+        - Motivation letter indicating the project of interest
+        - Transcripts and diplomas
+        - CV including all previous work experience
+        - Publication list, portfolio, or similar materials
+        - Any additional material you want us to consider
+        
+        Send all materials as individual .pdf files.
+        
+        Applications will be screened on November 4th, 10 am CET. Ensure your application is submitted before this time. Late applications will be given lower priority.
 
-      For all applications, please include what you believe is most relevant for us to make an informed decision. PhD applications must include a transcript of their Msc Diploma and Grades. PostDoc applications must include a list of publications or link to google scholar. A research statement and a description of supervision experiences are encouraged. Letters of recommendation or endorsement from researchers we personally know or with good scientific standing are valuable. PhD Students and PostDocs will be hired according to the German state employees salary scheme TV-L E 13 or E 14, and include health insurance and social insurance. 
 
-      Please send your applications to paul[dot]strohmeier[at]mpi-inf[dot]mpg[dot]de 
-
-  - title: Research Context
+  - title: Requirements for PhD Students
     content: |
-     The Sensorimotor Interaction group is led by Paul Strohmeier. The group is co-located with Saarland  University’s <a href="https://hci.cs.uni-saarland.de/"> HCI Lab</a>, run by Jürgen Steimle. Both groups collaborate tightly and share lab-spaces. The group is also part of the Computer Graphics department of the <a href="https://www.mpi-inf.mpg.de/departments/computer-graphics">Max Planck Institute for Informatics</a>, led by Hans-Peter Seidel. Within the Max Planck Institute, the group also collaborates with Vahid Babei’s <a href="https://aidam.mpi-inf.mpg.de/?view=home">AIDAM</a> group and the <a href="https://sampling.mpi-inf.mpg.de/ ">Sampling and Rendering</a> group lead by Gurprit Sing.
+        Ideal PhD candidates will have a strong academic track record and a completed degree in computer science*. They should demonstrate their ability to document and complete projects (e.g., through portfolios, research papers, artwork, products, concepts, or designs). Strong applied technical skills in at least one area relevant to the projects (e.g.: data analysis, costume design, software development, electronics, embedded systems, machine learning, audio design, etc.) are required.  Candidates should be able to work independently while coordinating within a larger team.
+        
+        PhD Students will receive a three year contract. The salary is internationally competitive, based on state employees salary scheme TV-L E 13 and includes health insurance and social insurance.
+
+        *Candidates without a degree in computer science are welcome but may need to complete extra coursework during the course of their PhD, according to the regulations of the Graduate School of Saarland University.
+        
+  - title: Requirements for Postdocs
+    content: |
+        We welcome postdocs from all research areas. Postdocs should fulfill the same requirements as PhD students but must also have a strong record of publishing research at international venues. They should have a solid understanding of the research landscape in their field, including how and why to write for specific scientific venues. Services to the field, such as roles as a reviewer, editor, committee member, or chair, are highly valued.
+                
+        PostDocs will receive a two year contract. The salary is internationally competitive, based on state employees salary scheme TV-L E 13 or TV-L E 14 (based on prior experience) and includes health insurance and social insurance.
+ 
+  - title: Requirements for Research Engineers
+    content: | 
+        Research Engineers should meet the same criteria as PhD students but are expected to have demonstrated expertise in embedded systems development and DSP (especially embedded audio). Knowledge of analog circuitry, such as filters and amplification circuits, is also required.
+
+        Employment is initially for 3 to 6 months, details to be negotiated on a case by case basis, commensurate with the other positions. 
+
+        The Sensorimotor Interaction group is led by Paul Strohmeier. The group is co-located with Saarland  University’s <a href="https://hci.cs.uni-saarland.de/"> HCI Lab</a>, run by Jürgen Steimle. Both groups collaborate tightly and share lab-spaces. The group is also part of the Computer Graphics department of the <a href="https://www.mpi-inf.mpg.de/departments/computer-graphics">Max Planck Institute for Informatics</a>, led by Hans-Peter Seidel. Within the Max Planck Institute, the group also collaborates with Vahid Babei’s <a href="https://aidam.mpi-inf.mpg.de/?view=home">AIDAM</a> group and the <a href="https://sampling.mpi-inf.mpg.de/ ">Sampling and Rendering</a> group lead by Gurprit Sing.
 
   - title: Saarbrücken
     content: |
