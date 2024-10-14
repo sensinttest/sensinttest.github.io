@@ -2,29 +2,41 @@ title: Positions
 description: 
 
 positions:
-  - title: No Open Positions
+  - title: Multiple Openings
     content: |
-      We are currently not actively searching for additional group members. But, if you think you are a good fit, please get in touch anyway. If there is promise of having fun conducting exciting work together, we will find ways to make that happen.
+        The Sensorimotor Interaction Group [1] has several open positions, including Postdocs, PhD Students, and Research Engineers.
+        We are a small diverse team of HCI researchers interested in cognition and sensorimotor systems, engineering, music, and philosophy. We publish at top-tier HCI venues like CHI and UIST, as well as more specialized conferences such as TEI and AHs. We are also starting to branch out to venues like SIGGRAPH and IEEE World Haptics.
+        
+        We design systems to better understand sensorimotor processes and apply this understanding to create new systems. So far, our focus has been on haptics, with explorations into agency, wearable systems, and music. 
 
-  # - title: PostDocs
-  #   content: |
-  #     We are searching for someone with:
+        We are specifically looking to hire in three areas
+        
+        <b>#1 Kinesthetic Displays </b>
+        We are exploring the design of kinesthetic experiences using vibrotactile feedback. Building on our previous research in tactile rendering, we aim to create systems that allow users to perceive movements without actively performing them. This project is supported by a 1.5 million Euro European Research Council Starting Grant (ERC StrG). We are seeking researchers with expertise in areas such as (vibro)tactile feedback, human physiology and movement, sensory illusions and multisensory integration, motion tracking, VR/AR systems, and wearable on-body systems design.
+        This work will build on
+        Haptic Servos (CHI’23) - https://dl.acm.org/doi/10.1145/3544548.3580716
+        Motionless Movement (CHI’24) - https://dl.acm.org/doi/10.1145/3613904.3642499
+        vARitouch (CHI’24) - https://dl.acm.org/doi/10.1145/3613904.3642828
 
-  #     - Strong writing and argumentation skills
-  #     - Strong methodological skills (these might be qualitative or quantitative methods)
-  #     - Experience in publishing at international scientific venues
 
-  #     Your specific research background is less important, as long as the work we are doing excites you. As our research group primarily targets Human Computer Interaction (HCI) venues, an HCI background would be a natural fit. However, a researcher with a background in Computer Graphics (in particular Sampling and Motion Reconstruction are themes we are interested in) would help further deepen internal collaborations with other MPI-INF members. Mechanical Engineers or Perceptual Psychologists or Psychophysics researchers would broaden our expertise in areas relevant to our core research interests. Designers and Textile Engineers would support us in deploying our work and designing wearable devices. As a successful PostDoc in the Sensorimotor Interaction Group you would further develop your own research and portfolio. You would support the other group-members and thesis students in their projects. You would co-shape the overall strategy and direction of the group.
+        <b>#2 Wearables for Music Modulation & Agency Explorations</b>
+        We are interested in designing wearables for interacting with music and media in collaborative group settings. Our interests are threefold. First, we research the seamless design of wearable technology, from soft sensor development to ensuring functionality and wearability. Second, we explore how to design complex systems that enhance users' sense of agency. Finally we are interested in using GenAI for synthesizing physiological data, and expanding the efficacy of human actions. This project is in collaboration with Grammy Award-winning artist Imogen Heap and her design team. We seek researchers with expertise in sensor design, audio synthesis, machine learning, longitudinal data modeling, cognitive models of agency, and fashion & design.
+        This work will build on
+        RaveNET (TEI’24) - https://dl.acm.org/doi/10.1145/3623509.3635270
+        Singing Knit (AHs’22) - https://dl.acm.org/doi/10.1145/3519391.3519412
+        Who Did It? (UIST’24) - https://dl.acm.org/doi/10.1145/3654777.3676335
 
-  # - title: PhD Positions
-  #   content: |
-  #     We are searching for someone with:
 
-  #     - A completed Msc in Computer Science
-  #     - An open and curious mind
-  #     - Problem solving skills
+        <b>#3 Commercialization of Research Prototypes</b>
+        We aim to make our research more accessible to the public by distributing it through a start-up closely connected to our group. Our goal is to refine our research prototypes to ensure they are robust and ready for public use. In doing so, we intend to explore additional avenues to create a lasting impact with our work. We are looking for researchers and engineers interested in product-oriented research and design, with strong expertise in embedded systems and analog electronics.
 
-  #     In your application, please make sure to explain why you chose the sensorimotor interaction group, and why the sensorimotor interaction group should choose you. If you do not have a Msc in Computer Science, feel free to briefly reachout describing your background, we may be able to waive that requirement in some cases.
+        This work will initially expand on Haptic Servos (CHI’23)- https://dl.acm.org/doi/10.1145/3544548.3580716
+
+
+  - title: Before Applying
+    content: |
+        Please review our past research and identify where it aligns with your interests. Reach out to group members to learn if our working culture fits yours. Feel free to message us with questions.
+
   
   - title: Application Process
     content: |
