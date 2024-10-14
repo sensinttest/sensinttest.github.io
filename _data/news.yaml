@@ -2,43 +2,42 @@ title: News
 description: 
 
 news: 
-  - id: 18
+  - id: 17
     date: 2024-10-01
     content: |
       Paul received an <b>ERC Starting Grant</b>, supporting senSInt research with 1.5 million Euro. 
-  - id: 17
+  - id: 16
     date: 2024-07-01
     content: |
       We presented three demos at <b>Eurohaptics</b> 2024 in Lille!
-  - id: 16
+  - id: 15
     date: 2024-05-01
     content: |
       <b>Yuran Ding</b> gave a talk to undergraduates at UNIST.
-  - id: 15
+  - id: 14
     date: 2024-03-01
     content: |
       The group attended TEI 2024 and presented 1 paper, 2 WIP, 1 performance, and 1 workshop!
-  - id: 14
+  - id: 13
     date: 2024-04-15
     content: |
       We hosted German Pre-CHI in April 2024 in collaboration with the HCI Lab.
-  - id: 13
+  - id: 12
     date: 2024-04-01
     content: |
       <b>Nihar Sabnis</b> gave a talk at Austrian Institute of Technology.
-  - id: 12
+  - id: 11
     date: 2024-05-01
     content: |
       <b>Paul Strohmeier</b> and <b>Nihar Sabnis</b> gave talks at Goldsmiths (hosted by Yoram Chisik) and Kings College (hosted by Andrew MacPherson) in the UK.
-  - id: 11
+  - id: 10
     date: 2024-01-31
     content: |
       <b>Nihar Sabnis</b> conducted three workshops at IIT Jodhpur in December 2023 and January 2024.
-  - id: 10
+  - id: 9
     date: 2024-05-01
     content: |
       <b>Gabriela Vega</b> got accepted as a Fellow to attend the 10th Heidelberg Laureate Forum. She also won a Travel Award to attend UBICOMP/ISWC 2024 in Cancun, Mexico!
-  news: 
   - id: 8
     date: 2023-06-01
     content: |
