@@ -96,7 +96,7 @@ people:
 
   - id: g_vega
     name: "Gabriela Vega"
-    role: "Intern"
+    role: "Research Assistant"
     category_id: all
     url:   http://vegabs.ml/
     image: uploads/people/gaby.jpg
@@ -132,10 +132,14 @@ people:
     role: "Intern"
     category_id: alumni
 
-
   - id: lakshmi
     name: "Lakshmi Vineetha Rallabandi"
     role: "Intern + Msc Student"
+    category_id: alumni
+    
+  - id: maelle
+    name: "Maëlle Roche"
+    role: "Intern"
     category_id: all
 
   # - id: person_one
