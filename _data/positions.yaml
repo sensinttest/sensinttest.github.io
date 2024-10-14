@@ -13,35 +13,29 @@ positions:
         
         <b>#1 Kinesthetic Displays </b>
         We are exploring the design of kinesthetic experiences using vibrotactile feedback. Building on our previous research in tactile rendering, we aim to create systems that allow users to perceive movements without actively performing them. This project is supported by a 1.5 million Euro European Research Council Starting Grant (ERC StrG). We are seeking researchers with expertise in areas such as (vibro)tactile feedback, human physiology and movement, sensory illusions and multisensory integration, motion tracking, VR/AR systems, and wearable on-body systems design.
-        This work will build on
-        Haptic Servos (CHI’23) - https://dl.acm.org/doi/10.1145/3544548.3580716
-        Motionless Movement (CHI’24) - https://dl.acm.org/doi/10.1145/3613904.3642499
-        vARitouch (CHI’24) - https://dl.acm.org/doi/10.1145/3613904.3642828
+        
+        This work will build on         <a href="https://dl.acm.org/doi/10.1145/3544548.3580716">Haptic Servos (CHI’23)</a>, <a href="https://dl.acm.org/doi/10.1145/3613904.3642499">Motionless Movement (CHI’24)</a>, <a href="https://dl.acm.org/doi/10.1145/3613904.3642828">vARitouch (CHI’24)</a>.
 
 
         <b>#2 Wearables for Music Modulation & Agency Explorations</b>
         We are interested in designing wearables for interacting with music and media in collaborative group settings. Our interests are threefold. First, we research the seamless design of wearable technology, from soft sensor development to ensuring functionality and wearability. Second, we explore how to design complex systems that enhance users' sense of agency. Finally we are interested in using GenAI for synthesizing physiological data, and expanding the efficacy of human actions. This project is in collaboration with Grammy Award-winning artist Imogen Heap and her design team. We seek researchers with expertise in sensor design, audio synthesis, machine learning, longitudinal data modeling, cognitive models of agency, and fashion & design.
-        This work will build on
-        RaveNET (TEI’24) - https://dl.acm.org/doi/10.1145/3623509.3635270
-        Singing Knit (AHs’22) - https://dl.acm.org/doi/10.1145/3519391.3519412
-        Who Did It? (UIST’24) - https://dl.acm.org/doi/10.1145/3654777.3676335
+        
+        This work will build on         <a href="https://dl.acm.org/doi/10.1145/3623509.3635270">RaveNET (TEI’24)</a>, <a href="https://dl.acm.org/doi/10.1145/3519391.3519412">Singing Knit (AHs’22)</a>, <a href="https://dl.acm.org/doi/10.1145/3654777.3676335">Who Did It? (UIST’24)</a>.
 
 
         <b>#3 Commercialization of Research Prototypes</b>
         We aim to make our research more accessible to the public by distributing it through a start-up closely connected to our group. Our goal is to refine our research prototypes to ensure they are robust and ready for public use. In doing so, we intend to explore additional avenues to create a lasting impact with our work. We are looking for researchers and engineers interested in product-oriented research and design, with strong expertise in embedded systems and analog electronics.
 
-        This work will initially expand on Haptic Servos (CHI’23)- https://dl.acm.org/doi/10.1145/3544548.3580716
+        This work will initially expand on <a href="https://dl.acm.org/doi/10.1145/3544548.3580716">Haptic Servos (CHI’23)</a>.
 
 
   - title: Before Applying
     content: |
-        Please review our past research and identify where it aligns with your interests. Reach out to group members to learn if our working culture fits yours. Feel free to message us with questions.
+        Please review our past research and identify where it aligns with your interests. Reach out to group members to learn if our working culture fits yours. Indicate this in your application. Feel free to message us with questions.
 
   
   - title: Application Process
     content: |
-        Send your application via email to Paul Strohmeier (paul dot strohmeier at mpi-inf dot com).
-        
         Please provide the following:
         - Motivation letter indicating the project of interest
         - Transcripts and diplomas
@@ -49,9 +43,13 @@ positions:
         - Publication list, portfolio, or similar materials
         - Any additional material you want us to consider
         
-        Send all materials as individual .pdf files.
+        Send all materials as individual .pdf files. Send your application via email to Paul Strohmeier (paul dot strohmeier at mpi-inf dot com). Make sure the heading of the e-mail is 
+
+        [senSInt Application][your position*][your name]
         
         Applications will be screened on November 4th, 10 am CET. Ensure your application is submitted before this time. Late applications will be given lower priority.
+
+        *this would be PhD Student / Postdoc / Engineer
 
 
   - title: Requirements for PhD Students
@@ -74,10 +72,11 @@ positions:
 
         Employment is initially for 3 to 6 months, details to be negotiated on a case by case basis, commensurate with the other positions. 
 
-        The Sensorimotor Interaction group is led by Paul Strohmeier. The group is co-located with Saarland  University’s <a href="https://hci.cs.uni-saarland.de/"> HCI Lab</a>, run by Jürgen Steimle. Both groups collaborate tightly and share lab-spaces. The group is also part of the Computer Graphics department of the <a href="https://www.mpi-inf.mpg.de/departments/computer-graphics">Max Planck Institute for Informatics</a>, led by Hans-Peter Seidel. Within the Max Planck Institute, the group also collaborates with Vahid Babei’s <a href="https://aidam.mpi-inf.mpg.de/?view=home">AIDAM</a> group and the <a href="https://sampling.mpi-inf.mpg.de/ ">Sampling and Rendering</a> group lead by Gurprit Sing.
 
-  - title: Saarbrücken
+  - title: Research Context
     content: |
-     Saarbruecken is one of the leading locations for computer science research in Europe. Five co-located CS research institutes with a global reputation form <a href="http://saarland-informatics-campus.de/">Saarland Informatics Campus (SIC)</a>: Saarland University with three associated departments, the Max Planck Institute for Informatics, the Max Planck Institute for Software Systems, the German Research Center for Artificial Intelligence (DFKI), the Center for Bioinformatics and the Cluster of Excellence on Multimodal Computing and Interaction, overall with around 800 researchers in Computer Science.
-
-     Saarbrücken itself is a mid-sized thriving student city in the Saarland Region of Germany. It is home to a charming 18th century downtown area, with a plethora of outdoor places for having a drink and enjoying both traditional Saarlandian cuisine, and food from all over the world. Its location right at the border to France and close to Luxembourg guarantees a vibrant, interesting mix of cultures. The campus is located within woodland parks and can be easily reached by bicycle from all residential areas (in fact, all commutes in the city can be done by bicycle).  It is well connected to both Paris and Frankfurt via high-speed trains. Feel free to get in touch regarding questions about life in Saarbrücken. 
+        The Sensorimotor Interaction group is led by Paul Strohmeier and co-located with Saarland University’s <a href="https://hci.cs.uni-saarland.de/"> HCI Lab </a>. Both groups collaborate closely and share lab spaces. The group is part of the <a href="https://www.mpi-inf.mpg.de/departments/computer-graphics">Computer Graphics Department</a> of the Max Planck Institute for Informatics. We collaborate with Vahid Babaei’s AIDAM group, the Sampling and Rendering group led by Gurprit Singh, and the Image Synthesis and Machine Learning Group led by Thomas Leimkühler.
+        
+        The <a href="http://saarland-informatics-campus.de/"> Saarland Informatics Campus (SIC) </a> is one of Europe’s leading computer science research hubs. It includes the Max Planck Institute for Informatics, the Max Planck Institute for Software Systems, the German Research Center for Artificial Intelligence (DFKI), the Center for Bioinformatics, and the departments of Computer Science, Mathematics, and Language Science and Technology at Saarland University. The campus is also home to the Leibniz Center for Informatics, which hosts the renowned Dagstuhl Seminars at Schloss Dagstuhl.
+        
+        The town of Saarbrücken is a mid-sized, vibrant student city in the Saarland region of Germany. It features a charming 18th-century downtown with plenty of outdoor spots for enjoying traditional Saarland cuisine and international food. Located near the French border and close to Luxembourg, the city offers a rich mix of cultures. The campus is situated in woodland parks and is easily accessible by bicycle from all residential areas. It is well connected to Paris and Frankfurt via high-speed trains. Feel free to contact us with questions about life in Saarbrücken.
