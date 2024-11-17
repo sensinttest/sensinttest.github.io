@@ -12,10 +12,12 @@ timeline:
       - text: paper
         style: magenta
     links:
-      - name: pdf
+      - name: pdf   
         url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_motionlessMovement.pdf
       - name: Best Paper – Honourable Mention
         url: https://sensinttest.github.io/uploads/images/2024_CHI_award_motionless.jpeg
+      - name: Best Paper – Honourable Mention
+        url: https://sensinttest.github.io/uploads/images/2024_EH_Motionless_Movement.pdf
 
   - title: "Shaping Compliance: Inducing Haptic Illusion of Compliance in Diferent Shapes with Electrotactile Grains"
     year: 2024
@@ -29,6 +31,8 @@ timeline:
     links:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_shapingCompliance.pdf
+    - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2024_EH_Electrotactile_Compliance.pdf
 
   - title: "vARitouch: Back of the Finger Device for adding Variable Compliance to Rigid Objects"
     year: 2024
@@ -42,6 +46,8 @@ timeline:
     links:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_vARitouch.pdf
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2024_EH_vARitouch_demo.pdf
 
   - title: "Empowering Learners: Chatbot-Mediated 'Learning-by-Teaching'"
     year: 2024
@@ -122,7 +128,7 @@ timeline:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2023_CHI_HapticServo.pdf
       - name: Best Paper – Honourable Mention
-        url: https://sensinttest.github.io/uploads/images/2024_CHI_award_motionless.jpeg
+        url: https://sensinttest.github.io/uploads/images/2024_CHI-UPDATE.jpeg
          
   - title: "Negotiating Experience and Communicating Information Through Abstract Metaphor"
     year: 2023
@@ -147,6 +153,8 @@ timeline:
       - text: paper
         style: magenta
     links:
+      - name: EuroHaptics Demo
+        url: https://sensinttest.github.io/uploads/pdfs/2024_EH_Tactile_Symbols.pdf
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2023_CHI_SymbolDesign.pdf
 
