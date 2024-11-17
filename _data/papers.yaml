@@ -31,7 +31,7 @@ timeline:
     links:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_shapingCompliance.pdf
-    - name: pdf
+      - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2024_EH_Electrotactile_Compliance.pdf
 
   - title: "vARitouch: Back of the Finger Device for adding Variable Compliance to Rigid Objects"
