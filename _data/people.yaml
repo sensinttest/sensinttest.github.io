@@ -115,6 +115,27 @@ people:
     url:   https://valentinmartinezmissir.com/
     image: uploads/people/valentin.jpg
 
+  - id: nadine
+    name: "Nadine Wagener"
+    role: "Post Doc"
+    category_id: all
+    url:   https://nadinewagener.github.io/
+    image: uploads/people/Nadine.jpg
+
+  - id: movais
+    name: "Muhammad Ovais"
+    role: "Research Assistant"
+    category_id: all
+    url: https://www.linkedin.com/in/muhammadovais1
+    image: uploads/people/Muhammad_Ovais.jpg
+
+  - id: Elham
+    name: "Elham Hamidian"
+    role: "Msc Student"
+    category_id: all
+    #url: https://www.linkedin.com/in/muhammadovais1
+    image: uploads/people/Elham.jpg
+    
   - id: sana
     name: "Sana Nasir"
     role: "Msc Thesis"
