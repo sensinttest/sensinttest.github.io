@@ -44,7 +44,7 @@ people:
     url:   https://www.linkedin.com/in/easa-aliabbasi/
     image: uploads/people/easa_cube.jpg
 
-- id: nadine
+  - id: nadine
     name: "Nadine Wagener"
     role: "Post Doc"
     category_id: all
@@ -139,7 +139,7 @@ people:
     name: "Mahmoud Elnezely"
     role: "Assistant"
     category_id: all
-    url:  linkedin.com/in/mahmoud-el-nezely-34630b1a2
+    url:   linkedin.com/in/mahmoud-el-nezely-34630b1a2
     image: uploads\people\Mahmoud_elnezely.jpg
 
   - id: sana
