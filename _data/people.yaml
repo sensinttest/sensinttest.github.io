@@ -125,21 +125,21 @@ people:
     name: "Muhammad Ovais"
     role: "Research Assistant"
     category_id: all
-    url: https://www.linkedin.com/in/muhammadovais1
+    url:   https://www.linkedin.com/in/muhammadovais1
     image: uploads/people/Muhammad_Ovais.jpg
 
   - id: Elham
     name: "Elham Hamidian"
     role: "Msc Student"
     category_id: all
-    url: https://www.linkedin.com/in/elham-hamidian
+    url:   https://www.linkedin.com/in/elham-hamidian
     image: uploads/people/Elham.jpg
     
   - id: mahmoud
     name: "Mahmoud Elnezely"
     role: "Assistant"
     category_id: all
-    url: linkedin.com/in/mahmoud-el-nezely-34630b1a2
+    url:  linkedin.com/in/mahmoud-el-nezely-34630b1a2
     image: uploads\people\Mahmoud_elnezely.jpg
 
   - id: sana
