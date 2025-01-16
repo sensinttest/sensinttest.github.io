@@ -41,9 +41,15 @@ people:
     name: "Easa AliAbbasi"
     role: "Post Doc"
     category_id: all
-  # url:   https://fkeel.github.io
+    url:   https://www.linkedin.com/in/easa-aliabbasi/
     image: uploads/people/easa_cube.jpg
 
+- id: nadine
+    name: "Nadine Wagener"
+    role: "Post Doc"
+    category_id: all
+    url:   https://nadinewagener.github.io/
+    image: uploads/people/Nadine_Wagener.jpg
 
   - id: p_sabnis
     name: "Nihar Sabnis"
@@ -98,7 +104,7 @@ people:
     name: "Gabriela Vega"
     role: "Research Assistant"
     category_id: all
-    url:   http://vegabs.ml/
+    url:   https://x.com/gavyvy_
     image: uploads/people/gaby.jpg
 
   - id: erik
@@ -115,13 +121,6 @@ people:
     url:   https://valentinmartinezmissir.com/
     image: uploads/people/valentin.jpg
 
-  - id: nadine
-    name: "Nadine Wagener"
-    role: "Post Doc"
-    category_id: all
-    url:   https://nadinewagener.github.io/
-    image: uploads/people/Nadine_Wagener.jpg
-
   - id: movais
     name: "Muhammad Ovais"
     role: "Research Assistant"
@@ -133,9 +132,16 @@ people:
     name: "Elham Hamidian"
     role: "Msc Student"
     category_id: all
-    #url: https://www.linkedin.com/in/muhammadovais1
+    url: https://www.linkedin.com/in/elham-hamidian
     image: uploads/people/Elham.jpg
     
+    - id: mahmoud
+    name: "Mahmoud Elnezely"
+    role: "Assistant"
+    category_id: all
+    url: linkedin.com/in/mahmoud-el-nezely-34630b1a2
+    image: uploads\people\Mahmoud_elnezely.jpg
+
   - id: sana
     name: "Sana Nasir"
     role: "Msc Thesis"
