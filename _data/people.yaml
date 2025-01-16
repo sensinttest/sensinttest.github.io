@@ -135,7 +135,7 @@ people:
     url: https://www.linkedin.com/in/elham-hamidian
     image: uploads/people/Elham.jpg
     
-    - id: mahmoud
+  - id: mahmoud
     name: "Mahmoud Elnezely"
     role: "Assistant"
     category_id: all
