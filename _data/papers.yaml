@@ -115,6 +115,20 @@ timeline:
         url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_vARitouch.pdf
 
 
+  - title: "Who Did It? How User Agency is Influenced by Visual Properties of Generated Images"
+    year: 2024
+    authors: Johanna K. Didion, Krzysztof Wolski, <b>Dennis Wittchen</b>, David Coyle, Thomas Leimkühler, <b>Paul Strohmeier</b>
+    venue: User Interface Software and Technology (UIST '24)
+    #description: We present our musical performance exploration of liminal spaces, which focuses on the interconnected physicality of bodies in music, using biosignals and gestural, movement-based interaction to shape live performances in novel ways.
+    #image: https://sensinttest.github.io/uploads/images/papers/ravenet_demo.png
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2024_UIST_who_did_it_paper.pdf
+
+
   - title: "Effect of Finger Orientation on Contact Stiffness and Area During Sliding"
     year: 2024
     authors: Jahangier Ahmad, <b>Easa AliAbbasi</b>, MReza Alipour Sormoli, Cagatay Basdogan
