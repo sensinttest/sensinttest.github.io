@@ -115,6 +115,20 @@ timeline:
         url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_vARitouch.pdf
 
 
+  - title: "Effect of Finger Orientation on Contact Stiffness and Area During Sliding"
+    year: 2024
+    authors: Jahangier Ahmad, Easa AliAbbasi, MReza Alipour Sormoli, Cagatay Basdogan
+    venue: IEEE Transactions on Haptics Journal
+    description: We investigated how finger orientation affects the way we touch and feel surfaces. Our experimental findings show that the changes in the orientation of finger can alter the contact area and stiffness and hence, the frictional forces while exploring surfaces.
+    image: https://sensinttest.github.io/uploads/images/papers/24_IEEE_FingerOrientation.jpg
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2024_IEEE_EffectofFingerOrientation.pdf
+
+
   - title: "Haptic Servos: Self-Contained Vibrotactile Rendering System for Creating or Augmenting Material Experiences"
     year: 2023
     authors: <b>Nihar Sabnis</b>, <b>Dennis Wittchen</b>, <b>Courtney N. Reed</b>,  Narjes Pourjafarian, Jürgen Steimle, <b>Paul Strohmeier</b>
