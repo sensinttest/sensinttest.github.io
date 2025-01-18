@@ -564,7 +564,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2016_CHI_EmotionShape.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2016_CHI_EmotionShape.pdf
       - name: video
         url: https://youtu.be/HwPS9_AzaLM
       - name: "video: talk + live demo"
@@ -599,7 +599,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2015_ACE_DisplayPointers.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2015_ACE_DisplayPointers.pdf
       - name: video
         url: https://youtu.be/yisoDGJHDMs
 
@@ -726,7 +726,7 @@ timeline:
         style: yellow
     links:
       - name: pdf
-        url: https://fkeel.github.io/uploads/pdf/015_AH_IRSensors.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2015_AH_IRSensors.pdf
       - name: poster
         url: https://fkeel.github.io/uploads/image/2015_AH_IRSensors_Poster.jpg
       - name: "Best Poster Award"
@@ -743,7 +743,7 @@ timeline:
         style: yellow
     links:
       - name: pdf
-        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2015_MobileHCI_DisplaySize.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2015_MobileHCI_DisplaySize.pdf
 
   - title: "PaperTab: an electronic paper computer with multiple large flexible electrophoretic displays"
     year: 2013
