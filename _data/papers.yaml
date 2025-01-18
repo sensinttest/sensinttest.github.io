@@ -374,7 +374,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://fkeel.github.io/uploads/pdf/2020_UIST_bARefoot.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2020_UIST_bARfoot.pdf
       - name: talk
         url: https://www.youtube.com/watch?v=22R1RkG6wNU
       - name: News Report (German)
@@ -447,7 +447,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://fkeel.github.io/uploads/pdf/2020_CHI_Magnetips.pdf   
+        url: https://sensinttest.github.io/uploads/pdfs/2019_CHI_Magnetips.pdf   
         
   - title: "Grappler: Array of bistable elements for pinching net-like infrastructure to low gravity bodies"
     year: 2019
