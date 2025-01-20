@@ -14,10 +14,6 @@ timeline:
     links:
       - name: pdf   
         url: https://sensinttest.github.io/uploads/pdfs/2025_TEI_GasPedals_CameraReady.pdf
-      - #name: Best Paper – Honourable Mention
-        #url: https://sensinttest.github.io/uploads/images/2024_CHI_award_motionless.jpeg
-      - #name: Demo
-        #url: https://sensinttest.github.io/uploads/images/2024_EH_Motionless_Movement.pdf
 
   - title: "Motionless Movement: Towards Vibrotactile Kinesthetic Displays"
     year: 2024
