@@ -4,7 +4,7 @@ description: Previous publications.
 timeline:
   - title: "Foot Pedal Control: The Role of Vibrotactile Feedback in Performance and Perceived Control"
     year: 2025
-    authors: <b>Nihar Sabnis</b>, Ata Otaran, <b>Dennis Wittchen</b>,Johanna K. Didion, Jürgen Steimle, <b>Paul Strohmeier</b>
+    authors: <b>Nihar Sabnis</b>, Ata Otaran, <b>Dennis Wittchen</b>, Johanna K. Didion, Jürgen Steimle, <b>Paul Strohmeier</b>
     venue: Tangible, Embedded, and Embodied Interaction (TEI '25)
     #description: This paper presents a proof-of-concept kinesthetic display prototype. We explore how one might, using only vibration, present a sense of movement to a user. A user study showed that the tactile sense of movement we provide using vibration is stronger than that provided by a visual control task.
     image: https://sensinttest.github.io/uploads/images/papers/2025_TEI_FootPedalControl.png
@@ -500,7 +500,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://fkeel.github.io/uploads/pdf/2018_CHI_midAirTextures.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2018_CHI_midAirTextures.pdf
       - name: video
         url: https://www.youtube.com/watch?v=pJ8MiFiMWHI
 
@@ -595,7 +595,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2015_TEI_DisplaySkin.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2015_TEI_DisplaySkin.pdf
       - name: video
         url: https://www.youtube.com/watch?v=eetY1YTOpmo
       - name: talk
@@ -627,7 +627,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2015_INTERACT_Printput.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2015_INTERACT_Printput.pdf
       - name: video
         url: https://youtu.be/ffPdHSNMjqI
       - name: "video: talk + live demo"
@@ -687,7 +687,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://fkeel.github.io/uploads/pdf/2015_TEI_DisplaySkin.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2016_TEI_ReFlex.pdf
 
   - title: "What can Doodles on the Arm teach us about On-Body Interaction?"
     year: 2016
@@ -802,7 +802,7 @@ timeline:
         style: violet
     links:
       - name: pdf
-        url: https://fkeel.github.io/uploads/pdf/2017_TEI_SecondSKin.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2017_TEI_SecondSKin.pdf
 
   - title: "Exploring Bodies, Mediation and Points of View using a Robotic Avatar"
     year: 2016
