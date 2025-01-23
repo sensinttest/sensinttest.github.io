@@ -4,9 +4,9 @@ description: Previous publications.
 timeline:
   - title: "Foot Pedal Control: The Role of Vibrotactile Feedback in Performance and Perceived Control"
     year: 2025
-    authors: <b>Nihar Sabnis</b>, Ata Otaran, <b>Dennis Wittchen</b>, Johanna K. Didion, Jürgen Steimle, <b>Paul Strohmeier</b>
+    authors: <b>Nihar Sabnis</b>, Ata Otaran, <b>Dennis Wittchen</b>, <b>Johanna K. Didion</b>, Jürgen Steimle, <b>Paul Strohmeier</b>
     venue: Tangible, Embedded, and Embodied Interaction (TEI '25)
-    #description: This paper presents a proof-of-concept kinesthetic display prototype. We explore how one might, using only vibration, present a sense of movement to a user. A user study showed that the tactile sense of movement we provide using vibration is stronger than that provided by a visual control task.
+    description: This work evaluated four pedal configurations for abstract and ecological tasks. The results showed that vibrotactile rendering can improve the perceived control despite the objective performance remaining the same. This finding opens up opportunities to introduce vibrotactile feedback for helping users' gain confidence and feel that they are in control.
     image: https://sensinttest.github.io/uploads/images/papers/2025_TEI_FootPedalControl.png
     tags:
       - text: paper
@@ -155,6 +155,18 @@ timeline:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2024_IEEE_EffectofFingerOrientation.pdf
 
+  - title: "Foot Augmentation 101: Design your own Augmented Experiences"
+    year: 2024
+    authors: <b>Dennis Wittchen</b>, <b>Nihar Sabnis</b>, Troy Robert Nachtigall, Florian ‘Floyd’ Mueller, <b>Paul Strohmeier</b>, Don Samitha Elvitigala
+    venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
+    #description: We co hosted a workshop to discuss topics such as reproduceability, sharing of data and methods, and communication and collaboration in haptic design research
+    #image: https://sensinttest.github.io/uploads/images/papers/hapticDesignWorkshop.PNG
+    tags:
+      - text: workshop
+        style: yellow
+    links:
+      - name: Workshop Website
+        url: https://dl.acm.org/doi/abs/10.1145/3623509.3634744
 
   - title: "Haptic Servos: Self-Contained Vibrotactile Rendering System for Creating or Augmenting Material Experiences"
     year: 2023
