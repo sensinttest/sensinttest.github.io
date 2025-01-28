@@ -575,7 +575,7 @@ timeline:
       - name: raw data
         url: https://dl.acm.org/ft_gateway.cfm?id=3025812&type=zip&path=%2F3030000%2F3025812%2Fsupp%2Fpn2791%2Dfile4%2Ezip&supp=1&dwn=1
       - name: Best Paper – Honourable Mention
-        url: http://embodimentlabs.org/blog2/wp-contenthttps://fkeel.github.io/uploads/2018/01/2016_CHI_HapticTextures_Award-e1514918061751.jpg
+        url: https://sensinttest.github.io/uploads/images/2016_CHI_HapticTextures_Award.jpg
 
   - title: "An Evaluation of Shape Changes for Conveying Emotions"
     image_outline: true
@@ -686,7 +686,7 @@ timeline:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2016_TEI_MediatedBodies.pdf
       - name: "Top Presentation Award"
-        url: https://fkeel.github.io/uploads/image/2018/01/2014_ISPR_Award.jpg
+        url: https://sensinttest.github.io/uploads/images/2014_ISPR_Award.jpg
 
   - title: "ReFlex: A Flexible Smartphone with Active Haptic Feedback for Bend Input"
     year: 2016
