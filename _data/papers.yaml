@@ -497,7 +497,9 @@ timeline:
     tags:
       - text: paper
         style: magenta
-        
+    links:
+      - name: website
+        url: http://interdigitation.embodimentlabs.org/         
         
 
         
@@ -555,7 +557,7 @@ timeline:
       - name: video
         url: https://youtu.be/z92_jkQb5EM
       - name: web
-        url: https://etextile.github.io/resistiveMatrix/
+        url: https://github.com/eTextile
 
   - title: "Generating Haptic Textures with a Vibrotactile Actuator"
     year: 2017
