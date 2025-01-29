@@ -30,7 +30,7 @@ timeline:
       - name: Best Paper – Honourable Mention
         url: https://sensinttest.github.io/uploads/images/2024_CHI_award_motionless.jpeg
       - name: Demo
-        url: https://sensinttest.github.io/uploads/images/2024_EH_Motionless_Movement.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/EH24___Motionless_Movement___Demo.pdf
 
   - title: "Shaping Compliance: Inducing Haptic Illusion of Compliance in Diferent Shapes with Electrotactile Grains"
     year: 2024
@@ -377,7 +377,10 @@ timeline:
     tags:
       - text: paper
         style: magenta
-    
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2021_CHI_squishthis.pdf 
+
   - title: "BodyStylus: Freehand On-Skin Design and Fabrication of On-Body Interfaces"
     year: 2021
     authors: Narjes Pourjafarian, Marion Koelle, Bruno Fruchard, Sahar Mavali, Konstantin Klamka, Daniel Groeger, Paul Strohmeier, and Jürgen Steimle
@@ -387,6 +390,9 @@ timeline:
     tags:
       - text: paper
         style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2021_CHI_BodyStylus.pdf 
 
   - title: "bARefoot: Generating Virtual Materials Using Motion Coupled Vibration in Shoes"
     year: 2020
