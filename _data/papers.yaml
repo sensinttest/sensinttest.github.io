@@ -159,8 +159,8 @@ timeline:
     year: 2024
     authors: <b>Dennis Wittchen</b>, <b>Nihar Sabnis</b>, Troy Robert Nachtigall, Florian ‘Floyd’ Mueller, <b>Paul Strohmeier</b>, Don Samitha Elvitigala
     venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
-    #description: We co hosted a workshop to discuss topics such as reproduceability, sharing of data and methods, and communication and collaboration in haptic design research
-    #image: https://sensinttest.github.io/uploads/images/papers/hapticDesignWorkshop.PNG
+    description: This workshop focused on building foot augmentations collaboratively. Participants designed three prototypes, a) remote movement guidance, calling the shoe, increasing empathy.
+    image: https://sensinttest.github.io/uploads/images/papers/footaugmentation.png
     tags:
       - text: workshop
         style: yellow
@@ -506,7 +506,8 @@ timeline:
     links:
       - name: website
         url: http://interdigitation.embodimentlabs.org/         
-        
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2019_TEI_optimizingpressure.pdf
 
         
   - title: "From Pulse Trains to “Coloring with Vibrations”: Motion Mappings for Mid-Air Haptic Textures"
