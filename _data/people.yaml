@@ -69,7 +69,7 @@ people:
     name: "Louis Badr"
     role: "PhD Student"
     category_id: all
-    url:   louis-badr.fr
+    url:   https://louis-badr.fr/
     image: uploads/people/Louis.jpg
 
   - id: c_reed
