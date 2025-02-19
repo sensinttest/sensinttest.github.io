@@ -65,6 +65,13 @@ people:
     url:   https://yuran-ding.com/
     image: uploads/people/yuran.jpg
 
+  - id: louis_B
+    name: "Louis Badr"
+    role: "PhD Student"
+    category_id: all
+    url:   louis-badr.fr
+    image: uploads/people/Louis.jpg
+
   - id: c_reed
     name: "Courtney Reed"
     role: "External Collaborator"
