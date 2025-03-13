@@ -32,7 +32,7 @@ timeline:
       - name: Demo
         url: https://sensinttest.github.io/uploads/pdfs/EH24___Motionless_Movement___Demo.pdf
 
-  - title: "Shaping Compliance: Inducing Haptic Illusion of Compliance in Diferent Shapes with Electrotactile Grains"
+  - title: "Shaping Compliance: Inducing Haptic Illusion of Compliance in Different Shapes with Electrotactile Grains"
     year: 2024
     authors: Arata Jingu <b>Nihar Sabnis</b>,  <b>Paul Strohmeier</b>, Jürgen Steimle
     venue: Human Factors in Computing Systems (CHI '24)
@@ -196,7 +196,7 @@ timeline:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2023_CHI_Metaphors.pdf
         
-  - title: "Tactile Symbols with Continuous and Motion-Coupled Vibration: An Exploration of using Embodied Experiences for Hermeneutic"
+  - title: "Tactile Symbols with Continuous and Motion-Coupled Vibration: An Exploration of using Embodied Experiences for Hermeneutic Design "
     year: 2023
     authors: <b>Nihar Sabnis</b>, <b>Dennis Wittchen</b>, <b>Gabriela Vega</b>, <b>Courtney N. Reed</b>,  <b>Paul Strohmeier</b>
     venue: Human Factors in Computing Systems (CHI '23)
