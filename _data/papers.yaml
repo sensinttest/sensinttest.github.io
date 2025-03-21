@@ -95,7 +95,7 @@ timeline:
     description: In this work, we present a method for 3D printing objects with variable softness, inspired by mechanical metamaterials. By modifying parameters of individual cell geometries within a cellular structure, our approach and tool enables designers to rapidly prototype objects with adjustable softness for diverse applications. These structures can even be fabricated on commodity 3D printers. 
     image: https://sensinttest.github.io/uploads/images/papers/metamaterials_web.png
     tags:
-      - text: paper
+      - text: Extended Abstract
         style: magenta
     links:
       - name: pdf
@@ -108,7 +108,7 @@ timeline:
     description: RaveNET connects people to music, enabling musicians to modulate sound using signals produced by their own bodies or the bodies of others. We present three wearable prototype nodes in an inaugural RaveNET performance. Bones, an anti-corset, uses capacitive sensing to detect stretch as the singer breathes. Tendons, a half-glove, measures galvanic skin response, pulse, and movement of the bass player’s hands. Veins, a cap with electrodes for surface electromyography, captures the facial expressions of the drum machine operator. 
     image: https://sensinttest.github.io/uploads/images/papers/ravenet_perf.png
     tags:
-      - text: paper
+      - text: Extended Abstract
         style: magenta
     links:
       - name: pdf
@@ -121,7 +121,7 @@ timeline:
     description: We present our musical performance exploration of liminal spaces, which focuses on the interconnected physicality of bodies in music, using biosignals and gestural, movement-based interaction to shape live performances in novel ways.
     image: https://sensinttest.github.io/uploads/images/papers/ravenet_demo.png
     tags:
-      - text: paper
+      - text: performance
         style: magenta
     links:
       - name: pdf
