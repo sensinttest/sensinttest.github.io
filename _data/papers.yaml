@@ -2,6 +2,21 @@ title: Papers
 description: Previous publications.
 
 timeline:
+  - title: "CollabJam: Studying Collaborative Haptic Experience Design for On-Body Vibrotactile Patterns"
+    year: 2025
+    authors: <b>Dennis Wittchen</b>, Alexander Ramian, <b>Nihar Sabnis</b>, Richard Böhme, Christopher Chlebowski, Georg Freitag, Bruno Fruchard, and Donald Degraen
+    venue: Human Factors in Computing Systems (CHI '25)
+    description: Collaborative design of vibrotactile experiences poses unique challenges in remote settings, where designers must clearly convey their intentions and iteratively develop and refine experiences—ideally in real-time. To address these challenges, we introduce CollabJam, a collaborative prototyping suite that supports synchronous remote design of on-body vibrotactile experiences. Our study highlights the importance of multi-sensory communication for effective idea exchange and the complex trade-offs involved in the flexible placement of actuators on the body.
+    image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_CollabJam_teaser.png
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf   
+        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_CollabJam.pdf
+      - name: Honorable Mention
+        url: https://sensinttest.github.io/uploads/images/2025_CHI_CollabJam_award.jpg
+        
   - title: "Foot Pedal Control: The Role of Vibrotactile Feedback in Performance and Perceived Control"
     year: 2025
     authors: <b>Nihar Sabnis</b>, Ata Otaran, <b>Dennis Wittchen</b>, <b>Johanna K. Didion</b>, Jürgen Steimle, <b>Paul Strohmeier</b>
