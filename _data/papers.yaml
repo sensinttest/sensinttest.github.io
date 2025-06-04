@@ -8,15 +8,15 @@ timeline:
     authors: <b>Nihar Sabnis</b>, <b>Maelle Roche</b>, <b>Dennis Wittchen</b>, Donald Degraen, <b>Paul Strohmeier</b>
     venue: Human Factors in Computing Systems (CHI '25)
     description: Realistic force feedback is essential for immersion in VR, but traditional vibrotactile methods fall short. Asymmetric vibrations can induce pseudo forces but introduce unwanted vibration, reducing realism. We propose - Motion-Coupled Asymmetric Vibration (MCAV), a novel algorithm that couples asymmetric vibrations with user motion, leveraging sensory attenuation to mimic self-generated sensations. Studies showed that MCAV reduced perceived vibration by while maintaining the force sensation compared to continuous asymmetric vibrations. Demonstrations in VR scenarios—archery, weightlifting, and haptic magnets—showed user preference for motion-coupled asymmetric vibration offering a new direction for force rendering in VR.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_CollabJam_teaser.png
+    image: https://sensinttest.github.io/uploads/images/papers/2025_MCAV_teaser.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf   
-        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_CollabJam.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_Motion-Coupled_Asymmetric_Vibration.pdf
       - name: Best Paper - Honorable Mention
-        url: https://sensinttest.github.io/uploads/images/2025_CHI_CollabJam_award.jpg
+        url: https://sensinttest.github.io/uploads/images/2025_CHI_MCAV_award.jpg
         
   - title: "CollabJam: Studying Collaborative Haptic Experience Design for On-Body Vibrotactile Patterns"
     year: 2025
@@ -67,7 +67,7 @@ timeline:
     authors: Carey Jewitt, Sara Price, Lucia Seminara, <b>Nihar Sabnis</b>, Jürgen Steimle, Nadia Berthouze, Kouta Minamizawa, Desiree Foerster, Grant Jun Otsuki
     venue: Human Factors in Computing Systems (CHI '25)
     description: This agenda-setting workshop discusses the dominance of a human-centric replication paradigm in digital communication being problematic, constraining, limiting digital innovation, and continues to unquestionably place humans at the center of digital futures with negative social implications for modes of digital communication. This workshop explored alternative visions of digital communication, drawing inspiration from animal and plant sensory worlds and generated ideas towards a new way of thinking and working in sensorial immersion beyond the human-centric.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_WTF_workshop.jpg
+    image: https://sensinttest.github.io/uploads/images/papers/CHI25_Beyond_Human.jpg
     tags:
       - text: workshop
         style: yellow
@@ -75,20 +75,20 @@ timeline:
       - name: Workshop Website
         url: https://digitalcommunicationecologies.wordpress.com/
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_Walking_the_Future.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_Beyond_Human_Centric_Mimicry.pdf
 
   - title: "Designing Vibrotactile Feedback for rendering Material and Force Experiences"
     year: 2025
     authors: <b>Nihar Sabnis</b>
     venue: Human Factors in Computing Systems (CHI '25)
     description: This doctoral consortium paper explores how perceptual mechanisms shape material experiences through touch and how they relate to vibrotactile rendering. It focuses on understanding these mechanisms, designing tactile symbols and wearables, and using perception as a tool for rendering vibrations, while sharing reflections on Nihar's PhD journey so far.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_WTF_workshop.jpg
+    image: https://sensinttest.github.io/uploads/images/papers/2025_DC_teaser.png
     tags:
       - text: doctoral consortium
-        style: blue
+        style: orange
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_Walking_the_Future.pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_Designing_Vibrotactile_Feedback.pdf
 
   - title: "Motionless Movement: Towards Vibrotactile Kinesthetic Displays"
     year: 2024
