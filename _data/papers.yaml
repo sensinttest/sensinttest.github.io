@@ -4,7 +4,7 @@ description: Previous publications.
 timeline:
   - title: "CollabJam: Studying Collaborative Haptic Experience Design for On-Body Vibrotactile Patterns"
     year: 2025
-    authors: <b>Dennis Wittchen</b>, Alexander Ramian, <b>Nihar Sabnis</b>, Richard Böhme, Christopher Chlebowski, Georg Freitag, Bruno Fruchard, and Donald Degraen
+    authors: <b>Dennis Wittchen</b>, Alexander Ramian, <b>Nihar Sabnis</b>, Richard Böhme, Christopher Chlebowski, Georg Freitag, Bruno Fruchard, Donald Degraen
     venue: Human Factors in Computing Systems (CHI '25)
     description: Collaborative design of vibrotactile experiences poses unique challenges in remote settings, where designers must clearly convey their intentions and iteratively develop and refine experiences—ideally in real-time. To address these challenges, we introduce CollabJam, a collaborative prototyping suite that supports synchronous remote design of on-body vibrotactile experiences. Our study highlights the importance of multi-sensory communication for effective idea exchange and the complex trade-offs involved in the flexible placement of actuators on the body.
     image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_CollabJam_teaser.png
@@ -29,6 +29,21 @@ timeline:
     links:
       - name: pdf   
         url: https://sensinttest.github.io/uploads/pdfs/2025_TEI_GasPedals_CameraReady.pdf
+
+  - title: "Walking the Future: Bridging Foot Augmentation into Next Steps of Human Augmentation"
+    year: 2025
+    authors: <b>Nihar Sabnis</b>, <b>Dennis Wittchen</b>, Ata Otaran, Fatima Badmos, Siyi Liu, Aryan Saini, Georg Regal, Vincent van Rheden, Florian ‘Floyd’ Mueller, Suranga Nanayakkara, Denys J.C. Matthies, Troy Nachtigall, <b>Paul Strohmeier</b>, Laia Turmo Vidal, Don Samitha Elvitigala
+    venue: Human Factors in Computing Systems (CHI '25)
+    description: This workshop explored the emerging potential of wearable foot interfaces in the context of human augmentation. Bringing together researchers, designers, and practitioners, we examined how foot-based technologies have evolved beyond activity tracking to enhance movement, balance, and posture. Through discussions on past developments and current trends, participants collaboratively identified future directions and research opportunities within the broader field of human augmentation.
+    image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_WTF_workshop.jpg
+    tags:
+      - text: workshop
+        style: yellow
+    links:
+      - name: Workshop Website
+        url: https://derikon.github.io/WalkingTheFuture_Workshop/
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_Walking_the_Future.pdf
 
   - title: "Motionless Movement: Towards Vibrotactile Kinesthetic Displays"
     year: 2024
