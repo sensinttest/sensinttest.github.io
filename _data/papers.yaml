@@ -2,6 +2,22 @@ title: Papers
 description: Previous publications.
 
 timeline:
+
+  - title: "Motion-Coupled Asymmetric Vibration for Pseudo Force Rendering in Virtual Reality"
+    year: 2025
+    authors: <b>Nihar Sabnis</b>, <b>Maelle Roche</b>, <b>Dennis Wittchen</b>, Donald Degraen, <b>Paul Strohmeier</b>
+    venue: Human Factors in Computing Systems (CHI '25)
+    description: Realistic force feedback is essential for immersion in VR, but traditional vibrotactile methods fall short. Asymmetric vibrations can induce pseudo forces but introduce unwanted vibration, reducing realism. We propose - Motion-Coupled Asymmetric Vibration (MCAV), a novel algorithm that couples asymmetric vibrations with user motion, leveraging sensory attenuation to mimic self-generated sensations. Studies showed that MCAV reduced perceived vibration by while maintaining the force sensation compared to continuous asymmetric vibrations. Demonstrations in VR scenarios—archery, weightlifting, and haptic magnets—showed user preference for motion-coupled asymmetric vibration offering a new direction for force rendering in VR.
+    image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_CollabJam_teaser.png
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf   
+        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_CollabJam.pdf
+      - name: Best Paper - Honorable Mention
+        url: https://sensinttest.github.io/uploads/images/2025_CHI_CollabJam_award.jpg
+        
   - title: "CollabJam: Studying Collaborative Haptic Experience Design for On-Body Vibrotactile Patterns"
     year: 2025
     authors: <b>Dennis Wittchen</b>, Alexander Ramian, <b>Nihar Sabnis</b>, Richard Böhme, Christopher Chlebowski, Georg Freitag, Bruno Fruchard, Donald Degraen
@@ -14,7 +30,7 @@ timeline:
     links:
       - name: pdf   
         url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_CollabJam.pdf
-      - name: Honorable Mention
+      - name: Best Paper - Honorable Mention
         url: https://sensinttest.github.io/uploads/images/2025_CHI_CollabJam_award.jpg
         
   - title: "Foot Pedal Control: The Role of Vibrotactile Feedback in Performance and Perceived Control"
@@ -29,6 +45,7 @@ timeline:
     links:
       - name: pdf   
         url: https://sensinttest.github.io/uploads/pdfs/2025_TEI_GasPedals_CameraReady.pdf
+      - name: Best Paper - Honorable Mention
 
   - title: "Walking the Future: Bridging Foot Augmentation into Next Steps of Human Augmentation"
     year: 2025
@@ -42,6 +59,34 @@ timeline:
     links:
       - name: Workshop Website
         url: https://derikon.github.io/WalkingTheFuture_Workshop/
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_Walking_the_Future.pdf
+
+  - title: "Digital Communication Moving Beyond Human-Centric Replication"
+    year: 2025
+    authors: Carey Jewitt, Sara Price, Lucia Seminara, <b>Nihar Sabnis</b>, Jürgen Steimle, Nadia Berthouze, Kouta Minamizawa, Desiree Foerster, Grant Jun Otsuki
+    venue: Human Factors in Computing Systems (CHI '25)
+    description: This agenda-setting workshop discusses the dominance of a human-centric replication paradigm in digital communication being problematic, constraining, limiting digital innovation, and continues to unquestionably place humans at the center of digital futures with negative social implications for modes of digital communication. This workshop explored alternative visions of digital communication, drawing inspiration from animal and plant sensory worlds and generated ideas towards a new way of thinking and working in sensorial immersion beyond the human-centric.
+    image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_WTF_workshop.jpg
+    tags:
+      - text: workshop
+        style: yellow
+    links:
+      - name: Workshop Website
+        url: https://digitalcommunicationecologies.wordpress.com/
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_Walking_the_Future.pdf
+
+  - title: "Designing Vibrotactile Feedback for rendering Material and Force Experiences"
+    year: 2025
+    authors: <b>Nihar Sabnis</b>
+    venue: Human Factors in Computing Systems (CHI '25)
+    description: This doctoral consortium paper explores how perceptual mechanisms shape material experiences through touch and how they relate to vibrotactile rendering. It focuses on understanding these mechanisms, designing tactile symbols and wearables, and using perception as a tool for rendering vibrations, while sharing reflections on Nihar's PhD journey so far.
+    image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_WTF_workshop.jpg
+    tags:
+      - text: doctoral consortium
+        style: blue
+    links:
       - name: pdf
         url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_Walking_the_Future.pdf
 
