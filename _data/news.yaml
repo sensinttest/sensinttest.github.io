@@ -2,6 +2,14 @@ title: News
 description: 
 
 news: 
+  - id: 19
+    date: 2025-06-12
+    content: |
+      <b>Easa AliAbbasi</b> gave a talk at CG Lunch, 
+  - id: 18
+    date: 2025-06-12
+    content: |
+      <b>Wanhui Li</b> is a visiting PhD student from the University of Tokyo
   - id: 17
     date: 2024-10-01
     content: |
