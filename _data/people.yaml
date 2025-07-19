@@ -106,12 +106,27 @@ people:
     category_id: alumni
   # url:   https://fkeel.github.io
   # image: uploads/people/sina.png
-  - id: Ayush
+  - id: ayush
     name: "Ayush Kumar"
     role: "Research Assistant"
     category_id: all
     url:   www.linkedin.com/in/ayush-k-b91212204
-    image: https://drive.google.com/file/d/1ppOvXTi_gFE-2-KFyJReJTiDAVuHNv3s/view?usp=sharing
+    image: uploads/people/Ayush.jpg
+  
+  - id: reshma_daniel
+    name: "Reshma Daniel"
+    role: "Research Assistant"
+    category_id: all
+    url:   https://www.linkedin.com/in/reshma-daniel-352ab5193
+    image: uploads/people/Reshma.jpg
+  
+  - id: wahnuili
+    name: "Wahnhui Li"
+    role: "Visiting Researcher"
+    category_id: all
+    url: https://wanhuili.github.io
+    image: uploads/people/Wahnhuili.jpg
+
   - id: g_vega
     name: "Gabriela Vega"
     role: "Research Assistant"
