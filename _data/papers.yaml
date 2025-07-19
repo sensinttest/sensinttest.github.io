@@ -8,13 +8,13 @@ timeline:
   authors: <b>Paul Strohmeier</b>, <b>Laia Turmo Vidal</b>, <b>Gabriela Vega</b>, <b>Courtney N Reed</b>, <b>Alex Mazursky</b>, <b>Easa AliAbbasi</b>, <b>Ana Tajadura-Jiménez</b>, <b>Jürgen Steimle</b>
   venue: Human Factors in Computing Systems (CHI EA '25)
   description: Wearable interfaces are evolving beyond isolated sensing or actuation. This work explores *sensorimotor devices*—wearables that tightly couple user action with real-time feedback, in timing, space, and modality. These couplings shape experiences of agency, body ownership, and environmental perception. Inspired by systems like MetaLimbs, the paper argues for a multidisciplinary lens—spanning HCI, psychology, physiology, and neuroscience—to fully understand and design such embodied interactions.
-  image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_SensorimotorDevice.png
+  image: https://sensinttest.github.io/uploads/images/2025_CHI_SensorimotorDevice.png
   tags:
     - text: paper
       style: magenta
   links:
     - name: pdf
-      url: https://sensinttest.github.io/uploads/images/papers/2025_CHI_SensorimotorDevices.pdf
+      url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_SensorimotorDevices.pdf
 
         
   - title: "Motion-Coupled Asymmetric Vibration for Pseudo Force Rendering in Virtual Reality"
