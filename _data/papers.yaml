@@ -23,7 +23,7 @@ timeline:
   authors: <b>Nadine Wagener</b>, Yvonne Rogers, Jasmin Niess
   venue: ACM Designing Interactive Systems Conference (DIS ’25)
   description: Designing for ongoing engagement in Virtual Reality (VR) self-care and well‑being interventions presents several challenges. Current frameworks supporting designers in this task primarily focus on specific well‑being objectives, such as goal‑setting or self‑reflection, but often lack implementable design recommendations to enhance engagement and prevent lapsing. To address this gap, we propose the Self‑Care Technology Process Model (SCTpm), which builds on six prior studies on VR self‑care applications. The SCTpm is a framework for an intervention‑centred self‑care journey, providing targeted design recommendations tailored to evolving user needs and supporting sustained interaction. Evaluated by n=10 experts, the SCTpm demonstrates its potential to enhance the iterative design and evaluation cycles of VR‑based self‑care technologies, sensitising designers to create effective and more engaging systems. Findings further indicate that the SCTpm can provide valuable guidance for designers and researchers at different levels of expertise in developing innovative VR applications for self‑care.
-  image: https://sensinttest.github.io/uploads/images/papers/2025_SCTpm_teaser.png
+  #image: https://sensinttest.github.io/uploads/images/papers/2025_SCTpm_teaser.png
   tags:
     - text: paper
       style: magenta
