@@ -2,7 +2,20 @@ title: Papers
 description: Previous publications.
 
 timeline:
-
+ - title: "Sensorimotor Devices: Coupling Sensing and Actuation to Augment Bodily Experience"
+    year: 2025
+    authors: <b>Paul Strohmeier</b>, Laia Turmo Vidal, <b>Gabriela Vega</b>, <b>Courtney N. Reed</b>, Alex Mazursky, <b>Easa AliAbbasi</b>, Ana Tajadura-Jiménez, Jürgen Steimle
+    venue: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA ’25)
+    description: A new class of wearable devices is emerging—ones that tightly couple sensing and actuation to fundamentally reshape how we perceive and control our bodies. Unlike typical wearables that focus solely on tracking (e.g., fitness bands) or feedback (e.g., VR headsets), these “sensorimotor devices” fuse input and output in time, space, and modality. This tight coupling enables richer bodily experiences—evoking new senses of agency, presence, and self-perception. In this workshop paper, the authors explore this frontier, drawing from disciplines spanning HCI, Psychology, Neuroscience, and Engineering. They identify research gaps and propose new design principles for wearables that go beyond passive observation, actively shaping embodied experience through real-time motion-coupled feedback.
+    image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_SensorimotorDevice.png
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf   
+        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_SensorimotorDevices.pdf
+      - name: doi
+        url: https://doi.org/10.1145/3706599.3706735
   - title: "TogetherReflect: Supporting Emotional Expression in Couples Through a Collaborative Virtual Reality Experience"
     year: 2025
     authors: <b>Nadine Wagener</b>, Paweł W. Woźniak, Daniel Christian Albensoeder, Yvonne Rogers, Leon Reicherts, Jasmin Niess
@@ -23,7 +36,7 @@ timeline:
     authors: <b>Nadine Wagener</b>, Yvonne Rogers, Jasmin Niess
     venue: ACM Designing Interactive Systems Conference (DIS ’25)
     description: Designing for ongoing engagement in Virtual Reality (VR) self-care and well‑being interventions presents several challenges. Current frameworks supporting designers in this task primarily focus on specific well‑being objectives, such as goal‑setting or self‑reflection, but often lack implementable design recommendations to enhance engagement and prevent lapsing. To address this gap, we propose the Self‑Care Technology Process Model (SCTpm), which builds on six prior studies on VR self‑care applications. The SCTpm is a framework for an intervention‑centred self‑care journey, providing targeted design recommendations tailored to evolving user needs and supporting sustained interaction. Evaluated by n=10 experts, the SCTpm demonstrates its potential to enhance the iterative design and evaluation cycles of VR‑based self‑care technologies, sensitising designers to create effective and more engaging systems. Findings further indicate that the SCTpm can provide valuable guidance for designers and researchers at different levels of expertise in developing innovative VR applications for self‑care.
-    #image: https://sensinttest.github.io/uploads/images/papers/2025_SCTpm_teaser.png
+    image: https://sensinttest.github.io/uploads/images/papers/2025_SCTpm_teaser.png
     tags:
       - text: paper
         style: magenta
