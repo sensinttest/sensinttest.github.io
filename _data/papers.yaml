@@ -2,7 +2,7 @@ title: Papers
 description: Previous publications.
 
 timeline:
- - title: "Sensorimotor Devices: Coupling Sensing and Actuation to Augment Bodily Experience"
+  - title: "Sensorimotor Devices: Coupling Sensing and Actuation to Augment Bodily Experience"
     year: 2025
     authors: <b>Paul Strohmeier</b>, Laia Turmo Vidal, <b>Gabriela Vega</b>, <b>Courtney N. Reed</b>, Alex Mazursky, <b>Easa AliAbbasi</b>, Ana Tajadura-Jiménez, Jürgen Steimle
     venue: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA ’25)
@@ -16,6 +16,7 @@ timeline:
         url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_SensorimotorDevices.pdf
       - name: doi
         url: https://doi.org/10.1145/3706599.3706735
+        
   - title: "TogetherReflect: Supporting Emotional Expression in Couples Through a Collaborative Virtual Reality Experience"
     year: 2025
     authors: <b>Nadine Wagener</b>, Paweł W. Woźniak, Daniel Christian Albensoeder, Yvonne Rogers, Leon Reicherts, Jasmin Niess
