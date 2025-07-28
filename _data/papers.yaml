@@ -9,14 +9,14 @@ timeline:
    venue: Human Factors in Computing Systems (CHI ’25)
    description: Navigating emotional conflicts within relationships can be tough—many couples struggle to express feelings clearly, leading to misunderstandings and emotional distance. TogetherReflect is a multi-user VR experience that helps couples navigate these moments through collaborative 3D drawing. First, each partner visualizes their emotions related to a shared conflict in virtual space. Then, they enter each other’s emotional worlds for reflection and conversation, before coming together on a shared canvas to co-create and reaffirm their connection. The system offers guidance and prompts throughout to facilitate emotional depth and healthy communication. Evaluated with 10 couples (n=20), TogetherReflect showed strong potential to deepen emotional insight, enhance understanding, and strengthen relational bonds—pointing to a future where immersive VR can actively support conflict resolution in intimate relationships.
    image: https://sensinttest.github.io/uploads/images/papers/2025_TogetherReflect_teaser.png
-    tags:
-      - text: paper
-        style: magenta
-    links:
-      - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2025_TogetherReflect.pdf
-      - name: doi
-        url: https://doi.org/10.1145/3706598.3713642
+   tags:
+     - text: paper
+       style: magenta
+   links:
+     - name: pdf
+       url: https://sensinttest.github.io/uploads/pdfs/2025_TogetherReflect.pdf
+     - name: doi
+       url: https://doi.org/10.1145/3706598.3713642
       
   - title: "The Self‑Care Technology Process Model (SCTpm): A Framework for Designing VR‑Based Self‑Care Technology"
     year: 2025
