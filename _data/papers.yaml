@@ -3,20 +3,20 @@ description: Previous publications.
 
 timeline:
 
- - title: "TogetherReflect: Supporting Emotional Expression in Couples Through a Collaborative Virtual Reality Experience"
-   year: 2025
-   authors: <b>Nadine Wagener</b>, Paweł W. Woźniak, Daniel Christian Albensoeder, Yvonne Rogers, Leon Reicherts, Jasmin Niess
-   venue: Human Factors in Computing Systems (CHI ’25)
-   description: Navigating emotional conflicts within relationships can be tough—many couples struggle to express feelings clearly, leading to misunderstandings and emotional distance. TogetherReflect is a multi-user VR experience that helps couples navigate these moments through collaborative 3D drawing. First, each partner visualizes their emotions related to a shared conflict in virtual space. Then, they enter each other’s emotional worlds for reflection and conversation, before coming together on a shared canvas to co-create and reaffirm their connection. The system offers guidance and prompts throughout to facilitate emotional depth and healthy communication. Evaluated with 10 couples (n=20), TogetherReflect showed strong potential to deepen emotional insight, enhance understanding, and strengthen relational bonds—pointing to a future where immersive VR can actively support conflict resolution in intimate relationships.
-   image: https://sensinttest.github.io/uploads/images/papers/2025_TogetherReflect_teaser.png
-   tags:
-     - text: paper
-       style: magenta
-   links:
-     - name: pdf
-       url: https://sensinttest.github.io/uploads/pdfs/2025_TogetherReflect.pdf
-     - name: doi
-       url: https://doi.org/10.1145/3706598.3713642
+  - title: "TogetherReflect: Supporting Emotional Expression in Couples Through a Collaborative Virtual Reality Experience"
+    year: 2025
+    authors: <b>Nadine Wagener</b>, Paweł W. Woźniak, Daniel Christian Albensoeder, Yvonne Rogers, Leon Reicherts, Jasmin Niess
+    venue: Human Factors in Computing Systems (CHI ’25)
+    description: Navigating emotional conflicts within relationships can be tough—many couples struggle to express feelings clearly, leading to misunderstandings and emotional distance. TogetherReflect is a multi-user VR experience that helps couples navigate these moments through collaborative 3D drawing. First, each partner visualizes their emotions related to a shared conflict in virtual space. Then, they enter each other’s emotional worlds for reflection and conversation, before coming together on a shared canvas to co-create and reaffirm their connection. The system offers guidance and prompts throughout to facilitate emotional depth and healthy communication. Evaluated with 10 couples (n=20), TogetherReflect showed strong potential to deepen emotional insight, enhance understanding, and strengthen relational bonds—pointing to a future where immersive VR can actively support conflict resolution in intimate relationships.
+    image: https://sensinttest.github.io/uploads/images/papers/2025_TogetherReflect_teaser.png
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf   
+        url: https://sensinttest.github.io/uploads/pdfs/2025_TogetherReflect.pdf
+      - name: doi
+        url: https://doi.org/10.1145/3706598.3713642
       
   - title: "The Self‑Care Technology Process Model (SCTpm): A Framework for Designing VR‑Based Self‑Care Technology"
     year: 2025
@@ -25,11 +25,11 @@ timeline:
     description: Designing for ongoing engagement in Virtual Reality (VR) self-care and well‑being interventions presents several challenges. Current frameworks supporting designers in this task primarily focus on specific well‑being objectives, such as goal‑setting or self‑reflection, but often lack implementable design recommendations to enhance engagement and prevent lapsing. To address this gap, we propose the Self‑Care Technology Process Model (SCTpm), which builds on six prior studies on VR self‑care applications. The SCTpm is a framework for an intervention‑centred self‑care journey, providing targeted design recommendations tailored to evolving user needs and supporting sustained interaction. Evaluated by n=10 experts, the SCTpm demonstrates its potential to enhance the iterative design and evaluation cycles of VR‑based self‑care technologies, sensitising designers to create effective and more engaging systems. Findings further indicate that the SCTpm can provide valuable guidance for designers and researchers at different levels of expertise in developing innovative VR applications for self‑care.
     #image: https://sensinttest.github.io/uploads/images/papers/2025_SCTpm_teaser.png
     tags:
-     - text: paper
-       style: magenta
+      - text: paper
+        style: magenta
     links:
-     - name: pdf
-       url: https://sensinttest.github.io/uploads/pdfs/2025_SelfCare_SCTpm.pdf
+      - name: pdf   
+        url: https://sensinttest.github.io/uploads/pdfs/2025_SelfCare_SCTpm.pdf
       
   - title: "Motion-Coupled Asymmetric Vibration for Pseudo Force Rendering in Virtual Reality"
     year: 2025
