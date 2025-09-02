@@ -7,7 +7,7 @@ timeline:
     authors: <b>Easa AliAbbasi</b>, <b>Nihar Sabnis</b>, <b>Nadine Wagener</b>, <b>Paul Strohmeier</b>
     venue: Mensch und Computer (MuC ’25)
     description: Redirecting user movement in Virtual Reality (VR) can expand perceived virtual space while accommodating limited physical space. Existing methods mainly rely on visual and auditory cues, but this work explores haptic cues as an alternative. Inspired by how vibrations arise when fingers move across textured surfaces—depending on scanning speed and surface properties—the authors manipulate vibrotactile feedback to influence movement speed. Across three psychophysical experiments, they show that (1) vibrotactile properties affect human movement speed, (2) movement remains stable if users consciously notice feedback changes, and (3) when users remain unaware, reducing vibration pulses by 50% increases movement speed by ~20%. These findings highlight the potential of vibrotactile feedback for subtle redirection in VR without relying solely on vision or sound.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_MuC_Haptic_Redirection.jpeg
+    image: https://sensinttest.github.io/uploads/images/papers/2025_MuC_Haptic_Redirection.jpg
     tags:
       - text: paper
         style: magenta
