@@ -35,7 +35,7 @@ timeline:
     authors: <b>Easa AliAbbasi</b>, <b>Dennis Wittchen</b>, <b>Gabriela Vega</b>, <b>Paul Strohmeier</b>
     venue: IEEE World Haptics Conference (WHC ’25)
     description: The perception of an object’s compliance can be manipulated through the grain-based vibrotactile compliance illusion. Although this method has gained interest for creating virtual compliance, its perceptual mechanisms remain poorly understood. This work analyzes compliance estimates and pressure profiles from 12 participants exploring both physical and virtual compliance. The results reveal that virtual compliance is distinct from physical compliance, mediated by separate sensorimotor processes. These differences are shown in the non-additive nature of real vs. illusory compliance perception and the distinct exploratory actions participants use. The findings have implications for the design of augmented and virtual tactile reality systems, advance our understanding of the compliance illusion, and support closed-loop theories of tactile perception.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_WHC_Physical_complience.jpg
+    image: https://sensinttest.github.io/uploads/images/papers/2025_WHC_Physical_complience.jpeg
     tags:
       - text: paper
         style: magenta
