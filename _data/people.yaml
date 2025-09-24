@@ -148,12 +148,12 @@ people:
     url:   https://valentinmartinezmissir.com/
     image: uploads/people/valentin.jpg
 
-  - id: movais
-    name: "Muhammad Ovais"
+  - id: sara.sf
+    name: "Sara Safaee"
     role: "Research Assistant"
     category_id: all
-    url:   https://www.linkedin.com/in/muhammadovais1
-    image: uploads/people/Muhammad_Ovais.jpg
+    url:   https://www.linkedin.com/in/sara-safaee1999/
+    image: uploads/people/Sara.jpg
 
   - id: Elham
     name: "Elham Hamidian"
@@ -162,12 +162,6 @@ people:
     url:   https://www.linkedin.com/in/elham-hamidian
     image: uploads/people/Elham.jpg
     
-  - id: mahmoud
-    name: "Mahmoud Elnezely"
-    role: "Assistant"
-    category_id: all
-    url:   https://www.linkedin.com/in/mahmoud-el-nezely-34630b1a2/
-    image: uploads\people\Mahmoud_elnezely.jpg
 
   - id: sana
     name: "Sana Nasir"
