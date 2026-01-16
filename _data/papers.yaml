@@ -2,6 +2,21 @@ title: Papers
 description: Previous publications.
 
 timeline:
+
+  - title: "VibRacket: Designing and Experiencing Embodied Vibrotactile Feedback on a Badminton Racket"
+    year: 2025
+    authors: <b>Nihar Sabnis</b>, <b>Gabriela Vega</b>, <b>Valentin Martinez-Missir</b>, <b>Paul Strohmeier</b>
+    venue: Annual Conference on Human-Computer Interaction and Sports (SportsHCI ’25)
+    description: Racket sports like badminton rely heavily on precise stroke mechanics, yet most virtual sports systems emphasize impact sensation rather than movement guidance. This paper introduces VibRacket, a racket-mounted prototype providing both extrinsic vibrotactile feedback (guiding and error-enhancing) and intrinsic, motion-coupled vibrations perceived as self-generated. VibRacket integrates an IMU and vibration actuator to support controlled and ballistic movements and includes a graphical interface for customizing orientation-based vibrotactile patterns. The work discusses how embodied vibrotactile feedback can reduce cognitive load and support motor learning in virtual and augmented racket sports.
+    image: https://sensinttest.github.io/uploads/images/papers/2025_SportsHCI_VibRacket.png
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2025_SportsHCI_VibRacket.pdf
+
+        
   - title: "Haptic Redirection: Modulating Hand Movement Speed with Vibrotactile Feedback"
     year: 2025
     authors: <b>Easa AliAbbasi</b>, <b>Nihar Sabnis</b>, <b>Yuran Ding</b>, <b>Nadine Wagener</b>, <b>Paul Strohmeier</b>
