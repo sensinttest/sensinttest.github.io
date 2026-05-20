@@ -1,11 +1,10 @@
 title: Sensorimotor Interaction Group
 description: |
-  The <a href="http://sensint.org">Sensorimotor Interaction</a> group (senSInt) is a newly formed research group at the <a href="https://www.mpi-inf.mpg.de/home">Max Planck Institute for Informatics</a> (MPI-INF). The group is led by <a href="http://fkeel.github.io">Paul Strohmeier</a>, we conduct research into human perception and computer sensing to improve Human Computer Interaction (HCI). Our research topics include Tactile Rendering, Sensorimotor Augmentation, and On-Body Systems.
+  The <a href="http://sensint.org">Sensorimotor Interaction</a> group (senSInt) is a research group at the <a href="https://www.mpi-inf.mpg.de/home">Max Planck Institute for Informatics</a> (MPI-INF), led by <a href="http://fkeel.github.io">Paul Strohmeier</a>. We investigate how interactive technologies shape human perception, action, and agency through sensorimotor interaction. To do so, we develop real-time interactive systems that tightly couple sensing, computation, and feedback, spanning haptics, wearable computing, human augmentation, and AI-mediated interaction.
 
-  The Sensorimotor Interaction Group is co-located with the <a href="http://hci.cs.uni-saarland.de">Human Computer Interaction Lab</a> of Saarland University.
-  
-  Check out <a href="talks.html">Talks</a> and <a href="research.html">Research</a>  for more details about the research directions of senSInt. 
-  
+The Sensorimotor Interaction Group is co-located with the <a href="http://hci.cs.uni-saarland.de">Human Computer Interaction Lab</a> at Saarland University.
+
+Check out <a href="talks.html">Talks</a> and <a href="research.html">Research</a> for more details about the research directions of senSInt.
   
   <img src="uploads/images/senSInt_family.jpg" alt="senSInt, friends, and family" width"600" height"338">
   senSInt family at CHI '23
@@ -20,5 +19,3 @@ galleryConfig:
   delay: 10000 # slide change delay in milliseconds
   startOnRandom: true # starts carousel on random image if true  
 
-
-  
