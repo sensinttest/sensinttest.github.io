@@ -48,8 +48,8 @@ people:
     name: "Fariborz Mirlou"
     role: "Post Doc"
     category_id: all
-    url:   https://www.linkedin.com/in/fariborz-mirlou-645665130/
-    image: uploads/people/
+    url:   https://scholar.google.com/citations?user=7euAHnEAAAAJ&hl=en
+    image: uploads/people/Friborz.jpg
 
   - id: nadine
     name: "Nadine Wagener"
