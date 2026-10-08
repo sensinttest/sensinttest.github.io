@@ -44,6 +44,13 @@ people:
     url:   https://www.linkedin.com/in/easa-aliabbasi/
     image: uploads/people/easa_cube.jpg
 
+  - id: f_mirlou
+    name: "Fariborz Mirlou"
+    role: "Post Doc"
+    category_id: all
+    url:   https://www.linkedin.com/in/fariborz-mirlou-645665130/
+    image: uploads/people/
+
   - id: nadine
     name: "Nadine Wagener"
     role: "Post Doc"
@@ -58,19 +65,33 @@ people:
   # url:   https://fkeel.github.io
     image: uploads/people/nihar.jpg
 
-  - id: y_ding
-    name: "Yuran Ding"
-    role: "PhD Student"
-    category_id: all
-    url:   https://yuran-ding.com/
-    image: uploads/people/yuran.jpg
-
   - id: louis_B
     name: "Louis Badr"
     role: "PhD Student"
     category_id: all
     url:   https://louis-badr.fr/
     image: uploads/people/Louis.jpg
+
+  - id: wahnuili
+    name: "Wahnhui Li"
+    role: "Research Guest"
+    category_id: all
+    url: https://wanhuili.github.io
+    image: uploads/people/Wahnhuili.jpg
+
+  - id: v_missir
+    name: "Valentin Martinez-Missir"
+    role: "PhD Student"
+    category_id: all
+    url:   https://valentinmartinezmissir.com/
+    image: uploads/people/valentin.jpg
+    
+  - id: y_ding
+    name: "Yuran Ding"
+    role: "PhD Student"
+    category_id: all
+    url:   https://yuran-ding.com/
+    image: uploads/people/yuran.jpg
 
   - id: c_reed
     name: "Courtney Reed"
@@ -119,13 +140,6 @@ people:
     category_id: all
     url:   https://www.linkedin.com/in/reshma-daniel-352ab5193
     image: uploads/people/Reshma.jpg
-  
-  - id: wahnuili
-    name: "Wahnhui Li"
-    role: "Research Guest"
-    category_id: all
-    url: https://wanhuili.github.io
-    image: uploads/people/Wahnhuili.jpg
 
   - id: g_vega
     name: "Gabriela Vega"
@@ -133,20 +147,6 @@ people:
     category_id: all
     url:   https://x.com/gavyvy_
     image: uploads/people/GabyNEW.jpg
-
-  - id: erik
-    name: "Erik Peralta Løvaas"
-    role: "MSc Student + Research Assistant"
-    category_id: all
-    url:   https://erikpl.com/
-    image: uploads/people/erik.jpg
-    
-  - id: v_missir
-    name: "Valentin Martinez-Missir"
-    role: "Intern"
-    category_id: all
-    url:   https://valentinmartinezmissir.com/
-    image: uploads/people/valentin.jpg
 
   - id: sara.sf
     name: "Sara Safaee"
@@ -160,9 +160,21 @@ people:
     role: "Research Assistant"
     category_id: all
     url:   https://www.linkedin.com/in/elham-hamidian
-    image: uploads/people/Elham.jpg
-    
+    image: uploads/people/Elham.jpg   
 
+  - id: Wiam
+    name: "Wiam Bensaid"
+    role: "Intern"
+    url:   
+    category_id: all
+
+  - id: erik
+    name: "Erik Peralta Løvaas"
+    role: "MSc Student + Research Assistant"
+    category_id: all
+    url:   https://erikpl.com/
+    image: uploads/people/erik.jpg
+    
   - id: sana
     name: "Sana Nasir"
     role: "Msc Thesis"
