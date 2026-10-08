@@ -72,8 +72,8 @@ people:
     url:   https://louis-badr.fr/
     image: uploads/people/Louis.jpg
 
-  - id: wahnuili
-    name: "Wahnhui Li"
+  - id: wanhuili
+    name: "Wanhui Li"
     role: "Research Guest"
     category_id: all
     url: https://wanhuili.github.io
