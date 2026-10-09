@@ -3,6 +3,45 @@ description: Previous publications.
 
 timeline:
 
+  - title: "Scene2Hap: Generating Scene-Wide Haptics for VR from Scene Context with Multimodal LLMs"
+    year: 2026
+    authors: <b>Arata Jingu</b>, <b>Easa AliAbbasi</b>, <b>Sara Safaee</b>, <b>Paul Strohmeier</b>, <b>Jürgen Steimle</b>
+    venue: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ’26)
+    description: Haptic feedback contributes to immersive virtual reality (VR) experiences. However, designing such feedback at scale for all objects within a VR scene remains time-consuming. We present Scene2Hap, an LLM-centered system that automatically designs object-level vibrotactile feedback for entire VR scenes based on the objects’ semantic attributes and physical context. Scene2Hap employs a multimodal large language model to estimate each object’s semantics and physical context, including its material properties and vibration behavior, from multimodal information in the VR scene. These estimated attributes are then used to generate or retrieve audio signals, subsequently converted into plausible vibrotactile signals. For more realistic spatial haptic rendering, Scene2Hap estimates vibration propagation and attenuation from vibration sources to neighboring objects, considering the estimated material properties and spatial relationships of virtual objects in the scene. Three user studies confirm that Scene2Hap successfully estimates the vibration-related semantics and physical context of VR scenes and produces realistic vibrotactile signals.
+    image: https://sensinttest.github.io/uploads/images/papers/
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2026_CHI_scene2hap.pdf
+
+  - title: "Connected Material Experiences using Bimanual Vibrotactile Crosstalk in Virtual Reality"
+    year: 2026
+    authors: <b>Nihar Sabnis</b>, <b>André Zenner</b>, <b>Erik Peralta Løvaas</b>, <b>Marco Weiss</b>, <b>Andrea Bianchi</b>, <b>Paul Strohmeier</b>
+    venue: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ’26)
+    description: Perceiving material properties such as elasticity, flexibility, and torsion is inherently bimanual, as we rely on the relative motion of our hands to form a unified sense of materiality. Yet, most vibrotactile material rendering approaches are limited to a single hand or finger. While prior work has explored bimanual haptic interfaces, most depend on specialized hardware for specific interactions. In this paper, we demonstrate design strategies to support bimanual material exploration through motion-coupled vibrotactile feedback. Our technique introduces variable crosstalk between the controllers’ vibration to evoke connectedness, making two unconnected devices feel as though they manipulate a single object. The technique generalizes motion-coupled feedback approaches beyond previous single-point explorations. Through two user studies, we show that this approach (1) significantly enhances perceived connectedness and (2) conveys distinct material qualities such as elasticity and torsion. Finally, we present Dvihast¯ıya, an authoring tool for designing connected bimanual experiences in virtual reality. 
+    image: https://sensinttest.github.io/uploads/images/papers/
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2026_CHI_bimanualHaptics.pdf
+
+  - title: "How are Vibrotactile Experiences Visually Represented? A Taxonomy of Illustration Characteristics"
+    year: 2026
+    authors: <b>Bruno Fruchard</b>, <b>Dennis Wittchen</b>, <b>Nihar Sabnis</b>, <b>Paul Strohmeier</b>, <b>Donald Degraen</b>
+    venue: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ’26)
+    description: Vibrotactile experiences (VTX) consist of a multitude of design parameters and experiential dimensions that can be challenging to communicate visually. To understand how this is commonly done in scientific communication, we systematically reviewed VTX illustrations in academic publications. Using inductive and deductive methods, we built a taxonomy detailing characteristics of VTX illustrations that focuses on what is illustrated and how it is depicted. Using the taxonomy, we coded a total of 768 figures spanning 409 publications. These results indicate that (1) half of the illustrations communicate on the timing of vibrotactile feedback with regards to users’ actions, (2) illustrations depict stimuli rather than experiences and infrequently communicate multimodal aspects of the experiences, and (3) contextual information of vibrotactile displays and experiential aspects are often distributed across several complementary figures. We conclude by discussing the benefits and limitations of this taxonomy to support the design process.
+    image: https://sensinttest.github.io/uploads/images/papers/
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2026_CHI_visualHaptics.pdf
+
   - title: "AI for Haptics and Haptics for AI: Challenges and Opportunities"
     year: 2026
     authors: <b>Easa AliAbbasi</b>, <b>Dennis Wittchen</b>, <b>Yinan Li</b>, <b>Shihan Lu</b>, <b>Thomas Müller</b>, <b>Donald Degraen</b>, <b>Thomas Leimkühler</b>, <b>Sang Ho Yoon</b>, <b>Hasti Seifi</b>, <b>Oliver Schneider</b>, <b>Heather Culbertson</b>, <b>Jürgen Steimle</b>, <b>Paul Strohmeier</b>
@@ -21,7 +60,7 @@ timeline:
     authors: <b>Easa AliAbbasi</b>, <b>Rachel Freire</b>, <b>Valentin Martinez‐Missir</b>, <b>Vineetha Rallabandi</b>, <b>Paul Strohmeier</b>
     venue: Advanced Functional Materials
     description: Designing garments that effectively capture human movements demands a focus on the wearer's comfort and freedom of motion. Electronic textile (e-Textile) sensors offer a promising avenue due to their soft and flexible properties. However, these sensors are most responsive to large motions, as their precision is usually relatively low compared to other sensing solutions. Furthermore, e-Textile sensors that measure physical force or deformation often require the sensing element itself to undergo deformation and be subject to force. This leads to degradation of the sensor due to repeated mechanical strain. To address these issues, a novel all-textile mechanical capacitive sensor design is presented. This sensor is optimized for measuring subtle movements, such as thoracic wall movements, in breath monitoring. The design is more robust than other e-Textile sensing approaches, as the deforming textile elements are separated from the sensing element. This design choice results in sensors with improved signal response, higher accuracy, and longer cycle life than the other comparable textile sensors. In this paper, we share the design and implementation guidelines, in vitro measurements (such as evaluation of the effects of electrode shape and size and cycle life tests), and multiple in vivo measurements of sensor prototypes.
-    image: https://sensinttest.github.io/uploads/images/papers/
+    image: https://sensinttest.github.io/uploads/images/papers/2026_AFM_An_All_Textile.jpg
     tags:
       - text: paper
         style: magenta
