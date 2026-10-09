@@ -11,18 +11,7 @@ description: |
 
   <img src="uploads/images/senSInt_family.jpg" alt="senSInt, friends, and family" width"600" height"338">
   senSInt family at CHI '23
-gallery:
-  - url: uploads/images/background_00.jpg
-  - url: uploads/images/background_01.jpg
-  - url: uploads/images/background_03.jpg
-  - url: uploads/images/background_04.jpg
-  - url: uploads/images/background_06.jpg
-    
-galleryConfig: 
-  delay: 10000 # slide change delay in milliseconds
-  startOnRandom: true # starts carousel on random image if true  
-
-
+  
 gallery:
   - url: uploads/images/background_00.jpg
   - url: uploads/images/background_01.jpg
