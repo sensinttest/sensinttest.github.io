@@ -37,9 +37,6 @@ menu:
   - id: 'talks'
     title: Talks
     url: talks.html
-  - id: 'positions'
-    title: Positions
-    url: positions.html
   - id: 'contact'
     title: Contact
     url: contact.html
