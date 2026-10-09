@@ -78,3 +78,5 @@ The generated website is written to `_site/`. Upload its contents to the server 
 Duplicate Swiper loads were removed; the remaining CDN references are still unversioned. Version pinning remains a future maintenance task.
 
 Named legacy examples and duplicate copies are excluded from future output. Files remain available for later review. Historical assets and real position pages are retained; no current internal reference does not prove a public asset is safe to remove.
+
+The stylesheet URL includes a build timestamp so browsers reload the current layout after deployment. Upload assets first, then HTML pages. Keep the checked-in `assets/vendor/` directory: it contains browser dependencies, not installed Ruby gems.
