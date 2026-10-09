@@ -2,26 +2,38 @@ title: News
 description: 
 
 news: 
-  - id: 30
+  - id: 33
+    date: 2026-10-09
+    content: |
+      Our paper <a href="https://shunichikasahara.com/portfolio/faster-than-muscle/"><b>Faster Than Muscle</b></a> has also been accepted as a Demonstration at <a href="https://asia.siggraph.org/2026/"><b>SIGGRAPH Asia 2026</b></a> in Kuala Lumpur, Malaysia! The work explores how muscle signals can be used to execute actions faster than the human body, and how this affects our sense of agency.
+  - id: 31
     date: 2026-10-09
     content: |
       <b>Paul Strohmeier</b> has been invited to participate in the <a href="https://sigchi.org/news/announcements/"><b>SIGCHI Futures Summit 2026</b></a> in Paris, November 16–18, to discuss the future of SIGCHI and its conference communities.
-  - id: 29
+  - id: 30
     date: 2026-09-29
     content: |
       The <b>Sensorimotor Interaction Group</b> went on a retreat to the <b>Saarschleife</b>! We spent the day discussing our research, exchanging ideas, and exploring future directions for the group.
-  - id: 28
-    date: 2026-10-08
+  - id: 30
+    date: 2026-08-30
+    content: |
+      <b>Easa AliAbbasi</b> has been appointed <b>Paper Co-Chair</b> of <a href="https://augmented-humans.org/committee/">Augmented Humans 2027</a>, taking place in Colombo, Sri Lanka, in March 2027!
+  - id: 29
+    date: 2026-08-08
     content: |
       <b>Paul Strohmeier</b> will co-chair <a href="https://forum.nime.org/t/announcing-nime-2027/1099"><b>NIME 2027</b></a> in Paris, together with Sofy Yuditskaya and Xiao Xiao. The conference theme is "Sensorial Symbiosis: Bodies, Machines, and Time".
-  - id: 27
-    date: 2026-10-04
+  - id: 28
+    date: 2026-08-01
     content: |
       Our paper <a href="https://shunichikasahara.com/portfolio/faster-than-muscle/"><b>Faster Than Muscle</b></a> has been accepted at UIST 2026! The work explores how voluntary muscle signals can be used to execute actions faster than the human body, and how this affects our sense of agency.
-  - id: 26
+  - id: 27
     date: 2026-07-17
     content: |
       Students from our <b>Audio Devices: Synthesis, Control & Performance</b> course presented their self-built electronic musical instruments and performed live at the <a href="https://www.uni-saarland.de/en/news/oeffentliche-praesentation-und-konzert-new-instruments-for-musical-expression-49594.html">Nacht der Schönen Künste</a> in Saarbrücken! See the <a href="https://sensint.mpi-inf.mpg.de/instruments.html">instruments</a>.
+  - id: 26
+    date: 2026-07-14
+    content: |
+      Our paper <a href="https://doi.org/10.1002/adfm.76802"><b>An All-Textile, Mechano-Capacitive Subtle Movement Sensor</b></a>, by <b>Easa AliAbbasi, Rachel Freire, Valentin Martinez-Missir, Lakshmi Vineetha Rallabandi, and Paul Strohmeier</b>, has been published in <b>Advanced Functional Materials</b>! The work introduces a robust, high-precision textile sensor capable of detecting subtle bodily movements, including breathing.
   - id: 25
     date: 2026-07-09
     content: |
