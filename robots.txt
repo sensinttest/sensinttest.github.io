@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sensint.mpi-inf.mpg.de/sitemap.xml

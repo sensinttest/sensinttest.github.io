@@ -1,14 +1,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{site.data.website.meta.description | truncate: 160 | escape }}">
-  <meta name="keywords" content="{{site.data.website.meta.keywords}}">
-  <meta name="author" content="{{site.data.website.meta.author}}">
-  {% if page.title %}
-  <title>{{ site.data.website.base_title }} | {{ page.title }}</title>
+  {% assign search_description = page.description | default: site.data.website.meta.description %}
+  <meta name="description" content="{{ search_description | escape }}">
+  <meta name="author" content="{{ site.data.website.meta.author | escape }}">
+  {% if page.seo_title %}
+  <title>{{ page.seo_title | escape }}</title>
+  {% elsif page.title %}
+  <title>{{ site.data.website.base_title | escape }} | {{ page.title | escape }}</title>
   {% else %}
-  <title>{{ site.data.website.base_title }}</title>
+  <title>{{ site.data.website.base_title | escape }}</title>
   {% endif %}
+  {% assign canonical_path = page.url | replace: '/index.html', '/' %}
+  <link rel="canonical" href="{{ canonical_path | absolute_url }}">
 
   <!-- Core -->
   <script src="{{base}}/assets/vendor/jquery/jquery.min.js"></script>
