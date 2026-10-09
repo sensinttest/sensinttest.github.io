@@ -3,6 +3,19 @@ description: Previous publications.
 
 timeline:
 
+  - title: "Towards sensory attenuation as a measure of agency provided by digital musical instruments"
+    year: 2026
+    authors: <b>Erik Løvaas</b>, <b>Courtney Reed</b>, <b>Paul Strohmeier</b>
+    venue: Loughborough University
+    description: Questions of agency and authorship become central to the design of expressive digital musical instruments (DMIs). Agency is recognized as essential for meaningful musical performance but remains difficult to operationalize and measure. We here propose sensory attenuation as an implicit measure of self-attribution and a practical proxy for agency in DMI interaction. We implemented a pressure-based control system for a digital synthesizer, introducing nonlinear behaviors along pressure and time dimensions. Using a psychophysics experiment combined with qualitative interviews, we investigate how these nonlinearities affect performers’ sense of agency. Results suggest that sensory attenuation provides a viable proxy for self-attribution, but only when output exceeds a volume threshold. Furthermore, we observe interaction effects between temporal and action nonlinearities, indicating that maintaining agency requires control across both dimensions. Our findings provide empirical grounding for using sensory attenuation for experimental agency evaluation methods.
+    image: https://sensinttest.github.io/uploads/images/papers/
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2026_Loughborough_University_Digital_Musical_Instrument.pdf
+
   - title: "VibRacket: Designing and Experiencing Embodied Vibrotactile Feedback on a Badminton Racket"
     year: 2025
     authors: <b>Nihar Sabnis</b>, <b>Gabriela Vega</b>, <b>Valentin Martinez-Missir</b>, <b>Paul Strohmeier</b>
