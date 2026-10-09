@@ -2,6 +2,50 @@ title: News
 description: 
 
 news: 
+  - id: 30
+    date: 2026-10-09
+    content: |
+      <b>Paul Strohmeier</b> has been invited to participate in the <a href="https://sigchi.org/news/announcements/"><b>SIGCHI Futures Summit 2026</b></a> in Paris, November 16–18, to discuss the future of SIGCHI and its conference communities.
+  - id: 29
+    date: 2026-09-29
+    content: |
+      The <b>Sensorimotor Interaction Group</b> went on a retreat to the <b>Saarschleife</b>! We spent the day discussing our research, exchanging ideas, and exploring future directions for the group.
+  - id: 28
+    date: 2026-10-08
+    content: |
+      <b>Paul Strohmeier</b> will co-chair <a href="https://forum.nime.org/t/announcing-nime-2027/1099"><b>NIME 2027</b></a> in Paris, together with Sofy Yuditskaya and Xiao Xiao. The conference theme is "Sensorial Symbiosis: Bodies, Machines, and Time".
+  - id: 27
+    date: 2026-10-04
+    content: |
+      Our paper <a href="https://shunichikasahara.com/portfolio/faster-than-muscle/"><b>Faster Than Muscle</b></a> has been accepted at UIST 2026! The work explores how voluntary muscle signals can be used to execute actions faster than the human body, and how this affects our sense of agency.
+  - id: 26
+    date: 2026-07-17
+    content: |
+      Students from our <b>Audio Devices: Synthesis, Control & Performance</b> course presented their self-built electronic musical instruments and performed live at the <a href="https://www.uni-saarland.de/en/news/oeffentliche-praesentation-und-konzert-new-instruments-for-musical-expression-49594.html">Nacht der Schönen Künste</a> in Saarbrücken! See the <a href="https://sensint.mpi-inf.mpg.de/instruments.html">instruments</a>.
+  - id: 25
+    date: 2026-07-09
+    content: |
+      <b>Wanhui Li, Easa AliAbbasi, and Paul Strohmeier</b>'s <b>HapticCompass</b> was selected as a finalist for the <a href="https://eurohaptics.org/ehc2026/awards/"><b>Best Demo Award at EuroHaptics 2026</b></a> in Siena, Italy!
+  - id: 24
+    date: 2026-04-14
+    content: |
+      We received <a href="https://www.mpi-inf.mpg.de/news/detail/two-best-paper-awards-at-the-worlds-largest-conference-on-human-computer-interaction"><b>two Best Paper Awards at CHI 2026</b></a>! Congratulations to <b>Easa AliAbbasi</b> and <b>Dennis Wittchen</b> and all collaborators for their work on Scene2Hap and the visual representation of vibrotactile experiences.
+  - id: 23
+    date: 2026-03-23
+    content: |
+      Congratulations to <b>Yuran Ding</b> on successfully defending her <a href="https://talks.cs.umd.edu/talks/4529"><b>PhD thesis</b></a> "Mediating Complexity: Reasoning Layers from Embodied Interaction to Agentic Systems" at the University of Maryland!
+  - id: 22
+    date: 2026-03-16
+    content: |
+      <b>Paul Strohmeier</b> co-chaired <a href="https://2026.augmented-humans.org/committee/"><b>Augmented Humans 2026</b></a> in Okinawa, Japan, together with Kouta Minamizawa, Shunichi Kasahara, and Yomna Abdelrahman.
+  - id: 21
+    date: 2026-03-09
+    content: |
+      Congratulations to <b>Nihar Sabnis</b> on successfully defending his <a href="https://www.mpi-inf.mpg.de/news/detail/nihar-sabnis-receives-phd"><b>PhD thesis</b></a> "Re-envisioning Touch: Designing Embodied Material and Force Experiences with Motion-Coupled Vibrotactile Feedback" at Saarland University, receiving the distinction <b>cum laude</b>!
+  - id: 20
+    date: 2025-07-07
+    content: |
+      Congratulations to <b>Yuran Ding</b> on receiving a prestigious <a href="https://www.cs.umd.edu/node/26872"><b>NSF Graduate Research Fellowship</b></a>! The fellowship supports outstanding graduate researchers with three years of funding.
   - id: 19
     date: 2025-06-12
     content: |
