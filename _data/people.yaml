@@ -42,6 +42,8 @@ people:
     name: "Fariborz Mirlou"
     role: "Postdoc"
     category_id: all
+    url:   https://scholar.google.com/citations?user=7euAHnEAAAAJ&hl=en
+    image: uploads/people/Fariborz.jpg
 
   - id: nadine
     name: "Nadine Wagener"
@@ -120,7 +122,7 @@ people:
     image: uploads/people/Reshma.jpg
   
   - id: wahnuili
-    name: "Wahnhui Li"
+    name: "Wanhui Li"
     role: "PhD Student"
     category_id: all
     url: https://wanhuili.github.io
@@ -131,7 +133,7 @@ people:
     role: "Research Assistant"
     category_id: all
     url:   https://x.com/gavyvy_
-    image: uploads/people/gaby.jpg
+    image: uploads/people/GabyNEW.jpeg
 
   - id: erik
     name: "Erik Peralta Løvaas"
