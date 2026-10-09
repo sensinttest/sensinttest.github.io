@@ -38,7 +38,7 @@ people:
     url:   https://www.linkedin.com/in/easa-aliabbasi/
     image: uploads/people/easa_cube.jpg
     
-   - id: f_mirlou
+  - id: f_mirlou
     name: "Fariborz Mirlou"
     role: "Postdoc"
     category_id: all
