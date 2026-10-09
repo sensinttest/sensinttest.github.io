@@ -1,10 +1,34 @@
 title: Sensorimotor Interaction Group
 description: |
-  The <a href="http://sensint.org">Sensorimotor Interaction</a> group (senSInt) is a research group at the <a href="https://www.mpi-inf.mpg.de/home">Max Planck Institute for Informatics</a> (MPI-INF), led by <a href="http://fkeel.github.io">Paul Strohmeier</a>. We investigate how interactive technologies shape human perception, action, and agency through sensorimotor interaction. To do so, we develop real-time interactive systems that tightly couple sensing, computation, and feedback, spanning haptics, wearable computing, human augmentation, and AI-mediated interaction.
 
-  The Sensorimotor Interaction Group is co-located with the <a href="http://hci.cs.uni-saarland.de">Human Computer Interaction Lab</a> at Saarland University.
+<p>
+  The <strong>Sensorimotor Interaction Group (senSInt)</strong> at the
+  <a href="https://www.mpi-inf.mpg.de/">Max Planck Institute for Informatics</a>
+  investigates how human perception and action shape our experience of the
+  world, and how this understanding can inform the design of interactive
+  technologies.
+</p>
 
-  Check out <a href="talks.html">Talks</a> and <a href="research.html">Research</a> for more details about the research directions of senSInt.
+<p>
+  Led by <a href="https://people.mpi-inf.mpg.de/~pastrohm/">Paul Strohmeier</a>,
+  our research combines human-computer interaction, perceptual science,
+  and engineering. We study how people perceive and act through their
+  bodies, and develop interactive systems that enable new ways of
+  experiencing ourselves, engaging with the physical world, and
+  interacting with technology.
+</p>
+
+<p>
+  Our work spans <strong>haptic rendering, sensorimotor augmentation,
+  embodied interaction, and on-body systems</strong>.
+</p>
+
+<p>
+  We share research facilities with the
+  <a href="https://hci.cs.uni-saarland.de/">HCI Lab</a>
+  at Saarland University.
+</p>
+
   
   <img src="uploads/images/senSInt_family.jpg" alt="senSInt, friends, and family" width"600" height"338">
   senSInt family at CHI '23
