@@ -23,12 +23,6 @@ categories:
     published: true
 
 people:
-  - id: open
-    name: "You"
-    role: "Get Involved!"
-    category_id: all
-    url:   positions.html
-    image: https://picsum.photos/300/300?random=2
 
   - id: paul_strohmeier
     name: "Paul Strohmeier"
@@ -39,29 +33,36 @@ people:
 
   - id: e_aliabbasi
     name: "Easa AliAbbasi"
-    role: "Post Doc"
+    role: "Postdoc"
     category_id: all
     url:   https://www.linkedin.com/in/easa-aliabbasi/
     image: uploads/people/easa_cube.jpg
+    
+   - id: f_mirlou
+    name: "Fariborz Mirlou"
+    role: "Postdoc"
+    category_id: all
+  # url:   https://www.linkedin.com/in/easa-aliabbasi/
+  # image: uploads/people/easa_cube.jpg
 
   - id: nadine
     name: "Nadine Wagener"
-    role: "Post Doc"
-    category_id: all
+    role: "Postdoc - Now Group Leader at Offis Institute Oldenburg"
+    category_id: alumni
     url:   https://nadinewagener.github.io/
     image: uploads/people/Nadine_Wagener.jpg
 
-  - id: p_sabnis
-    name: "Nihar Sabnis"
-    role: "PhD Student"
-    category_id: all
-  # url:   https://fkeel.github.io
+  - id: n_sabnis
+    name: "Nihar Sabnis - "
+    role: "PhD Student - Now Postdoc at ETH Zürich"
+    category_id: alumni
+    url:   https://sms.hest.ethz.ch/the-group/team/nihar-sabnis.html
     image: uploads/people/nihar.jpg
 
   - id: y_ding
     name: "Yuran Ding"
     role: "PhD Student"
-    category_id: all
+    category_id: alumni
     url:   https://yuran-ding.com/
     image: uploads/people/yuran.jpg
 
@@ -89,7 +90,7 @@ people:
   - id: r_freire
     name: "Rachel Freire"
     role: "Research Guest"
-    category_id: all
+    category_id: alumni
     url:   http://www.rachelfreire.com/
     image: uploads/people/rachel.jpg
 
@@ -109,7 +110,7 @@ people:
   - id: ayush
     name: "Ayush Kumar"
     role: "Research Assistant"
-    category_id: all
+    category_id: alumni
     url:   www.linkedin.com/in/ayush-k-b91212204
     image: uploads/people/Ayush.jpg
   
@@ -137,27 +138,27 @@ people:
   - id: erik
     name: "Erik Peralta Løvaas"
     role: "MSc Student + Research Assistant"
-    category_id: all
+    category_id: alumni
     url:   https://erikpl.com/
     image: uploads/people/erik.jpg
     
   - id: v_missir
     name: "Valentin Martinez-Missir"
-    role: "Intern"
+    role: "PhD Student"
     category_id: all
     url:   https://valentinmartinezmissir.com/
     image: uploads/people/valentin.jpg
 
   - id: sara.sf
     name: "Sara Safaee"
-    role: "Research Assistant"
+    role: "Msc Student"
     category_id: all
     url:   https://www.linkedin.com/in/sara-safaee1999/
     image: uploads/people/Sara.jpg
 
   - id: Elham
     name: "Elham Hamidian"
-    role: "Msc Student"
+    role: "Research Assistant"
     category_id: all
     url:   https://www.linkedin.com/in/elham-hamidian
     image: uploads/people/Elham.jpg
