@@ -75,7 +75,8 @@ permalink: /index.html
           </div>
           <div class="Card-content px-3 py-3 font px-2 py-2 bg-mpi-gray-two">
             {% assign data = site.data.papers %}
-            {% assign recent_papers = data.timeline | sort: 'year' | reverse %}
+			{% assign recent_papers = data.timeline %}
+           <!-- {% assign recent_papers = data.timeline | sort: 'year' | reverse %} --!>
             {% assign publications_url = site.data.website.menu | where: "id", 'papers' %}
             {% for paper in recent_papers limit: 5 %}
               {% assign itemId = paper.title | remove: " " | remove: ":" | remove: '/' | remove: '\' | remove: '"' | remove: '`' | remove: "'" %}
