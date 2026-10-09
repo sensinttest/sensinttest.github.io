@@ -1,13 +1,27 @@
 # Site settings
-url: https://jazzjackrabbit.github.io/sensint
+# Confirm the publication origin before deployment; local links use relative_url.
+url: https://sensint.mpi-inf.mpg.de
+baseurl: ""
 
 # Build settings
 markdown: kramdown
-paginate: 20
-paginate_path: "/blog/page:num.html"
 permalink: "/blog/:year/:month/:day/:title:output_ext"
 plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap, jekyll-seo-tag]
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude:
+  - less
+  - node_modules
+  - Gruntfile.js
+  - package.json
+  - README.md
+  - __blog
+  - __posts
+  - __positions.html
+  - z_example_news_items
+  - people/person_one.html
+  - people/readme
+  - uploads/images/senSInt_family - Copy.jpg
+  - uploads/pdfs/2026_CHI_scene2hap - Copy.pdf
+  - uploads/pdfs/2026_CHI_visualHaptics - Copy.pdf
 
 sass:
   sass_dir: assets/scss

@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-dark navbar-translucent fixed-top py-0">
+<nav class="navbar navbar-expand-xl navbar-dark navbar-translucent fixed-top py-0">
   <div class="container">
     <a class="Nav-logo-link navbar-brand font-weight-500" href="{{base}}/index.html">
-      <img class="Nav-logo my-0 py-0" src="{{base}}/assets/images/logo/sensint_scaled_down.jpg" height="55px" />
+      <img class="Nav-logo my-0 py-0" src="{{base}}/assets/images/logo/sensint_scaled_down.jpg" height="55" alt="senSInt home" />
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain"
@@ -9,23 +9,23 @@
       <span class="navbar-toggler-icon text-black"></span>
     </button>
 
-    <div class="collapse navbar-collapse pb-3 pb-lg-0" id="navbarMain">
+    <div class="collapse navbar-collapse pb-3 pb-xl-0" id="navbarMain">
       <ul class="navbar-nav ml-auto align-items-lg-left">
         {% for menu_item in site.data.website.menu %}
         {% if menu_item.show == false %}{% continue %}{% endif %}
         <li class="nav-item mx-2">
           {% if page.active_menu_id == menu_item.id %}
-          <a class="nav-link nav-active px-3 py-2" href="{{base}}/{{ menu_item.url }}">{{
-            menu_item.title }}</span></a>
+          <a class="nav-link nav-active px-3 py-2" aria-current="page" href="{{base}}/{{ menu_item.url }}">{{
+            menu_item.title }}</a>
           {% else %}
-          <a class="nav-link px-3 py-2" href="{{base}}/{{ menu_item.url }}">{{ menu_item.title }}</span></a>
+          <a class="nav-link px-3 py-2" href="{{base}}/{{ menu_item.url }}">{{ menu_item.title }}</a>
           {% endif %}
         </li>
         {% endfor %}
         {% if site.data.website.contact.github %}
         <li class="nav-item">
           <a class="nav-link nav-link-icon mt-2 my-lg-0" href="{{ site.data.website.contact.github }}"
-            target="_blank"><i class="fab fa-github"></i><span class="ml-2 d-lg-none">Github</span></a>
+            target="_blank"><i class="fab fa-github"></i><span class="ml-2 d-lg-none">Github</a>
         </li>
         {% endif %}
       </ul>

@@ -1,5 +1,5 @@
 title: Papers
-description: Previous publications.
+description: Research papers, workshops, and other publications from the group.
 
 timeline:
 
@@ -7,92 +7,117 @@ timeline:
     year: 2026
     authors: <b>Arata Jingu</b>, <b>Easa AliAbbasi</b>, <b>Sara Safaee</b>, <b>Paul Strohmeier</b>, <b>Jürgen Steimle</b>
     venue: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ’26)
-    description: Haptic feedback contributes to immersive virtual reality (VR) experiences. However, designing such feedback at scale for all objects within a VR scene remains time-consuming. We present Scene2Hap, an LLM-centered system that automatically designs object-level vibrotactile feedback for entire VR scenes based on the objects’ semantic attributes and physical context. Scene2Hap employs a multimodal large language model to estimate each object’s semantics and physical context, including its material properties and vibration behavior, from multimodal information in the VR scene. These estimated attributes are then used to generate or retrieve audio signals, subsequently converted into plausible vibrotactile signals. For more realistic spatial haptic rendering, Scene2Hap estimates vibration propagation and attenuation from vibration sources to neighboring objects, considering the estimated material properties and spatial relationships of virtual objects in the scene. Three user studies confirm that Scene2Hap successfully estimates the vibration-related semantics and physical context of VR scenes and produces realistic vibrotactile signals.
-    image: https://sensinttest.github.io/uploads/images/papers/
+    description: "What should a virtual object feel like? Scene2Hap uses AI to interpret objects and their surroundings, then creates vibrations that bring a virtual scene to life. It also models how vibrations travel between touching objects, reducing the work needed to design touch feedback for whole virtual environments."
+    image: uploads/images/papers/2026_CHI_scene2hap_source.png
+    image_crop: scene-right
+    image_alt: "Scene2Hap pipeline from a virtual scene to touch feedback"
+
     tags:
       - text: paper
         style: magenta
+      - text: Best Paper Award
+        style: yellow
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2026_CHI_scene2hap.pdf
+        url: uploads/pdfs/2026_CHI_scene2hap.pdf
+      - name: Award photo
+        url: uploads/images/news/bestPaperAwards_barcelona_scene2hap.jpg
+      - name: Best Paper Award article
+        url: https://www.mpi-inf.mpg.de/news/detail/two-best-paper-awards-at-the-worlds-largest-conference-on-human-computer-interaction
 
   - title: "Connected Material Experiences using Bimanual Vibrotactile Crosstalk in Virtual Reality"
     year: 2026
     authors: <b>Nihar Sabnis</b>, <b>André Zenner</b>, <b>Erik Peralta Løvaas</b>, <b>Marco Weiss</b>, <b>Andrea Bianchi</b>, <b>Paul Strohmeier</b>
     venue: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ’26)
-    description: Perceiving material properties such as elasticity, flexibility, and torsion is inherently bimanual, as we rely on the relative motion of our hands to form a unified sense of materiality. Yet, most vibrotactile material rendering approaches are limited to a single hand or finger. While prior work has explored bimanual haptic interfaces, most depend on specialized hardware for specific interactions. In this paper, we demonstrate design strategies to support bimanual material exploration through motion-coupled vibrotactile feedback. Our technique introduces variable crosstalk between the controllers’ vibration to evoke connectedness, making two unconnected devices feel as though they manipulate a single object. The technique generalizes motion-coupled feedback approaches beyond previous single-point explorations. Through two user studies, we show that this approach (1) significantly enhances perceived connectedness and (2) conveys distinct material qualities such as elasticity and torsion. Finally, we present Dvihast¯ıya, an authoring tool for designing connected bimanual experiences in virtual reality. 
-    image: https://sensinttest.github.io/uploads/images/papers/
+    description: "Can two separate controllers feel like one flexible object? We link vibrations in the left and right hands to create the impression of a shared material in virtual reality. Studies show that this can convey qualities such as elasticity and twisting, without physically connecting the controllers."
+    image: uploads/images/papers/2026_CHI_bimanualHaptics_teaser.jpg
+    image_crop: bimanual-center
+    image_alt: "Stretching, bending and twisting virtual materials with two controllers"
+
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2026_CHI_bimanualHaptics.pdf
+        url: uploads/pdfs/2026_CHI_bimanualHaptics.pdf
 
   - title: "How are Vibrotactile Experiences Visually Represented? A Taxonomy of Illustration Characteristics"
     year: 2026
     authors: <b>Bruno Fruchard</b>, <b>Dennis Wittchen</b>, <b>Nihar Sabnis</b>, <b>Paul Strohmeier</b>, <b>Donald Degraen</b>
     venue: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ’26)
-    description: Vibrotactile experiences (VTX) consist of a multitude of design parameters and experiential dimensions that can be challenging to communicate visually. To understand how this is commonly done in scientific communication, we systematically reviewed VTX illustrations in academic publications. Using inductive and deductive methods, we built a taxonomy detailing characteristics of VTX illustrations that focuses on what is illustrated and how it is depicted. Using the taxonomy, we coded a total of 768 figures spanning 409 publications. These results indicate that (1) half of the illustrations communicate on the timing of vibrotactile feedback with regards to users’ actions, (2) illustrations depict stimuli rather than experiences and infrequently communicate multimodal aspects of the experiences, and (3) contextual information of vibrotactile displays and experiential aspects are often distributed across several complementary figures. We conclude by discussing the benefits and limitations of this taxonomy to support the design process.
-    image: https://sensinttest.github.io/uploads/images/papers/
+    description: "How do you draw something that people feel? We examined 768 illustrations from 409 research papers to understand how vibrations and touch experiences are represented visually. The resulting classification helps researchers describe their designs more clearly and shows where drawings leave important aspects of an experience unexplained."
+    image: uploads/images/papers/2026_CHI_visualHaptics_teaser.jpg
+    image_crop: visual-ab
+    image_alt: "Overview of the study of illustrations of vibrotactile experiences"
+
     tags:
       - text: paper
         style: magenta
+      - text: Best Paper Award
+        style: yellow
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2026_CHI_visualHaptics.pdf
+        url: uploads/pdfs/2026_CHI_visualHaptics.pdf
+      - name: Award photo
+        url: uploads/images/news/bestPaperAward_barcelona_hapticRepresentations.jpg
+      - name: Best Paper Award article
+        url: https://www.mpi-inf.mpg.de/news/detail/two-best-paper-awards-at-the-worlds-largest-conference-on-human-computer-interaction
 
   - title: "AI for Haptics and Haptics for AI: Challenges and Opportunities"
     year: 2026
     authors: <b>Easa AliAbbasi</b>, <b>Dennis Wittchen</b>, <b>Yinan Li</b>, <b>Shihan Lu</b>, <b>Thomas Müller</b>, <b>Donald Degraen</b>, <b>Thomas Leimkühler</b>, <b>Sang Ho Yoon</b>, <b>Hasti Seifi</b>, <b>Oliver Schneider</b>, <b>Heather Culbertson</b>, <b>Jürgen Steimle</b>, <b>Paul Strohmeier</b>
-    venue: Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI EA ’26)
-    description: AI has transformed methods and knowledge across many domains. However, the intersection of AI and haptics remains underexplored. While modern AI techniques – fueled by machine learning and using powerful techniques such as generative modeling and reinforcement learning – offer powerful opportunities for advancing haptic design, insights from haptics research, such as perception modeling and adaptive interaction - grounded in human touch, embodiment, and multisensory integration — can also play a critical role in shaping more human-centered AI systems. This workshop will bring together an interdisciplinary community of researchers from HCI, haptics, AI, robotics, and design to (1) identify pressing questions in haptics that could benefit from AI approaches and (2) highlight ways in which haptic knowledge can support the development of embodied and context-aware AI. Through position papers and paper presentations, we will map key challenges, exchange methods, and explore new research directions that connect the two fields. By framing haptics and AI as mutually reinforcing, the workshop aims to build a shared research agenda and foster collaborations that advance both the science of touch and the design of intelligent interactive systems.
-    image: https://sensinttest.github.io/uploads/images/papers/
+    venue: Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI EA ’26)
+    description: "How can AI help us design touch, and what can touch teach AI? This workshop paper brings together questions from both fields: creating tactile feedback, understanding human perception, and designing AI systems that interact with the physical world. It outlines opportunities for researchers to work across these areas."
+    image: uploads/images/news/workshop_AI_haptics.jpg
+    image_alt: "Discussion materials at the AI for Haptics and Haptics for AI workshop"
+
     tags:
-      - text: paper
+      - text: workshop
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2026_CHI_EA_HapticsAI.pdf
+        url: uploads/pdfs/2026_CHI_EA_HapticsAI.pdf
 
   - title: "An All-Textile, Mechano-Capacitive Subtle Movement Sensor"
     year: 2026
     authors: <b>Easa AliAbbasi</b>, <b>Rachel Freire</b>, <b>Valentin Martinez‐Missir</b>, <b>Vineetha Rallabandi</b>, <b>Paul Strohmeier</b>
     venue: Advanced Functional Materials
-    description: Designing garments that effectively capture human movements demands a focus on the wearer's comfort and freedom of motion. Electronic textile (e-Textile) sensors offer a promising avenue due to their soft and flexible properties. However, these sensors are most responsive to large motions, as their precision is usually relatively low compared to other sensing solutions. Furthermore, e-Textile sensors that measure physical force or deformation often require the sensing element itself to undergo deformation and be subject to force. This leads to degradation of the sensor due to repeated mechanical strain. To address these issues, a novel all-textile mechanical capacitive sensor design is presented. This sensor is optimized for measuring subtle movements, such as thoracic wall movements, in breath monitoring. The design is more robust than other e-Textile sensing approaches, as the deforming textile elements are separated from the sensing element. This design choice results in sensors with improved signal response, higher accuracy, and longer cycle life than the other comparable textile sensors. In this paper, we share the design and implementation guidelines, in vitro measurements (such as evaluation of the effects of electrode shape and size and cycle life tests), and multiple in vivo measurements of sensor prototypes.
-    image: https://sensinttest.github.io/uploads/images/papers/2026_AFM_An_All_Textile.jpg
+    description: "Clothing could sense small movements such as breathing without stiff or bulky electronics. We developed a soft textile sensor that separates the moving fabric from the sensing element, reducing wear. Tests explore its accuracy and durability, with design guidance for making similar sensors and integrating them into garments."
+    image: uploads/images/papers/2026_AFM_An_All_Textile.jpg
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2026_AFM_An_All_Textile.pdf
+        url: uploads/pdfs/2026_AFM_An_All_Textile.pdf
 
   - title: "Towards sensory attenuation as a measure of agency provided by digital musical instruments"
     year: 2026
-    authors: <b>Erik Løvaas</b>, <b>Courtney Reed</b>, <b>Paul Strohmeier</b>
-    venue: Loughborough University (NIME ’26)
-    description: Questions of agency and authorship become central to the design of expressive digital musical instruments (DMIs). Agency is recognized as essential for meaningful musical performance but remains difficult to operationalize and measure. We here propose sensory attenuation as an implicit measure of self-attribution and a practical proxy for agency in DMI interaction. We implemented a pressure-based control system for a digital synthesizer, introducing nonlinear behaviors along pressure and time dimensions. Using a psychophysics experiment combined with qualitative interviews, we investigate how these nonlinearities affect performers’ sense of agency. Results suggest that sensory attenuation provides a viable proxy for self-attribution, but only when output exceeds a volume threshold. Furthermore, we observe interaction effects between temporal and action nonlinearities, indicating that maintaining agency requires control across both dimensions. Our findings provide empirical grounding for using sensory attenuation for experimental agency evaluation methods.
-    image: https://sensinttest.github.io/uploads/images/papers/
+    authors: <b>Erik Peralta Løvaas</b>, <b>Courtney N. Reed</b>, <b>Paul Strohmeier</b>
+    venue: Proceedings of the International Conference on New Interfaces for Musical Expression (NIME ’26)
+    description: "When does playing an electronic instrument feel like making the sound yourself? We investigate whether changes in perceived loudness can help measure that experience. Experiments with a pressure-controlled synthesizer suggest a promising approach, while showing that sound level and the relationship between movement and sound both matter."
+    image: uploads/images/papers/2026_Loughborough_University_Digital_Musical_Instrument_teaser.jpg
+    image_alt: "Pressure-to-sound mappings used in the digital musical instrument study"
+
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2026_Loughborough_University_Digital_Musical_Instrument.pdf
+        url: uploads/pdfs/2026_Loughborough_University_Digital_Musical_Instrument.pdf
 
   - title: "VibRacket: Designing and Experiencing Embodied Vibrotactile Feedback on a Badminton Racket"
     year: 2025
     authors: <b>Nihar Sabnis</b>, <b>Gabriela Vega</b>, <b>Valentin Martinez-Missir</b>, <b>Paul Strohmeier</b>
     venue: Annual Conference on Human-Computer Interaction and Sports (SportsHCI ’25)
     description: Racket sports like badminton rely heavily on precise stroke mechanics, yet most virtual sports systems emphasize impact sensation rather than movement guidance. This paper introduces VibRacket, a racket-mounted prototype providing both extrinsic vibrotactile feedback (guiding and error-enhancing) and intrinsic, motion-coupled vibrations perceived as self-generated. VibRacket integrates an IMU and vibration actuator to support controlled and ballistic movements and includes a graphical interface for customizing orientation-based vibrotactile patterns. The work discusses how embodied vibrotactile feedback can reduce cognitive load and support motor learning in virtual and augmented racket sports.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_SportsHCI_VibRacket.png
+    image: uploads/images/papers/2025_SportsHCI_VibRacket.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2025_SportsHCI_VibRacket.pdf
+        url: uploads/pdfs/2025_SportsHCI_VibRacket.pdf
 
         
   - title: "Haptic Redirection: Modulating Hand Movement Speed with Vibrotactile Feedback"
@@ -100,26 +125,26 @@ timeline:
     authors: <b>Easa AliAbbasi</b>, <b>Nihar Sabnis</b>, <b>Yuran Ding</b>, <b>Nadine Wagener</b>, <b>Paul Strohmeier</b>
     venue: Mensch und Computer (MuC ’25)
     description: Redirecting user movement in Virtual Reality (VR) can expand perceived virtual space while accommodating limited physical space. Existing methods mainly rely on visual and auditory cues, but this work explores haptic cues as an alternative. Inspired by how vibrations arise when fingers move across textured surfaces—depending on scanning speed and surface properties—the authors manipulate vibrotactile feedback to influence movement speed. Across three psychophysical experiments, they show that (1) vibrotactile properties affect human movement speed, (2) movement remains stable if users consciously notice feedback changes, and (3) when users remain unaware, reducing vibration pulses by 50% increases movement speed by ~20%. These findings highlight the potential of vibrotactile feedback for subtle redirection in VR without relying solely on vision or sound.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_MuC_Haptic_Redirection.jpg
+    image: uploads/images/papers/2025_MuC_Haptic_Redirection.jpg
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2025_MuC_Haptic_Redirection.pdf
+        url: uploads/pdfs/2025_MuC_Haptic_Redirection.pdf
         
   - title: "Sensorimotor Devices: Coupling Sensing and Actuation to Augment Bodily Experience"
     year: 2025
     authors: <b>Paul Strohmeier</b>, Laia Turmo Vidal, <b>Gabriela Vega</b>, <b>Courtney N. Reed</b>, Alex Mazursky, <b>Easa AliAbbasi</b>, Ana Tajadura-Jiménez, Jürgen Steimle
     venue: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA ’25)
     description: A new class of wearable devices is emerging—ones that tightly couple sensing and actuation to fundamentally reshape how we perceive and control our bodies. Unlike typical wearables that focus solely on tracking (e.g., fitness bands) or feedback (e.g., VR headsets), these “sensorimotor devices” fuse input and output in time, space, and modality. This tight coupling enables richer bodily experiences—evoking new senses of agency, presence, and self-perception. In this workshop paper, the authors explore this frontier, drawing from disciplines spanning HCI, Psychology, Neuroscience, and Engineering. They identify research gaps and propose new design principles for wearables that go beyond passive observation, actively shaping embodied experience through real-time motion-coupled feedback.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_SensorimotorDevice.png
+    image: uploads/images/news/workshop_sensorimotorDevices.jpg
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf   
-        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_SensorimotorDevices.pdf
+        url: uploads/pdfs/2025_CHI_SensorimotorDevices.pdf
       - name: doi
         url: https://doi.org/10.1145/3706599.3706735
   
@@ -128,56 +153,56 @@ timeline:
     authors: <b>Easa AliAbbasi</b>, <b>Dennis Wittchen</b>, <b>Gabriela Vega</b>, <b>Paul Strohmeier</b>
     venue: IEEE World Haptics Conference (WHC ’25)
     description: The perception of an object’s compliance can be manipulated through the grain-based vibrotactile compliance illusion. Although this method has gained interest for creating virtual compliance, its perceptual mechanisms remain poorly understood. This work analyzes compliance estimates and pressure profiles from 12 participants exploring both physical and virtual compliance. The results reveal that virtual compliance is distinct from physical compliance, mediated by separate sensorimotor processes. These differences are shown in the non-additive nature of real vs. illusory compliance perception and the distinct exploratory actions participants use. The findings have implications for the design of augmented and virtual tactile reality systems, advance our understanding of the compliance illusion, and support closed-loop theories of tactile perception.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_WHC_Physical_complience.jpg
+    image: uploads/images/papers/2025_WHC_Physical_complience.jpg
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2025_WHC_Physical_complience.pdf
+        url: uploads/pdfs/2025_WHC_Physical_complience.pdf
       
   - title: "Motion-Coupled Asymmetric Vibration for Pseudo Force Rendering in Virtual Reality"
     year: 2025
     authors: <b>Nihar Sabnis</b>, <b>Maelle Roche</b>, <b>Dennis Wittchen</b>, Donald Degraen, <b>Paul Strohmeier</b>
     venue: Human Factors in Computing Systems (CHI '25)
     description: Realistic force feedback is essential for immersion in VR, but traditional vibrotactile methods fall short. Asymmetric vibrations can induce pseudo forces but introduce unwanted vibration, reducing realism. We propose - Motion-Coupled Asymmetric Vibration (MCAV), a novel algorithm that couples asymmetric vibrations with user motion, leveraging sensory attenuation to mimic self-generated sensations. Studies showed that MCAV reduced perceived vibration by while maintaining the force sensation compared to continuous asymmetric vibrations. Demonstrations in VR scenarios—archery, weightlifting, and haptic magnets—showed user preference for motion-coupled asymmetric vibration offering a new direction for force rendering in VR.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_MCAV_teaser.png
+    image: uploads/images/papers/2025_MCAV_teaser.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf   
-        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_Motion-Coupled_Asymmetric_Vibration.pdf
+        url: uploads/pdfs/2025_CHI_Motion-Coupled_Asymmetric_Vibration.pdf
       - name: Best Paper - Honorable Mention
-        url: https://sensinttest.github.io/uploads/images/2025_CHI_MCAV_Award.jpg
+        url: uploads/images/2025_CHI_MCAV_Award.jpg
         
   - title: "CollabJam: Studying Collaborative Haptic Experience Design for On-Body Vibrotactile Patterns"
     year: 2025
     authors: <b>Dennis Wittchen</b>, Alexander Ramian, <b>Nihar Sabnis</b>, Richard Böhme, Christopher Chlebowski, Georg Freitag, Bruno Fruchard, Donald Degraen
     venue: Human Factors in Computing Systems (CHI '25)
     description: Collaborative design of vibrotactile experiences poses unique challenges in remote settings, where designers must clearly convey their intentions and iteratively develop and refine experiences—ideally in real-time. To address these challenges, we introduce CollabJam, a collaborative prototyping suite that supports synchronous remote design of on-body vibrotactile experiences. Our study highlights the importance of multi-sensory communication for effective idea exchange and the complex trade-offs involved in the flexible placement of actuators on the body.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_CollabJam_teaser.png
+    image: uploads/images/papers/2025_CHI_CollabJam_teaser.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf   
-        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_CollabJam.pdf
+        url: uploads/pdfs/2025_CHI_CollabJam.pdf
       - name: Best Paper - Honorable Mention
-        url: https://sensinttest.github.io/uploads/images/2025_CHI_CollabJam_award.jpg
+        url: uploads/images/2025_CHI_CollabJam_award.jpg
         
   - title: "Foot Pedal Control: The Role of Vibrotactile Feedback in Performance and Perceived Control"
     year: 2025
     authors: <b>Nihar Sabnis</b>, Ata Otaran, <b>Dennis Wittchen</b>, <b>Johanna K. Didion</b>, Jürgen Steimle, <b>Paul Strohmeier</b>
     venue: Tangible, Embedded, and Embodied Interaction (TEI '25)
     description: This work evaluated four pedal configurations for abstract and ecological tasks. The results showed that vibrotactile rendering can improve the perceived control despite the objective performance remaining the same. This finding opens up opportunities to introduce vibrotactile feedback for helping users' gain confidence and feel that they are in control.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_TEI_FootPedalControl.png
+    image: uploads/images/papers/2025_TEI_FootPedalControl.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf   
-        url: https://sensinttest.github.io/uploads/pdfs/2025_TEI_GasPedals_CameraReady.pdf
+        url: uploads/pdfs/2025_TEI_GasPedals_CameraReady.pdf
       - name: Best Paper - Honorable Mention
 
   - title: "Walking the Future: Bridging Foot Augmentation into Next Steps of Human Augmentation"
@@ -185,7 +210,7 @@ timeline:
     authors: <b>Nihar Sabnis</b>, <b>Dennis Wittchen</b>, Ata Otaran, Fatima Badmos, Siyi Liu, Aryan Saini, Georg Regal, Vincent van Rheden, Florian ‘Floyd’ Mueller, Suranga Nanayakkara, Denys J.C. Matthies, Troy Nachtigall, <b>Paul Strohmeier</b>, Laia Turmo Vidal, Don Samitha Elvitigala
     venue: Human Factors in Computing Systems (CHI '25)
     description: This workshop explored the emerging potential of wearable foot interfaces in the context of human augmentation. Bringing together researchers, designers, and practitioners, we examined how foot-based technologies have evolved beyond activity tracking to enhance movement, balance, and posture. Through discussions on past developments and current trends, participants collaboratively identified future directions and research opportunities within the broader field of human augmentation.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_CHI_WTF_workshop.jpg
+    image: uploads/images/papers/2025_CHI_WTF_workshop.jpg
     tags:
       - text: workshop
         style: yellow
@@ -193,14 +218,14 @@ timeline:
       - name: Workshop Website
         url: https://derikon.github.io/WalkingTheFuture_Workshop/
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_Walking_the_Future.pdf
+        url: uploads/pdfs/2025_CHI_Walking_the_Future.pdf
 
   - title: "Digital Communication Moving Beyond Human-Centric Replication"
     year: 2025
     authors: Carey Jewitt, Sara Price, Lucia Seminara, <b>Nihar Sabnis</b>, Jürgen Steimle, Nadia Berthouze, Kouta Minamizawa, Desiree Foerster, Grant Jun Otsuki
     venue: Human Factors in Computing Systems (CHI '25)
     description: This agenda-setting workshop discusses the dominance of a human-centric replication paradigm in digital communication being problematic, constraining, limiting digital innovation, and continues to unquestionably place humans at the center of digital futures with negative social implications for modes of digital communication. This workshop explored alternative visions of digital communication, drawing inspiration from animal and plant sensory worlds and generated ideas towards a new way of thinking and working in sensorial immersion beyond the human-centric.
-    image: https://sensinttest.github.io/uploads/images/papers/CHI25_Beyond_Human.jpg
+    image: uploads/images/papers/CHI25_Beyond_Human.jpg
     tags:
       - text: workshop
         style: yellow
@@ -208,132 +233,132 @@ timeline:
       - name: Workshop Website
         url: https://digitalcommunicationecologies.wordpress.com/
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_Beyond_Human_Centric_Mimicry.pdf
+        url: uploads/pdfs/2025_CHI_Beyond_Human_Centric_Mimicry.pdf
 
   - title: "Designing Vibrotactile Feedback for rendering Material and Force Experiences"
     year: 2025
     authors: <b>Nihar Sabnis</b>
     venue: Human Factors in Computing Systems (CHI '25)
     description: This doctoral consortium paper explores how perceptual mechanisms shape material experiences through touch and how they relate to vibrotactile rendering. It focuses on understanding these mechanisms, designing tactile symbols and wearables, and using perception as a tool for rendering vibrations, while sharing reflections on Nihar's PhD journey so far.
-    image: https://sensinttest.github.io/uploads/images/papers/2025_DC_teaser.png
+    image: uploads/images/papers/2025_DC_teaser.png
     tags:
       - text: doctoral consortium
         style: orange
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2025_CHI_Designing_Vibrotactile_Feedback.pdf
+        url: uploads/pdfs/2025_CHI_Designing_Vibrotactile_Feedback.pdf
 
   - title: "Motionless Movement: Towards Vibrotactile Kinesthetic Displays"
     year: 2024
     authors: Yuran Ding, Nihar Sabnis, Paul Strohmeier
     venue: Human Factors in Computing Systems (CHI '24)
     description: This paper presents a proof-of-concept kinesthetic display prototype. We explore how one might, using only vibration, present a sense of movement to a user. A user study showed that the tactile sense of movement we provide using vibration is stronger than that provided by a visual control task.
-    image: https://sensinttest.github.io/uploads/images/papers/momo.png
+    image: uploads/images/papers/momo.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf   
-        url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_motionlessMovement.pdf
+        url: uploads/pdfs/2024_CHI_motionlessMovement.pdf
       - name: Best Paper – Honourable Mention
-        url: https://sensinttest.github.io/uploads/images/2024_CHI_award_motionless.jpeg
+        url: uploads/images/2024_CHI_award_motionless.jpeg
       - name: Demo
-        url: https://sensinttest.github.io/uploads/pdfs/EH24___Motionless_Movement___Demo.pdf
+        url: uploads/pdfs/EH24___Motionless_Movement___Demo.pdf
 
   - title: "Shaping Compliance: Inducing Haptic Illusion of Compliance in Different Shapes with Electrotactile Grains"
     year: 2024
     authors: Arata Jingu <b>Nihar Sabnis</b>,  <b>Paul Strohmeier</b>, Jürgen Steimle
     venue: Human Factors in Computing Systems (CHI '24)
     description: Together with Saarland University's HCI Lab, we explored an implementation of the compliance illusion using an electrotactile display. We investigate some of the opportunities provided by this extraordinary actuator. 
-    image: https://sensinttest.github.io/uploads/images/papers/24_CHI_ShapingCompliance.png
+    image: uploads/images/papers/24_CHI_ShapingCompliance.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_shapingCompliance.pdf
+        url: uploads/pdfs/2024_CHI_shapingCompliance.pdf
       - name: Demo
-        url: https://sensinttest.github.io/uploads/pdfs/2024_EH_Electrotactile_Compliance.pdf
+        url: uploads/pdfs/2024_EH_Electrotactile_Compliance.pdf
 
   - title: "vARitouch: Back of the Finger Device for adding Variable Compliance to Rigid Objects"
     year: 2024
     authors: <b>Gabriela Vega, Valentin Martinez-Missir, Dennis Wittchen, Nihar Sabnis</b>, Karen Cochraine, Audrey Girouard, <b>Paul Strohmeier</b>
     venue: Human Factors in Computing Systems (CHI '24)
     description: Just like visual augmented reality can add visual information to our experience of the world, we want <b>tactile augmented reality</b> to overlay additional tactile information. Here we present a system that can change the material properties of the physical world without interfering with regular tactile perception.
-    image: https://sensinttest.github.io/uploads/images/papers/varitouch.png
+    image: uploads/images/papers/varitouch.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_vARitouch.pdf
+        url: uploads/pdfs/2024_CHI_vARitouch.pdf
       - name: Demo
-        url: https://sensinttest.github.io/uploads/pdfs/2024_EH_vARitouch_demo.pdf
+        url: uploads/pdfs/2024_EH_vARitouch_demo.pdf
 
   - title: "Empowering Learners: Chatbot-Mediated 'Learning-by-Teaching'"
     year: 2024
     authors: <b>Nihar Sabnis</b>, Tomohiro Nagashima
     venue: Human Factors in Computing Systems (CHI '24)
     description: We show how chatbots can be used as virtual students, to support "learning by teaching".
-    image: https://sensinttest.github.io/uploads/images/papers/24_CHI_EmpoweringLearners.jpg
+    image: uploads/images/papers/24_CHI_EmpoweringLearners.jpg
     tags:
       - text: Extended Abstract
         style: orange
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2024_CHI_EmbodiedLearners.pdf
+        url: uploads/pdfs/2024_CHI_EmbodiedLearners.pdf
 
   - title: "Base and Stitch: Evaluating eTextile Interfaces from a Material-Centric View"
     year: 2024
     authors: Vineetha Rallabandi, Alice C. Haynes, Courtney N. Reed, Paul Strohmeier in Tangible, Embedded, and Embodied Interaction (TEI '24
     venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
     description: We highlight the importance of materiality in textile sensor designs.
-    image: https://sensinttest.github.io/uploads/images/papers/24_TEI_baseStitch.png
+    image: uploads/images/papers/24_TEI_baseStitch.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2024_TEI_baseAndStitch.pdf
+        url: uploads/pdfs/2024_TEI_baseAndStitch.pdf
 
   - title: "3D-Printed Cells for Creating Variable Softness"
     year: 2024
     authors: Konrad Fabian, Dennis Wittchen, Paul Strohmeier
     venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
     description: In this work, we present a method for 3D printing objects with variable softness, inspired by mechanical metamaterials. By modifying parameters of individual cell geometries within a cellular structure, our approach and tool enables designers to rapidly prototype objects with adjustable softness for diverse applications. These structures can even be fabricated on commodity 3D printers. 
-    image: https://sensinttest.github.io/uploads/images/papers/metamaterials_web.png
+    image: uploads/images/papers/metamaterials_web.png
     tags:
       - text: Extended Abstract
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2024_TEI_3dCells.pdf
+        url: uploads/pdfs/2024_TEI_3dCells.pdf
 
   - title: "RaveNET: Connecting People and Exploring Liminal Space through Wearable Networks in Music Performance"
     year: 2024
     authors: Rachel Freire, Valentin Martinez-Missir, Courtney Reed, Paul Strohmeier
     venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
     description: RaveNET connects people to music, enabling musicians to modulate sound using signals produced by their own bodies or the bodies of others. We present three wearable prototype nodes in an inaugural RaveNET performance. Bones, an anti-corset, uses capacitive sensing to detect stretch as the singer breathes. Tendons, a half-glove, measures galvanic skin response, pulse, and movement of the bass player’s hands. Veins, a cap with electrodes for surface electromyography, captures the facial expressions of the drum machine operator. 
-    image: https://sensinttest.github.io/uploads/images/papers/ravenet_perf.png
+    image: uploads/images/papers/ravenet_perf.png
     tags:
       - text: Extended Abstract
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2024_TEI_raveNET_demo.pdf
+        url: uploads/pdfs/2024_TEI_raveNET_demo.pdf
 
   - title: "Liminal Space: A Performance with RaveNET"
     year: 2024
     authors: Rachel Freire, Valentin Martinez-Missir, Courtney Reed, Paul Strohmeier
     venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
     description: We present our musical performance exploration of liminal spaces, which focuses on the interconnected physicality of bodies in music, using biosignals and gestural, movement-based interaction to shape live performances in novel ways.
-    image: https://sensinttest.github.io/uploads/images/papers/ravenet_demo.png
+    image: uploads/images/papers/ravenet_demo.png
     tags:
       - text: performance
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2024_TEI_raveNET_performance.pdf
+        url: uploads/pdfs/2024_TEI_raveNET_performance.pdf
 
 
   - title: "Who Did It? How User Agency is Influenced by Visual Properties of Generated Images"
@@ -341,13 +366,13 @@ timeline:
     authors: Johanna K. Didion, Krzysztof Wolski, <b>Dennis Wittchen</b>, David Coyle, Thomas Leimkühler, <b>Paul Strohmeier</b>
     venue: User Interface Software and Technology (UIST '24)
     #description: We present our musical performance exploration of liminal spaces, which focuses on the interconnected physicality of bodies in music, using biosignals and gestural, movement-based interaction to shape live performances in novel ways.
-    image: https://sensinttest.github.io/uploads/images/papers/24_UIST_WhoDidThis.png
+    image: uploads/images/papers/24_UIST_WhoDidThis.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2024_UIST_who_did_it_paper.pdf
+        url: uploads/pdfs/2024_UIST_who_did_it_paper.pdf
 
 
   - title: "Effect of Finger Orientation on Contact Stiffness and Area During Sliding"
@@ -355,20 +380,20 @@ timeline:
     authors: Jahangier Ahmad, <b>Easa AliAbbasi</b>, MReza Alipour Sormoli, Cagatay Basdogan
     venue: IEEE Transactions on Haptics Journal
     description: We investigated how finger orientation affects the way we touch and feel surfaces. Our experimental findings show that the changes in the orientation of finger can alter the contact area and stiffness and hence, the frictional forces while exploring surfaces.
-    image: https://sensinttest.github.io/uploads/images/papers/24_IEEE_FingerOrientation.jpg
+    image: uploads/images/papers/24_IEEE_FingerOrientation.jpg
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2024_IEEE_EffectofFingerOrientation.pdf
+        url: uploads/pdfs/2024_IEEE_EffectofFingerOrientation.pdf
 
   - title: "Foot Augmentation 101: Design your own Augmented Experiences"
     year: 2024
     authors: <b>Dennis Wittchen</b>, <b>Nihar Sabnis</b>, Troy Robert Nachtigall, Florian ‘Floyd’ Mueller, <b>Paul Strohmeier</b>, Don Samitha Elvitigala
     venue: Tangible, Embedded, and Embodied Interaction (TEI '24)
     description: This workshop focused on building foot augmentations collaboratively. Participants designed three prototypes, a) remote movement guidance, calling the shoe, increasing empathy.
-    image: https://sensinttest.github.io/uploads/images/papers/footaugmentation.png
+    image: uploads/images/papers/footaugmentation.png
     tags:
       - text: workshop
         style: yellow
@@ -381,13 +406,13 @@ timeline:
     authors: <b>Nihar Sabnis</b>, <b>Dennis Wittchen</b>, <b>Courtney N. Reed</b>,  Narjes Pourjafarian, Jürgen Steimle, <b>Paul Strohmeier</b>
     venue: Human Factors in Computing Systems (CHI '23)
     description: This work introduces Haptic Servos.
-    image: https://sensinttest.github.io/uploads/images/papers/23_CHI_HapticServos_new.png
+    image: uploads/images/papers/23_CHI_HapticServos_new.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2023_CHI_HapticServo.pdf
+        url: uploads/pdfs/2023_CHI_HapticServo.pdf
       - name: Best Paper – Honourable Mention
         url: https://sensinttest.github.io/uploads/images/2024_CHI-UPDATE.jpeg
          
@@ -396,41 +421,41 @@ timeline:
     authors: <b>Courtney N. Reed</b>,  <b>Paul Strohmeier</b>, Andrew MacPherson
     venue: Human Factors in Computing Systems (CHI '23)
     description: 
-    image: https://sensinttest.github.io/uploads/images/papers/23_CHI_Metaphors.jpg
+    image: uploads/images/papers/23_CHI_Metaphors.jpg
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2023_CHI_Metaphors.pdf
+        url: uploads/pdfs/2023_CHI_Metaphors.pdf
         
   - title: "Tactile Symbols with Continuous and Motion-Coupled Vibration: An Exploration of using Embodied Experiences for Hermeneutic Design "
     year: 2023
     authors: <b>Nihar Sabnis</b>, <b>Dennis Wittchen</b>, <b>Gabriela Vega</b>, <b>Courtney N. Reed</b>,  <b>Paul Strohmeier</b>
     venue: Human Factors in Computing Systems (CHI '23)
     description: We explore ways of mixing embodied and hermeneutic design.
-    image: https://sensinttest.github.io/uploads/images/papers/23_CHI_SymbolDesign_new.png
+    image: uploads/images/papers/23_CHI_SymbolDesign_new.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: EuroHaptics Demo
-        url: https://sensinttest.github.io/uploads/pdfs/2024_EH_Tactile_Symbols.pdf
+        url: uploads/pdfs/2024_EH_Tactile_Symbols.pdf
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2023_CHI_SymbolDesign.pdf
+        url: uploads/pdfs/2023_CHI_SymbolDesign.pdf
 
   - title: "Designing Interactive Shoes for Tactile Augmented Reality"
     year: 2023
     authors: <b>Dennis Wittchen</b>, <b>Valentin Martinez-Missir</b>, <b>Sina Mavali</b>, <b>Nihar Sabnis</b>, <b>Courtney N. Reed</b>,  <b>Paul Strohmeier</b>
     venue: Augmented Humans (AHs '23)
     description: We explore the design space of shoes for augmented tactile reality and present an open-source implementation from this space.
-    image: https://sensinttest.github.io/uploads/images/papers/23_AHs_HapticShoes.png
+    image: uploads/images/papers/23_AHs_HapticShoes.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2023_AHs_Designing_Interactive_Shoes_for_Tactile_Augmented_Reality.pdf
+        url: uploads/pdfs/2023_AHs_Designing_Interactive_Shoes_for_Tactile_Augmented_Reality.pdf
 
   - title: "Body-based user interfaces"
     year: 2022
@@ -442,40 +467,40 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2022_BodyBasedUI_AuthorVersion.pdf
+        url: uploads/pdfs/2022_BodyBasedUI_AuthorVersion.pdf
         
   - title: "Exploring Experiences with New Musical Instruments through Micro-phenomenology"
     year: 2022
     authors: <b>Courtney N. Reed</b>, Charlotte Nordmoen, Andrea Martelloni, Giacomo Lepri, Nicole Robson, Eevee Zayas-Garin, Kelsey Cotton, Lia Mice, Andrew McPherson
     venue: New Interfaces for Musical Expression (NIME '22)
     description: This work introduced micro-phenomenology to the muscial interaction research and design community. We explore interactions with digital musical instruments through micro-phenomenological disciplines to uncover fine-grained details in the interactions, particularly tactile connections and bodily sensations.
-    image: https://sensinttest.github.io/uploads/images/papers/22-NIME-NIMESthroughMP.png
+    image: uploads/images/papers/22-NIME-NIMESthroughMP.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2022_NIME_MP.pdf
+        url: uploads/pdfs/2022_NIME_MP.pdf
 
   - title: "Pseudo Forces from Asymmetric Vibrations can Modulate Movement Velocity"
     year: 2022
     authors: <b>Nihar Sabnis</b>, Eline van der Kruk, David Abbink, Michaël Wiertlewski
     venue: Eurohaptics 2022
     description: This work showed that pseudo forces generated using asymmetric vibration can modulate direction and movement velocity.
-    image: https://sensinttest.github.io/uploads/images/papers/2022_EH_Pseudo_Forces.png
+    image: uploads/images/papers/2022_EH_Pseudo_Forces.png
     tags:
       - text: Work in Progress
         style: orange
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2022_EH_Pseudo_Forces.pdf
+        url: uploads/pdfs/2022_EH_Pseudo_Forces.pdf
 
   - title: "Sustainable Haptic Design: Improving Collaboration, Sharing, and Reuse in Haptic Design Research"
     year: 2022
     authors: Oliver Schneider, Bruno Fruchard, <b>Dennis Wittchen</b>, Bibhushan Raj Joshi, Georg Freitag, Donald Degraen, <b>Paul Strohmeier</b>
     venue: Human Factors in Computing Systems Extended Abstracts (CHI EA '22)
     description: We co hosted a workshop to discuss topics such as reproduceability, sharing of data and methods, and communication and collaboration in haptic design research
-    image: https://sensinttest.github.io/uploads/images/papers/hapticDesignWorkshop.PNG
+    image: uploads/images/papers/hapticDesignWorkshop.PNG
     tags:
       - text: workshop
         style: yellow
@@ -488,13 +513,13 @@ timeline:
     authors: Narges Pourjafarian, Marion Koelle, Fjolla Mjako <b>Paul Strohmeier</b>, Jürgen Steimle
     venue: Human Factors in Computing Systems (CHI '22)
     description: Together with Saarland University’s HCI Lab, Paul designed a hand-held printer, for printing electrical circuits. This printer combines affordances of free-hand sketching with those of digital printing. We present a fully functional prototype, strategies for designing hand-held inking devices, and methods of interacting with them.
-    image: https://sensinttest.github.io/uploads/images/papers/22_CHI_PrintASketch.jpg
+    image: uploads/images/papers/22_CHI_PrintASketch.jpg
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2022_CHI_PrintASketch.pdf
+        url: uploads/pdfs/2022_CHI_PrintASketch.pdf
       - name: Project Page
         url: https://hci.cs.uni-saarland.de/projects/print-a-sketch/
         
@@ -503,13 +528,13 @@ timeline:
     authors: <b>Courtney N. Reed</b>, Sophie Skach, <b>Paul Strohmeier</b>, and Andrew P. McPherson
     venue: Augmented Humans (AHs)
     description: With friends from QMUL, we build a knit wearable collar, Singing Knit, to implement vocal EMG in a context-specific, wearability- and implementation-oriented device. The collar uses a knit body and fabric electrodes in place of a rigid multi-electrode setup. We introduce new ways to adapt multi-electrode systems.
-    image: https://sensinttest.github.io/uploads/images/papers/22_AHs_SingingKnit.png
+    image: uploads/images/papers/22_AHs_SingingKnit.png
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2022_AHs_SingingKnit.pdf
+        url: uploads/pdfs/2022_AHs_SingingKnit.pdf
       - name: talk
         url: https://youtu.be/tqpZ8mGEQbM
       - name: Project Page
@@ -520,13 +545,13 @@ timeline:
     authors: <b>Dennis Wittchen</b>, Katta Spiel, Bruno Fruchard, Donald Degraen, Oliver Schneider, Georg Freitag, <b>Paul Strohmeier</b> 
     venue: Tangible, Embedded, and Embodied Interaction (TEI '22)
     description: The TactJam workshop we held at last year’s TEI was a full success. As the workshop was super interesting, the organizers and some participants came together to write up our observations as well as present the system. The contribution is not only a proven system for tactile design, but also reflections on how the tools we use shape the design outcomes.
-    image: https://sensinttest.github.io/uploads/images/papers/22_TEI_TactJam.jpg
+    image: uploads/images/papers/22_TEI_TactJam.jpg
     tags:
       - text: paper
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2022_TEI_TactJam.pdf
+        url: uploads/pdfs/2022_TEI_TactJam.pdf
       - name: talk
         url: https://youtu.be/AVcXQCUmEls
       - name: GitHub
@@ -537,13 +562,13 @@ timeline:
     authors: <b>Courtney N. Reed</b>
     venue: Tangible, Embedded, and Embodied Interaction (TEI '22)
     description: Courtney presented a synopsis of her PhD work at the TEI graduate consortium. The paper outlined studies in musical imagery and perception of the voice and body during singing practice, how EMG can be used to augment the vocalist-voice relationship, and studies exploring sensory experience with sonified EMG signals.
-    image: https://sensinttest.github.io/uploads/images/papers/22_TEI_GSC.png
+    image: uploads/images/papers/22_TEI_GSC.png
     tags:
       - text: Extended Abstract
         style: orange
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2022_TEI_EmbodimentInSinging.pdf
+        url: uploads/pdfs/2022_TEI_EmbodimentInSinging.pdf
       - name: talk
         url: https://youtu.be/BI7xl_QeVqw
       - name: Project Page
@@ -587,7 +612,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2021_CHI_squishthis.pdf 
+        url: uploads/pdfs/2021_CHI_squishthis.pdf 
 
   - title: "BodyStylus: Freehand On-Skin Design and Fabrication of On-Body Interfaces"
     year: 2021
@@ -600,7 +625,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2021_CHI_BodyStylus.pdf 
+        url: uploads/pdfs/2021_CHI_BodyStylus.pdf 
 
   - title: "bARefoot: Generating Virtual Materials Using Motion Coupled Vibration in Shoes"
     year: 2020
@@ -613,7 +638,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2020_UIST_bARfoot.pdf
+        url: uploads/pdfs/2020_UIST_bARfoot.pdf
       - name: talk
         url: https://www.youtube.com/watch?v=22R1RkG6wNU
       - name: News Report (German)
@@ -686,7 +711,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2019_CHI_Magnetips.pdf   
+        url: uploads/pdfs/2019_CHI_Magnetips.pdf   
         
   - title: "Grappler: Array of bistable elements for pinching net-like infrastructure to low gravity bodies"
     year: 2019
@@ -715,7 +740,7 @@ timeline:
       - name: website
         url: http://interdigitation.embodimentlabs.org/         
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2019_TEI_optimizingpressure.pdf
+        url: uploads/pdfs/2019_TEI_optimizingpressure.pdf
 
         
   - title: "From Pulse Trains to “Coloring with Vibrations”: Motion Mappings for Mid-Air Haptic Textures"
@@ -729,7 +754,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2018_CHI_midAirTextures.pdf
+        url: uploads/pdfs/2018_CHI_midAirTextures.pdf
       - name: video
         url: https://www.youtube.com/watch?v=pJ8MiFiMWHI
 
@@ -768,7 +793,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2017_NIME_eTextile.pdf
+        url: uploads/pdfs/2017_NIME_eTextile.pdf
       - name: video
         url: https://youtu.be/z92_jkQb5EM
       - name: web
@@ -786,13 +811,13 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2017_CHI_HapticTextures.pdf
+        url: uploads/pdfs/2017_CHI_HapticTextures.pdf
       - name: video
         url: https://youtu.be/NOsIRblaYoQ
       - name: raw data
         url: https://dl.acm.org/ft_gateway.cfm?id=3025812&type=zip&path=%2F3030000%2F3025812%2Fsupp%2Fpn2791%2Dfile4%2Ezip&supp=1&dwn=1
       - name: Best Paper – Honourable Mention
-        url: https://sensinttest.github.io/uploads/images/2016_CHI_HapticTextures_Award.jpg
+        url: uploads/images/2016_CHI_HapticTextures_Award.jpg
 
   - title: "An Evaluation of Shape Changes for Conveying Emotions"
     image_outline: true
@@ -806,7 +831,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2016_CHI_EmotionShape.pdf
+        url: uploads/pdfs/2016_CHI_EmotionShape.pdf
       - name: video
         url: https://youtu.be/HwPS9_AzaLM
       - name: "video: talk + live demo"
@@ -824,7 +849,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2015_TEI_DisplaySkin.pdf
+        url: uploads/pdfs/2015_TEI_DisplaySkin.pdf
       - name: video
         url: https://www.youtube.com/watch?v=eetY1YTOpmo
       - name: talk
@@ -841,7 +866,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2015_ACE_DisplayPointers.pdf
+        url: uploads/pdfs/2015_ACE_DisplayPointers.pdf
       - name: video
         url: https://youtu.be/yisoDGJHDMs
 
@@ -856,7 +881,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2015_INTERACT_Printput.pdf
+        url: uploads/pdfs/2015_INTERACT_Printput.pdf
       - name: video
         url: https://youtu.be/ffPdHSNMjqI
       - name: "video: talk + live demo"
@@ -874,7 +899,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2012_TEI_Wristflicker.pdf
+        url: uploads/pdfs/2012_TEI_Wristflicker.pdf
 
   - title: "Irrigating Kagan’s Desert"
     image_outline: true
@@ -901,9 +926,9 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2016_TEI_MediatedBodies.pdf
+        url: uploads/pdfs/2016_TEI_MediatedBodies.pdf
       - name: "Top Presentation Award"
-        url: https://sensinttest.github.io/uploads/images/2014_ISPR_Award.jpg
+        url: uploads/images/2014_ISPR_Award.jpg
 
   - title: "ReFlex: A Flexible Smartphone with Active Haptic Feedback for Bend Input"
     year: 2016
@@ -916,7 +941,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2016_TEI_ReFlex.pdf
+        url: uploads/pdfs/2016_TEI_ReFlex.pdf
 
   - title: "What can Doodles on the Arm teach us about On-Body Interaction?"
     year: 2016
@@ -954,7 +979,7 @@ timeline:
         style: magenta
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2017_IMWUT_EMSCalibration.pdf
+        url: uploads/pdfs/2017_IMWUT_EMSCalibration.pdf
 
   - title: "DIY IR sensors for augmenting objects and human skin"
     image_outline: true
@@ -968,11 +993,11 @@ timeline:
         style: yellow
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2015_AH_IRSensors.pdf
+        url: uploads/pdfs/2015_AH_IRSensors.pdf
       - name: poster
         url: https://fkeel.github.io/uploads/image/2015_AH_IRSensors_Poster.jpg
       - name: "Best Poster Award"
-        url: https://sensinttest.github.io/uploads/images/2015_AH_Award.jpg
+        url: uploads/images/2015_AH_Award.jpg
 
   - title: "Effects of display sizes on a scrolling task using a cylindrical smartwatch"
     year: 2015
@@ -985,7 +1010,7 @@ timeline:
         style: yellow
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2015_MobileHCI_DisplaySize.pdf
+        url: uploads/pdfs/2015_MobileHCI_DisplaySize.pdf
 
   - title: "PaperTab: an electronic paper computer with multiple large flexible electrophoretic displays"
     year: 2013
@@ -1031,7 +1056,7 @@ timeline:
         style: violet
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2017_TEI_SecondSKin.pdf
+        url: uploads/pdfs/2017_TEI_SecondSKin.pdf
 
   - title: "Exploring Bodies, Mediation and Points of View using a Robotic Avatar"
     year: 2016
@@ -1043,7 +1068,7 @@ timeline:
         style: violet
     links:
       - name: pdf
-        url: https://sensinttest.github.io/uploads/pdfs/2016_TEI_MediatedBodies.pdf
+        url: uploads/pdfs/2016_TEI_MediatedBodies.pdf
 
   - title: "A Flock of Birds: bringing paper to life"
     year: 2012

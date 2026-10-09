@@ -1,35 +1,47 @@
 title: Research
 description: |
-  We experience the world through and because of our bodies. Our perception has adapted to respond to relevant information, which we use to actively create our experience of the world. Perception is a process which combines motor (efferent) output with sensory (afferent) input. The motor and sensory elements are inseparable, hence, sensorimotor.
+  We experience the world through the connection between what we do and what we sense. Moving a hand, touching a surface, or playing an instrument changes the feedback we receive—and how the world feels.
 
-  We conduct research on such sensorimotor loops and explore their role in Human Computer Interaction. Our research focuses on understanding these sensorimotor loops themselves, designing how they might be deployed in on-body systems, and creating the technology, materials, and infrastructure for implementing these.
+  We study these sensorimotor relationships and use them to design interactive technology. Our work combines experiments on perception and action with new ways of sensing movement, creating tactile feedback, and integrating devices with the body.
 topics:
+  - title: Understanding perception
+    image_fit: contain
+    style: bg-si-gray
+    image: uploads/images/research/understanding-perception.svg
+    image_alt: "Three finger trajectories from our texture research, with individual strokes marked in colour"
+    description: |
+      Perception is something we do. To feel a surface, we move our fingers, change how hard we press, and adjust our speed. These actions change the sensory information we receive, which in turn guides our next movement.
+
+      We use touch to study this continuous exchange between action and sensation. By measuring how people explore textures and manipulating the feedback they receive, we investigate how movement, physical signals and expectations come together to create experiences of roughness, softness and resistance.
+
+      Our experiments combine precise measurements with people's reports of what they feel. This helps us understand human perception and design interactive systems that work with the way our bodies sense and act.
+
   - title: Sensorimotor Augmentation
     style: bg-si-purple
     image: uploads/images/background_01.jpg
     description: |
-      Interaction with physical material is experienced relative to body movement. When our finger moves over a wooden surface, the interaction between the surfaces and our finger causes vibration. This vibration shapes the experience of the material, we feel wood.
-    
-      By measuring the actions of the body and providing artificial tactile feedback, mimicking the vibration which would otherwise be created naturally by interaction with the material, the experience of the material can be created artificially. This approach might not only be used to generate sensorimotor experiences of existing materials, one might also encode information which typically is not available to us, such as the direction of home, or wireless data passing through our bodies.
+      Touch is active. When a finger moves across wood, the vibrations it creates help us feel the surface. By measuring movement and adapting tactile feedback in response, we can change how virtual and physical objects feel.
 
-      Example of recent work: <a href="https://hci.cs.uni-saarland.de/research/barefoot/">bARefoot</a>. I also present some of these ideas in my <a href="https://youtu.be/QeZu4PI8nsI">5 minute talk</a> I did for the <a href="https://sigchi.org/awards/sigchi-award-recipients/2020-sigchi-awards/">SIGCHI Outstanding Dissertation Award</a> and it is the topic at the core of my <a href="http://embodimentlabs.org/thesis.pdf">thesis</a>.
+      We investigate how this relationship can create experiences of texture, force, and connected materials. We also explore whether feedback can extend perception, and how it affects the feeling of controlling our own actions.
+
+      Recent examples include <a href="publications.html#ConnectedMaterialExperiencesusingBimanualVibrotactileCrosstalkinVirtualReality">bimanual material experiences in VR</a> and <a href="https://shunichikasahara.com/portfolio/faster-than-muscle/">Faster Than Muscle</a>. Earlier foundations include <a href="https://hci.cs.uni-saarland.de/research/barefoot/">bARefoot</a> and Paul's <a href="https://youtu.be/QeZu4PI8nsI">SIGCHI dissertation award talk</a>.
 
   - title: Body Integrated Systems
     style: bg-si-pink
     image: uploads/images/background_03.jpg
     description: |
-      Wearable devices still largely mirror the design of screen-based mobile devices. However, digital systems on and around our body can utilize their unique placement. Using tactile and electrical communication channels, on-body systems can integrate with users in ever more closely coupled ways. We investigate the design of devices which integrate with the body and act as a natural extension of the user.
+      Wearable technology can do more than put a screen or a tracker on the body. Devices that closely connect sensing and feedback can become part of how we move, express ourselves, and interact with our surroundings.
 
-      Key questions here include the design of information presentation or how abstract information might be communicated to the user through their body, the physical design, or how complex devices can be made to conform to the body and be truly wearable, as well as exploration of human computer integration, or what factors must be fulfilled for technology to be experienced as an extension of the body.
+      We investigate how information can be communicated through the body, how devices can fit comfortably into everyday movement, and when a technology feels like an extension of ourselves. This brings together physical design with questions about perception, control, and agency.
 
-      Example of recent work: <a href="https://skillsleeves.github.io/">SkillSleeves</a>
+      Examples include <a href="publications.html#SensorimotorDevicesCouplingSensingandActuationtoAugmentBodilyExperience">Sensorimotor Devices</a> and <a href="https://skillsleeves.github.io/">SkillSleeves</a>.
 
-  - title: New Materials, Sensor & Actuators
+  - title: New Materials, Sensors & Actuators
     style: bg-si-gray
     image: uploads/images/background_05.jpg
     description: |
-      Tactile Rendering & Sensorimotor Augmentation require sensing and actuation systems which operate at faster frequencies than most commercial systems. Body Integrated Systems require malleable, elastic, and robust electronics. We investigate the design of such high-frequency sensing systems and explore how to functionalize materials – particularly fabric – so they might be used for our other research purposes.
+      New interactions need suitable materials and hardware: sensors that capture subtle movements, actuators that create carefully timed feedback, and soft electronics that move with the body. We develop these building blocks alongside the experiences they enable.
 
-      Here an important focus is placed on craft. There are three primary reasons why craft is important in this context. For one, we can draw on rich traditions of material manipulation, which helps establish repeatable manufacturing processes. On the other hand, this also helps in disseminating the processes we develop as the craft-framing make them accessible for a broader number of people. Finally, rethinking high-tech as craft will support an artisanal approach to creating devices, allowing the creation of high-quality unique devices which accrue personal value, as opposed to the current throw-away ecosystem of our current devices.
+      Craft remains central to this work. Textile and material practices offer ways to make devices that are adaptable, repairable, and personally meaningful. Sharing accessible fabrication methods also helps more people experiment with interactive materials.
 
-      Example of recent work: <a href="https://counterchemists.github.io/">PolySense </a>
+      Examples include our <a href="https://doi.org/10.1002/adfm.76802">all-textile movement sensor</a> and <a href="https://counterchemists.github.io/">PolySense</a>.

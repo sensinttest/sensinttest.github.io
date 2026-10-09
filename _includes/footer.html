@@ -3,7 +3,7 @@
     <hr>
     <div class="d-flex align-items-center">
       <span class="w-100">
-        &copy; {{ site.data.website.current_year }}
+        &copy; {{ site.time | date: "%Y" }}
         {% assign footer_data = site.data.website.footer %}
         
         {% assign impressum_url = footer_data.impressum.url %}

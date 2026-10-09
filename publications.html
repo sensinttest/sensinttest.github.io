@@ -1,4 +1,5 @@
 ---
+title: Papers
 layout: default
 active_menu_id: 'papers'
 permalink: /publications.html
@@ -31,12 +32,6 @@ permalink: /publications.html
 {% assign spanClass = "border-si-gray bg-si-gray" %}
 {% endif %}
 
-{% comment %}
-<!-- You can change the alignment of year label below -->
-<!-- text-* is default alignment for mobile screens and onwards -->
-<!-- text-md-* is for larger screens -->
-<!-- You can choose left / right / center as an option -->
-{% endcomment %}
 <h3 class="Publications-year font-alt my-4 text-left text-md-left border-top {{hClass}}">
   <span class="text-left border px-4 py-1 py-md-2 my-0 d-inline-block {{spanClass}} ">
 
@@ -58,28 +53,20 @@ remove: "'" %}
 {% assign offsetClass = "offset-xl-0" %}
 <div class="row {{offsetClass}} px-0 px-md-3 mx-0 my-1 my-md-5 py-0 py-md-2 bg-white">
 
-  {% assign paper_image_path = item.image %}
-
-  {% if item.image != nil and item.image != false %}
-  {% assign stringToCheck = paper_image_path %}
-  {% assign startsWith = 'http' %}
-  {% assign checkArray = stringToCheck | split:startsWith %}
-  {% if checkArray[0] == blank %}
-  {% assign paper_image_path = paper_image_path | prepend: site.url %}
-  {% else %}
-  {% endif %}
-  {% else %}
-  {% assign paper_image_path = site.data.website.image_placeholder_settings.paper_image_placeholder %}
-  {% endif %}
+  {% assign paper_image_path = item.image | default: site.data.website.image_placeholder_settings.paper_image_placeholder %}
+  {% capture paper_image_url %}{% include asset_url.html path=paper_image_path %}{% endcapture %}
 
   <div
     class="col-lg-4 order-2 order-lg-{{offsetValue}} order-xl-{{offsetValue}} px-0 pt-4 mb-5 mb-lg-0">
-    <img alt="Research teaser" src="{{base}}{{ paper_image_path }}"
-      class="Publication-image img-fluid img-left mb-5 mb-lg-0 px-0 ">
+    <div class="Publication-thumbnail {{ item.image_crop | escape }} mb-5 mb-lg-0">
+    <img alt="{{ item.image_alt | default: item.title | escape }}" src="{{ paper_image_url | strip }}" loading="lazy"
+      class="Publication-image img-fluid px-0">
+    </div>
 
     <div class="d-block d-lg-none d-xl-none">
       {% for link in item.links %}
-      <a href="{{link.url }}">
+      {% capture paper_link_url %}{% include asset_url.html path=link.url %}{% endcapture %}
+      <a href="{{ paper_link_url | strip }}">
         <span
           class="Papers-link-pill d-inline border border-blue small badge-pill text-blue text-uppercase my-1 px-3 mx-1 py-1 ">
           {{link.name}}
@@ -98,8 +85,7 @@ remove: "'" %}
         {% for tag in item.tags %}
         {% assign style = tag.style %}
         {% assign tag_style = site.data.website.tag_styles | where: "name",style | limit:1 %}
-        <span class="badge badge-lg badge-pill {{ tag_style[0].css }} text-uppercase mb-1" {% if tag.style !=nil and
-          tag.style !=nil %} style="{{ tag.style }}" {% endif %}>
+        <span class="badge badge-lg badge-pill {{ tag_style[0].css }} text-uppercase mb-1">
           {{tag.text}}
         </span>
         {% endfor %}
@@ -107,7 +93,8 @@ remove: "'" %}
         <p class="mt-3">{{item.description}}</p>
         <div class="d-none d-lg-block d-xl-block">
           {% for link in item.links %}
-          <a href="{{link.url }}">
+          {% capture paper_link_url %}{% include asset_url.html path=link.url %}{% endcapture %}
+      <a href="{{ paper_link_url | strip }}">
             <span
               class="Papers-link-pill d-inline border border-blue small badge-pill text-blue text-uppercase my-1 px-3 mx-1 py-1 ">
               {{link.name}}
@@ -124,12 +111,11 @@ remove: "'" %}
 {% endfor %}
 
 <script>
-  jQuery(document).ready(function () {
-    let hash = $(location).attr('hash');
-    if (hash) {
-      jQuery('html, body').animate({
-        scrollTop: $(`${hash}`).offset().top - 50
-      }, 500);
-    }
+  jQuery(function () {
+    if (!location.hash) return;
+    let id;
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (_) { return; }
+    const target = document.getElementById(id);
+    if (target) target.scrollIntoView();
   });
 </script>

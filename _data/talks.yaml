@@ -1,5 +1,5 @@
 title: Talks
-description: Here are some recent conference presentations which provide an intro to the Sensorimotor Interaction groups research
+description: Selected talks introducing the Sensorimotor Interaction group’s research.
 
 # YouTube links should use the following format: 
 # https://www.youtube.com/embed/VIDEO_ID
@@ -10,7 +10,7 @@ talks:
     style: bg-si-purple
 
   - title: Body Displays
-    description: Invited talk at the MIT Media Lab
+    description: Invited course guest lecture at the MIT Media Lab (2021)
     youtube_url: https://www.youtube.com/embed/rVTM6XPphEM
     style: bg-si-pink
 

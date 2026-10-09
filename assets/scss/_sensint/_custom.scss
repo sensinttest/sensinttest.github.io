@@ -1,0 +1,53 @@
+// Restrained additions; preserve the existing palette and typography.
+.Header-description { max-width: 72ch; }
+.Header-description img { max-width: 100%; height: auto; }
+.News-list { max-width: 52rem; }
+.News-entry { border-bottom: 1px solid #e6e6e6; scroll-margin-top: 5rem; }
+.News-title { font-size: 1.65rem; line-height: 1.4; }
+.News-body { max-width: 70ch; overflow-wrap: anywhere; }
+.News-image { display: block; max-height: 32rem; width: auto; object-fit: contain; }
+.News-legacy-anchor { display: block; scroll-margin-top: 5rem; }
+.Home-news a { font-weight: 600; line-height: 1.5; }
+.Home-logo-container img { max-width: 100%; }
+.Publication-image { height: auto; object-fit: contain; }
+.Papers-link-pill { white-space: normal; }
+[id] { scroll-margin-top: 5rem; }
+a:focus-visible, button:focus-visible { outline: 3px solid #687c9c; outline-offset: 3px; }
+@media (min-width: 980px) and (max-width: 1199px) {
+  .navbar-nav { margin-bottom: 0; }
+}
+@media (max-width: 575px) {
+  .News-title { font-size: 1.35rem; }
+  .Header-title { overflow-wrap: break-word; }
+}
+@media (prefers-reduced-motion: reduce) {
+  a { transition: none; }
+}
+
+// Square publication frames; crop source figures without modifying their pixels.
+.Publication-thumbnail { position: relative; aspect-ratio: 1 / 1; overflow: hidden; background: white; }
+.Publication-thumbnail .Publication-image { display: block; width: 100%; height: 100%; object-fit: contain; }
+.Publication-thumbnail.scene-right .Publication-image { position: absolute; max-width: none; width: 344.234%; height: auto; left: -244.234%; top: 0.63%; }
+.Publication-thumbnail.bimanual-center .Publication-image { position: absolute; max-width: none; width: 300.429%; height: auto; left: -100%; top: 4.828%; }
+.Publication-thumbnail.visual-ab .Publication-image { position: absolute; max-width: none; width: 134.1%; height: auto; left: 0; top: 10.249%; }
+
+.News-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.News-gallery figure { margin: 0; min-width: 0; }
+.News-gallery figure:first-child { grid-column: 1 / -1; }
+.News-gallery img { display: block; width: 100%; height: auto; max-height: 32rem; object-fit: contain; }
+@media (max-width: 575px) { .News-gallery { grid-template-columns: 1fr; } }
+
+// Requested rows: award certificates paired; three retreat portraits below the lead photo.
+.News-gallery--pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.News-gallery--pair figure:first-child { grid-column: auto; }
+.News-gallery--triptych { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.News-gallery--pair, .News-gallery--triptych { gap: .75rem; }
+
+.News-gallery--lead-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.News-gallery-caption { grid-column: 1 / -1; margin: 0; }
+
+.Research-image--contain { width: 100%; height: auto; object-fit: contain; }
+
+.News-gallery--stacked { grid-template-columns: minmax(0, 1fr); }
+.News-gallery--two-leads-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.News-gallery--two-leads-pair figure:nth-of-type(2) { grid-column: 1 / -1; }

@@ -1,0 +1,7 @@
+{%- assign asset_path = include.path | default: '' -%}
+{%- assign asset_prefix = asset_path | slice: 0, 2 -%}
+{%- if asset_path contains '://' or asset_prefix == '//' or asset_path contains 'mailto:' or asset_path contains 'tel:' -%}
+  {{- asset_path -}}
+{%- else -%}
+  {{- asset_path | relative_url -}}
+{%- endif -%}

@@ -1,138 +1,342 @@
 title: News
-description: 
+description: Research, people, events, and updates from senSInt.
 
 news: 
   - id: 33
+    title: "Faster Than Muscle accepted at SIGGRAPH Asia"
     date: 2026-10-09
     content: |
       Our paper <a href="https://shunichikasahara.com/portfolio/faster-than-muscle/"><b>Faster Than Muscle</b></a> has also been accepted as a Demonstration at <a href="https://asia.siggraph.org/2026/"><b>SIGGRAPH Asia 2026</b></a> in Kuala Lumpur, Malaysia! The work explores how muscle signals can be used to execute actions faster than the human body, and how this affects our sense of agency.
   - id: 31
+    title: "Paul invited to the SIGCHI Futures Summit"
     date: 2026-10-09
     content: |
       <b>Paul Strohmeier</b> has been invited to participate in the <a href="https://sigchi.org/news/announcements/"><b>SIGCHI Futures Summit 2026</b></a> in Paris, November 16–18, to discuss the future of SIGCHI and its conference communities.
-  - id: 30
+  - id: 32
+    images:
+      - path: uploads/images/news/senSInt_saarschleife.jpeg
+        alt: "At the Saarschleife. Left to right: Fariborz, Sara, Easa, Valentin, Yuran, Gaby, Wiam, Paul and Reshma."
+        caption: "At the Saarschleife. Left to right: Fariborz, Sara, Easa, Valentin, Yuran, Gaby, Wiam, Paul and Reshma."
+    title: "A group retreat at the Saarschleife"
     date: 2026-09-29
     content: |
       The <b>Sensorimotor Interaction Group</b> went on a retreat to the <b>Saarschleife</b>! We spent the day discussing our research, exchanging ideas, and exploring future directions for the group.
   - id: 30
+    title: "Easa to co-chair papers at Augmented Humans 2027"
     date: 2026-08-30
     content: |
       <b>Easa AliAbbasi</b> has been appointed <b>Paper Co-Chair</b> of <a href="https://augmented-humans.org/committee/">Augmented Humans 2027</a>, taking place in Colombo, Sri Lanka, in March 2027!
   - id: 29
+    title: "Paul to co-chair NIME 2027 in Paris"
     date: 2026-08-08
     content: |
       <b>Paul Strohmeier</b> will co-chair <a href="https://forum.nime.org/t/announcing-nime-2027/1099"><b>NIME 2027</b></a> in Paris, together with Sofy Yuditskaya and Xiao Xiao. The conference theme is "Sensorial Symbiosis: Bodies, Machines, and Time".
   - id: 28
+    title: "Faster Than Muscle accepted at UIST"
     date: 2026-08-01
     content: |
       Our paper <a href="https://shunichikasahara.com/portfolio/faster-than-muscle/"><b>Faster Than Muscle</b></a> has been accepted at UIST 2026! The work explores how voluntary muscle signals can be used to execute actions faster than the human body, and how this affects our sense of agency.
   - id: 27
+    images:
+      - path: uploads/images/news/instruments8.JPG
+        alt: "A live performance at the public instruments event."
+      - path: uploads/images/news/instruments7.jpg
+        alt: "Performing with electronic instruments."
+      - path: uploads/images/news/instruuments6.jpg
+        alt: "A group photo after the event."
+      - path: uploads/images/news/instruments4.jpg
+        alt: "Sharing the instruments with the audience."
+      - path: uploads/images/news/instrumets_3.JPG
+        alt: "At the public instruments event."
+      - path: uploads/images/news/instruments_publicEvent1.jpg
+        alt: "Trying a student-built instrument."
+    title: "Student-built instruments on stage in Saarbrücken"
     date: 2026-07-17
     content: |
       Students from our <b>Audio Devices: Synthesis, Control & Performance</b> course presented their self-built electronic musical instruments and performed live at the <a href="https://www.uni-saarland.de/en/news/oeffentliche-praesentation-und-konzert-new-instruments-for-musical-expression-49594.html">Nacht der Schönen Künste</a> in Saarbrücken! See the <a href="https://sensint.mpi-inf.mpg.de/instruments.html">instruments</a>.
   - id: 26
+    gallery_layout: lead-pair
+    images:
+      - path: uploads/images/news/testing_the_cap_sensor_on_courtney___singingAugmentationSystem.jpg
+        alt: "Valentin and Rachel testing the sensor on Courtney."
+        caption: "Valentin and Rachel testing the sensor on Courtney."
+      - path: uploads/images/news/measuringRig.jpg
+        alt: "The sensor measuring rig."
+      - path: uploads/images/news/easa_demonstrating_the_sensor.jpg
+        alt: "Easa demonstrating the textile sensor."
+        row_caption: "Left: the measuring rig. Right: Easa demonstrating the all-textile sensor."
+    title: "A textile sensor for subtle body movements"
     date: 2026-07-14
     content: |
       Our paper <a href="https://doi.org/10.1002/adfm.76802"><b>An All-Textile, Mechano-Capacitive Subtle Movement Sensor</b></a>, by <b>Easa AliAbbasi, Rachel Freire, Valentin Martinez-Missir, Lakshmi Vineetha Rallabandi, and Paul Strohmeier</b>, has been published in <b>Advanced Functional Materials</b>! The work introduces a robust, high-precision textile sensor capable of detecting subtle bodily movements, including breathing.
   - id: 25
+    title: "HapticCompass is a EuroHaptics demo award finalist"
     date: 2026-07-09
     content: |
       <b>Wanhui Li, Easa AliAbbasi, and Paul Strohmeier</b>'s <b>HapticCompass</b> was selected as a finalist for the <a href="https://eurohaptics.org/ehc2026/awards/"><b>Best Demo Award at EuroHaptics 2026</b></a> in Siena, Italy!
   - id: 24
+    gallery_layout: pair
+    gallery_caption: "CHI 2026 Best Paper Awards for Scene2Hap (left) and How are Vibrotactile Experiences Visually Represented? (right)."
+    images:
+      - path: uploads/images/news/bestPaperAwards_barcelona_scene2hap.jpg
+        alt: "Scene2Hap — CHI 2026 Best Paper Award."
+      - path: uploads/images/news/bestPaperAward_barcelona_hapticRepresentations.jpg
+        alt: "Visual representations of vibrotactile experiences — CHI 2026 Best Paper Award."
+    title: "Two Best Paper Awards at CHI 2026"
     date: 2026-04-14
     content: |
       We received <a href="https://www.mpi-inf.mpg.de/news/detail/two-best-paper-awards-at-the-worlds-largest-conference-on-human-computer-interaction"><b>two Best Paper Awards at CHI 2026</b></a>! Congratulations to <b>Easa AliAbbasi</b> and <b>Dennis Wittchen</b> and all collaborators for their work on Scene2Hap and the visual representation of vibrotactile experiences.
   - id: 23
+    title: "Congratulations to Dr. Yuran Ding"
     date: 2026-03-23
     content: |
       Congratulations to <b>Yuran Ding</b> on successfully defending her <a href="https://talks.cs.umd.edu/talks/4529"><b>PhD thesis</b></a> "Mediating Complexity: Reasoning Layers from Embodied Interaction to Agentic Systems" at the University of Maryland!
   - id: 22
+    title: "Co-chairing Augmented Humans 2026 in Okinawa"
     date: 2026-03-16
     content: |
       <b>Paul Strohmeier</b> co-chaired <a href="https://2026.augmented-humans.org/committee/"><b>Augmented Humans 2026</b></a> in Okinawa, Japan, together with Kouta Minamizawa, Shunichi Kasahara, and Yomna Abdelrahman.
   - id: 21
+    text_first: true
+    images:
+      - path: uploads/images/news/celebratingNiharsDefense.jpg
+        alt: "Celebrating Nihar’s successful PhD defence at Brauhaus zum Stiefel."
+        caption: "Afterwards, we went to Brauhaus zum Stiefel to celebrate."
+    title: "Congratulations to Dr. Nihar Sabnis"
     date: 2026-03-09
     content: |
-      Congratulations to <b>Nihar Sabnis</b> on successfully defending his <a href="https://www.mpi-inf.mpg.de/news/detail/nihar-sabnis-receives-phd"><b>PhD thesis</b></a> "Re-envisioning Touch: Designing Embodied Material and Force Experiences with Motion-Coupled Vibrotactile Feedback" at Saarland University, receiving the distinction <b>cum laude</b>!
+      Congratulations to <b>Nihar Sabnis</b> on successfully defending his <a href="https://www.mpi-inf.mpg.de/news/detail/nihar-sabnis-receives-phd"><b>PhD thesis</b></a> "Re-envisioning Touch: Designing Embodied Material and Force Experiences with Motion-Coupled Vibrotactile Feedback" at Saarland University, receiving the distinction <b>summa cum laude</b>!
   - id: 20
+    title: "Yuran receives an NSF Graduate Research Fellowship"
     date: 2025-07-07
     content: |
       Congratulations to <b>Yuran Ding</b> on receiving a prestigious <a href="https://www.cs.umd.edu/node/26872"><b>NSF Graduate Research Fellowship</b></a>! The fellowship supports outstanding graduate researchers with three years of funding.
-  - id: 19
-    date: 2025-06-12
-    content: |
-      <b>Easa AliAbbasi</b> gave a talk at CG Lunch, 
   - id: 18
+    title: "Wanhui joins as a visiting PhD student"
     date: 2025-06-12
     content: |
       <b>Wanhui Li</b> is a visiting PhD student from the University of Tokyo
   - id: 17
+    title: "ERC Starting Grant for Kinesthetic Displays"
     date: 2024-10-01
     content: |
       Paul received an <b>ERC Starting Grant</b>, supporting senSInt research with 1.5 million Euro. 
   - id: 16
+    images:
+      - path: uploads/images/news/gaby_demoing_varitouch.jpg
+        alt: "Gaby demonstrating VariTouch."
+        caption: "Gaby demonstrating VariTouch."
+      - path: uploads/images/news/yuran_demoing.jpg
+        alt: "Yuran demonstrating Motionless Movement."
+      - path: uploads/images/news/Gaby_Nihar.jpg
+        alt: "Gaby and Nihar in front of Nihar’s haptic symbol design strategies poster."
+        row_caption: "Left: Yuran demonstrating Motionless Movement. Right: Gaby and Nihar in front of Nihar’s haptic symbol design strategies poster."
+    title: "Three demonstrations at EuroHaptics 2024"
     date: 2024-07-01
     content: |
-      We presented three demos at <b>Eurohaptics</b> 2024 in Lille!
+      We presented three demos at <b>EuroHaptics 2024</b> in Lille: Gaby demonstrated <b>VariTouch</b>, Yuran demonstrated <b>Motionless Movement</b>, and Nihar demonstrated <b>haptic symbol design strategies</b>.
   - id: 15
+    title: "Yuran speaks to undergraduates at UNIST"
     date: 2024-05-01
     content: |
       <b>Yuran Ding</b> gave a talk to undergraduates at UNIST.
   - id: 14
+    title: "Papers, workshops and performance at TEI 2024"
     date: 2024-03-01
     content: |
       The group attended TEI 2024 and presented 1 paper, 2 WIP, 1 performance, and 1 workshop!
   - id: 13
+    title: "Hosting German Pre-CHI in Saarbrücken"
     date: 2024-04-15
     content: |
       We hosted German Pre-CHI in April 2024 in collaboration with the HCI Lab.
   - id: 12
+    title: "Nihar speaks at the Austrian Institute of Technology"
     date: 2024-04-01
     content: |
       <b>Nihar Sabnis</b> gave a talk at Austrian Institute of Technology.
   - id: 11
+    title: "Haptics talks at Goldsmiths and King’s College London"
     date: 2024-05-01
     content: |
       <b>Paul Strohmeier</b> and <b>Nihar Sabnis</b> gave talks at Goldsmiths (hosted by Yoram Chisik) and Kings College (hosted by Andrew MacPherson) in the UK.
   - id: 10
+    title: "Nihar leads workshops at IIT Jodhpur"
     date: 2024-01-31
     content: |
       <b>Nihar Sabnis</b> conducted three workshops at IIT Jodhpur in December 2023 and January 2024.
   - id: 9
+    title: "Fellowship and travel award news for Gabriela"
     date: 2024-05-01
     content: |
       <b>Gabriela Vega</b> got accepted as a Fellow to attend the 10th Heidelberg Laureate Forum. She also won a Travel Award to attend UBICOMP/ISWC 2024 in Cancun, Mexico!
   - id: 8
+    title: "Welcoming Yuran, Rachel and Konrad"
     date: 2023-06-01
     content: |
       We are having an exciting research summer. <b>Yuran Ding</b> is joining as a PhD student, <b>Rachel Freire</b> is joining to work on new wearable interactive garment interfaces, and <b>Konrad Fabian</b> will be applying his experience in generative modeling to our projects.
   - id: 7
+    title: "Three papers at CHI in Hamburg"
     date: 2023-05-01
+    date_label: "April 2023"
+    image: uploads/images/senSInt_family.jpg
+    image_alt: "senSInt, friends and collaborators at CHI in Hamburg"
+    image_caption: "Left to right: Paul, Dennis, Gaby, Nihar (in back), Rachel, Johanna (in back), Yuran, Cedric Honnet and Rosa."
     content: |
-      We published 3 papers at CHI '23. Our Haptic Servo paper was awarded an Honourable Mention.
+      We presented three papers at CHI 2023 in Hamburg. Paul was very grateful for the amazing childcare that CHI organized that year (and Rosa too).
   - id: 6
+    title: "Co-hosting the Sustainable Haptic Design workshop"
     date: 2022-05-01
     content: |
       The senSInt team co-hosted the <a href="https://tactilevision.github.io/chi2022-sustainablehapticdesign/"> Sustainable Haptic Design </a> Workshop at CHI this year. Exciting keynote talks by Eric Vezzoli, Vincent Levesque, & Hasti Seifi. 
   - id: 5
+    title: "Courtney and Paul perform at Augmented Humans"
     date: 2022-03-18
     content: |
-      Courtney and Paul did a live music improvisation at the in person satellite event of this years Augmented Humans conference. You can watch and listen on <a href="https://youtu.be/LTO-U2OgIAQ"> YouTube </a>
+      Courtney and Paul did a live music improvisation at the in-person satellite event of this year’s Augmented Humans conference. You can watch and listen on <a href="https://youtu.be/LTO-U2OgIAQ"> YouTube </a>
       
   - id: 4
+    title: "An invited guest lecture at MIT"
     date: 2021-11-19
     content: |
-      Paul presented the research work of senSInt at MIT, invited by Hiroshi Ishii. A video of his talk is on <a href="https://youtu.be/rVTM6XPphEM"> YouTube </a>
+      Paul gave an invited course guest lecture on senSInt research at the MIT Media Lab, hosted by Hiroshi Ishii. A video of his talk is on <a href="https://youtu.be/rVTM6XPphEM"> YouTube </a>
   - id: 3
+    title: "Sensorimotor Augmentation at the Assistive Augmentation Symposium"
     date: 2021-09-21
     content: |
-      Paul has been invited to present at the <a href="https://symposium.ahlab.org/">Assistive Augmentation Symposium</a>. You can watch his talk on <a href=" https://youtu.be/Sq2hrzHWcko">YouTube </a>
+      Paul has been invited to present at the <a href="https://symposium.ahlab.org/">Assistive Augmentation Symposium</a>. You can watch his talk on <a href="https://youtu.be/Sq2hrzHWcko">YouTube </a>
       
   - id: 2
+    title: "Welcoming Courtney, Nihar and Dennis"
     date: 2021-08-01
     content: |
       Over the course of the next months, <b>Courtney Reed</b> <i>(PostDoc)</i>, <b>Nihar Sabnis</b> <i>(PhD Student)</i>, and <b>Dennis Wittchen</b> <i>(Visiting Researcher)</i> will be joining senSInt.
   - id: 1
+    title: "senSInt joins the Max Planck Institute for Informatics"
     date: 2021-07-01
     content: |
-      The Sensiromotor Interaction group joins the Max Planck Insitute for Informatics.
+      The Sensorimotor Interaction group joins the Max Planck Institute for Informatics.
+  - id: 34
+    title: "Designing sensorimotor experiences: invited talk in Stuttgart"
+    date: 2026-07-07
+    content: |
+      Paul gave an invited talk, <em>Shaping Experience by Designing for Sensorimotor Contingencies</em>, at VIS/VISUS, University of Stuttgart, hosted by Dieter Schmalstieg.
+
+  - id: 35
+    gallery_layout: lead-pair
+    gallery_caption: "Paul doing what he does best."
+    title: "Paul joins the TRACTION workshop in Copenhagen"
+    date: 2026-05-06
+    images:
+      - path: uploads/images/news/tractionWorkshop.jpg
+        alt: "Participants at the TRACTION workshop in Copenhagen."
+        caption: "Participants at the TRACTION workshop in Copenhagen."
+      - path: uploads/images/news/paul_tractionWorkshop.jpg
+        alt: "Paul taking part in the workshop."
+      - path: uploads/images/news/paul_traction_workshop.jpg
+        alt: "A contribution to the discussion."
+    content: |
+      Paul was invited to the TRACTION workshop in Copenhagen, joining researchers for discussions about the future of interaction.
+
+  - id: 36
+    title: "Jun Nishida visits senSInt"
+    date: 2023-05-02
+    date_label: "2023 · date to confirm"
+    images:
+      - path: uploads/images/news/junNishidaVisit_march2nd2023.jpg
+        alt: "Jun Nishida’s visit with colleagues and collaborators."
+        caption: "Jun Nishida’s visit with colleagues and collaborators."
+    content: |
+      We welcomed Jun Nishida for a visit and a chance to exchange ideas about human–computer interaction.
+
+  - id: 38
+    gallery_layout: stacked
+    title: "senSInt at CHI in Yokohama"
+    date: 2025-04-26
+    images:
+      - path: uploads/images/news/senSINt_yokohama.jpg
+        alt: "At CHI 2025 in Yokohama."
+        caption: "Left to right: Paul, Courtney, Gaby and Nadine at CHI 2025 in Yokohama."
+      - path: uploads/images/news/yokohama.jpg
+        alt: "Yokohama after dark."
+        caption: "Yokohama after dark."
+    content: |
+      We joined CHI 2025 in Yokohama, Japan, to share our research and meet the HCI community.
+
+  - id: 40
+    title: "A group snapshot in September"
+    date: 2023-09-20
+    images:
+      - path: uploads/images/news/sensint_september2023.jpg
+        alt: "senSInt in September 2023."
+        caption: "Sina, Valentin, Yuran, Gaby, Nihar, Paul, Rachel and Konrad."
+    content: |
+      A snapshot of the senSInt team at the institute.
+
+  - id: 41
+    gallery_layout: triptych
+    title: "Our first group retreat at Dagstuhl"
+    date: 2021-10-04
+    gallery_caption: "Prototyping low-vision treasure hunting in the dark with Jürgen Steimle’s HCI group."
+    images:
+      - path: uploads/images/news/sensint_first_retreat_DAGSTUHL.jpg
+        alt: "Dennis, Courtney and Nihar — the first members of senSInt — at Dagstuhl."
+        caption: "Dennis, Courtney and Nihar — the first members of senSInt — at Dagstuhl."
+      - path: uploads/images/news/sensint_first_retreat_prototypinghpticGamesInthedark.jpg
+        alt: "Trying a haptic game prototype after dark."
+      - path: uploads/images/news/sensint_first_retreat_prototypeingHapticGamesInthedark2.jpg
+        alt: "Prototyping haptic games together."
+      - path: uploads/images/news/sensint_first_retreat_prototypingHapticGamesInthedark.jpg
+        alt: "Testing a prototype in the dark."
+    content: |
+      Our first group retreat brought senSInt together with Jürgen Steimle’s HCI group at Dagstuhl. Together, we prototyped low-vision treasure hunting in the dark.
+
+  - id: 42
+    gallery_layout: two-leads-pair
+    title: "Prototyping at Imogen Heap’s barn"
+    date: 2024-11-23
+    images:
+      - path: uploads/images/news/imogen_improvisingHeadsets.jpg
+        alt: "Trying the headsets with Imogen Heap."
+        caption: "Trying the headsets with Imogen Heap."
+      - path: uploads/images/news/headsets_imogens_barn.JPG
+        alt: "Headsets ready for experiments."
+        caption: "Headsets ready for experiments."
+      - path: uploads/images/news/hacking_imogens_barn.JPG
+        alt: "Developing prototypes together."
+      - path: uploads/images/news/imagones_barn_hacking.JPG
+        alt: "Hands-on work at the barn."
+        row_caption: "Developing prototypes together at Imogen’s barn."
+    content: |
+      Valentin, Gaby and Paul visited Imogen Heap’s barn from 21–24 November 2024 to experiment with wearable headsets and musical interaction. The visit combined hands-on development with improvisation and discussion.
+
+  - id: 43
+    title: "A walk up to the Schwarzenbergturm"
+    date: 2025-03-12
+    images:
+      - path: uploads/images/news/sensorimotorInteractionATSchwarzenbergturm.jpg
+        alt: "senSInt at the Schwarzenbergturm."
+        caption: "At the Schwarzenbergturm overlooking campus. Front row: Paul, Nadine, Dennis and Erik."
+    content: |
+      A group outing to the Schwarzenbergturm, overlooking campus.
+
+  - id: 44
+    title: "Nihar receives an Honourable Mention at TEI"
+    date: 2025-03-05
+    images:
+      - path: uploads/images/news/nihar_receivingAwardAtTEI.jpg
+        alt: "Nihar receiving the TEI 2025 Honourable Mention."
+        caption: "Ken Nakageki presenting Nihar with the TEI 2025 Honourable Mention."
+    content: |
+      Nihar received an Honourable Mention at TEI 2025 for *Foot Pedal Control: The Role of Vibrotactile Feedback in Performance and Perceived Control*. Congratulations to the team!
+
+  - id: 45
+    title: "Hands-on haptics at German Unity Day"
+    date: 2025-10-03
+    images:
+      - path: uploads/images/news/dennis_tag_derDeutschenEinheit.jpg
+        alt: "Dennis introducing visitors to haptic feedback."
+        caption: "Dennis introducing visitors to haptic feedback."
+    content: |
+      Dennis demonstrated our haptic technology at the German Unity Day celebrations. Visitors could try the devices and experience touch feedback for themselves.
+

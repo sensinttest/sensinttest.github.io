@@ -1,4 +1,5 @@
 ---
+title: Home
 layout: default_no_container
 active_menu_id: 'home'
 permalink: /index.html
@@ -6,15 +7,14 @@ permalink: /index.html
 {% assign data = site.data.home %}
 {% assign title = data.title %}
 {% assign description = data.description %}
-{% assign topics = data.topics %}
 {% include base.html %}
 
-  <div class="swiper-container">
+  <div class="swiper swiper-container">
     <div class="swiper-wrapper">
       {% for image in data.gallery %}
         <div class="swiper-slide">
           <div class="Teaser-container my-5 mt-lg-5 mb-lg-3">
-            <img class="Teaser-image" src="{{base}}/{{image.url}}" />
+            <img class="Teaser-image" src="{{base}}/{{image.url}}" alt="" />
           </div>
         </div>
       {% endfor %}
@@ -34,8 +34,8 @@ permalink: /index.html
           <div class="px-3 py-3 font-base px-2 py-2">
             {% assign data = site.data.research %}
             <p>{{data.description | newline_to_br}}</p>
-            {% assign reseach_url = site.data.website.menu | where: "id", 'research' %}
-            <a class="btn mt-2 my-1 btn-si-purple" href="{{base}}/{{ reseach_url[0].url }}">View Research</a>
+            {% assign research_url = site.data.website.menu | where: "id", 'research' %}
+            <a class="btn mt-2 my-1 btn-si-purple" href="{{base}}/{{ research_url[0].url }}">View Research</a>
           </div>
         </div>
       </div>
@@ -48,19 +48,15 @@ permalink: /index.html
           </div>
           {% assign news_url = site.data.website.menu | where: "id", 'news' %}
           <div class="Card-content px-3 py-3 font px-2 py-2">
-            {% for post in site.data.news.news limit: 3 %}
-            <p><i class="fa fa-newspaper-o mx-1" aria-hidden="true"></i><strong>
-            {% assign d = post.date | date: "%-d" %}
-            {{ post.date | date: "%B" }} 
-            {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, 
-            {{ post.date | date: "%Y" }}
-            </strong><br/>
-              {% comment %}
-                to change the amount of symbols shown before cutoff - edit the number after "truncate:"
-                to remove html from text - edit the code to look like this - post.content | strip_html | truncate: '280', '...' 
-              {% endcomment %}
-				      {{ post.content | truncate: '280', '...' }}</p>
+            {% assign latest_news = site.data.news.news | sort: 'date' | reverse %}
+            <ul class="Home-news list-unstyled">
+            {% for post in latest_news limit: 5 %}
+              <li class="mb-3">
+                <time class="small text-muted" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%-d %B %Y' }}</time><br>
+                <a href="{{base}}/{{ news_url[0].url }}#news-{{ post.id }}">{{ post.title | escape }}</a>
+              </li>
             {% endfor %}
+            </ul>
             <a class="btn mt-2 my-1 btn-si-pink" href="{{base}}/{{ news_url[0].url }}">View News</a>
           </div>
         </div>
@@ -86,18 +82,17 @@ permalink: /index.html
         </div>
       </div>
     </div>
-  </div>
 
   <div class="Home-header">
     <div class="row my-5 pt-5 px-4">
       <div class="col-md-12 col-lg-5">
         <div class="Home-logo-container Home-logo-container-si text-center">
-          <img src="{{base}}/assets/images/logo/sensint_logo.png">
+          <img src="{{base}}/assets/images/logo/sensint_logo.png" alt="senSInt">
         </div>
       </div>
       <div class="col-md-12 col-lg-7">
         <div class="Home-logo-container Home-logo-container-mpi my-0 text-center">
-          <img src="{{base}}/assets/images/logo/mpi_logo_sharp.svg">
+          <img src="{{base}}/assets/images/logo/mpi_logo_sharp.svg" alt="Max Planck Institute for Informatics">
         </div>
       </div>
     </div>
@@ -108,34 +103,22 @@ permalink: /index.html
 
 
 
-<script type="text/javascript">
-  function randomRange(myMin, myMax) {
-    return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
-  }
-
-  jQuery(document).ready(()=>{
-      const slidesCount = jQuery('.swiper-slide').length;
-      let firstSlide;
-      if ({{ site.data.home.galleryConfig.startOnRandom }}){
-        firstSlide = randomRange(1,slidesCount);
-      } else {
-        firstSlide = 1;
-      }
-      let slideDelay = {{ site.data.home.galleryConfig.delay }};
-      const swiper = new Swiper('.swiper-container', {
-      // Optional parameters
+<script>
+  jQuery(function () {
+    const slidesCount = document.querySelectorAll('.swiper-slide').length;
+    if (!slidesCount || typeof Swiper === 'undefined') return;
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const firstSlide = {{ site.data.home.galleryConfig.startOnRandom }} ? Math.floor(Math.random() * slidesCount) : 0;
+    new Swiper('.swiper-container', {
       direction: 'horizontal',
-      loop: true,
+      loop: slidesCount > 1,
       initialSlide: firstSlide,
-      autoplay: {
-        delay: slideDelay,
-        disableOnInteraction: false,
-      },
-      // If we need pagination
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
+      autoplay: reducedMotion ? false : {
+        delay: {{ site.data.home.galleryConfig.delay }},
+        disableOnInteraction: true
       }
     });
   });
 </script>
+
+

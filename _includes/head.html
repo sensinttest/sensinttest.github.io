@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{site.data.website.meta.description | truncate: 160 }}">
+  <meta name="description" content="{{site.data.website.meta.description | truncate: 160 | escape }}">
   <meta name="keywords" content="{{site.data.website.meta.keywords}}">
   <meta name="author" content="{{site.data.website.meta.author}}">
   {% if page.title %}
@@ -16,11 +16,11 @@
   <script src="{{base}}/assets/js/bootstrap/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/9a84b54f1a.js"></script>
   
-  <!-- Swiper JS -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  {% if page.active_menu_id == 'home' %}
+  <!-- Homepage slideshow -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  {% endif %}
 
   <!-- Theme JS -->
   <script src="{{ base }}/assets/js/theme.js"></script>
@@ -41,7 +41,7 @@
   <!-- Theme CSS -->
   <link type="text/css" href="{{base}}{{ '/assets/css/main.css' }}" rel="stylesheet">
 
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="{{base}}/favicon.ico">
 
   <!-- icon for touch devices -->
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="{{base}}/apple-touch-icon.png">

@@ -2,7 +2,6 @@
 #
 #   base_title – default web page title (shown in web search and tab name)
 #     Title format: [base_title] | [page.title (if present)]
-#   current_year – used for footer copyright
 #   meta – SEO tags
 #   menu – site navigation shown in header
 #   image_placeholder_settings - images to be used when the record doesn't have any
@@ -10,11 +9,10 @@
 #   footer – urls seen in footer
 
 base_title: Sensorimotor Interaction Group
-current_year: 2021
 
 # Meta tags for search engines
 meta:
-  description: "The Sensorimotor Interaction group (senSInt) is a newly formed research group at the Max Planck Institute for Informatics (MPI-INF). The group is led by Paul Strohmeier, we conduct research into human perception and computer sensing to improve Human Computer Interaction (HCI). Our research topics include Tactile Rendering, Sensorimotor Augmentation, and On-Body Systems."
+  description: "The senSInt group at Max Planck Informatics studies perception and action through haptics, wearable systems, and interactive materials."
   keywords: "Paul Strohmeier, Research, HCI, senSInt, haptics, tactile feedback, mpi-i"
   author: Paul Strohmeier
   
@@ -25,6 +23,9 @@ menu:
   - id: 'home'
     title: Home
     url: index.html
+  - id: 'news'
+    title: News
+    url: news.html
   - id: 'research'
     title: Research
     url: research.html
@@ -40,9 +41,6 @@ menu:
   - id: 'contact'
     title: Contact
     url: contact.html
-  - id: 'news'
-    url: news.html
-    show: false
 
 footer:
   impressum:

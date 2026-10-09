@@ -1,97 +1,42 @@
 ---
-layout: blog
+layout: default
+title: News
+active_menu_id: 'news'
 permalink: /news.html
 ---
 {% assign data = site.data.news %}
 {% assign title = data.title %}
 {% assign description = data.description %}
 {% include _header.html %}
-
-<div class="row">
-  <div class="col-md-12 col-xl-10 offset-xl-1 px-3">
-      {% assign j = 0 %}
-      {% for post in data.news limit: 500 %}
-
-      {% assign group_size = data.news %}
-
-      {% assign oddEven = j | modulo: 3 %}
-
-      {% if oddEven == 0 %}
-      {% assign hClass = "text-white" %}
-      {% assign spanClass = "bg-si-purple" %}
-      {% elsif oddEven == 1 %}
-      {% assign hClass = "text-white" %}
-      {% assign spanClass = "bg-si-pink" %}
-      {% elsif oddEven == 2 %}
-      {% assign hClass = "text-white" %}
-      {% assign spanClass = "bg-si-gray" %}
-      {% endif %}
-
-      {% comment %}
-      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-      {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-      {% endcomment %}
-
-      <div class="col-md-12 py-4 px-1">
-          {% if post.layout == "redirected" %}
-          {% continue %}
-          {% endif %}
-
-            {% comment %}
-            <!-- <a href="{{ post.url | prepend: site.baseurl }}">
-                <img src="/{{ post.header-img | prepend: site.baseurl }}" class="img-responsive" alt="{{ post.title }}">
-              </a> -->
-            {% endcomment %}
-
-            {% include base.html %}
-            <div id="{{ post.id | replace: '/', '-'}}">
-              <h6 class="mb-3 font-alt {{ hClass }}">
-                <span class="px-3 py-2 {{ spanClass }}">
-                  {% assign d = post.date | date: "%-d" %}
-                  {{ post.date | date: "%B" }} 
-                  {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, 
-                  {{ post.date | date: "%Y" }}
-                </span>
-              </h6>
-              <!-- <div class="font-alt">{{ post.title }}</div> -->
-              <div class="">
-                {{ post.content | newline_to_br }}
-              </div>
-            </div>
-            <!-- <div class="News-button border py-3 px-3 my-3">
-              <a class="" href="{{base}}{{ post.url }}">
-                <i class="fa fa-caret-right mx-1" aria-hidden="true"></i> Continue reading
-              </a>
-            </div> -->
-      </div>
-
-      {% assign j = j | plus:1 %}
+{% assign sorted_news = data.news | sort: 'date' | reverse %}
+<div class="News-list mx-auto">
+  {% for post in sorted_news %}
+  <article id="news-{{ post.id }}" class="News-entry py-4 py-md-5" aria-labelledby="news-title-{{ post.id }}">
+    <span id="{{ post.id }}" class="News-legacy-anchor" aria-hidden="true"></span>
+    <time class="News-date text-muted" datetime="{{ post.date | date: '%Y-%m-%d' }}">{% if post.date_label %}{{ post.date_label | escape }}{% else %}{{ post.date | date: '%-d %B %Y' }}{% endif %}</time>
+    <h2 id="news-title-{{ post.id }}" class="News-title font-alt mt-2 mb-3">{{ post.title | escape }}</h2>
+    {% if post.text_first %}<div class="News-body">{{ post.content | markdownify }}</div>{% endif %}
+    {% if post.image and post.image != '' %}
+    {% capture news_image_url %}{% include asset_url.html path=post.image %}{% endcapture %}
+    <figure class="my-4">
+      <img class="News-image img-fluid" src="{{ news_image_url | strip }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy">
+      {% if post.image_caption %}<figcaption class="small text-muted mt-2">{{ post.image_caption | escape }}</figcaption>{% endif %}
+    </figure>
+    {% endif %}
+    {% if post.images %}
+    <div class="News-gallery{% if post.gallery_layout %} News-gallery--{{ post.gallery_layout | escape }}{% endif %} my-4">
+      {% for photo in post.images %}
+      {% capture photo_url %}{% include asset_url.html path=photo.path %}{% endcapture %}
+      <figure>
+        <a href="{{ photo_url | strip }}"><img src="{{ photo_url | strip }}" alt="{{ photo.alt | escape }}" loading="lazy"></a>
+        {% if photo.caption %}<figcaption class="small text-muted mt-2">{{ photo.caption | escape }}</figcaption>{% endif %}
+      </figure>
+      {% if photo.row_caption %}<p class="News-gallery-caption small text-muted">{{ photo.row_caption | escape }}</p>{% endif %}
       {% endfor %}
+      {% if post.gallery_caption %}<p class="News-gallery-caption small text-muted">{{ post.gallery_caption | escape }}</p>{% endif %}
     </div>
-
-    <!-- Pagination links -->
-    <div class="row pt-4">
-      <div class="pagination px-3">
-        {% if paginator.previous_page %}
-        <div class="col-xs-4 pl-4 pr-0">
-        
-            {% assign modified_prev_page_url = paginator.previous_page_path %}
-            {% if modified_prev_page_url == '/blog/' %}
-              {% assign blog_url = site.data.website.menu | where: "id", 'news' %}
-              {% assign blog_url = blog_url[0].url %}
-              {% assign modified_prev_page_url = blog_url %}
-            {% endif %}
-            <a class="previous px-3 py-2 mx-1 border" style="float:left" href="{{base}}{{ modified_prev_page_url }}"> &larr; Previous page</a>
-        </div>
-        {% endif %}
-        {% if paginator.next_page %}
-        <div class="col-xs-4">
-          <!-- <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span> -->
-        </div>
-        <div class="col-xs-4 pl-4 pr-4">
-          <a class="next px-3 mx-1 py-2 border" style="float:right" href="{{base}}{{ paginator.next_page_path }}">Next page &rarr;</a>
-        </div>
-        {% endif %}
-      </div>
-  </div>
+    {% endif %}
+    {% unless post.text_first %}<div class="News-body">{{ post.content | markdownify }}</div>{% endunless %}
+  </article>
+  {% endfor %}
 </div>
