@@ -162,8 +162,14 @@ people:
     category_id: all
     url:   https://www.linkedin.com/in/elham-hamidian
     image: uploads/people/Elham.jpg
-    
 
+  - id: Wiam
+    name: "Wiam Bensaid"
+    role: "Intern"
+    category_id: all
+    url:   https://www.linkedin.com/in/wiam-bensaid-142435222
+    image: uploads/people/Wiam.jpg
+    
   - id: sana
     name: "Sana Nasir"
     role: "Msc Thesis"
