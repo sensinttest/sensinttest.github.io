@@ -3,6 +3,32 @@ description: Previous publications.
 
 timeline:
 
+  - title: "AI for Haptics and Haptics for AI: Challenges and Opportunities"
+    year: 2026
+    authors: <b>Easa AliAbbasi</b>, <b>Dennis Wittchen</b>, <b>Yinan Li</b>, <b>Shihan Lu</b>, <b>Thomas Müller</b>, <b>Donald Degraen</b>, <b>Thomas Leimkühler</b>, <b>Sang Ho Yoon</b>, <b>Hasti Seifi</b>, <b>Oliver Schneider</b>, <b>Heather Culbertson</b>, <b>Jürgen Steimle</b>, <b>Paul Strohmeier</b>
+    venue: Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI EA ’26)
+    description: AI has transformed methods and knowledge across many domains. However, the intersection of AI and haptics remains underexplored. While modern AI techniques – fueled by machine learning and using powerful techniques such as generative modeling and reinforcement learning – offer powerful opportunities for advancing haptic design, insights from haptics research, such as perception modeling and adaptive interaction - grounded in human touch, embodiment, and multisensory integration — can also play a critical role in shaping more human-centered AI systems. This workshop will bring together an interdisciplinary community of researchers from HCI, haptics, AI, robotics, and design to (1) identify pressing questions in haptics that could benefit from AI approaches and (2) highlight ways in which haptic knowledge can support the development of embodied and context-aware AI. Through position papers and paper presentations, we will map key challenges, exchange methods, and explore new research directions that connect the two fields. By framing haptics and AI as mutually reinforcing, the workshop aims to build a shared research agenda and foster collaborations that advance both the science of touch and the design of intelligent interactive systems.
+    image: https://sensinttest.github.io/uploads/images/papers/
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2026_CHI_EA_HapticsAI.pdf
+
+  - title: "An All-Textile, Mechano-Capacitive Subtle Movement Sensor"
+    year: 2026
+    authors: <b>Easa AliAbbasi</b>, <b>Rachel Freire</b>, <b>Valentin Martinez‐Missir</b>, <b>Vineetha Rallabandi</b>, <b>Paul Strohmeier</b>
+    venue: Advanced Functional Materials
+    description: Designing garments that effectively capture human movements demands a focus on the wearer's comfort and freedom of motion. Electronic textile (e-Textile) sensors offer a promising avenue due to their soft and flexible properties. However, these sensors are most responsive to large motions, as their precision is usually relatively low compared to other sensing solutions. Furthermore, e-Textile sensors that measure physical force or deformation often require the sensing element itself to undergo deformation and be subject to force. This leads to degradation of the sensor due to repeated mechanical strain. To address these issues, a novel all-textile mechanical capacitive sensor design is presented. This sensor is optimized for measuring subtle movements, such as thoracic wall movements, in breath monitoring. The design is more robust than other e-Textile sensing approaches, as the deforming textile elements are separated from the sensing element. This design choice results in sensors with improved signal response, higher accuracy, and longer cycle life than the other comparable textile sensors. In this paper, we share the design and implementation guidelines, in vitro measurements (such as evaluation of the effects of electrode shape and size and cycle life tests), and multiple in vivo measurements of sensor prototypes.
+    image: https://sensinttest.github.io/uploads/images/papers/
+    tags:
+      - text: paper
+        style: magenta
+    links:
+      - name: pdf
+        url: https://sensinttest.github.io/uploads/pdfs/2026_AFM_An_All_Textile.pdf
+
   - title: "Towards sensory attenuation as a measure of agency provided by digital musical instruments"
     year: 2026
     authors: <b>Erik Løvaas</b>, <b>Courtney Reed</b>, <b>Paul Strohmeier</b>
